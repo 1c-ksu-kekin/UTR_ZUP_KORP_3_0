@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="0c2333f8-fa73-45fd-9673-c26c3241af51">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ДействияСЕжегоднымиОтпусками" category="Ref">
+				<xr:TypeId>7d6dfaa7-7ef0-4a5b-94f2-e361b3e28658</xr:TypeId>
+				<xr:ValueId>0e030ba6-174c-42db-b3b1-589b7f1a6d3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ДействияСЕжегоднымиОтпусками" category="Manager">
+				<xr:TypeId>68563c4d-c217-4cea-a047-137fcc5f84b3</xr:TypeId>
+				<xr:ValueId>25d98421-e182-4b92-87bb-76a9427978c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ДействияСЕжегоднымиОтпусками" category="List">
+				<xr:TypeId>f01e5205-6cc0-4633-a74c-5309d331b960</xr:TypeId>
+				<xr:ValueId>671f754d-fdc5-4158-bd7f-34a3988f7b11</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДействияСЕжегоднымиОтпусками</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -51,12 +51,64 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<CommonPicture>Предупреждение</CommonPicture>
+			<CommonPicture>ЮТ_Склонения</CommonPicture>
+			<CommonPicture>ПротоколСОшибкой</CommonPicture>
+			<CommonPicture>ЮТ_Транслит</CommonPicture>
+			<CommonPicture>ПересчитатьЗарплатуСерая</CommonPicture>
+			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
+			<CommonPicture>Информация</CommonPicture>
+			<Role>ЮТ_ДобавлениеИзменениеШтатногоРасписания</Role>
+			<Role>ПолныеПрава</Role>
+			<FunctionalOption>ИспользоватьРасчетЗарплатыРасширенная</FunctionalOption>
+			<FunctionalOption>ИспользоватьВилкуСтавокВШтатномРасписании</FunctionalOption>
+			<FunctionalOption>НеИспользоватьВилкуСтавокВШтатномРасписании</FunctionalOption>
+			<FunctionalOption>НеИспользоватьШтатноеРасписание</FunctionalOption>
+			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТрудаРасширенная</FunctionalOption>
+			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТруда</FunctionalOption>
+			<FunctionalOption>ИспользоватьНесколькоОрганизацийЗарплатаКадрыРасширенная</FunctionalOption>
+			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<CommonCommand>ЮТ_СтатьиКД</CommonCommand>
+			<CommonCommand>ЮТ_ПереводВлатиницу</CommonCommand>
+			<CommonCommand>ЮТ_ОбработатьСклонения</CommonCommand>
+			<Constant>ИспользоватьНачислениеЗарплаты</Constant>
+			<Constant>ИспользоватьНесколькоОрганизаций</Constant>
 			<Catalog>ВидыОтпусков</Catalog>
 			<Catalog>ЮТ_СтатьиКД</Catalog>
+			<Catalog>Должности</Catalog>
+			<Catalog>Пользователи</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>ГрафикиРаботыСотрудников</Catalog>
+			<Catalog>ПодразделенияОрганизаций</Catalog>
+			<Catalog>Организации</Catalog>
+			<Catalog>РазрядыКатегорииДолжностей</Catalog>
+			<Catalog>ТарифныеСетки</Catalog>
+			<Catalog>ТерриториальныеУсловияПФР</Catalog>
+			<Catalog>СтатьиФинансированияЗарплата</Catalog>
+			<Catalog>ШтатноеРасписание</Catalog>
+			<Catalog>ТерриторииВыполненияРабот</Catalog>
+			<Catalog>ОснованияДосрочногоНазначенияПенсии</Catalog>
+			<Catalog>ОсобыеУсловияТрудаПФР</Catalog>
+			<Catalog>ЮТ_ВидыПерсонала</Catalog>
+			<Catalog>ПоказателиРасчетаЗарплаты</Catalog>
+			<Catalog>СпособыОтраженияЗарплатыВБухУчете</Catalog>
+			<Catalog>КлассификаторСпециальностейПоОбразованию</Catalog>
+			<Catalog>СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения</Catalog>
+			<Document>ИзменениеШтатногоРасписания</Document>
 			<Enum>СпособыРасчетаОтпуска</Enum>
 			<Enum>КатегорииСтажа</Enum>
+			<Enum>ДействияСПозициямиШтатногоРасписания</Enum>
+			<Enum>ДействияСЕжегоднымиОтпусками</Enum>
+			<Enum>ДействияСНачислениямиИУдержаниями</Enum>
+			<Enum>ВидыРаботСДосрочнойПенсией</Enum>
+			<Enum>КлассыУсловийТрудаПоРезультатамСпециальнойОценки</Enum>
+			<Enum>ОтношениеКЕНВДЗатратНаЗарплату</Enum>
 			<InformationRegister>ЮТ_СтатьиКД</InformationRegister>
+			<InformationRegister>НастройкиШтатногоРасписания</InformationRegister>
+			<InformationRegister>НастройкиУчетаСтраховыхВзносов</InformationRegister>
+			<InformationRegister>КлассыУсловийТрудаПоДолжностям</InformationRegister>
+			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

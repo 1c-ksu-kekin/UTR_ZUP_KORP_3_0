@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ChartOfCalculationTypes uuid="51139168-5292-40a2-9aa2-d4a8f401562a">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCalculationTypesObject.Начисления" category="Object">
+				<xr:TypeId>a46b45ed-fafb-4922-ab71-ff417b23aedb</xr:TypeId>
+				<xr:ValueId>c07861ea-81cb-4e65-9721-2501fbf209f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesRef.Начисления" category="Ref">
+				<xr:TypeId>bc6d4158-6845-4758-a648-233024fd0789</xr:TypeId>
+				<xr:ValueId>6a47ce93-6e5f-4f73-aa39-109dd7e2bb74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesSelection.Начисления" category="Selection">
+				<xr:TypeId>d2b630cb-1cad-4ca2-a994-9c8053a773aa</xr:TypeId>
+				<xr:ValueId>3c825c5a-a7c9-45ba-952e-060246881994</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesList.Начисления" category="List">
+				<xr:TypeId>3b19ab21-d914-4dfe-8136-1069fa496507</xr:TypeId>
+				<xr:ValueId>b3944eb5-25d6-415f-88cf-b972e1ffdc89</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesManager.Начисления" category="Manager">
+				<xr:TypeId>440bf1f2-a5f6-44ac-a31c-4846e47fca91</xr:TypeId>
+				<xr:ValueId>ff85ca92-517c-4952-8016-75ffc75627d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DisplacingCalculationTypes.Начисления" category="DisplacingCalculationTypes">
+				<xr:TypeId>2e20d2d5-7c01-4379-8c6e-33bd89d2d78c</xr:TypeId>
+				<xr:ValueId>df80bb3c-cd63-4c68-9ea4-8d23b031ab60</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DisplacingCalculationTypesRow.Начисления" category="DisplacingCalculationTypesRow">
+				<xr:TypeId>804190f4-2263-44df-a41e-509a92378975</xr:TypeId>
+				<xr:ValueId>e2421e8b-9740-49f2-a505-5c3d4c64ccdc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BaseCalculationTypes.Начисления" category="BaseCalculationTypes">
+				<xr:TypeId>73ff45e1-b4ee-4bf6-b53e-f01c8bd40c98</xr:TypeId>
+				<xr:ValueId>de1e0b30-cb54-4bd8-a775-0c02691a5d02</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BaseCalculationTypesRow.Начисления" category="BaseCalculationTypesRow">
+				<xr:TypeId>f4811bbb-e6b1-44d6-9601-cbdb8a5e5a73</xr:TypeId>
+				<xr:ValueId>1cd4ea9f-9dac-4f9a-8486-9f8dc9ff826f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="LeadingCalculationTypes.Начисления" category="LeadingCalculationTypes">
+				<xr:TypeId>b47fe1db-5d16-49ab-a6a2-712236132f7c</xr:TypeId>
+				<xr:ValueId>6a55d484-428a-485f-941f-420744970b2c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="LeadingCalculationTypesRow.Начисления" category="LeadingCalculationTypesRow">
+				<xr:TypeId>686d5a39-7588-4704-b2b9-ef1a37862440</xr:TypeId>
+				<xr:ValueId>d06c8644-7075-4f15-845a-7f6acac958c9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Начисления</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCalculationTypes>
+</MetaDataObject>

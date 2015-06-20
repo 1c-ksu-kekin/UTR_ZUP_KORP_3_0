@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="db0374c3-fb81-4801-ad17-71fe4f9308ed">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ДействияСПозициямиШтатногоРасписания" category="Ref">
+				<xr:TypeId>0e6938b5-03e5-4a43-9bc7-eb04336c7dc7</xr:TypeId>
+				<xr:ValueId>1e21f447-92aa-4eda-bd7d-fd3ddabb4b44</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ДействияСПозициямиШтатногоРасписания" category="Manager">
+				<xr:TypeId>a78c1a74-6d2d-47cb-891b-240944557675</xr:TypeId>
+				<xr:ValueId>c34a1af6-20f4-4d2f-8fcc-e6f50b1a883f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ДействияСПозициямиШтатногоРасписания" category="List">
+				<xr:TypeId>6b486760-5db2-4543-ac2c-38879993d574</xr:TypeId>
+				<xr:ValueId>462c846d-783f-43e7-8172-9cc24d352cf7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДействияСПозициямиШтатногоРасписания</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="11722629-c5e5-4d15-b568-31ee4c57cb36">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения" category="Object">
+				<xr:TypeId>29184ddc-c4ed-44ee-8792-00306ab49897</xr:TypeId>
+				<xr:ValueId>916c3d0a-04b5-4ddf-b3b8-b423a0e9fa43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения" category="Ref">
+				<xr:TypeId>31a0828e-158e-44f6-8932-134ffb1af795</xr:TypeId>
+				<xr:ValueId>20fd4383-5a51-446e-902a-c557c1ecbc04</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения" category="Selection">
+				<xr:TypeId>33472e70-6d61-4950-a06e-432e1d2bd694</xr:TypeId>
+				<xr:ValueId>667a9e0d-0d62-40ec-a971-b248f399eb7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения" category="List">
+				<xr:TypeId>6bd0ef6a-ff3a-4f08-ad4b-6974cb4a2b88</xr:TypeId>
+				<xr:ValueId>8536dd2c-6351-4436-8552-797b3a826772</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения" category="Manager">
+				<xr:TypeId>f66b96e3-2168-4892-abec-abaab1986832</xr:TypeId>
+				<xr:ValueId>2bda3a43-3d86-44de-91dd-e99b594ef901</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

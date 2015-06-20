@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="16fa41d5-b122-4348-bfcb-704cde81a549">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиУчетаСтраховыхВзносов" category="Record">
+				<xr:TypeId>4306ace5-50fe-40d6-b8c5-c9979db9f232</xr:TypeId>
+				<xr:ValueId>0aa393b9-2923-464f-9278-f9864ff44f5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиУчетаСтраховыхВзносов" category="Manager">
+				<xr:TypeId>241892d5-f4bb-4f01-bbb8-efc5dd54d064</xr:TypeId>
+				<xr:ValueId>d95f7bd4-fe46-4836-a4be-b12f6fa87e43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиУчетаСтраховыхВзносов" category="Selection">
+				<xr:TypeId>65779a59-fb83-436f-a4a4-71c5aad5a42f</xr:TypeId>
+				<xr:ValueId>02fc4c13-f07e-4549-bcce-43d7b6c09c91</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиУчетаСтраховыхВзносов" category="List">
+				<xr:TypeId>76a6ef7f-3129-4640-8178-1e7d1bc9fb2d</xr:TypeId>
+				<xr:ValueId>5161b686-f431-4f28-8698-c415a5945c3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиУчетаСтраховыхВзносов" category="RecordSet">
+				<xr:TypeId>33734e69-cbe4-4637-8ade-903b1fc857e0</xr:TypeId>
+				<xr:ValueId>e92f7fab-e8bc-4663-89e4-08eac86943b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиУчетаСтраховыхВзносов" category="RecordKey">
+				<xr:TypeId>7ccd3366-4c74-4c42-8b32-48935a8743e4</xr:TypeId>
+				<xr:ValueId>f6dd3abc-7a24-4232-b042-b9da5e92ce30</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиУчетаСтраховыхВзносов" category="RecordManager">
+				<xr:TypeId>8b3bc3e8-8b27-4e56-b479-10268ea770c7</xr:TypeId>
+				<xr:ValueId>48bd161d-d655-419b-b694-fce886493124</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиУчетаСтраховыхВзносов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="017db00c-96ee-4385-88b1-3344b9c37210">
+				<Properties>
+					<Name>ПрименяютсяРезультатыСпециальнойОценкиУсловийТруда</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

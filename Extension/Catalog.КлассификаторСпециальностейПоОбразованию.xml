@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="4f765e49-e20d-4bc2-bb72-f4ac055976d1">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассификаторСпециальностейПоОбразованию" category="Object">
+				<xr:TypeId>42a3e883-b39c-42f5-9f99-c57dfc0c964b</xr:TypeId>
+				<xr:ValueId>02c392ea-32aa-4ecb-801a-ae8cb5c9d83e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассификаторСпециальностейПоОбразованию" category="Ref">
+				<xr:TypeId>426b7acb-6a17-4b1b-8964-5129648855d6</xr:TypeId>
+				<xr:ValueId>64477aa7-5f7d-48cf-96e2-b73c6261206d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассификаторСпециальностейПоОбразованию" category="Selection">
+				<xr:TypeId>bc10903c-2eb2-478a-95c3-a91f48d0091c</xr:TypeId>
+				<xr:ValueId>e7bd2209-c3db-4f8a-b793-538381f1359e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассификаторСпециальностейПоОбразованию" category="List">
+				<xr:TypeId>1076f832-706d-430e-a81d-bc7c23e44c57</xr:TypeId>
+				<xr:ValueId>98a2db21-ef47-4279-91b7-e17f007fc011</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассификаторСпециальностейПоОбразованию" category="Manager">
+				<xr:TypeId>544b74a5-2cbd-41fa-940b-8635427a9521</xr:TypeId>
+				<xr:ValueId>35f235b2-d0ad-4899-a365-7f710146ec6c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КлассификаторСпециальностейПоОбразованию</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

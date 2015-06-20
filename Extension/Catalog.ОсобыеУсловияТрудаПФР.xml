@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="6967076d-0b5d-40b3-83a6-ef42021b4947">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОсобыеУсловияТрудаПФР" category="Object">
+				<xr:TypeId>9c1401ff-ba45-4579-92d1-e76614ea8569</xr:TypeId>
+				<xr:ValueId>7ab69323-8598-4b71-a6b7-0774d0dcb461</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОсобыеУсловияТрудаПФР" category="Ref">
+				<xr:TypeId>ecb0e423-2331-4d52-90a6-6e1cdf169b11</xr:TypeId>
+				<xr:ValueId>9c962923-89f3-436a-8ea5-1a541a129eca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОсобыеУсловияТрудаПФР" category="Selection">
+				<xr:TypeId>d4ebb581-d720-4c90-83e7-8cd2703586e6</xr:TypeId>
+				<xr:ValueId>44590b7e-c0e5-47e8-90a4-349a34aeb127</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОсобыеУсловияТрудаПФР" category="List">
+				<xr:TypeId>edef2240-4189-434c-a9d9-dedc2c7e0dfd</xr:TypeId>
+				<xr:ValueId>f6c99ea3-b552-41d6-8da9-c65a0546bfd9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОсобыеУсловияТрудаПФР" category="Manager">
+				<xr:TypeId>b19ac559-d4e4-4d70-8548-cfecbcfdee8c</xr:TypeId>
+				<xr:ValueId>f30e24f3-1c4a-4f15-af7f-d53ecb25f0b5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОсобыеУсловияТрудаПФР</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

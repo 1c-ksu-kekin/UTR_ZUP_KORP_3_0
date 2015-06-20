@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="f6645263-db18-4e57-bafa-701bbe2eb3da">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОснованияДосрочногоНазначенияПенсии" category="Object">
+				<xr:TypeId>70f3bcb0-d2a8-4047-9102-d85748c07b5b</xr:TypeId>
+				<xr:ValueId>6200797c-1087-4db0-ba2d-d1f925d88787</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОснованияДосрочногоНазначенияПенсии" category="Ref">
+				<xr:TypeId>05e1d564-4453-49a3-a106-0b916a055afa</xr:TypeId>
+				<xr:ValueId>84386c4c-9b22-485f-9d68-24dfebef8d92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОснованияДосрочногоНазначенияПенсии" category="Selection">
+				<xr:TypeId>b9419943-e484-4e82-aa4b-babe6f388c59</xr:TypeId>
+				<xr:ValueId>9187b43c-57d5-4f8b-9f31-9ffa4fa657e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОснованияДосрочногоНазначенияПенсии" category="List">
+				<xr:TypeId>3a85dd5e-9917-4451-9d93-0a09aba3351b</xr:TypeId>
+				<xr:ValueId>ceec7ca0-75df-41d4-b2b6-02ca768d0886</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОснованияДосрочногоНазначенияПенсии" category="Manager">
+				<xr:TypeId>688a456d-6b92-4ee0-a3ac-a10e28f07714</xr:TypeId>
+				<xr:ValueId>97bfe0d3-d7a6-4f29-a2f4-7da1b0f91f73</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОснованияДосрочногоНазначенияПенсии</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

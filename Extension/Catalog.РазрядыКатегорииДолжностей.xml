@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="f9fe3533-f777-4ee5-af37-57b0e2baea35">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РазрядыКатегорииДолжностей" category="Object">
+				<xr:TypeId>b57eec23-ff47-4e17-ad35-52f9d3818420</xr:TypeId>
+				<xr:ValueId>e2061f03-62ad-47c7-a63d-87be759964a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РазрядыКатегорииДолжностей" category="Ref">
+				<xr:TypeId>943b3d02-f1a9-4175-9a44-9821472f8550</xr:TypeId>
+				<xr:ValueId>8190a2fa-085b-45b7-984a-2e4f05540861</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РазрядыКатегорииДолжностей" category="Selection">
+				<xr:TypeId>2f08a368-ca01-46a5-a221-c628a21dc96c</xr:TypeId>
+				<xr:ValueId>19d0a861-8283-4e78-8cea-91bf29c26904</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РазрядыКатегорииДолжностей" category="List">
+				<xr:TypeId>01123e32-722e-47d0-9a87-7d7f96ec6801</xr:TypeId>
+				<xr:ValueId>351baa7a-0315-486d-a251-31d34394afff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РазрядыКатегорииДолжностей" category="Manager">
+				<xr:TypeId>1dc11671-25c5-4515-8de2-71f344659c85</xr:TypeId>
+				<xr:ValueId>401e419f-c504-47b1-95f7-adeafdc31ad7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РазрядыКатегорииДолжностей</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

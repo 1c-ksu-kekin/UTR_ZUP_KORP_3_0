@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="a5b03b35-3969-4a07-b357-d6d97abb10bb">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиШтатногоРасписания" category="Record">
+				<xr:TypeId>80772fd9-b307-42eb-a69b-b5243510e361</xr:TypeId>
+				<xr:ValueId>c2b90805-5d62-4128-8bef-483581d6b11d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиШтатногоРасписания" category="Manager">
+				<xr:TypeId>516263ff-0974-4d10-9793-2ae963d388e5</xr:TypeId>
+				<xr:ValueId>b517475d-3822-4720-ae64-c2764575c51b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиШтатногоРасписания" category="Selection">
+				<xr:TypeId>5402e315-9f1f-4118-b2f8-60e0cfa1a1cc</xr:TypeId>
+				<xr:ValueId>d2041220-7b55-47fc-8b9c-724839c13aa8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиШтатногоРасписания" category="List">
+				<xr:TypeId>5fbb3a1a-1c58-4325-9394-ec5328e13545</xr:TypeId>
+				<xr:ValueId>48a72314-bfc0-4191-9ea5-7ee0ef24271a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиШтатногоРасписания" category="RecordSet">
+				<xr:TypeId>65ca5c50-7f77-411b-baaf-abd3bcaa5e09</xr:TypeId>
+				<xr:ValueId>1180610d-e188-4bdc-848b-c4629e70e007</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиШтатногоРасписания" category="RecordKey">
+				<xr:TypeId>1d99c4c1-4ba8-4933-b3d1-51cfa8bdbc9a</xr:TypeId>
+				<xr:ValueId>65dee4cf-6cdd-466f-9099-43186afd82a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиШтатногоРасписания" category="RecordManager">
+				<xr:TypeId>f61cc722-2c27-43a7-b5c7-6d89b490f4a4</xr:TypeId>
+				<xr:ValueId>05eb64fd-bec7-4af3-a5ea-b51e04fe1f04</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиШтатногоРасписания</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="ac78a828-32bb-4682-9ce9-46716a69c192">
+				<Properties>
+					<Name>ИспользоватьВилкуСтавокВШтатномРасписании</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="b8cb2bfb-5599-4f13-b1c6-d238c9f50b5d">
+				<Properties>
+					<Name>НеИспользоватьВилкуСтавокВШтатномРасписании</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="f01f4c7f-fcaf-49e6-9adb-f582c39149ea">
+				<Properties>
+					<Name>НеИспользоватьШтатноеРасписание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>
