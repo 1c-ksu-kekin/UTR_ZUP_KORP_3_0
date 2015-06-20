@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="ee035ee7-b547-47b7-9deb-96e347b5ed69">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПериодыВводаДанныхОВремени" category="Ref">
+				<xr:TypeId>d845d168-7d76-4dc6-90d9-07a44e823963</xr:TypeId>
+				<xr:ValueId>b2a018f7-1017-4939-9807-5739ef85d96a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПериодыВводаДанныхОВремени" category="Manager">
+				<xr:TypeId>36a89a29-426a-40c3-be3c-e2f8257788b7</xr:TypeId>
+				<xr:ValueId>25a12d8a-9841-4b0f-9f09-34c1bccd1e57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПериодыВводаДанныхОВремени" category="List">
+				<xr:TypeId>c1167c25-db1d-447c-95c3-97e78983ffb3</xr:TypeId>
+				<xr:ValueId>ef063e67-b0ef-43b5-a7f3-03ef8e68b836</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПериодыВводаДанныхОВремени</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

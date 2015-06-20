@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.44</Version>
+			<Version>3.0.22.182.45</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -455,6 +455,7 @@
 			<Enum>ФорматыФайловОбменаПоЗарплатномуПроекту</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<Enum>ВидыПодтверждающихДокументовОтпускаПоУходу</Enum>
+			<Enum>ПериодыВводаДанныхОВремени</Enum>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
 			<DataProcessor>ПодготовкаКвартальнойОтчетностиВПФР</DataProcessor>
 			<InformationRegister>БухучетЗарплатыПодразделений</InformationRegister>

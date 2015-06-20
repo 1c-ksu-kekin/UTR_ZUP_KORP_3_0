@@ -26,8 +26,149 @@
 		<Properties>
 			<Name>ТабельУчетаРабочегоВремени</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="f06743e1-7de6-4e0f-9a65-f8c93405ecc4">
+				<Properties>
+					<Name>ПериодВводаДанныхОВремени</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПериодыВводаДанныхОВремени</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="59eaf275-f4c0-4da3-8cc4-6266fa59e1db">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="04e70794-1ec0-4577-bcc1-8338b57e2583">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6613ca50-4f10-4b81-9589-2d6a159a9839">
+				<Properties>
+					<Name>ДолжностьРуководителя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="da3f1846-8743-49f6-91e9-5067dd6a7f8f">
+				<Properties>
+					<Name>Руководитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="074896b2-0ee3-4b75-8a63-3aa3ea37e3a3">
+				<Properties>
+					<Name>ДолжностьРаботникаКадровойСлужбы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9b5f2470-8ae2-4ffa-acfa-f70c9c1111a6">
+				<Properties>
+					<Name>ДолжностьИсполнителя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a2e6f506-ce01-420e-9554-84f8bcd15983">
+				<Properties>
+					<Name>РаботникКадровойСлужбы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="00fa4864-2609-470c-901e-d4961bd50bc2">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c3cd50f7-94e5-476a-94de-6d3cbf519cf6">
+				<Properties>
+					<Name>ДатаНачалаПериода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e29303da-5297-43d9-ae29-0f0ab1ce5dd0">
+				<Properties>
+					<Name>ДатаОкончанияПериода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b18aef34-1731-4c73-858c-f5235e30e48b">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dc3c1026-1990-4a43-a2d2-d959bc848eb1">
+				<Properties>
+					<Name>Исполнитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="822227f8-05c0-4389-8d35-23e4cf44f84a">
+				<Properties>
+					<Name>ЮТР_ДокументУтвержден</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<Form>ФормаДокументаАльтернативная</Form>
 			<TabularSection uuid="c5f79474-7218-47f4-bbab-78d6db61f2cc">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ТабельУчетаРабочегоВремени.ФизическиеЛица" category="TabularSection">
@@ -50,6 +191,33 @@
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="c319558c-aa63-4890-a482-729d59838a80">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ТабельУчетаРабочегоВремени.ДанныеОВремени" category="TabularSection">
+						<xr:TypeId>2ba0e7fa-a269-4035-b9da-b56a26f377f8</xr:TypeId>
+						<xr:ValueId>dcd09988-e4b5-4ffe-8779-67fd3c606139</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ТабельУчетаРабочегоВремени.ДанныеОВремени" category="TabularSectionRow">
+						<xr:TypeId>b706dd74-9992-4ffc-9723-3120763be5ee</xr:TypeId>
+						<xr:ValueId>05a9477e-154d-4596-afb7-5ee43e874d40</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДанныеОВремени</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="0fb45b3d-3745-4864-b0e7-535fcb9753c4">
+						<Properties>
+							<Name>Сотрудник</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
 							</Type>
 						</Properties>
 					</Attribute>
