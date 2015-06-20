@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="d2bcd62f-8127-477d-9f94-10f2edd87d99">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КатегорииДолжностейДляВоинскогоУчета" category="Ref">
+				<xr:TypeId>94b6fec2-1190-484a-9f65-130cf88e8db4</xr:TypeId>
+				<xr:ValueId>b75fdf51-a1fa-4ebc-8465-9bebb13d0850</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КатегорииДолжностейДляВоинскогоУчета" category="Manager">
+				<xr:TypeId>e94bbff6-0a82-47dd-9ea5-662783f0b55c</xr:TypeId>
+				<xr:ValueId>4523d7e9-c447-4b94-be22-31daee727fc3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КатегорииДолжностейДляВоинскогоУчета" category="List">
+				<xr:TypeId>b289d607-8e9e-44f3-aece-a7a65cd90a1d</xr:TypeId>
+				<xr:ValueId>ad9185c7-4d1f-483e-966e-046ed31a72d9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КатегорииДолжностейДляВоинскогоУчета</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

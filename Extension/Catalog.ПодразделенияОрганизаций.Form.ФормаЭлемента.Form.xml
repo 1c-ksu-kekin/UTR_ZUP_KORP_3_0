@@ -1467,27 +1467,6 @@
 					<Parameter xsi:nil="true"/>
 					<ExtendedTooltip name="КомандаЗаписатьРасширеннаяПодсказка" id="310"/>
 				</Button>
-				<Button name="ФормаОбщаяКомандаЮТР_ОбработатьСклонения" id="336">
-					<Type>CommandBarButton</Type>
-					<CommandName>CommonCommand.ЮТР_ОбработатьСклонения</CommandName>
-					<Parameter xsi:nil="true"/>
-					<Picture>
-						<xr:Ref>CommonPicture.ЮТР_Склонения</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
-					<ExtendedTooltip name="ФормаОбщаяКомандаЮТР_ОбработатьСклоненияРасширеннаяПодсказка" id="337"/>
-				</Button>
-				<Button name="ФормаОбщаяКомандаЮТР_ПереводВлатиницу" id="334">
-					<Type>CommandBarButton</Type>
-					<Representation>Picture</Representation>
-					<CommandName>CommonCommand.ЮТР_ПереводВлатиницу</CommandName>
-					<Parameter xsi:nil="true"/>
-					<Picture>
-						<xr:Ref>CommonPicture.ЮТР_Транслит</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
-					<ExtendedTooltip name="ФормаОбщаяКомандаЮТР_ПереводВлатиницуРасширеннаяПодсказка" id="335"/>
-				</Button>
 				<Button name="ФормаЗаписать" id="313">
 					<Type>CommandBarButton</Type>
 					<Visible>false</Visible>

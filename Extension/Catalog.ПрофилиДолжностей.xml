@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="b42e7b6c-91e3-4fc1-b309-805516902aec">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПрофилиДолжностей" category="Object">
+				<xr:TypeId>a3a3d3b8-ba63-4d27-8334-ef9f09fa22a0</xr:TypeId>
+				<xr:ValueId>5363a83a-2d36-4c23-a658-999207d234a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПрофилиДолжностей" category="Ref">
+				<xr:TypeId>88288e1f-8778-4459-b3df-b5b46743350d</xr:TypeId>
+				<xr:ValueId>635429b4-7022-478e-8b3c-8543db7e3060</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПрофилиДолжностей" category="Selection">
+				<xr:TypeId>ee0d60f4-cb45-4841-a5a7-9e185ee8ca95</xr:TypeId>
+				<xr:ValueId>27cbd4e6-6a82-4c1e-9b11-c8a14db07cdf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПрофилиДолжностей" category="List">
+				<xr:TypeId>7bda6181-5fab-4b8f-8f24-c4c0ee6c4abf</xr:TypeId>
+				<xr:ValueId>d87463d1-48f5-45d3-baef-5375c257e918</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПрофилиДолжностей" category="Manager">
+				<xr:TypeId>96b87afb-cff9-4157-8cd2-ca0383e02a3b</xr:TypeId>
+				<xr:ValueId>46c40aaa-9347-4488-ae26-8f995e803413</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПрофилиДолжностей</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

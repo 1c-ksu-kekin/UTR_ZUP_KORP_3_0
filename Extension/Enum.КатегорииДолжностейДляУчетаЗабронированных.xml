@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="77ed59f3-7529-414d-9fe0-39e45949a513">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КатегорииДолжностейДляУчетаЗабронированных" category="Ref">
+				<xr:TypeId>f7fe2d83-5f7c-483a-be1d-9121296d24c1</xr:TypeId>
+				<xr:ValueId>0895116b-a1cf-4b0a-904c-98f6cf7ea338</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КатегорииДолжностейДляУчетаЗабронированных" category="Manager">
+				<xr:TypeId>a27139c7-9395-4c30-be9b-d93c53d4cf3b</xr:TypeId>
+				<xr:ValueId>3236e86f-0554-49f0-a4d1-44ba7239936d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КатегорииДолжностейДляУчетаЗабронированных" category="List">
+				<xr:TypeId>cfb39b67-099b-43f7-b00d-702bfa18d41e</xr:TypeId>
+				<xr:ValueId>fa22f887-7cb2-44b8-8c56-1584d7b26c34</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КатегорииДолжностейДляУчетаЗабронированных</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

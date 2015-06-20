@@ -26,7 +26,19 @@
 		<Properties>
 			<Name>ГрафикиРаботыСотрудников</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>100</DescriptionLength>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="6f3acfd8-f8c3-491e-ad12-7bf78caf928f">
+				<Properties>
+					<Name>ЮТР_РежимРабочегоВремени</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_РежимыРабочегоВремени</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаГрафика</Form>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

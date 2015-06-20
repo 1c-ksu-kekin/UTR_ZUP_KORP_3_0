@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="1d8738b9-262d-4f5d-94e5-03c74dd878e7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЮТР_ГруппыФайловЛичныхДанных" category="Object">
+				<xr:TypeId>5cda4529-e255-42d7-b3f5-73b0b74fcce0</xr:TypeId>
+				<xr:ValueId>346c98d8-a9bc-4cdb-9517-f8a1fdf3c322</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЮТР_ГруппыФайловЛичныхДанных" category="Ref">
+				<xr:TypeId>b753cab6-d683-486a-a6d1-68e586c3ce43</xr:TypeId>
+				<xr:ValueId>ea814992-8726-415d-89ee-abcf59fa6432</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЮТР_ГруппыФайловЛичныхДанных" category="Selection">
+				<xr:TypeId>9675c061-1ad6-4d7d-a064-a1868022b992</xr:TypeId>
+				<xr:ValueId>21b633f0-b3d9-4f19-8077-b604f98ac17c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЮТР_ГруппыФайловЛичныхДанных" category="List">
+				<xr:TypeId>974094f8-ef1e-42f6-96ae-73a8e5c5bff6</xr:TypeId>
+				<xr:ValueId>829934ee-e9cf-4593-92e7-b701087b3366</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЮТР_ГруппыФайловЛичныхДанных" category="Manager">
+				<xr:TypeId>da51e39d-adaa-498e-ae94-d3b4d2d34151</xr:TypeId>
+				<xr:ValueId>97386c3e-65d1-47b7-bc53-1ddb44040010</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_ГруппыФайловЛичныхДанных</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="817c9c56-12ab-4133-b1ec-84075df754a8">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ЮТР_ГруппыФайловЛичныхДанных.ГруппыНастроек" category="TabularSection">
+						<xr:TypeId>4bc3c702-df0c-4fe2-9a8b-f062e96f4ae1</xr:TypeId>
+						<xr:ValueId>d0fbacee-98ce-4b22-8478-981c0afc9a9c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ЮТР_ГруппыФайловЛичныхДанных.ГруппыНастроек" category="TabularSectionRow">
+						<xr:TypeId>b8bb5759-d388-4eb7-89f7-81a04e270521</xr:TypeId>
+						<xr:ValueId>c2451d4e-921a-49c4-afa8-8a76b4e0603f</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ГруппыНастроек</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="9d739306-c665-451f-af07-ba39b6c7a412">
+						<Properties>
+							<Name>Объект</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ГруппыДоступа</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

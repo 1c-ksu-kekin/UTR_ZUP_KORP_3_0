@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="70add1be-66e4-497b-bf2b-ab7b244b7411">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДнейПроизводственногоКалендаря" category="Ref">
+				<xr:TypeId>ff793cef-389f-4f4e-b36c-6eb7e54ec7ec</xr:TypeId>
+				<xr:ValueId>cf88eb6d-9cf4-4100-946b-a58fb443f94a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДнейПроизводственногоКалендаря" category="Manager">
+				<xr:TypeId>e3cd01ac-2e72-4210-bbff-d7f513fb8550</xr:TypeId>
+				<xr:ValueId>b5b21dfa-e373-43ec-936c-d5ff4b992f73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДнейПроизводственногоКалендаря" category="List">
+				<xr:TypeId>c6537ebc-6403-4fca-9a6f-9b15c7120e76</xr:TypeId>
+				<xr:ValueId>abed9c2d-c55f-430d-bffb-1d1834126d7e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыДнейПроизводственногоКалендаря</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

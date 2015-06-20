@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="71d58e08-b285-41c4-ba76-f345dce679e0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыИспользованияРабочегоВремени" category="Object">
+				<xr:TypeId>ebc16527-fcf3-4666-be1a-14874b0d37f9</xr:TypeId>
+				<xr:ValueId>cc35a3c2-b1b4-4bfb-aa48-e3ae610dc41b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыИспользованияРабочегоВремени" category="Ref">
+				<xr:TypeId>51e2c123-ed30-4c22-b3fa-56abdf527f17</xr:TypeId>
+				<xr:ValueId>874cbda4-86ce-4a68-816c-1ed384f51400</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыИспользованияРабочегоВремени" category="Selection">
+				<xr:TypeId>d8acde36-181b-401c-81fb-30f911da4945</xr:TypeId>
+				<xr:ValueId>fbf058ff-bd2f-4dbc-a78a-f06f9b4fe22d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыИспользованияРабочегоВремени" category="List">
+				<xr:TypeId>539519fd-0885-40ac-aa3a-eda284eae73e</xr:TypeId>
+				<xr:ValueId>c141e777-9a2f-4dfa-86f8-bc403c15973b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыИспользованияРабочегоВремени" category="Manager">
+				<xr:TypeId>cd380c80-d6d4-4d05-be98-0a148ed05cde</xr:TypeId>
+				<xr:ValueId>f3dca65b-8fd9-49f8-980e-984662eec37d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыИспользованияРабочегоВремени</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

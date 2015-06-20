@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="7f018694-3285-45cf-9537-1c1885491e3a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВерсииФайлов" category="Object">
+				<xr:TypeId>0e959e61-a32d-45ef-8bce-8e8f32a73643</xr:TypeId>
+				<xr:ValueId>d60d407b-dbf1-458b-bfeb-abe29a401b95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВерсииФайлов" category="Ref">
+				<xr:TypeId>0bdb13b4-e257-40c6-8abd-dca45b3f577e</xr:TypeId>
+				<xr:ValueId>f2f3db2a-3b5f-48b6-9a41-cb0e158e44fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВерсииФайлов" category="Selection">
+				<xr:TypeId>992fa77e-cc29-4865-b520-a602b2822b5b</xr:TypeId>
+				<xr:ValueId>ff5e857c-1b86-47d9-b2dd-44c6fd3a99c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВерсииФайлов" category="List">
+				<xr:TypeId>74e2010b-7cee-4c66-b4a7-c53be11f319e</xr:TypeId>
+				<xr:ValueId>c31b8ed2-2d20-4cb3-a9cc-554b35c7da74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВерсииФайлов" category="Manager">
+				<xr:TypeId>91960b3f-e5fb-4011-8703-d035e30d617b</xr:TypeId>
+				<xr:ValueId>26589ee4-3824-44b6-a91e-1be142132617</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВерсииФайлов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="26563ee3-2bea-477c-9b45-49c106d5f440">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы" category="Record">
+				<xr:TypeId>532c73ac-83de-4b4f-9dbe-7dd33c82e6bc</xr:TypeId>
+				<xr:ValueId>5ef0b072-9984-444a-8997-0cf12e64f299</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы" category="Manager">
+				<xr:TypeId>5a4c4251-15f9-46d0-9af2-62559f2ead0d</xr:TypeId>
+				<xr:ValueId>bd22f37c-df47-4985-951a-029fe142a839</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы" category="Selection">
+				<xr:TypeId>19064edd-c8c3-4672-9ae1-a1cd268a30bb</xr:TypeId>
+				<xr:ValueId>d5064da3-caa7-40d0-90fb-ef1d96a7d427</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы" category="List">
+				<xr:TypeId>b2977068-aa1b-4e75-86b2-a73ba28cf192</xr:TypeId>
+				<xr:ValueId>86f4470e-6759-437c-b3b1-385a56ed8363</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы" category="RecordSet">
+				<xr:TypeId>a23ab007-5b82-4c1a-aa05-f3c4d6870869</xr:TypeId>
+				<xr:ValueId>dee2a69a-603b-4f20-861e-45031d0ce67a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы" category="RecordKey">
+				<xr:TypeId>ed736f71-d5b9-49c0-9f08-e3bc48cc3115</xr:TypeId>
+				<xr:ValueId>3aff5674-503f-4cfb-9377-ecd65a0c7c88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы" category="RecordManager">
+				<xr:TypeId>0cb35c19-6224-4725-984f-f4772ca625c1</xr:TypeId>
+				<xr:ValueId>8eaa2fa7-8833-43ef-a263-cea4dc5965e7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="73464382-7c00-4bd3-980d-1b0baf64498a">
+				<Properties>
+					<Name>СтрокаОтчетностиМониторингаРаботниковСоциальнойСферы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

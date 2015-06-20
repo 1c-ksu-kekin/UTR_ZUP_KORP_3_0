@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="a0aa8d76-81e5-4b52-9635-ce8f7cc26c56">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаНаПодборПерсонала" category="Object">
+				<xr:TypeId>7bb8135e-01f1-458c-94e1-af7d27190fd0</xr:TypeId>
+				<xr:ValueId>e0499142-52d5-40b0-a19b-7de3690a1a39</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаНаПодборПерсонала" category="Ref">
+				<xr:TypeId>8b7dcd9e-1c06-4586-92dd-5d4307b02866</xr:TypeId>
+				<xr:ValueId>4b76b1d8-9db9-4884-98a7-8a4e9a313768</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаПодборПерсонала" category="Selection">
+				<xr:TypeId>cb7960c6-90e7-4da5-8cfc-e35254d68697</xr:TypeId>
+				<xr:ValueId>dfca95e5-89bf-4f33-9e6e-285a44fec153</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаНаПодборПерсонала" category="List">
+				<xr:TypeId>d441f524-2412-4a38-8968-7dfa786ea75d</xr:TypeId>
+				<xr:ValueId>2b7f4413-f41a-44b1-8add-23f2cd76b908</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаНаПодборПерсонала" category="Manager">
+				<xr:TypeId>2738505c-d23f-47d2-8636-f2bc77e6b719</xr:TypeId>
+				<xr:ValueId>f32de16b-50ea-48ec-a98d-04d27834a6ce</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаявкаНаПодборПерсонала</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

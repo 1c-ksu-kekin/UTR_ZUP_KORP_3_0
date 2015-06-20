@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="41f0c626-5644-4f21-be97-d7908ecb9c78">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Кандидаты" category="Object">
+				<xr:TypeId>76c727d3-ce42-4ed0-a8ab-409e0136110d</xr:TypeId>
+				<xr:ValueId>2111a515-2c24-42a2-a8f3-8e49ee478d1e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Кандидаты" category="Ref">
+				<xr:TypeId>1f9bd83e-febf-4a6e-8753-d10c31095bd5</xr:TypeId>
+				<xr:ValueId>776771ae-d908-4e42-bc5d-19e72ab702fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Кандидаты" category="Selection">
+				<xr:TypeId>14b98cbb-2ce2-433f-b69d-979e48604477</xr:TypeId>
+				<xr:ValueId>3a94e891-0d87-4311-a90c-1d6f22133ac9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Кандидаты" category="List">
+				<xr:TypeId>2cba60bc-674e-47b7-89e9-68be7aef3920</xr:TypeId>
+				<xr:ValueId>16250be2-708f-4ce0-875c-b29c8c3d3856</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Кандидаты" category="Manager">
+				<xr:TypeId>43601f12-6765-4656-b514-d2ddaf6a6a85</xr:TypeId>
+				<xr:ValueId>4572a8b9-10d1-4de9-a795-590616fb5b9e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Кандидаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="b69ad719-4f4b-4371-80de-3dc9b34457d9">
+				<Properties>
+					<Name>ЭтапРаботы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЭтапыРаботыСКандидатами</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e5e23af8-e83f-4cb1-9c27-a4a7d35870f5">
+				<Properties>
+					<Name>ОжидаемыйДоход</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e8661956-c16b-46c7-906e-dcf4cf385a57">
+				<Properties>
+					<Name>Рейтинг</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Command uuid="d6b0604d-fec9-4710-8820-48b6e6f5db2d">
+				<Properties>
+					<Name>СоздатьПоURL</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>ActionsPanelCreate</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

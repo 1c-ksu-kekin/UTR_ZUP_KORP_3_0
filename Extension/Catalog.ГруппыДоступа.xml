@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="cc5cb4ee-e496-458d-9f56-48c30cfc0548">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГруппыДоступа" category="Object">
+				<xr:TypeId>ace0735f-345e-4f9d-bf1e-db7c2e23510f</xr:TypeId>
+				<xr:ValueId>36f3e177-2e81-45be-84c9-a705f648958c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГруппыДоступа" category="Ref">
+				<xr:TypeId>800cbc23-7fe3-457e-b68e-2d5a58964cac</xr:TypeId>
+				<xr:ValueId>aee11f5b-f55b-4e7c-acf6-3f4cbd703f9f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГруппыДоступа" category="Selection">
+				<xr:TypeId>2d5beaeb-ef30-487b-8510-6bf9ab55f075</xr:TypeId>
+				<xr:ValueId>f7fa6bde-9e0a-4e3e-8b42-71bcefdb40db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГруппыДоступа" category="List">
+				<xr:TypeId>a236550a-efa7-4177-8755-1a93ad101eb4</xr:TypeId>
+				<xr:ValueId>8623045e-621c-4aa2-a842-a47f609e81cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГруппыДоступа" category="Manager">
+				<xr:TypeId>cc89018b-ccc9-428d-b313-29c7aff7239d</xr:TypeId>
+				<xr:ValueId>2f02f78b-c01c-4cc3-8e5e-d603a7b3eaff</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГруппыДоступа</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="781f0946-bbd6-4caf-b6e1-d653dd207976">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7896d7bd-45fa-48e9-9289-0b1d5b8be5a5">
+				<Properties>
+					<Name>Профиль</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПрофилиГруппДоступа</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9cb80c19-8576-473d-9b78-31c412078f10">
+				<Properties>
+					<Name>Описание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="ac25ab00-a730-4d30-b608-dd2b0f5bc1e9">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ГруппыДоступа.Пользователи" category="TabularSection">
+						<xr:TypeId>d1b8063d-56ee-41b6-8171-356a813a0170</xr:TypeId>
+						<xr:ValueId>de047589-4767-44e1-95da-4f662b7081eb</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ГруппыДоступа.Пользователи" category="TabularSectionRow">
+						<xr:TypeId>e9628792-b66d-4543-a063-f5c4a687ee16</xr:TypeId>
+						<xr:ValueId>5e1c2c51-4f92-4e56-9dea-ffdf8ec3f98a</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Пользователи</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="cb9f2c7f-0be3-45c3-9cfc-7950259921f6">
+						<Properties>
+							<Name>Пользователь</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ВнешниеПользователи</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -26,7 +26,31 @@
 		<Properties>
 			<Name>ВидыСтажа</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="5ca0ceb6-be5c-4cf5-af0a-124aed91670a">
+				<Properties>
+					<Name>ЮТР_УчитываетсяВРазрезеПриемовНаРаботу</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="00349eb7-45c5-4b37-8efe-794f8658d773">
+				<Properties>
+					<Name>КатегорияСтажа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.КатегорииСтажа</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

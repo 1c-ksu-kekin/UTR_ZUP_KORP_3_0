@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="6c7e0e44-b9ab-42f4-8e4b-e3b799e16ba0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы" category="Object">
+				<xr:TypeId>bf441b96-bfd3-4315-9fd5-0bc46a1f5b42</xr:TypeId>
+				<xr:ValueId>5ce9d082-1aa5-48ac-9f20-e562265dcbc0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы" category="Ref">
+				<xr:TypeId>fe0ec6a4-9e64-419e-ab44-162ccdca7e9a</xr:TypeId>
+				<xr:ValueId>c15fbe0c-c93d-4257-8080-93dcaa84b050</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы" category="Selection">
+				<xr:TypeId>bd6ecb5d-1d7a-4ce1-834e-1e67184121c0</xr:TypeId>
+				<xr:ValueId>34be6349-fce4-4e08-8387-a8bd6597878e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы" category="List">
+				<xr:TypeId>7d8eb8c6-e5f5-44da-8b80-369fd1e9fc79</xr:TypeId>
+				<xr:ValueId>545707a2-8d2c-43ed-b2ac-6ea941b5a8f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы" category="Manager">
+				<xr:TypeId>3d882f00-f1f3-4de7-a909-25afdf50f862</xr:TypeId>
+				<xr:ValueId>c6be5306-c792-4b0d-9992-5b205359ac26</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

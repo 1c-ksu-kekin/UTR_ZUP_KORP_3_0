@@ -152,8 +152,6 @@
 												</InputField>
 												<LabelField name="СведенияОСтажахПредставлениеСтажа" id="147">
 													<DataPath>СведенияОСтажах.ПредставлениеСтажа</DataPath>
-													<Enabled>false</Enabled>
-													<ReadOnly>true</ReadOnly>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>

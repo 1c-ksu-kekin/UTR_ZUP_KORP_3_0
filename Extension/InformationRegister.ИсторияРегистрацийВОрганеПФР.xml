@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="b10ba65e-792b-4ce4-b52c-19d2eb7d70c5">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ИсторияРегистрацийВОрганеПФР" category="Record">
+				<xr:TypeId>cf061206-fd46-4c19-9aa4-34cf6892d723</xr:TypeId>
+				<xr:ValueId>bc0c7479-e31b-4c77-a08b-614df374e9fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ИсторияРегистрацийВОрганеПФР" category="Manager">
+				<xr:TypeId>b4c536a7-eb6d-4cb9-9c0a-de40eb45fc8e</xr:TypeId>
+				<xr:ValueId>e725b631-9636-4e3e-bb46-e46fa22ce870</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ИсторияРегистрацийВОрганеПФР" category="Selection">
+				<xr:TypeId>b1cad82e-4016-4fa9-ac8f-bc50403115b7</xr:TypeId>
+				<xr:ValueId>1cd22425-12bd-4b29-8ec9-fb3eba992d5e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ИсторияРегистрацийВОрганеПФР" category="List">
+				<xr:TypeId>0e5e9c09-377f-42e6-a106-8b9abf2cbabe</xr:TypeId>
+				<xr:ValueId>4e3190b3-5789-4259-b0ad-d0d7620b8fe2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ИсторияРегистрацийВОрганеПФР" category="RecordSet">
+				<xr:TypeId>c4daa83a-8830-43ef-a3a9-0a0b598fef63</xr:TypeId>
+				<xr:ValueId>4ec9c364-c642-453d-afba-f25ecd47e334</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ИсторияРегистрацийВОрганеПФР" category="RecordKey">
+				<xr:TypeId>331f8d7b-2fd3-4021-9fa6-90979daf6f80</xr:TypeId>
+				<xr:ValueId>e099524f-1674-431c-84c0-1bfb17776a32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ИсторияРегистрацийВОрганеПФР" category="RecordManager">
+				<xr:TypeId>dbf2ec6a-064e-4ea8-8faf-95bb1662ff9c</xr:TypeId>
+				<xr:ValueId>911222b3-29ec-486d-9fbb-da3dc16e1c82</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИсторияРегистрацийВОрганеПФР</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Quarter</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="90639b58-92c4-4277-a82a-1ce4a187980b">
+				<Properties>
+					<Name>РегистрационныйНомерПФР</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>14</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

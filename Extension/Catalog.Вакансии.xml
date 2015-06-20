@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="5b1a45e8-adcb-43a0-b2e2-1f7d8fa2a625">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Вакансии" category="Object">
+				<xr:TypeId>bb784d8e-a25a-453f-bd40-5957cc504afd</xr:TypeId>
+				<xr:ValueId>fa1f2352-8011-453d-8b0b-df69ea889add</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Вакансии" category="Ref">
+				<xr:TypeId>81e7a474-b765-4471-8eeb-2a352ba60072</xr:TypeId>
+				<xr:ValueId>b1e73197-d9a2-4f59-92d4-02bae9fb65d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Вакансии" category="Selection">
+				<xr:TypeId>5cef9de9-31a5-4c8b-b3b7-82e264cac70c</xr:TypeId>
+				<xr:ValueId>74089565-0c02-41fd-bb40-23ffe8eb8b7a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Вакансии" category="List">
+				<xr:TypeId>4034e004-9889-4e58-8207-f5126909be27</xr:TypeId>
+				<xr:ValueId>36cb11c7-ad54-4433-b0ba-4c3f6091aab7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Вакансии" category="Manager">
+				<xr:TypeId>dfbbea45-4678-41a5-9fb4-3a15e9c44efc</xr:TypeId>
+				<xr:ValueId>30c2c726-8923-46f2-bd5e-3b805893a857</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Вакансии</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>9</CodeLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e48b4dc1-3aae-4579-a56b-f53d16c96fd8">
+				<Properties>
+					<Name>ДатаОткрытия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dbd1cb58-7455-47f3-acef-863a316a5239">
+				<Properties>
+					<Name>Позиция</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШтатноеРасписание</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bf78b5c2-cc91-4b32-9de4-05f2345fe7a4">
+				<Properties>
+					<Name>Основание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаявкаНаПодборПерсонала</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3c9d5f08-0618-4e2b-9739-a85d1fad5f5b">
+				<Properties>
+					<Name>Заявитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="56b88aa2-9aeb-4ef9-96e7-8faf6d5a7941">
+				<Properties>
+					<Name>ПричинаОткрытия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПричиныОткрытияВакансий</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e0916f0f-9d09-45ad-b096-7f30ea9ae520">
+				<Properties>
+					<Name>Требования</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6fd5bb8f-627b-4524-a87f-bc63c69848fb">
+				<Properties>
+					<Name>Сложность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="329b19f6-1771-466b-9547-322f93cd3f55">
+				<Properties>
+					<Name>Примечание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d587768e-c171-4a1c-ab57-51f63ebeabfc">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="aa17d177-d4a2-4ad7-9c0f-08b4051aa022">
+				<Properties>
+					<Name>Обязанности</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4fee1816-63b2-4c9e-b1eb-86423cb70fcd">
+				<Properties>
+					<Name>Приоритет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.Приоритет</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="58717c9b-fc65-408b-9244-6e6a02b046c4">
+				<Properties>
+					<Name>ПланируемаяДатаЗакрытия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="34fb9088-e199-49d1-a55a-456d387031d3">
+				<Properties>
+					<Name>Условия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7a95f0c2-d6e9-4ddb-bb2d-d5d2f0d99c87">
+				<Properties>
+					<Name>ПрофильДолжности</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПрофилиДолжностей</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="625f4875-e3d4-42fd-b6c9-1ec46af199c0">
+				<Properties>
+					<Name>ЮТР_Территория</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ТерриторииВыполненияРабот</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e34a65c3-cf43-429a-bbc5-9a7451d978ca">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Command uuid="8fefb485-1f0e-4d06-b55f-d16d56667d8e">
+				<Properties>
+					<Name>ПолучитьСсылку</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormCommandBarImportant</Group>
+				</Properties>
+			</Command>
+			<Command uuid="cdee508b-95a1-476e-aa37-42b1569ffb07">
+				<Properties>
+					<Name>Возобновить</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormCommandBarImportant</Group>
+				</Properties>
+			</Command>
+			<Command uuid="f8e4b422-5d10-4cae-a468-2e15d7bfe14f">
+				<Properties>
+					<Name>Приостановить</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormCommandBarImportant</Group>
+				</Properties>
+			</Command>
+			<Command uuid="b1478b95-3641-4de6-a628-ee6d85af65ee">
+				<Properties>
+					<Name>Отменить</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormCommandBarImportant</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

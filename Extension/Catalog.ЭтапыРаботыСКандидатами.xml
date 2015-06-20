@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="9908618c-d96f-4912-8fb1-d5ba5556ab8e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЭтапыРаботыСКандидатами" category="Object">
+				<xr:TypeId>1b072ee5-9387-43ae-962c-6cab30156c5a</xr:TypeId>
+				<xr:ValueId>f23707bf-d3b9-444b-8e6f-369852d0fd72</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЭтапыРаботыСКандидатами" category="Ref">
+				<xr:TypeId>8b75aab4-06da-480c-ab57-138dcd9368c3</xr:TypeId>
+				<xr:ValueId>fd94ec2e-82d9-4093-9f2b-b0cc795633a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЭтапыРаботыСКандидатами" category="Selection">
+				<xr:TypeId>3b2e6134-c818-4755-b98c-f9efdba653ee</xr:TypeId>
+				<xr:ValueId>0b0f391c-a620-4e9e-9ffe-f0d2a895a69d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЭтапыРаботыСКандидатами" category="List">
+				<xr:TypeId>9d25d0db-9df3-4693-8379-201eb167db50</xr:TypeId>
+				<xr:ValueId>ec0323f7-e269-4ae3-8e58-8d9e05912d53</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЭтапыРаботыСКандидатами" category="Manager">
+				<xr:TypeId>aa90aa0c-5581-40bb-af7f-daddd94c1ee3</xr:TypeId>
+				<xr:ValueId>ce8b389c-60a4-48b3-af5a-03dfe6ba08f8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЭтапыРаботыСКандидатами</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

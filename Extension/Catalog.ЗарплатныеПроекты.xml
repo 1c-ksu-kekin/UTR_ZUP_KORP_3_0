@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="5944e685-8d8d-43bb-ae66-ed1e2db25ef0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЗарплатныеПроекты" category="Object">
+				<xr:TypeId>b31c6795-cbb9-449a-a58e-f6d0d8385984</xr:TypeId>
+				<xr:ValueId>4eb3fd90-0482-4202-bb9d-74be1d39f46c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЗарплатныеПроекты" category="Ref">
+				<xr:TypeId>d6f28959-7fd0-41d3-b19e-41bbb49a391c</xr:TypeId>
+				<xr:ValueId>b950ad64-e921-4553-bc89-7bad13dc6672</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЗарплатныеПроекты" category="Selection">
+				<xr:TypeId>f1bbf695-602f-4b60-9b4f-60610d54c829</xr:TypeId>
+				<xr:ValueId>2617a6cc-a966-417b-88a9-681d9a6342f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЗарплатныеПроекты" category="List">
+				<xr:TypeId>f1ee7b21-c942-4b82-ac52-c56d7a1ff3b1</xr:TypeId>
+				<xr:ValueId>fe7f0e7a-0978-4770-adb9-8443e866674b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЗарплатныеПроекты" category="Manager">
+				<xr:TypeId>de6a54ea-6df1-41cd-aae3-6c8653672a93</xr:TypeId>
+				<xr:ValueId>565028a0-065c-4214-b4c7-c4098de0f93e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗарплатныеПроекты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>50</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="35c77bdb-44bd-4527-b98a-19c82eb0e00a">
+				<Properties>
+					<Name>ИспользоватьЭлектронныйДокументооборотСБанком</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d6762d72-05f9-4a22-a4e2-841412eb9a44">
+				<Properties>
+					<Name>ДатаДоговора</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="44642fee-9739-4e6b-8a08-853222f75dbb">
+				<Properties>
+					<Name>КодировкаФайла</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.КодировкаФайловОбменаПоЗарплатномуПроекту</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c1488a4a-386b-4dab-bf2b-38c27dcd905e">
+				<Properties>
+					<Name>НомерДоговора</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>8</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c8cefe87-12d8-4c6e-88dc-4879d8b55989">
+				<Properties>
+					<Name>Валюта</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2404cf04-6158-42db-ba56-16a50178089e">
+				<Properties>
+					<Name>ФилиалОтделенияБанка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>4</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4077bccb-a142-4c41-b203-a9a38baeddc9">
+				<Properties>
+					<Name>РасчетныйСчет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Fixed</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ea18ba1f-c91e-4120-9955-bc146609e0f6">
+				<Properties>
+					<Name>ЮТР_ИспользоватьВыгрузкуТХТ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3077503f-bd32-44f9-9374-dc948c937341">
+				<Properties>
+					<Name>ОтделениеБанка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>4</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ba3c0b3e-53aa-49aa-b62e-051aa6fe9d55">
+				<Properties>
+					<Name>Банк</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассификаторБанковРФ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f606a95f-d66e-40e4-8b68-7ceea4ee19d3">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ba97bae6-f108-4e2e-b3f2-bf61be16a9dc">
+				<Properties>
+					<Name>ФорматФайла</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ФорматыФайловОбменаПоЗарплатномуПроекту</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="b436220f-1528-4a2b-b733-942aa19ecb81">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ЗарплатныеПроекты.СистемыРасчетовПоБанковскимКартам" category="TabularSection">
+						<xr:TypeId>7c5e84a6-fed9-48b4-b171-b3af5e8abe88</xr:TypeId>
+						<xr:ValueId>44cf9709-ffe2-4604-aff3-4472c26c7eb6</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ЗарплатныеПроекты.СистемыРасчетовПоБанковскимКартам" category="TabularSectionRow">
+						<xr:TypeId>d65637db-0061-4602-8c00-0ee5207bcd48</xr:TypeId>
+						<xr:ValueId>d5f5b2bf-21bf-4981-9937-e69a5e641d72</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>СистемыРасчетовПоБанковскимКартам</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4accc6cd-1e03-4c66-b75c-ba3c8c987e64">
+						<Properties>
+							<Name>СистемаРасчетовПоБанковскимКартам</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

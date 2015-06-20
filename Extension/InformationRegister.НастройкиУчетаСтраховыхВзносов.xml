@@ -45,6 +45,15 @@
 					</Type>
 				</Properties>
 			</Resource>
+			<Resource uuid="1ab1e847-ed30-47b4-9cd1-e1693fe46960">
+				<Properties>
+					<Name>ИспользуютсяРаботыСДосрочнойПенсией</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

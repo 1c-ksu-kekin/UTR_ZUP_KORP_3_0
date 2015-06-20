@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="5bc374f6-0fad-4b1c-bc44-5a4bfd15fdd5">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ФорматыФайловОбменаПоЗарплатномуПроекту" category="Ref">
+				<xr:TypeId>0f53e7fb-d79a-4331-a401-0649ded6a2b3</xr:TypeId>
+				<xr:ValueId>567b6a83-f682-4811-b3e2-b2650ff95dbf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ФорматыФайловОбменаПоЗарплатномуПроекту" category="Manager">
+				<xr:TypeId>b2cfb010-7e45-4a2f-ba29-2ff7d4f08b4d</xr:TypeId>
+				<xr:ValueId>60a884b6-dc71-4f40-bb49-34e245e74544</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ФорматыФайловОбменаПоЗарплатномуПроекту" category="List">
+				<xr:TypeId>cadc726e-7126-4914-a824-1f8f2381b652</xr:TypeId>
+				<xr:ValueId>301ff53b-d202-42cf-a909-6a1c987db7cf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФорматыФайловОбменаПоЗарплатномуПроекту</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

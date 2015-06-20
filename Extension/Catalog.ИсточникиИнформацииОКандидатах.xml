@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="2282fbac-f6bd-4a86-bdbb-799477f67bf1">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИсточникиИнформацииОКандидатах" category="Object">
+				<xr:TypeId>e1f7825e-0810-4276-9296-dc4ade1a5dc7</xr:TypeId>
+				<xr:ValueId>640b7e9a-e4e8-4a03-9159-72b0a2bb1123</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИсточникиИнформацииОКандидатах" category="Ref">
+				<xr:TypeId>5a4d7f2d-b896-44e2-98da-8439ea06b39d</xr:TypeId>
+				<xr:ValueId>28a3f02b-b555-4a31-bc2b-0252397c3854</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИсточникиИнформацииОКандидатах" category="Selection">
+				<xr:TypeId>7c665da1-3672-49fb-8b6a-a7b669250232</xr:TypeId>
+				<xr:ValueId>e6378be8-b975-4687-a7fc-3e5cfad5e9f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИсточникиИнформацииОКандидатах" category="List">
+				<xr:TypeId>ffc4c6d6-a41c-4700-99a9-32f93710b5ad</xr:TypeId>
+				<xr:ValueId>f9c1b18d-9f6c-4222-af62-b47d82608055</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИсточникиИнформацииОКандидатах" category="Manager">
+				<xr:TypeId>160eabc3-c4e1-4934-8d1f-46c96c6763e0</xr:TypeId>
+				<xr:ValueId>f5c42c46-976e-42fd-a3b5-62766925386b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИсточникиИнформацииОКандидатах</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

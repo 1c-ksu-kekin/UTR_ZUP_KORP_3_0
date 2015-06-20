@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="027ea1bb-0349-4a68-8b76-2bfa16945ce0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПричиныОткрытияВакансий" category="Object">
+				<xr:TypeId>368a6225-2c81-4da3-b06e-8ca7c2f10e04</xr:TypeId>
+				<xr:ValueId>5938ec9d-6cf4-4c01-8a9f-627d2e339a4d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПричиныОткрытияВакансий" category="Ref">
+				<xr:TypeId>0b727edb-5090-4ee9-ac69-5633fe5428d4</xr:TypeId>
+				<xr:ValueId>80005e17-0627-442e-8217-105c398fad22</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПричиныОткрытияВакансий" category="Selection">
+				<xr:TypeId>362d56bc-143b-4c8e-b4c5-f20912763cd8</xr:TypeId>
+				<xr:ValueId>164bb798-5d9f-45fd-8beb-142e3abe4e61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПричиныОткрытияВакансий" category="List">
+				<xr:TypeId>a7acad12-3a3d-47b5-b079-4f65bbf72d1c</xr:TypeId>
+				<xr:ValueId>6d74da42-8bb8-4b5a-b764-7508e9348f92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПричиныОткрытияВакансий" category="Manager">
+				<xr:TypeId>666366e7-fc03-4f19-a863-8c124b40cb67</xr:TypeId>
+				<xr:ValueId>c70be55c-1528-4147-a5ab-91e0c1041c0a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПричиныОткрытияВакансий</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

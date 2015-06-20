@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.31</Version>
+			<Version>3.0.22.182.32</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -57,30 +57,39 @@
 			<StyleItem>ТекстЗапрещеннойЯчейкиЦвет</StyleItem>
 			<StyleItem>ФонУправляющегоПоля</StyleItem>
 			<StyleItem>ЦветОтличающейсяСтрокиДокумента</StyleItem>
+			<CommonPicture>ВариантыПравилЗаполненияРеквизитов</CommonPicture>
+			<CommonPicture>ВосклицательныйЗнакСерый</CommonPicture>
+			<CommonPicture>ЗакончитьРедактированиеФайла</CommonPicture>
+			<CommonPicture>ЗанятьФайл</CommonPicture>
+			<CommonPicture>ЗаполнитьФорму</CommonPicture>
+			<CommonPicture>Зашифрован</CommonPicture>
 			<CommonPicture>Информация</CommonPicture>
+			<CommonPicture>КоллекцияВариантыВажности</CommonPicture>
+			<CommonPicture>КоллекцияВходящийИсходящийВнутренний</CommonPicture>
+			<CommonPicture>КоллекцияЗадачиИБизнесПроцессы</CommonPicture>
+			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
+			<CommonPicture>ОбновитьФайлИзФайлаНаДиске</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
+			<CommonPicture>ОпубликоватьФайл</CommonPicture>
+			<CommonPicture>ОсвободитьФайл</CommonPicture>
+			<CommonPicture>ОткрытьВыбранныйФайл</CommonPicture>
 			<CommonPicture>ПересчитатьЗарплатуСерая</CommonPicture>
+			<CommonPicture>ПодписанЗашифрованЗаголовок</CommonPicture>
+			<CommonPicture>ПодписанЗашифрованСостояния</CommonPicture>
+			<CommonPicture>ПодписанЭП</CommonPicture>
 			<CommonPicture>ПоказатьПодробностиРасчетаЗарплаты</CommonPicture>
 			<CommonPicture>Предупреждение</CommonPicture>
 			<CommonPicture>ПротоколСОшибкой</CommonPicture>
-			<CommonPicture>ЮТР_Склонения</CommonPicture>
-			<CommonPicture>ЮТР_Транслит</CommonPicture>
-			<CommonPicture>ВариантыПравилЗаполненияРеквизитов</CommonPicture>
-			<CommonPicture>Этап03</CommonPicture>
-			<CommonPicture>СтатусыДокумента</CommonPicture>
-			<CommonPicture>Этап02</CommonPicture>
-			<CommonPicture>Этап01</CommonPicture>
-			<CommonPicture>ПодписанЭП</CommonPicture>
+			<CommonPicture>РедактироватьФайл</CommonPicture>
 			<CommonPicture>РезультатыВыполненияПроцессовИЗадачЗаголовок</CommonPicture>
-			<CommonPicture>КоллекцияЗадачиИБизнесПроцессы</CommonPicture>
-			<CommonPicture>КоллекцияВходящийИсходящийВнутренний</CommonPicture>
 			<CommonPicture>РезультатыВыполненияПроцессовИЗадачКоллекция</CommonPicture>
 			<CommonPicture>СохранитьФайлКак</CommonPicture>
-			<CommonPicture>ОбновитьФайлИзФайлаНаДиске</CommonPicture>
-			<CommonPicture>КоллекцияВариантыВажности</CommonPicture>
-			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
-			<CommonPicture>ВосклицательныйЗнакСерый</CommonPicture>
-			<CommonPicture>ОткрытьВыбранныйФайл</CommonPicture>
+			<CommonPicture>СтатусыДокумента</CommonPicture>
+			<CommonPicture>Этап01</CommonPicture>
+			<CommonPicture>Этап02</CommonPicture>
+			<CommonPicture>Этап03</CommonPicture>
+			<CommonPicture>ЮТР_Склонения</CommonPicture>
+			<CommonPicture>ЮТР_Транслит</CommonPicture>
 			<Role>ЮТР_ДобавлениеИзменениеНачисленийШтатногоРасписания</Role>
 			<Role>ЮТР_ДобавлениеИзменениеШтатногоРасписания</Role>
 			<Role>ЮТР_ДобавлениеИзменениеШтатногоРасписанияИзменениеТерритории</Role>
@@ -119,8 +128,11 @@
 			<FunctionalOption>РаботаВБюджетномУчреждении</FunctionalOption>
 			<FunctionalOption>ИспользоватьУчетКлассныхЧинов</FunctionalOption>
 			<FunctionalOption>ИспользоватьИндивидуальныйГрафикПриСменеГрафикаРаботы</FunctionalOption>
+			<FunctionalOption>ИспользуютсяРаботыСДосрочнойПенсией</FunctionalOption>
+			<FunctionalOption>РаботаВХозрасчетнойОрганизации</FunctionalOption>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<DefinedType>ТерриторииВыполненияРаботВОрганизации</DefinedType>
+			<DefinedType>ВладелецФайлов</DefinedType>
 			<CommonCommand>ПрисоединенныеФайлы</CommonCommand>
 			<CommonCommand>ЮТР_ОбработатьСклонения</CommonCommand>
 			<CommonCommand>ЮТР_ПереводВлатиницу</CommonCommand>
@@ -139,32 +151,50 @@
 			<Constant>ИспользоватьЭлектронныеПодписи</Constant>
 			<Constant>РаботаВБюджетномУчреждении</Constant>
 			<Constant>ИспользоватьУчетКлассныхЧинов</Constant>
+			<Constant>РаботаВХозрасчетнойОрганизации</Constant>
+			<Catalog>Вакансии</Catalog>
+			<Catalog>Валюты</Catalog>
+			<Catalog>ВерсииФайлов</Catalog>
 			<Catalog>ВидыДокументовОбОбразовании</Catalog>
 			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
+			<Catalog>ВидыИспользованияРабочегоВремени</Catalog>
 			<Catalog>ВидыОбразованияФизическихЛиц</Catalog>
 			<Catalog>ВидыОтпусков</Catalog>
 			<Catalog>ВидыРаботСотрудников</Catalog>
 			<Catalog>ВидыСтажа</Catalog>
+			<Catalog>ВнешниеПользователи</Catalog>
 			<Catalog>ГрафикиРаботыСотрудников</Catalog>
+			<Catalog>ГруппыВнешнихПользователей</Catalog>
+			<Catalog>ГруппыДоступа</Catalog>
 			<Catalog>ГруппыДоступаФизическихЛиц</Catalog>
 			<Catalog>Должности</Catalog>
+			<Catalog>ЗарплатныеПроекты</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
+			<Catalog>ИсточникиИнформацииОКандидатах</Catalog>
+			<Catalog>Кандидаты</Catalog>
+			<Catalog>КлассификаторБанковРФ</Catalog>
 			<Catalog>КлассификаторСпециальностейПоОбразованию</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Награды</Catalog>
 			<Catalog>ОбразованиеФизическихЛиц</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>ОснованияДосрочногоНазначенияПенсии</Catalog>
+			<Catalog>ОснованияЗаключенияСрочныхТрудовыхДоговоров</Catalog>
 			<Catalog>ОснованияИсчисляемогоСтраховогоСтажа</Catalog>
 			<Catalog>ОснованияУвольнения</Catalog>
 			<Catalog>ОсобыеУсловияТрудаПФР</Catalog>
+			<Catalog>ПапкиФайлов</Catalog>
 			<Catalog>ПараметрыИсчисляемогоСтраховогоСтажа</Catalog>
 			<Catalog>ПодразделенияОрганизаций</Catalog>
 			<Catalog>ПоказателиРасчетаЗарплаты</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>ПравилаИнтеграцииС1СДокументооборотом</Catalog>
+			<Catalog>ПричиныОткрытияВакансий</Catalog>
 			<Catalog>ПроизводственныеКалендари</Catalog>
+			<Catalog>ПрофилиГруппДоступа</Catalog>
+			<Catalog>ПрофилиДолжностей</Catalog>
 			<Catalog>РазрядыКатегорииДолжностей</Catalog>
+			<Catalog>РегистрацииВНалоговомОргане</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения</Catalog>
 			<Catalog>СпособыОтраженияЗарплатыВБухУчете</Catalog>
@@ -172,14 +202,19 @@
 			<Catalog>СтатьиФинансированияЗарплата</Catalog>
 			<Catalog>СтепениЗнанияЯзыка</Catalog>
 			<Catalog>СтраныМира</Catalog>
+			<Catalog>СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы</Catalog>
+			<Catalog>СтруктураПредприятия</Catalog>
 			<Catalog>ТарифныеСетки</Catalog>
 			<Catalog>ТерриториальныеУсловияПФР</Catalog>
 			<Catalog>ТерриторииВыполненияРабот</Catalog>
 			<Catalog>УчебныеЗаведения</Catalog>
+			<Catalog>Файлы</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>ШтатноеРасписание</Catalog>
+			<Catalog>ЭтапыРаботыСКандидатами</Catalog>
 			<Catalog>ЮТР_ВидыДокументов</Catalog>
 			<Catalog>ЮТР_ВидыПерсонала</Catalog>
+			<Catalog>ЮТР_ГруппыФайловЛичныхДанных</Catalog>
 			<Catalog>ЮТР_МуниципальныеОбразования</Catalog>
 			<Catalog>ЮТР_ПроизводственныеЕдиницы</Catalog>
 			<Catalog>ЮТР_РежимыРабочегоВремени</Catalog>
@@ -187,10 +222,10 @@
 			<Catalog>ЮТР_ТипыВоздушныхСудов</Catalog>
 			<Catalog>ЮТР_ХарактерыРабот</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
-			<Catalog>ОснованияЗаключенияСрочныхТрудовыхДоговоров</Catalog>
 			<Document>ВводНачальныхОстатковОтпусков</Document>
 			<Document>ВходящаяСправкаОЗаработкеДляРасчетаПособий</Document>
 			<Document>ДоговорЗаймаСотруднику</Document>
+			<Document>ЗаявкаНаПодборПерсонала</Document>
 			<Document>ИзменениеПлановыхНачислений</Document>
 			<Document>ИзменениеШтатногоРасписания</Document>
 			<Document>ИндивидуальныйГрафик</Document>
@@ -213,31 +248,38 @@
 			<Document>УтверждениеШтатногоРасписания</Document>
 			<Document>ЮТР_ГрупповойПриказ</Document>
 			<DocumentJournal>ДокументыУправленияШтатнымРасписанием</DocumentJournal>
+			<Enum>ВариантыПравилЗаполненияРеквизитов</Enum>
+			<Enum>ВидыДнейПроизводственногоКалендаря</Enum>
+			<Enum>ВидыДоговоровССотрудниками</Enum>
 			<Enum>ВидыЗанятости</Enum>
+			<Enum>ВидыЗастрахованныхЛицОбязательногоСтрахования</Enum>
 			<Enum>ВидыМестВыплатыЗарплаты</Enum>
 			<Enum>ВидыРаботСДосрочнойПенсией</Enum>
+			<Enum>ВидыСтажаПФР2014</Enum>
 			<Enum>ВидыТарифныхСтавок</Enum>
 			<Enum>ДействияСЕжегоднымиОтпусками</Enum>
 			<Enum>ДействияСНачислениямиИУдержаниями</Enum>
 			<Enum>ДействияСПозициямиШтатногоРасписания</Enum>
+			<Enum>КатегорииДолжностейДляВоинскогоУчета</Enum>
+			<Enum>КатегорииДолжностейДляУчетаЗабронированных</Enum>
 			<Enum>КатегорииСтажа</Enum>
 			<Enum>КлассыУсловийТрудаПоРезультатамСпециальнойОценки</Enum>
+			<Enum>КодировкаФайловОбменаПоЗарплатномуПроекту</Enum>
 			<Enum>КомпенсацияУдержаниеОтпускаПриУвольнении</Enum>
 			<Enum>НДФЛСтавкиНалогообложенияРезидента</Enum>
 			<Enum>ОснованияФинансированияПособияФедеральнымБюджетом</Enum>
 			<Enum>ОтношениеКЕНВДЗатратНаЗарплату</Enum>
 			<Enum>ПолФизическогоЛица</Enum>
+			<Enum>ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</Enum>
+			<Enum>Приоритет</Enum>
 			<Enum>ПричиныСовмещения</Enum>
+			<Enum>СпособыРасчетаАванса</Enum>
 			<Enum>СпособыРасчетаДоплатыЗаСовмещение</Enum>
 			<Enum>СпособыРасчетаОтпуска</Enum>
 			<Enum>ТипыСведенийСЗВ</Enum>
 			<Enum>ТипыФайловСохраненияПечатныхФормОбъектов</Enum>
-			<Enum>ВариантыПравилЗаполненияРеквизитов</Enum>
-			<Enum>СпособыРасчетаАванса</Enum>
-			<Enum>ВидыДоговоровССотрудниками</Enum>
-			<Enum>ВидыЗастрахованныхЛицОбязательногоСтрахования</Enum>
-			<Enum>ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</Enum>
-			<Enum>ВидыСтажаПФР2014</Enum>
+			<Enum>ФорматыФайловОбменаПоЗарплатномуПроекту</Enum>
+			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
 			<DataProcessor>ПодготовкаКвартальнойОтчетностиВПФР</DataProcessor>
 			<InformationRegister>БухучетЗарплатыПодразделений</InformationRegister>
@@ -245,6 +287,7 @@
 			<InformationRegister>ВременноПребывающиеПринятыеПоДолгосрочнымДоговорам</InformationRegister>
 			<InformationRegister>ГражданствоФизическихЛиц</InformationRegister>
 			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
+			<InformationRegister>ИсторияРегистрацийВОрганеПФР</InformationRegister>
 			<InformationRegister>КлассыУсловийТрудаПоДолжностям</InformationRegister>
 			<InformationRegister>МестаВыплатыЗарплатыОрганизаций</InformationRegister>
 			<InformationRegister>МестаВыплатыЗарплатыПодразделений</InformationRegister>
@@ -253,21 +296,28 @@
 			<InformationRegister>НастройкиЗаймовСотрудникам</InformationRegister>
 			<InformationRegister>НастройкиЗарплатаКадры</InformationRegister>
 			<InformationRegister>НастройкиЗарплатаКадрыРасширенная</InformationRegister>
+			<InformationRegister>НастройкиКадровогоУчета</InformationRegister>
+			<InformationRegister>НастройкиРасчетаЗарплатыРасширенный</InformationRegister>
 			<InformationRegister>НастройкиСпециальнойОценкиУсловийТруда</InformationRegister>
 			<InformationRegister>НастройкиУчетаСтраховыхВзносов</InformationRegister>
 			<InformationRegister>НастройкиШтатногоРасписания</InformationRegister>
 			<InformationRegister>НомераРабочихМестСпециальнойОценкиУсловийТруда</InformationRegister>
+			<InformationRegister>ОткликиКандидатов</InformationRegister>
 			<InformationRegister>ПлановыеАвансы</InformationRegister>
 			<InformationRegister>СведенияОбИнвалидностиФизическихЛиц</InformationRegister>
 			<InformationRegister>СведенияОЛьготахФизическихЛицПострадавшихВАварииЧАЭС</InformationRegister>
 			<InformationRegister>СведенияОРежимахРаботыФормыСотрудникаРасширенный</InformationRegister>
 			<InformationRegister>СоставыСемейФизическихЛиц</InformationRegister>
+			<InformationRegister>СостоянияВакансий</InformationRegister>
 			<InformationRegister>СостоянияВБракеФизическихЛиц</InformationRegister>
+			<InformationRegister>СреднемесячныеНормыВремениГрафиковРаботыСотрудников</InformationRegister>
 			<InformationRegister>СтажиФизическихЛиц</InformationRegister>
 			<InformationRegister>СтатусФизическихЛицКакНалогоплательщиковНДФЛ</InformationRegister>
 			<InformationRegister>СтатусыЗастрахованныхФизическихЛиц</InformationRegister>
+			<InformationRegister>СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы</InformationRegister>
 			<InformationRegister>ТерриториальныеУсловияПФР</InformationRegister>
 			<InformationRegister>ТрудоваяДеятельностьФизическихЛиц</InformationRegister>
+			<InformationRegister>УчетнаяПолитикаОрганизаций</InformationRegister>
 			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
 			<InformationRegister>ЮТР_ВключениеПериодовТрудовойДеятельностиВСтаж</InformationRegister>
 			<InformationRegister>ЮТР_ПериодическиеДанныеСотрудника</InformationRegister>
@@ -275,11 +325,10 @@
 			<InformationRegister>ЮТР_СтажСотрудниковОрганизаций</InformationRegister>
 			<InformationRegister>ЮТР_СтатьиКД</InformationRegister>
 			<InformationRegister>ЮТР_ТрудоваяДеятельностьФизическихЛиц</InformationRegister>
-			<InformationRegister>НастройкиРасчетаЗарплатыРасширенный</InformationRegister>
-			<InformationRegister>НастройкиКадровогоУчета</InformationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
+			<BusinessProcess>Задание</BusinessProcess>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

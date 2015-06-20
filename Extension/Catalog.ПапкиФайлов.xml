@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="30ffb7ec-e1ce-4056-8ac5-3bd11da6cf96">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПапкиФайлов" category="Object">
+				<xr:TypeId>e8b440ca-1e03-4421-9404-6479bb770745</xr:TypeId>
+				<xr:ValueId>a0ea59df-9b96-49ef-9cdc-72125d0671a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПапкиФайлов" category="Ref">
+				<xr:TypeId>970ae9e5-b5c5-4fb4-ae18-05f81bfb34e8</xr:TypeId>
+				<xr:ValueId>4f9f8cee-3e36-4919-9c29-8c7d0378ac98</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПапкиФайлов" category="Selection">
+				<xr:TypeId>110420cf-b8de-409e-8117-6894935886c7</xr:TypeId>
+				<xr:ValueId>78f66cf1-77f9-43a7-b80a-b2f034faf97f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПапкиФайлов" category="List">
+				<xr:TypeId>29fa3498-0777-470a-ab2a-e96f6a61f0cb</xr:TypeId>
+				<xr:ValueId>9e429e99-546b-4893-9c14-e210c5939937</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПапкиФайлов" category="Manager">
+				<xr:TypeId>7915a8bc-f974-4a5a-a5a0-26614a485a9a</xr:TypeId>
+				<xr:ValueId>cab73eb6-805a-4c13-b4a0-2d7b280b6880</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПапкиФайлов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
