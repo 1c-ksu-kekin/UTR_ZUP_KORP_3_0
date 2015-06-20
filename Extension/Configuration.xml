@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.23</Version>
+			<Version>3.0.22.182.24</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -166,6 +166,7 @@
 			<Document>Увольнение</Document>
 			<Document>УдержаниеВСчетРасчетовПоПрочимОперациям</Document>
 			<Document>УтверждениеШтатногоРасписания</Document>
+			<Document>РазовоеНачисление</Document>
 			<DocumentJournal>ДокументыУправленияШтатнымРасписанием</DocumentJournal>
 			<Enum>ВидыЗанятости</Enum>
 			<Enum>ВидыМестВыплатыЗарплаты</Enum>
