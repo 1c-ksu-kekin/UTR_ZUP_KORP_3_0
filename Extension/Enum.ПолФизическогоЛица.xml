@@ -1,10 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<StyleItem uuid="d2e388c1-5684-459b-9b1b-28f734fc47af">
+	<Enum uuid="aad27f50-85bf-4167-9450-7bf2a42c4c4d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПолФизическогоЛица" category="Ref">
+				<xr:TypeId>542a9d06-2e92-4948-b84e-750ddbaf0467</xr:TypeId>
+				<xr:ValueId>47a580b3-23e8-4089-b0e1-862a863b01c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПолФизическогоЛица" category="Manager">
+				<xr:TypeId>43066107-eeb7-4696-a512-e2a1f87d1f05</xr:TypeId>
+				<xr:ValueId>546dba89-9af1-4ef3-bff5-f9340eb4a247</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПолФизическогоЛица" category="List">
+				<xr:TypeId>d0ca5cb4-a3b9-464e-b4f3-2a7160ae5e80</xr:TypeId>
+				<xr:ValueId>c3223380-0223-47f2-982a-b5dd3b60afbe</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>НедоступныеДанныеЦвет</Name>
+			<Name>ПолФизическогоЛица</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Type>Color</Type>
 		</Properties>
-	</StyleItem>
+		<ChildObjects/>
+	</Enum>
 </MetaDataObject>

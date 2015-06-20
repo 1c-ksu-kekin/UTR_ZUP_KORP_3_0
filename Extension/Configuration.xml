@@ -44,64 +44,76 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.21</Version>
+			<Version>3.0.22.182.22</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<StyleItem>ПоясняющийТекст</StyleItem>
 			<StyleItem>НедоступныеДанныеЦвет</StyleItem>
-			<CommonPicture>Предупреждение</CommonPicture>
-			<CommonPicture>ЮТР_Склонения</CommonPicture>
-			<CommonPicture>ПротоколСОшибкой</CommonPicture>
-			<CommonPicture>ЮТР_Транслит</CommonPicture>
-			<CommonPicture>ПересчитатьЗарплатуСерая</CommonPicture>
-			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<StyleItem>РезультатПроблемаЦвет</StyleItem>
+			<StyleItem>ТекстЗапрещеннойЯчейкиЦвет</StyleItem>
 			<CommonPicture>Информация</CommonPicture>
+			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
+			<CommonPicture>ПересчитатьЗарплатуСерая</CommonPicture>
 			<CommonPicture>ПоказатьПодробностиРасчетаЗарплаты</CommonPicture>
+			<CommonPicture>Предупреждение</CommonPicture>
+			<CommonPicture>ПротоколСОшибкой</CommonPicture>
+			<CommonPicture>ЮТР_Склонения</CommonPicture>
+			<CommonPicture>ЮТР_Транслит</CommonPicture>
 			<Role>ЮТР_ДобавлениеИзменениеНачисленийШтатногоРасписания</Role>
 			<Role>ЮТР_ДобавлениеИзменениеШтатногоРасписания</Role>
 			<Role>ЮТР_ДобавлениеИзменениеШтатногоРасписанияИзменениеТерритории</Role>
 			<CommonModule>ЛьготыСотрудников</CommonModule>
-			<FunctionalOption>ИспользоватьРасчетЗарплатыРасширенная</FunctionalOption>
+			<CommonModule>СотрудникиФормыРасширенный</CommonModule>
 			<FunctionalOption>ИспользоватьВилкуСтавокВШтатномРасписании</FunctionalOption>
+			<FunctionalOption>ИспользоватьВоинскийУчет</FunctionalOption>
+			<FunctionalOption>ИспользоватьВоинскийУчетВФормеСотрудника</FunctionalOption>
+			<FunctionalOption>ИспользоватьВыдачуПогашениеЗаймовСотрудникам</FunctionalOption>
+			<FunctionalOption>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</FunctionalOption>
+			<FunctionalOption>ИспользоватьИсториюИзмененияШтатногоРасписания</FunctionalOption>
+			<FunctionalOption>ИспользоватьКадровыйУчет</FunctionalOption>
+			<FunctionalOption>ИспользоватьЛичныеДанныеВФормеСотрудника</FunctionalOption>
+			<FunctionalOption>ИспользоватьНачислениеЗарплаты</FunctionalOption>
+			<FunctionalOption>ИспользоватьНесколькоОрганизацийЗарплатаКадрыРасширенная</FunctionalOption>
+			<FunctionalOption>ИспользоватьОбособленныеПодразделения</FunctionalOption>
+			<FunctionalOption>ИспользоватьОбособленныеПодразделенияРасширенная</FunctionalOption>
+			<FunctionalOption>ИспользоватьРасчетЗарплатыРасширенная</FunctionalOption>
+			<FunctionalOption>ИспользоватьРасчетСохраняемогоДенежногоСодержания</FunctionalOption>
+			<FunctionalOption>ИспользоватьСпециальнуюОценкуУсловийТруда</FunctionalOption>
+			<FunctionalOption>ИспользоватьШтатноеРасписание</FunctionalOption>
 			<FunctionalOption>НеИспользоватьВилкуСтавокВШтатномРасписании</FunctionalOption>
 			<FunctionalOption>НеИспользоватьШтатноеРасписание</FunctionalOption>
-			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТрудаРасширенная</FunctionalOption>
 			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТруда</FunctionalOption>
-			<FunctionalOption>ИспользоватьНесколькоОрганизацийЗарплатаКадрыРасширенная</FunctionalOption>
-			<FunctionalOption>ИспользоватьКадровыйУчет</FunctionalOption>
-			<FunctionalOption>ИспользоватьНачислениеЗарплаты</FunctionalOption>
-			<FunctionalOption>ИспользоватьСпециальнуюОценкуУсловийТруда</FunctionalOption>
-			<FunctionalOption>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</FunctionalOption>
-			<FunctionalOption>ИспользоватьОбособленныеПодразделенияРасширенная</FunctionalOption>
-			<FunctionalOption>ИспользоватьОбособленныеПодразделения</FunctionalOption>
-			<FunctionalOption>ИспользоватьШтатноеРасписание</FunctionalOption>
-			<FunctionalOption>ИспользоватьИсториюИзмененияШтатногоРасписания</FunctionalOption>
-			<FunctionalOption>ИспользоватьВыдачуПогашениеЗаймовСотрудникам</FunctionalOption>
-			<FunctionalOption>ИспользоватьРасчетСохраняемогоДенежногоСодержания</FunctionalOption>
+			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТрудаРасширенная</FunctionalOption>
+			<FunctionalOption>ПрименятьСевернуюНадбавку</FunctionalOption>
 			<FunctionalOption>РаботаВБюджетномУчреждении</FunctionalOption>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<DefinedType>ТерриторииВыполненияРаботВОрганизации</DefinedType>
-			<CommonCommand>ЮТР_СтатьиКД</CommonCommand>
-			<CommonCommand>ЮТР_ПереводВлатиницу</CommonCommand>
+			<CommonCommand>ПрисоединенныеФайлы</CommonCommand>
 			<CommonCommand>ЮТР_ОбработатьСклонения</CommonCommand>
+			<CommonCommand>ЮТР_ПереводВлатиницу</CommonCommand>
+			<CommonCommand>ЮТР_СтатьиКД</CommonCommand>
+			<Constant>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</Constant>
+			<Constant>ИспользоватьКадровыйУчет</Constant>
 			<Constant>ИспользоватьНачислениеЗарплаты</Constant>
 			<Constant>ИспользоватьНесколькоОрганизаций</Constant>
-			<Constant>ИспользоватьКадровыйУчет</Constant>
-			<Constant>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</Constant>
-			<Constant>РаботаВБюджетномУчреждении</Constant>
 			<Constant>ИспользоватьРасчетСохраняемогоДенежногоСодержания</Constant>
+			<Constant>РаботаВБюджетномУчреждении</Constant>
 			<Catalog>ВидыДокументовОбОбразовании</Catalog>
 			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
 			<Catalog>ВидыОбразованияФизическихЛиц</Catalog>
 			<Catalog>ВидыОтпусков</Catalog>
+			<Catalog>ВидыРаботСотрудников</Catalog>
+			<Catalog>ВидыСтажа</Catalog>
 			<Catalog>ГрафикиРаботыСотрудников</Catalog>
+			<Catalog>ГруппыДоступаФизическихЛиц</Catalog>
 			<Catalog>Должности</Catalog>
 			<Catalog>КлассификаторСпециальностейПоОбразованию</Catalog>
 			<Catalog>Контрагенты</Catalog>
+			<Catalog>Награды</Catalog>
 			<Catalog>ОбразованиеФизическихЛиц</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>ОснованияДосрочногоНазначенияПенсии</Catalog>
@@ -129,58 +141,84 @@
 			<Catalog>ЮТР_ВидыДокументов</Catalog>
 			<Catalog>ЮТР_ВидыПерсонала</Catalog>
 			<Catalog>ЮТР_МуниципальныеОбразования</Catalog>
+			<Catalog>ЮТР_ПроизводственныеЕдиницы</Catalog>
+			<Catalog>ЮТР_РежимыРабочегоВремени</Catalog>
 			<Catalog>ЮТР_СтатьиКД</Catalog>
+			<Catalog>ЮТР_ТипыВоздушныхСудов</Catalog>
+			<Catalog>ЮТР_ХарактерыРабот</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
-			<Document>ИзменениеШтатногоРасписания</Document>
-			<Document>ПачкаДокументовСПВ_1</Document>
-			<Document>ПачкаДокументовСЗВ_6_1</Document>
-			<Document>РеестрСЗВ_6_2</Document>
-			<Document>ПачкаДокументовСЗВ_6_4</Document>
-			<Document>ПачкаДокументовСПВ_2</Document>
-			<Document>ПачкаДокументовСЗВ_6_3</Document>
-			<Document>ИзменениеПлановыхНачислений</Document>
-			<Document>УтверждениеШтатногоРасписания</Document>
-			<Document>Совмещение</Document>
-			<Document>Отпуск</Document>
-			<Document>Увольнение</Document>
-			<Document>ОтпускПоУходуЗаРебенком</Document>
-			<Document>УдержаниеВСчетРасчетовПоПрочимОперациям</Document>
 			<Document>ДоговорЗаймаСотруднику</Document>
-			<Document>ПриемНаРаботу</Document>
+			<Document>ИзменениеПлановыхНачислений</Document>
+			<Document>ИзменениеШтатногоРасписания</Document>
 			<Document>КадровыйПеревод</Document>
+			<Document>Отпуск</Document>
+			<Document>ОтпускПоУходуЗаРебенком</Document>
+			<Document>ПачкаДокументовСЗВ_6_1</Document>
+			<Document>ПачкаДокументовСЗВ_6_3</Document>
+			<Document>ПачкаДокументовСЗВ_6_4</Document>
+			<Document>ПачкаДокументовСПВ_1</Document>
+			<Document>ПачкаДокументовСПВ_2</Document>
+			<Document>ПриемНаРаботу</Document>
+			<Document>РеестрСЗВ_6_2</Document>
+			<Document>Совмещение</Document>
+			<Document>Увольнение</Document>
+			<Document>УдержаниеВСчетРасчетовПоПрочимОперациям</Document>
+			<Document>УтверждениеШтатногоРасписания</Document>
 			<DocumentJournal>ДокументыУправленияШтатнымРасписанием</DocumentJournal>
-			<Enum>СпособыРасчетаОтпуска</Enum>
-			<Enum>КатегорииСтажа</Enum>
-			<Enum>ДействияСПозициямиШтатногоРасписания</Enum>
+			<Enum>ВидыЗанятости</Enum>
+			<Enum>ВидыМестВыплатыЗарплаты</Enum>
+			<Enum>ВидыРаботСДосрочнойПенсией</Enum>
+			<Enum>ВидыТарифныхСтавок</Enum>
 			<Enum>ДействияСЕжегоднымиОтпусками</Enum>
 			<Enum>ДействияСНачислениямиИУдержаниями</Enum>
-			<Enum>ВидыРаботСДосрочнойПенсией</Enum>
+			<Enum>ДействияСПозициямиШтатногоРасписания</Enum>
+			<Enum>КатегорииСтажа</Enum>
 			<Enum>КлассыУсловийТрудаПоРезультатамСпециальнойОценки</Enum>
-			<Enum>ОтношениеКЕНВДЗатратНаЗарплату</Enum>
-			<Enum>ТипыСведенийСЗВ</Enum>
-			<Enum>ВидыТарифныхСтавок</Enum>
-			<Enum>СпособыРасчетаДоплатыЗаСовмещение</Enum>
-			<Enum>ПричиныСовмещения</Enum>
 			<Enum>КомпенсацияУдержаниеОтпускаПриУвольнении</Enum>
 			<Enum>НДФЛСтавкиНалогообложенияРезидента</Enum>
-			<Enum>ВидыЗанятости</Enum>
 			<Enum>ОснованияФинансированияПособияФедеральнымБюджетом</Enum>
-			<Enum>ВидыМестВыплатыЗарплаты</Enum>
+			<Enum>ОтношениеКЕНВДЗатратНаЗарплату</Enum>
+			<Enum>ПолФизическогоЛица</Enum>
+			<Enum>ПричиныСовмещения</Enum>
+			<Enum>СпособыРасчетаДоплатыЗаСовмещение</Enum>
+			<Enum>СпособыРасчетаОтпуска</Enum>
+			<Enum>ТипыСведенийСЗВ</Enum>
 			<DataProcessor>ПодготовкаКвартальнойОтчетностиВПФР</DataProcessor>
-			<InformationRegister>ЮТР_СтатьиКД</InformationRegister>
-			<InformationRegister>НастройкиШтатногоРасписания</InformationRegister>
-			<InformationRegister>НастройкиУчетаСтраховыхВзносов</InformationRegister>
-			<InformationRegister>КлассыУсловийТрудаПоДолжностям</InformationRegister>
-			<InformationRegister>НастройкиЗарплатаКадрыРасширенная</InformationRegister>
-			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
-			<InformationRegister>ГражданствоФизическихЛиц</InformationRegister>
-			<InformationRegister>НастройкиСпециальнойОценкиУсловийТруда</InformationRegister>
-			<InformationRegister>НомераРабочихМестСпециальнойОценкиУсловийТруда</InformationRegister>
-			<InformationRegister>ТерриториальныеУсловияПФР</InformationRegister>
-			<InformationRegister>НастройкиЗаймовСотрудникам</InformationRegister>
-			<InformationRegister>МестаВыплатыЗарплатыПодразделений</InformationRegister>
 			<InformationRegister>БухучетЗарплатыПодразделений</InformationRegister>
+			<InformationRegister>ВоинскийУчет</InformationRegister>
+			<InformationRegister>ВременноПребывающиеПринятыеПоДолгосрочнымДоговорам</InformationRegister>
+			<InformationRegister>ГражданствоФизическихЛиц</InformationRegister>
+			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
+			<InformationRegister>КлассыУсловийТрудаПоДолжностям</InformationRegister>
 			<InformationRegister>МестаВыплатыЗарплатыОрганизаций</InformationRegister>
+			<InformationRegister>МестаВыплатыЗарплатыПодразделений</InformationRegister>
+			<InformationRegister>НаградыФизическихЛиц</InformationRegister>
+			<InformationRegister>НастройкиВоинскогоУчета</InformationRegister>
+			<InformationRegister>НастройкиЗаймовСотрудникам</InformationRegister>
+			<InformationRegister>НастройкиЗарплатаКадры</InformationRegister>
+			<InformationRegister>НастройкиЗарплатаКадрыРасширенная</InformationRegister>
+			<InformationRegister>НастройкиСпециальнойОценкиУсловийТруда</InformationRegister>
+			<InformationRegister>НастройкиУчетаСтраховыхВзносов</InformationRegister>
+			<InformationRegister>НастройкиШтатногоРасписания</InformationRegister>
+			<InformationRegister>НомераРабочихМестСпециальнойОценкиУсловийТруда</InformationRegister>
+			<InformationRegister>ПлановыеАвансы</InformationRegister>
+			<InformationRegister>СведенияОбИнвалидностиФизическихЛиц</InformationRegister>
+			<InformationRegister>СведенияОЛьготахФизическихЛицПострадавшихВАварииЧАЭС</InformationRegister>
+			<InformationRegister>СведенияОРежимахРаботыФормыСотрудникаРасширенный</InformationRegister>
+			<InformationRegister>СоставыСемейФизическихЛиц</InformationRegister>
+			<InformationRegister>СостоянияВБракеФизическихЛиц</InformationRegister>
+			<InformationRegister>СтажиФизическихЛиц</InformationRegister>
+			<InformationRegister>СтатусФизическихЛицКакНалогоплательщиковНДФЛ</InformationRegister>
+			<InformationRegister>СтатусыЗастрахованныхФизическихЛиц</InformationRegister>
+			<InformationRegister>ТерриториальныеУсловияПФР</InformationRegister>
+			<InformationRegister>ТрудоваяДеятельностьФизическихЛиц</InformationRegister>
+			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
+			<InformationRegister>ЮТР_ВключениеПериодовТрудовойДеятельностиВСтаж</InformationRegister>
+			<InformationRegister>ЮТР_ПериодическиеДанныеСотрудника</InformationRegister>
+			<InformationRegister>ЮТР_СтажРаботыПоВидамВоздушныхСудов</InformationRegister>
+			<InformationRegister>ЮТР_СтажСотрудниковОрганизаций</InformationRegister>
+			<InformationRegister>ЮТР_СтатьиКД</InformationRegister>
+			<InformationRegister>ЮТР_ТрудоваяДеятельностьФизическихЛиц</InformationRegister>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
 		</ChildObjects>

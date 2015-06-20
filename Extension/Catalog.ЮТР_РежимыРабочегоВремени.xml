@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="66940a47-2e18-4352-853a-01dbd22fa894">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЮТР_РежимыРабочегоВремени" category="Object">
+				<xr:TypeId>b73eca73-d8b1-48aa-bcf9-02ab22e3b527</xr:TypeId>
+				<xr:ValueId>0b300539-efd7-4d41-ae59-9e11d3209d47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЮТР_РежимыРабочегоВремени" category="Ref">
+				<xr:TypeId>d5a64187-6ef1-4ca8-a416-f33b26b607b3</xr:TypeId>
+				<xr:ValueId>15c67a0b-3d21-43dd-831f-6718e4bad467</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЮТР_РежимыРабочегоВремени" category="Selection">
+				<xr:TypeId>f867c37a-f772-4716-8807-8c4677d4c952</xr:TypeId>
+				<xr:ValueId>533ff31a-233a-40eb-98aa-0a8c1bf22c31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЮТР_РежимыРабочегоВремени" category="List">
+				<xr:TypeId>c4a56131-8093-44a7-bee9-c86bdfc1b1db</xr:TypeId>
+				<xr:ValueId>b6919570-0d81-4710-a5ca-e3bf61860a9e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЮТР_РежимыРабочегоВремени" category="Manager">
+				<xr:TypeId>4726c65b-5f1d-46a9-940e-cb49883d7196</xr:TypeId>
+				<xr:ValueId>7c95a36d-1e35-40c0-aa93-98480b329f70</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_РежимыРабочегоВремени</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

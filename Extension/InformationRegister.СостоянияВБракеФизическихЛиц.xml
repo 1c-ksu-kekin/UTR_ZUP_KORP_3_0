@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="f29d5bb2-8f3a-4712-88b3-16f417e240d0">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияВБракеФизическихЛиц" category="Record">
+				<xr:TypeId>2d962df2-c98b-4f7b-a4a7-785d87ef4744</xr:TypeId>
+				<xr:ValueId>b862bef6-3226-44fd-b8cf-e70ec58ac56b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияВБракеФизическихЛиц" category="Manager">
+				<xr:TypeId>96f0a58f-51ae-4d2f-95af-797c8fe56273</xr:TypeId>
+				<xr:ValueId>309c7c7b-38f9-4b56-8c93-74a22474d036</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияВБракеФизическихЛиц" category="Selection">
+				<xr:TypeId>98699bee-0524-4242-9000-1c8a1becafce</xr:TypeId>
+				<xr:ValueId>9dc2b82d-462a-4fdd-9989-2108da885453</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияВБракеФизическихЛиц" category="List">
+				<xr:TypeId>e10a62f0-c998-4034-b207-3e2794514cd7</xr:TypeId>
+				<xr:ValueId>e851de9a-f853-4d3d-b5f6-ae0b3647c0ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияВБракеФизическихЛиц" category="RecordSet">
+				<xr:TypeId>ade58d9a-fbf9-4125-9940-79c94bbff5de</xr:TypeId>
+				<xr:ValueId>ae8cb1aa-d1de-409a-affd-96a2a7880ac8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияВБракеФизическихЛиц" category="RecordKey">
+				<xr:TypeId>5f01f6e3-215f-4af3-98b5-dd4fb3a460d8</xr:TypeId>
+				<xr:ValueId>58a30ff5-b70e-4c79-90f8-81afb40f611c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияВБракеФизическихЛиц" category="RecordManager">
+				<xr:TypeId>a1b9d672-bbcb-4a44-83d0-f0359b746fa7</xr:TypeId>
+				<xr:ValueId>d45e4228-77c8-4e48-87ef-cec1b96e7dc0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияВБракеФизическихЛиц</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

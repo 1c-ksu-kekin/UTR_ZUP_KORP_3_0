@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="cbbedefc-69b5-4cf3-9aee-895fa0148860">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ВоинскийУчет" category="Record">
+				<xr:TypeId>5e290f3a-e7ff-4634-ab1a-47a7b55d813c</xr:TypeId>
+				<xr:ValueId>d51ce46c-e3ad-465a-8ece-91136488ca12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ВоинскийУчет" category="Manager">
+				<xr:TypeId>deffcb84-2a9c-4822-bd1e-fa79400a4468</xr:TypeId>
+				<xr:ValueId>6121a6d6-d741-4594-a03e-453b58128f2b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ВоинскийУчет" category="Selection">
+				<xr:TypeId>50987674-7375-4eb1-8712-f55209e3552f</xr:TypeId>
+				<xr:ValueId>02209ccc-7acf-4bfb-a1ea-eb846c4162e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ВоинскийУчет" category="List">
+				<xr:TypeId>97bffbab-7359-4b19-bc84-c3d08c444e4f</xr:TypeId>
+				<xr:ValueId>0e3051b1-99e6-4513-890e-0d2f3cba466c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ВоинскийУчет" category="RecordSet">
+				<xr:TypeId>d33f2050-ca3b-40d3-a78b-226cbcf83d67</xr:TypeId>
+				<xr:ValueId>aef79ee4-ee48-4a76-a3cb-f65075f9b18e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ВоинскийУчет" category="RecordKey">
+				<xr:TypeId>f7a01ad3-3653-4087-95c6-5c7a79197fae</xr:TypeId>
+				<xr:ValueId>1b80fe32-30ea-416f-a95f-cc76766cb252</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ВоинскийУчет" category="RecordManager">
+				<xr:TypeId>3cece35d-907c-4524-a253-e06e366a556c</xr:TypeId>
+				<xr:ValueId>261a0674-cd61-4723-a8f5-aa052ff0c682</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВоинскийУчет</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

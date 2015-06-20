@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="115410ac-3bc3-4b9e-940a-e109391c31bb">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГруппыДоступаФизическихЛиц" category="Object">
+				<xr:TypeId>cbb95244-84a9-4bdf-b5b5-f6a6d1fd3aab</xr:TypeId>
+				<xr:ValueId>cd081623-7ebd-42f3-908f-e2697ac77e21</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГруппыДоступаФизическихЛиц" category="Ref">
+				<xr:TypeId>102158f3-4a75-4c0b-a9d2-7a9f52f1cf9f</xr:TypeId>
+				<xr:ValueId>52bf7259-0ff1-4343-8bac-c28a92ec3b31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГруппыДоступаФизическихЛиц" category="Selection">
+				<xr:TypeId>4153c4b8-7694-4dfb-a676-57cc1185d06f</xr:TypeId>
+				<xr:ValueId>2dde59aa-89fc-4157-ad4a-81a367979aaf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГруппыДоступаФизическихЛиц" category="List">
+				<xr:TypeId>d67fed57-ee19-4996-9bc6-a946b78079de</xr:TypeId>
+				<xr:ValueId>5cee03e3-2d32-4fce-9d4a-b3cc7020b826</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГруппыДоступаФизическихЛиц" category="Manager">
+				<xr:TypeId>b6c2a243-b113-4805-bc4f-179193b85d74</xr:TypeId>
+				<xr:ValueId>c3973a05-fac7-482a-af5a-30d81fc1e37f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГруппыДоступаФизическихЛиц</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

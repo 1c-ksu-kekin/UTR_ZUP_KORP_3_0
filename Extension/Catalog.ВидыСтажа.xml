@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="78dd9613-5d78-4b70-a4e8-4c7d7db3311a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыСтажа" category="Object">
+				<xr:TypeId>4ab5db7e-7f69-4d70-b13b-7f3d2bd398b2</xr:TypeId>
+				<xr:ValueId>e482ade4-8ec0-4d4d-a3f4-3b894f84ad82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыСтажа" category="Ref">
+				<xr:TypeId>8f3ec616-d4b8-4cea-97a7-19761794d7a6</xr:TypeId>
+				<xr:ValueId>cb6acf78-c560-4043-b793-7d2dd907cc18</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыСтажа" category="Selection">
+				<xr:TypeId>b5b820a1-4505-4adf-8776-5c6ef9c3df3e</xr:TypeId>
+				<xr:ValueId>4cc0524c-36d2-4ed2-9741-dc69d06fc0cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыСтажа" category="List">
+				<xr:TypeId>d53825b7-1d99-41f6-96bc-b59f7f5f526d</xr:TypeId>
+				<xr:ValueId>8824c225-d18b-4fb9-b769-d7d54feab32b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыСтажа" category="Manager">
+				<xr:TypeId>ca5dd452-9b8b-48de-9520-9f3f005310e2</xr:TypeId>
+				<xr:ValueId>dddd5b02-5ea5-44e3-af1c-4a2337b6a963</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыСтажа</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

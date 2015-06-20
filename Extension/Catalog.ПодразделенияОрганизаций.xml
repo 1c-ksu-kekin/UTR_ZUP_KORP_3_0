@@ -57,7 +57,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="3d5a1e81-dcf4-4b27-812b-436425ccf2f1">
+			<Attribute uuid="6b6d6dce-9826-410f-a682-4829a19fb0ee">
 				<Properties>
 					<Name>КоличествоДополнительныхДнейОтпускаВГод</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -71,7 +71,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="fc93d7b5-430f-4b5c-9d68-1b9993b16be2">
+			<Attribute uuid="163a058d-392a-4dd1-b74c-6d432787f8e9">
 				<Properties>
 					<Name>ИмеетНомерТерриториальногоОрганаРосстата</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -80,7 +80,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="9d0a277e-eb1f-4bda-aba2-c2a09a7db231">
+			<Attribute uuid="b009f7ba-07d6-4c1e-a1cd-42149fbb90b9">
 				<Properties>
 					<Name>ОбособленноеПодразделение</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -89,7 +89,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="38c195cb-29c1-4237-ad6a-cc27e321fb3c">
+			<Attribute uuid="267f1307-8fa6-4b02-93d6-e3075398d39a">
 				<Properties>
 					<Name>КодОКВЭД</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -102,7 +102,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="80835a35-8ebf-4dd3-b6ac-4f011632e13a">
+			<Attribute uuid="27dbdf11-6428-40c9-8fca-2db1334a2070">
 				<Properties>
 					<Name>НомерТерриториальногоОрганаРосстата</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -115,7 +115,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="49239d49-eef0-414a-868d-f7019fb8145e">
+			<Attribute uuid="b5c87d46-03fd-4612-bfe8-7ca303d87984">
 				<Properties>
 					<Name>Сформировано</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -124,7 +124,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="d4a28388-43ec-44d6-9b70-06d39b8b62c8">
+			<Attribute uuid="b90a26b3-4478-486e-a55a-37456e6f1915">
 				<Properties>
 					<Name>Расформировано</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -133,7 +133,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="d928b538-3f21-4537-b4b5-3e10293a2da1">
+			<Attribute uuid="93a763e3-0268-4473-a1b7-d29a78ae0b4f">
 				<Properties>
 					<Name>СоответствуетСудамЗарегистрированнымВРоссийскомМеждународномРеестреСудов</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -142,7 +142,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="2798613d-22e9-4e4f-84bf-942374e1b529">
+			<Attribute uuid="ad5e020a-6ab1-49c3-93f7-4cda889d5f71">
 				<Properties>
 					<Name>РайонныйКоэффициентРФ</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -156,7 +156,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="849ddeb1-53ee-4aa9-ae82-6b7278caa461">
+			<Attribute uuid="3581e68b-0c30-4332-8088-97b671460a60">
 				<Properties>
 					<Name>РайонныйКоэффициент</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -170,7 +170,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="d04b9a95-270e-44ce-a2bd-9d096184ba99">
+			<Attribute uuid="8ccb5dcf-7ab6-46ff-9c6e-a470017f1471">
 				<Properties>
 					<Name>ПроцентСевернойНадбавки</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -184,7 +184,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="5112686e-0daf-415e-aecd-470675ffb10d">
+			<Attribute uuid="0940dc6a-70bb-4cc1-bd3f-2b27dcb8a8e4">
 				<Properties>
 					<Name>НаименованиеОКВЭД</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -197,7 +197,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="5e8a0660-f869-4a46-a9c7-57985da0242c">
+			<Attribute uuid="e1822bd2-d3c3-42d9-a7b7-832b2bd5d28c">
 				<Properties>
 					<Name>ГрафикРаботыСотрудников</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>

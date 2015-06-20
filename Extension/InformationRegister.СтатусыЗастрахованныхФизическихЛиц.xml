@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="c4355350-ad76-4010-82a4-23e92f86dd32">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СтатусыЗастрахованныхФизическихЛиц" category="Record">
+				<xr:TypeId>6d1dbd3d-31e7-48fb-898f-a146d92f14c1</xr:TypeId>
+				<xr:ValueId>180ec55c-d3e3-4339-a82e-11cc9fd558c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СтатусыЗастрахованныхФизическихЛиц" category="Manager">
+				<xr:TypeId>7b48a740-0fcc-41ae-89c2-e8c99acf17c2</xr:TypeId>
+				<xr:ValueId>51adced0-1699-4c85-a335-9afcfc5d8d88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СтатусыЗастрахованныхФизическихЛиц" category="Selection">
+				<xr:TypeId>a89f7b8e-03c0-4b46-87b3-3923b383555b</xr:TypeId>
+				<xr:ValueId>1af7ceb6-8df3-46cc-b972-e2ab8ca1e21b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СтатусыЗастрахованныхФизическихЛиц" category="List">
+				<xr:TypeId>5833e04e-ae38-40f1-95f0-a72903f39da1</xr:TypeId>
+				<xr:ValueId>1fce2e93-3b2b-4082-b70d-d35464fc1f9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СтатусыЗастрахованныхФизическихЛиц" category="RecordSet">
+				<xr:TypeId>88ae0b54-e955-4b46-b905-51eabeb0eb2f</xr:TypeId>
+				<xr:ValueId>953f29b1-091a-450c-8f5a-5b72dac21540</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СтатусыЗастрахованныхФизическихЛиц" category="RecordKey">
+				<xr:TypeId>486ab7fb-dba3-4f44-8c6f-4be7bcb8b968</xr:TypeId>
+				<xr:ValueId>b391e17a-ac7f-4675-a000-dbecd4b61c3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СтатусыЗастрахованныхФизическихЛиц" category="RecordManager">
+				<xr:TypeId>eef99097-a729-4ab3-8ab7-4ceb5754d340</xr:TypeId>
+				<xr:ValueId>3a2d9ff2-a02d-4253-9c82-1d05a22e6b70</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыЗастрахованныхФизическихЛиц</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Month</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

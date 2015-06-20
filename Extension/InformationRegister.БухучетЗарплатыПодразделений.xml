@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<InformationRegister uuid="bd6df492-96aa-4f07-86f2-cde2e1606532">
+	<InformationRegister uuid="20499b4e-0905-483b-8214-0371a9f724a7">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.БухучетЗарплатыПодразделений" category="Record">
-				<xr:TypeId>6f076ead-4b8a-495e-92eb-e6283ab87cbf</xr:TypeId>
-				<xr:ValueId>40ac82d2-8ef6-4a00-af7f-2e0161fcad8f</xr:ValueId>
+				<xr:TypeId>d0200cc7-79c3-47a5-87c9-58812aab7ee1</xr:TypeId>
+				<xr:ValueId>99daa259-dd9e-4960-9b43-d1390b26acec</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterManager.БухучетЗарплатыПодразделений" category="Manager">
-				<xr:TypeId>95e70e72-383b-4a44-95fe-5f1e2911929a</xr:TypeId>
-				<xr:ValueId>2b72bf8f-6286-413c-83fe-3e9763c68a1b</xr:ValueId>
+				<xr:TypeId>9d07b7ae-1ed1-47ea-9833-52840e8ce9e8</xr:TypeId>
+				<xr:ValueId>6f925efb-ca48-4e78-93d1-23ed04a55c40</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterSelection.БухучетЗарплатыПодразделений" category="Selection">
-				<xr:TypeId>624f0f9a-3b0b-4cb2-aebb-17c5ac3aebea</xr:TypeId>
-				<xr:ValueId>4e9befbd-8384-404f-b8d0-32743700edb2</xr:ValueId>
+				<xr:TypeId>c0715d59-7500-498f-bce2-e530168d4d80</xr:TypeId>
+				<xr:ValueId>96bd0cf1-2756-4adf-868e-d185d030260a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterList.БухучетЗарплатыПодразделений" category="List">
-				<xr:TypeId>fb61e002-d9a5-4915-a4bf-be276de342a5</xr:TypeId>
-				<xr:ValueId>bc373f2c-a2c0-43d8-afc6-a4ee738447f7</xr:ValueId>
+				<xr:TypeId>329af44b-83d2-49ce-929b-3ca87f49d0ff</xr:TypeId>
+				<xr:ValueId>fcb6604c-891c-4c07-b288-b847c8e8e7f9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordSet.БухучетЗарплатыПодразделений" category="RecordSet">
-				<xr:TypeId>6ec6d72c-f466-4ba1-8a8f-8a8e875876b2</xr:TypeId>
-				<xr:ValueId>e36c0a47-a865-4d56-926f-cd382ebf2cad</xr:ValueId>
+				<xr:TypeId>adb83df8-9937-4bf3-8c0d-3bcbb894ab66</xr:TypeId>
+				<xr:ValueId>1033f6a9-1918-4181-ad04-d37ed903308a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordKey.БухучетЗарплатыПодразделений" category="RecordKey">
-				<xr:TypeId>0ca487af-2744-4e30-8e91-d8f44db6aebd</xr:TypeId>
-				<xr:ValueId>52570d13-c833-4442-8feb-71e42373d927</xr:ValueId>
+				<xr:TypeId>81a5e711-f9b3-4e4b-bdb7-7c09a0d0da93</xr:TypeId>
+				<xr:ValueId>66240326-5ea2-4408-bcf0-a030867b1073</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordManager.БухучетЗарплатыПодразделений" category="RecordManager">
-				<xr:TypeId>553a4d95-7823-4f7b-abf4-10684d5dc83d</xr:TypeId>
-				<xr:ValueId>45ff49dc-1d1d-4906-84aa-f60ec2761055</xr:ValueId>
+				<xr:TypeId>6382c164-5da0-44cd-a6de-8fad226d761f</xr:TypeId>
+				<xr:ValueId>ab284d8c-f720-46bb-b4d9-1c604729b34d</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -38,7 +38,7 @@
 			<WriteMode>Independent</WriteMode>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="94918d48-066e-4e7a-86dc-91a7f9e6b325">
+			<Resource uuid="2fc2bdcf-03fd-4412-8b59-b8dd487279a1">
 				<Properties>
 					<Name>СпособОтраженияЗарплатыВБухучете</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -47,7 +47,7 @@
 					</Type>
 				</Properties>
 			</Resource>
-			<Resource uuid="5bd8717b-4907-4b73-a82f-25b63a36352b">
+			<Resource uuid="27c8d89b-3ca6-407c-9e10-c02c63ea46a2">
 				<Properties>
 					<Name>СтатьяФинансирования</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -56,7 +56,7 @@
 					</Type>
 				</Properties>
 			</Resource>
-			<Resource uuid="7d559a1a-8a4c-4e26-a1a6-188a0b50291c">
+			<Resource uuid="445f6308-d0c9-4a2d-a4e9-21a1974925f0">
 				<Properties>
 					<Name>ОтношениеКЕНВД</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>

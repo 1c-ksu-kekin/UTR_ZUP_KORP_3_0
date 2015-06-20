@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="04dd448e-a35b-4cb9-94b1-092217339112">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЮТР_ПериодическиеДанныеСотрудника" category="Record">
+				<xr:TypeId>cb30459e-def6-4f45-8841-81fa8437b631</xr:TypeId>
+				<xr:ValueId>2d29868e-8257-4d21-9575-9650386a01cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЮТР_ПериодическиеДанныеСотрудника" category="Manager">
+				<xr:TypeId>622a961c-593f-4006-a6ee-da8fa9bdfcb0</xr:TypeId>
+				<xr:ValueId>d5e6ea07-8c8e-4f8c-b14d-fe92df777655</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЮТР_ПериодическиеДанныеСотрудника" category="Selection">
+				<xr:TypeId>6719d8b3-3b97-41e5-9b76-355ea0cd6705</xr:TypeId>
+				<xr:ValueId>a6db40fa-33fb-467b-a04a-b832438b6988</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЮТР_ПериодическиеДанныеСотрудника" category="List">
+				<xr:TypeId>ef614912-6528-4302-9c40-5910fbef02d1</xr:TypeId>
+				<xr:ValueId>6344f6fa-23ca-4818-960b-8879c9db6be6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЮТР_ПериодическиеДанныеСотрудника" category="RecordSet">
+				<xr:TypeId>7398771d-339d-4b19-ba1b-0a2f54e16757</xr:TypeId>
+				<xr:ValueId>0949ab7e-bd08-433f-b507-94b0e049fc75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЮТР_ПериодическиеДанныеСотрудника" category="RecordKey">
+				<xr:TypeId>072529b3-4599-4b47-9461-62d2cabbf71e</xr:TypeId>
+				<xr:ValueId>81497ee6-daf6-406d-b198-23846480782a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЮТР_ПериодическиеДанныеСотрудника" category="RecordManager">
+				<xr:TypeId>bf01abf7-ac90-4d6b-9148-b17bf9ce23a4</xr:TypeId>
+				<xr:ValueId>0f1f0393-ff94-4057-a152-50c3abf16783</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_ПериодическиеДанныеСотрудника</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="5bd19c35-d340-42f7-930d-0ea5f030081c">
+				<Properties>
+					<Name>Значение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_ПроизводственныеЕдиницы</v8:Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_РежимыРабочегоВремени</v8:Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_ХарактерыРабот</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="2a0e0823-3c9b-44d7-bf66-f5c9a3b69bbd">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="1b1f759a-b4d5-4c42-a5ec-2fe59150745e">
+				<Properties>
+					<Name>Идентификатор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ИсторияРедактирования</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="3cce6367-32a5-4194-8f49-cfb5386da1cd">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ФИОФизическихЛиц" category="Record">
+				<xr:TypeId>c6796939-60cc-4fd7-9de4-d0ee9ec816aa</xr:TypeId>
+				<xr:ValueId>0b4b83c5-ff0f-4cc9-9d34-7db8dc0b3557</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ФИОФизическихЛиц" category="Manager">
+				<xr:TypeId>f6ae3430-c060-4193-b526-7c3d6990d6fb</xr:TypeId>
+				<xr:ValueId>e1961f1d-8b3e-4fe0-8987-cb3aee611465</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ФИОФизическихЛиц" category="Selection">
+				<xr:TypeId>4fd7d87a-8c9f-4c2e-a26b-6d511592808a</xr:TypeId>
+				<xr:ValueId>74b67adb-0a80-402e-b638-2f51727f070a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ФИОФизическихЛиц" category="List">
+				<xr:TypeId>fca6b4ae-35b4-428a-80fc-39484ed9f510</xr:TypeId>
+				<xr:ValueId>cd3977c2-da8f-452e-a524-ee9909f27fea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ФИОФизическихЛиц" category="RecordSet">
+				<xr:TypeId>290fc3b9-eb91-4afa-b638-f43f808c5c62</xr:TypeId>
+				<xr:ValueId>8797d304-14fb-4ed6-87e2-720c88381dd0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ФИОФизическихЛиц" category="RecordKey">
+				<xr:TypeId>2a9e2056-cc7d-4de7-af9c-4477b165a8ea</xr:TypeId>
+				<xr:ValueId>132b8e3d-86fb-479d-8f67-0952dd91377e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ФИОФизическихЛиц" category="RecordManager">
+				<xr:TypeId>18a1b436-1b59-4069-9c4c-6ee0429a843e</xr:TypeId>
+				<xr:ValueId>a525cacc-6a2e-402c-bd94-c698837d89be</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФИОФизическихЛиц</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="63d8990e-2d61-4845-b327-9a71a0871c7a">
+				<Properties>
+					<Name>Отчество</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="3c463010-5dd5-454a-bf5c-c2dc336d4072">
+				<Properties>
+					<Name>Фамилия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="b0dd70bc-3fb2-48a1-aa89-015c5fa45de3">
+				<Properties>
+					<Name>Имя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

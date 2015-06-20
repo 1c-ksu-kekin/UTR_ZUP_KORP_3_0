@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="67b03462-ebb4-4736-9f7d-2703e8179aa7">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СведенияОРежимахРаботыФормыСотрудникаРасширенный" category="Record">
+				<xr:TypeId>bd55deb8-60a3-42d6-8c68-c2260a6dc8d6</xr:TypeId>
+				<xr:ValueId>1b10642d-1b17-4016-b95c-580b1791e0fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СведенияОРежимахРаботыФормыСотрудникаРасширенный" category="Manager">
+				<xr:TypeId>98bd9b1c-24a5-499e-a364-ea2caa5c8c49</xr:TypeId>
+				<xr:ValueId>5abee834-0213-4042-9581-c93cdce1e8c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СведенияОРежимахРаботыФормыСотрудникаРасширенный" category="Selection">
+				<xr:TypeId>0bf9fe6b-2b77-4696-875c-e540ca71e4d3</xr:TypeId>
+				<xr:ValueId>8f3f4fbe-32e7-4c22-9e16-fc6f5efc27f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СведенияОРежимахРаботыФормыСотрудникаРасширенный" category="List">
+				<xr:TypeId>0153634a-83a8-4cf5-b166-ae62a09cd133</xr:TypeId>
+				<xr:ValueId>9d850e62-ca9a-4690-993d-71f8381754e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СведенияОРежимахРаботыФормыСотрудникаРасширенный" category="RecordSet">
+				<xr:TypeId>bf79cc86-dac2-4aae-8222-b764e1182451</xr:TypeId>
+				<xr:ValueId>e222a7fe-f7a9-45cf-a652-cf1dbfb50673</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СведенияОРежимахРаботыФормыСотрудникаРасширенный" category="RecordKey">
+				<xr:TypeId>8153fd8b-cb06-4035-afc1-d438c863065d</xr:TypeId>
+				<xr:ValueId>daf0619c-f626-4945-a6d0-48142e336780</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СведенияОРежимахРаботыФормыСотрудникаРасширенный" category="RecordManager">
+				<xr:TypeId>caf8bc84-1f15-4a55-b6dd-87f48eab7a5d</xr:TypeId>
+				<xr:ValueId>8b2d741f-7815-495f-b05a-26ccbe19c047</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СведенияОРежимахРаботыФормыСотрудникаРасширенный</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="273dfc63-7c61-4120-9f02-bc794df90a2f">
+				<Properties>
+					<Name>ИспользоватьВоинскийУчетВФормеСотрудника</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="f4bbbe41-8bd2-47c6-85bb-6b0ba357e5c4">
+				<Properties>
+					<Name>ИспользоватьЛичныеДанныеВФормеСотрудника</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

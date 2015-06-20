@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="701b8056-fd78-48f6-acd9-f45729647604">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЮТР_ВключениеПериодовТрудовойДеятельностиВСтаж" category="Record">
+				<xr:TypeId>d7188a91-bb7d-4f8d-b730-51c8d81a35c1</xr:TypeId>
+				<xr:ValueId>d7786a40-28c0-4be0-bd19-e25faafe63f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЮТР_ВключениеПериодовТрудовойДеятельностиВСтаж" category="Manager">
+				<xr:TypeId>2828d4f2-1d1f-4e63-bdd6-17735682326f</xr:TypeId>
+				<xr:ValueId>2ac51787-fb05-439d-8549-921f4385dc1e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЮТР_ВключениеПериодовТрудовойДеятельностиВСтаж" category="Selection">
+				<xr:TypeId>9f6a56df-2749-4076-8c99-65bb5829ddb4</xr:TypeId>
+				<xr:ValueId>4f65b4a0-9d1e-489e-be6f-f4828d7f97f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЮТР_ВключениеПериодовТрудовойДеятельностиВСтаж" category="List">
+				<xr:TypeId>c1df384e-e143-48fb-a76a-d0fb8a4a25ab</xr:TypeId>
+				<xr:ValueId>7ab87593-278a-470c-b805-b5254a6bc220</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЮТР_ВключениеПериодовТрудовойДеятельностиВСтаж" category="RecordSet">
+				<xr:TypeId>c588e1c1-80d1-4d48-91bf-f723d25881fd</xr:TypeId>
+				<xr:ValueId>5c48fba9-6a53-481c-8762-9e1606b90d19</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЮТР_ВключениеПериодовТрудовойДеятельностиВСтаж" category="RecordKey">
+				<xr:TypeId>b5e9d6b4-9cba-4097-a01f-6646fc2e1621</xr:TypeId>
+				<xr:ValueId>28011cea-3df9-4dda-b4c3-b639bab8fb15</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЮТР_ВключениеПериодовТрудовойДеятельностиВСтаж" category="RecordManager">
+				<xr:TypeId>fb9d57d1-70b1-46fe-b31a-4e45f8790d23</xr:TypeId>
+				<xr:ValueId>749f1b47-3d80-48a6-9503-c97a78d3d513</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_ВключениеПериодовТрудовойДеятельностиВСтаж</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="dd0c054a-1e89-4e87-aa4f-0d9fa40fcf78">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="5754f199-4906-4587-a2b2-c9ebfeaeda5f">
+				<Properties>
+					<Name>ID</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>32</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="5bbe1dec-516e-49b3-badc-b500e87ca24e">
+				<Properties>
+					<Name>ВидСтажа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыСтажа</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

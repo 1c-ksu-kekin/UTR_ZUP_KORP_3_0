@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="b1143d45-2835-425f-aa49-c09b1195d71c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЮТР_ПроизводственныеЕдиницы" category="Object">
+				<xr:TypeId>89f4fff6-73ae-4596-ab2d-e9634cf01bda</xr:TypeId>
+				<xr:ValueId>b0b2f8de-de31-41ae-b887-dc09ebcf2b87</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЮТР_ПроизводственныеЕдиницы" category="Ref">
+				<xr:TypeId>7d172438-06b7-4883-a6be-aaeb909aa14b</xr:TypeId>
+				<xr:ValueId>f2ae7d5d-341e-4a4d-9d87-b7d90fea36fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЮТР_ПроизводственныеЕдиницы" category="Selection">
+				<xr:TypeId>638778d2-37be-44cc-be70-228604baa05a</xr:TypeId>
+				<xr:ValueId>d6a8df55-3da3-444f-8003-e8c49aba5040</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЮТР_ПроизводственныеЕдиницы" category="List">
+				<xr:TypeId>c55baa98-e313-4403-bbb8-ec096e28ec0a</xr:TypeId>
+				<xr:ValueId>b537f37f-7bfe-433c-b4cb-d3d622ca3b85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЮТР_ПроизводственныеЕдиницы" category="Manager">
+				<xr:TypeId>569ec83d-6ccb-4643-b7c6-6a40aace7e87</xr:TypeId>
+				<xr:ValueId>aa1dd5d5-4d34-4de0-ba96-7e8a9fa1c72f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_ПроизводственныеЕдиницы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

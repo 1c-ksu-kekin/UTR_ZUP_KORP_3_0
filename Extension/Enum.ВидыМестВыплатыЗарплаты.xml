@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Enum uuid="9569a0c4-9341-4e69-8626-c5427279bcb7">
+	<Enum uuid="3e1d209e-13df-4607-bdb2-0658e430b804">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ВидыМестВыплатыЗарплаты" category="Ref">
-				<xr:TypeId>1aced12c-14c3-4494-b8f4-75f96cd96cab</xr:TypeId>
-				<xr:ValueId>18f2993a-a4ba-4a07-969b-177078fe09ea</xr:ValueId>
+				<xr:TypeId>29c0aca2-4e75-4fc7-accb-4a7eb2087ef2</xr:TypeId>
+				<xr:ValueId>5d808b89-7dfa-4268-a5c9-c7fe8c7206ac</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.ВидыМестВыплатыЗарплаты" category="Manager">
-				<xr:TypeId>f6ff64a7-aa1e-4d22-a247-5d7a4c350385</xr:TypeId>
-				<xr:ValueId>f2912904-4ca8-4665-b83f-612b544eb53b</xr:ValueId>
+				<xr:TypeId>ee1b72ad-f65e-4cc4-a280-c76cf58f353d</xr:TypeId>
+				<xr:ValueId>1dc0581b-6e3a-41a5-9591-1d8967e7f333</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.ВидыМестВыплатыЗарплаты" category="List">
-				<xr:TypeId>f0c2ec9f-4670-420d-953a-01aa04f200ba</xr:TypeId>
-				<xr:ValueId>6561193b-1875-46d1-8f83-71d9be2b7c16</xr:ValueId>
+				<xr:TypeId>df860047-eb91-4bf0-a9a7-f4a16f05f45d</xr:TypeId>
+				<xr:ValueId>b06addbe-a8ad-48a1-89f8-1a134ba1cf85</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -20,19 +20,19 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="3bbff5b8-1fc5-437b-bfe5-0a50430dba52">
+			<EnumValue uuid="ab80f331-60e0-416c-8c24-15c39bacda81">
 				<Properties>
 					<Name>Раздатчик</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="07ce62cd-3626-4b37-96bd-0c734fc3c848">
+			<EnumValue uuid="395574b4-6ce0-4dd1-b443-1380c77edd10">
 				<Properties>
 					<Name>ЗарплатныйПроект</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="bec9ebc0-e607-40ba-9211-45f07e4ea340">
+			<EnumValue uuid="76f38e57-a056-48bc-a762-6a1da7c79a46">
 				<Properties>
 					<Name>Касса</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>

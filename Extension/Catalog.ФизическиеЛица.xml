@@ -26,7 +26,96 @@
 		<Properties>
 			<Name>ФизическиеЛица</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>10</CodeLength>
+			<DescriptionLength>50</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="dfb3c806-0bf8-40cf-8815-a794b3b6d1fc">
+				<Properties>
+					<Name>ФИО</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="87480859-070b-4142-aa7d-520a25d0e396">
+				<Properties>
+					<Name>ИНН</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>12</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="61c8fd28-f4b2-4ae7-a868-e9e5c1213726">
+				<Properties>
+					<Name>ГруппаДоступа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГруппыДоступаФизическихЛиц</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dbb4d80f-16fe-4754-bf62-0154c6d0c86c">
+				<Properties>
+					<Name>УточнениеНаименования</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c2faf39b-b6b0-45b7-bb53-f7604311e416">
+				<Properties>
+					<Name>Пол</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПолФизическогоЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2e63d079-5f72-4ab0-9360-d1bba2bd7ef9">
+				<Properties>
+					<Name>ДатаРождения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bec227f8-799f-4943-8a9e-6dbc36bdbb6a">
+				<Properties>
+					<Name>СтраховойНомерПФР</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>14</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Form>ТрудоваяДеятельность</Form>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

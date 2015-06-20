@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<InformationRegister uuid="07771b38-3fb5-4ef4-aeb5-6c08b3666293">
+	<InformationRegister uuid="c3b56cd9-8a8e-43bf-ab0c-bafc830f96fc">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.МестаВыплатыЗарплатыПодразделений" category="Record">
-				<xr:TypeId>5d17062a-9a8d-4bef-97f6-ae399478df23</xr:TypeId>
-				<xr:ValueId>a892f8db-29ae-4dfa-993d-cd870e141dec</xr:ValueId>
+				<xr:TypeId>6278e1b5-8dff-4b6e-ae64-6b7d712cf5dc</xr:TypeId>
+				<xr:ValueId>334970aa-e0ad-49c2-91ea-7bca8e1a5ee0</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterManager.МестаВыплатыЗарплатыПодразделений" category="Manager">
-				<xr:TypeId>cadea0b3-2430-49ba-ae95-be4fa71d5b12</xr:TypeId>
-				<xr:ValueId>c00dda0a-0475-4846-8cc9-00454c270361</xr:ValueId>
+				<xr:TypeId>2e7fe312-d8ac-48c9-bd66-c3e1620a2b96</xr:TypeId>
+				<xr:ValueId>3803f30c-d7e6-4a0c-9241-29d67b2e8ce1</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterSelection.МестаВыплатыЗарплатыПодразделений" category="Selection">
-				<xr:TypeId>f1a9d32a-24b1-4256-b46a-1f47b13d8dd5</xr:TypeId>
-				<xr:ValueId>d5fa40a9-ed5f-4fb2-881f-2b53e6e8bca2</xr:ValueId>
+				<xr:TypeId>d9adcce5-80b5-40a6-ab09-1eac7d354c71</xr:TypeId>
+				<xr:ValueId>02195fd9-9672-4feb-9053-72b9918cf76b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterList.МестаВыплатыЗарплатыПодразделений" category="List">
-				<xr:TypeId>f9007224-c66f-4add-86fd-57484b15668d</xr:TypeId>
-				<xr:ValueId>a4f6cd65-53d9-49c7-b334-d39714f0976e</xr:ValueId>
+				<xr:TypeId>47b18c4d-2501-4fcf-a2ba-26a96c732f5f</xr:TypeId>
+				<xr:ValueId>08e74f0c-2679-4ff8-b44b-69e492b00cc2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordSet.МестаВыплатыЗарплатыПодразделений" category="RecordSet">
-				<xr:TypeId>5797e689-fcd4-4292-8f7e-443b4c18dc0b</xr:TypeId>
-				<xr:ValueId>c0519a63-1b58-4e0f-ad4d-0ad22c0e2193</xr:ValueId>
+				<xr:TypeId>b0c3a123-27a6-40aa-807d-4394a4358198</xr:TypeId>
+				<xr:ValueId>72819292-9993-4017-b0de-13157b8d1e9f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordKey.МестаВыплатыЗарплатыПодразделений" category="RecordKey">
-				<xr:TypeId>7a4ed6b2-8289-4050-bc07-184c157097fc</xr:TypeId>
-				<xr:ValueId>2aafafaa-1245-475f-97ae-21818ba1ec5b</xr:ValueId>
+				<xr:TypeId>75af0a7e-5cb2-4c42-a23f-9b122c25ee5f</xr:TypeId>
+				<xr:ValueId>40124a9e-b91c-44dc-b6dc-abcdefafc422</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordManager.МестаВыплатыЗарплатыПодразделений" category="RecordManager">
-				<xr:TypeId>6c01ba17-189d-4a1d-bccb-ef9b94ac2413</xr:TypeId>
-				<xr:ValueId>6dcfd5bd-67f1-41d4-ac3e-76c2e00e91a9</xr:ValueId>
+				<xr:TypeId>59e8a15d-1c4b-4541-9100-607ed6776843</xr:TypeId>
+				<xr:ValueId>75761b0c-3f78-4e90-ba04-1db01b98acd4</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -38,7 +38,7 @@
 			<WriteMode>Independent</WriteMode>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="65164387-b83c-4474-96f4-a33bd9cd1f57">
+			<Resource uuid="d58d7994-cc30-4e5c-b3ff-f97b0ffa6e50">
 				<Properties>
 					<Name>Вид</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -47,7 +47,7 @@
 					</Type>
 				</Properties>
 			</Resource>
-			<Resource uuid="82d1124d-c799-4efa-93cf-1d3b64692f9f">
+			<Resource uuid="079ec988-d4f5-4a88-8262-3a57c7f13424">
 				<Properties>
 					<Name>МестоВыплаты</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>

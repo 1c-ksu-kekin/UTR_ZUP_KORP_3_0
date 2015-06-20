@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="e754f478-6da2-415a-a831-14a8678de987">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СведенияОбИнвалидностиФизическихЛиц" category="Record">
+				<xr:TypeId>c4426d92-f3d9-4fb3-88d3-f795523fb512</xr:TypeId>
+				<xr:ValueId>5b54eb88-825b-471d-ac1f-15b6f0bbae4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СведенияОбИнвалидностиФизическихЛиц" category="Manager">
+				<xr:TypeId>8fb86434-5cd5-477e-9382-710fd67d444b</xr:TypeId>
+				<xr:ValueId>86810767-7997-45e1-a3f2-1ccef240686e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СведенияОбИнвалидностиФизическихЛиц" category="Selection">
+				<xr:TypeId>b6b0f7d4-b9f1-4bc7-94f2-b5f4a15ba435</xr:TypeId>
+				<xr:ValueId>8dba5c1c-c649-47da-a3ad-38fc3d4c8e09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СведенияОбИнвалидностиФизическихЛиц" category="List">
+				<xr:TypeId>20db7323-65aa-4518-952a-4f45985d4f34</xr:TypeId>
+				<xr:ValueId>e9bad779-d6a0-495a-bda4-01f070d2c50c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СведенияОбИнвалидностиФизическихЛиц" category="RecordSet">
+				<xr:TypeId>99edb30e-1a91-47eb-b9c5-54fb720016ae</xr:TypeId>
+				<xr:ValueId>07d0d8a7-665a-4909-8670-f06b9846229e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СведенияОбИнвалидностиФизическихЛиц" category="RecordKey">
+				<xr:TypeId>5774c13b-84c1-47e4-864e-fb5fb8956c16</xr:TypeId>
+				<xr:ValueId>82985798-4cab-47e4-b6f8-d3a69e82457d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СведенияОбИнвалидностиФизическихЛиц" category="RecordManager">
+				<xr:TypeId>14101921-ad8c-45ee-8c41-4ca54e615f0d</xr:TypeId>
+				<xr:ValueId>5f4a6971-c040-4c74-8e04-1e2254c72ad8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СведенияОбИнвалидностиФизическихЛиц</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Month</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

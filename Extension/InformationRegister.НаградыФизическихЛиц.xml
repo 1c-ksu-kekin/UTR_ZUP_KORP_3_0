@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="cf476b1d-7739-4d9a-8e53-10940cfbd704">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НаградыФизическихЛиц" category="Record">
+				<xr:TypeId>562f559b-e3de-42bf-9a5e-a47464e836ca</xr:TypeId>
+				<xr:ValueId>53c9bfed-dd81-40f7-a56c-f0b2bee62764</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НаградыФизическихЛиц" category="Manager">
+				<xr:TypeId>741f0a6c-c48d-47fc-bf14-a8602e0a635c</xr:TypeId>
+				<xr:ValueId>dfad9ba8-7359-4741-9307-1d50773d618a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НаградыФизическихЛиц" category="Selection">
+				<xr:TypeId>6276d105-7271-4310-adf6-b9f5391ce3b7</xr:TypeId>
+				<xr:ValueId>9228b213-b21b-4543-a41e-dd8f2f71262b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НаградыФизическихЛиц" category="List">
+				<xr:TypeId>6941a8c9-65d1-4e66-a22e-074010f5a6c8</xr:TypeId>
+				<xr:ValueId>1dbe1dfa-0d94-4005-9b9f-5f8714fbbbaf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НаградыФизическихЛиц" category="RecordSet">
+				<xr:TypeId>9f4dc883-8b36-4597-9bdb-c2f4645381bd</xr:TypeId>
+				<xr:ValueId>cd4baa75-ccbd-45ca-b772-06762e855ae7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НаградыФизическихЛиц" category="RecordKey">
+				<xr:TypeId>cef57930-ea19-477e-9ffa-d015fa41d11b</xr:TypeId>
+				<xr:ValueId>a49b6861-6177-4fed-ac60-c50035d36450</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НаградыФизическихЛиц" category="RecordManager">
+				<xr:TypeId>d4819dfe-81b3-41f9-9237-69db5d5bc8a2</xr:TypeId>
+				<xr:ValueId>05fd5d4e-c7ca-4200-829a-a0897d59f42b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НаградыФизическихЛиц</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="b42f4a2b-09d4-48b2-9eab-560644fc3d4d">
+				<Properties>
+					<Name>НомерПриказа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="d7f7e1b0-ad70-406d-98fb-6b74e48b9f76">
+				<Properties>
+					<Name>НаименованиеПриказа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="6c099214-2f43-41c4-85d1-d27c3ba9888e">
+				<Properties>
+					<Name>Награда</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Награды</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="83edc9db-909d-4018-a029-e8f6dca00cbb">
+				<Properties>
+					<Name>ДатаПриказа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

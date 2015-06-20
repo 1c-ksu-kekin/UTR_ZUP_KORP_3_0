@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="5dc387d2-d401-4ba7-981a-11bb656fab61">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЮТР_СтажСотрудниковОрганизаций" category="Record">
+				<xr:TypeId>6a06f5e5-3fef-46d0-9011-a26d83a3921e</xr:TypeId>
+				<xr:ValueId>3d213e87-7ae7-4940-90c4-9f9576f6617f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЮТР_СтажСотрудниковОрганизаций" category="Manager">
+				<xr:TypeId>d8ebb1c1-9227-4520-b9de-336fb5f1e596</xr:TypeId>
+				<xr:ValueId>3c8f854a-f74f-4dc2-b1b6-a67970985744</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЮТР_СтажСотрудниковОрганизаций" category="Selection">
+				<xr:TypeId>35d98d38-a314-43f4-b4ff-53c0566a63db</xr:TypeId>
+				<xr:ValueId>41498e31-ea7f-4b9f-a084-712f46e8861d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЮТР_СтажСотрудниковОрганизаций" category="List">
+				<xr:TypeId>ffdb4cc4-44ef-4ec2-909b-fb4f78434b83</xr:TypeId>
+				<xr:ValueId>8b8b83da-9ae8-4d51-ae2c-d6710efd17bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЮТР_СтажСотрудниковОрганизаций" category="RecordSet">
+				<xr:TypeId>e4a467c2-d650-4062-9316-87827297bf86</xr:TypeId>
+				<xr:ValueId>23afdd01-e222-47f0-a318-f08046d7f18e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЮТР_СтажСотрудниковОрганизаций" category="RecordKey">
+				<xr:TypeId>14fca797-f645-422c-a517-96ff3b60c5b4</xr:TypeId>
+				<xr:ValueId>e496201b-1958-4d70-b396-d6273854caf8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЮТР_СтажСотрудниковОрганизаций" category="RecordManager">
+				<xr:TypeId>018d46d8-59cb-4b0b-bcb9-f0b259dac51e</xr:TypeId>
+				<xr:ValueId>02cfae61-5590-4469-b1f0-bcc4c3462463</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_СтажСотрудниковОрганизаций</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="e9adf874-c96c-4a72-997c-3f64d7591b32">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="7ea3ca93-8581-4077-8554-12c9fabe1355">
+				<Properties>
+					<Name>ДействуетДо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="aa0cd2a5-01b2-4fe0-bb8f-16f3157eb6e1">
+				<Properties>
+					<Name>РазмерМесяцев</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="4ae980bd-12a3-4aa8-8c96-ef90481d8462">
+				<Properties>
+					<Name>РазмерДней</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="dfa13831-a9ad-4f7b-a7fa-0e8c23b16d9b">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="0e060888-f6f8-4df2-b609-d72c4c66464f">
+				<Properties>
+					<Name>ВидСтажа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыСтажа</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

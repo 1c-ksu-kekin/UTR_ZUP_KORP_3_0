@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="de76dced-49af-4fff-beed-b178109184da">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СоставыСемейФизическихЛиц" category="Record">
+				<xr:TypeId>f9b71fc3-05c9-4d01-a7e0-7ef3848b5f5d</xr:TypeId>
+				<xr:ValueId>1ec75963-8ac6-4eef-9cae-077836151fb5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СоставыСемейФизическихЛиц" category="Manager">
+				<xr:TypeId>fa5d74aa-977a-4c24-af81-9935b6a41771</xr:TypeId>
+				<xr:ValueId>f72cad07-406f-47b4-b5ac-a0a55390040b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СоставыСемейФизическихЛиц" category="Selection">
+				<xr:TypeId>4cf60e8b-70c7-4e1d-88d5-f6d1deb03da8</xr:TypeId>
+				<xr:ValueId>4b38e3b9-a358-4bf5-b0fa-637b9b96f606</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СоставыСемейФизическихЛиц" category="List">
+				<xr:TypeId>1cf7bc77-0364-4467-9cea-93bf32b45542</xr:TypeId>
+				<xr:ValueId>64dee600-b4a1-4c4b-bfe6-8731925ad3b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СоставыСемейФизическихЛиц" category="RecordSet">
+				<xr:TypeId>f58f97c2-2187-4928-a3a9-aa2fe30e8c36</xr:TypeId>
+				<xr:ValueId>b1e796cd-d9eb-4bd2-879b-15f13617fc82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СоставыСемейФизическихЛиц" category="RecordKey">
+				<xr:TypeId>bb696c93-600d-442a-a0a4-626dff926e10</xr:TypeId>
+				<xr:ValueId>c574c85a-3e74-4ae2-81b8-2afd836c3c70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СоставыСемейФизическихЛиц" category="RecordManager">
+				<xr:TypeId>94d19ee0-e885-48d6-b478-83f78fbcd087</xr:TypeId>
+				<xr:ValueId>93708886-9077-4d55-99e7-11f2ed609617</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СоставыСемейФизическихЛиц</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="2b62eb0c-3331-46e1-972a-506cc20f4e25">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СведенияОЛьготахФизическихЛицПострадавшихВАварииЧАЭС" category="Record">
+				<xr:TypeId>dfa3135c-9021-4075-8624-2f4b33208116</xr:TypeId>
+				<xr:ValueId>619d2c6c-a84c-4f81-8c30-0cacda9368d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СведенияОЛьготахФизическихЛицПострадавшихВАварииЧАЭС" category="Manager">
+				<xr:TypeId>05b7b20c-5b0b-4aec-adad-b85c76c68198</xr:TypeId>
+				<xr:ValueId>63c82f04-9683-4cf7-99a1-9be7c15170a9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СведенияОЛьготахФизическихЛицПострадавшихВАварииЧАЭС" category="Selection">
+				<xr:TypeId>473a26c7-2d23-4c88-8df2-7b45a555465d</xr:TypeId>
+				<xr:ValueId>1d84cf13-4b91-4aed-8a9d-adb61e1b697c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СведенияОЛьготахФизическихЛицПострадавшихВАварииЧАЭС" category="List">
+				<xr:TypeId>d5dc84c0-c9b9-4e56-a1c5-d5d12bc23f1c</xr:TypeId>
+				<xr:ValueId>f1c02918-a463-462f-ac6a-1b524fd09488</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СведенияОЛьготахФизическихЛицПострадавшихВАварииЧАЭС" category="RecordSet">
+				<xr:TypeId>a4a84180-406f-497d-9a48-a0ae215e61ad</xr:TypeId>
+				<xr:ValueId>f6a800b3-18bc-4ffb-8a3a-0ec772740bc5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СведенияОЛьготахФизическихЛицПострадавшихВАварииЧАЭС" category="RecordKey">
+				<xr:TypeId>77ba039e-01e6-4320-a9f1-ad1d48fe7794</xr:TypeId>
+				<xr:ValueId>515a182b-28b5-48ad-90bb-0ea22a574e04</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СведенияОЛьготахФизическихЛицПострадавшихВАварииЧАЭС" category="RecordManager">
+				<xr:TypeId>4b252586-1a12-4f5b-8b63-1e720270f692</xr:TypeId>
+				<xr:ValueId>e2779eee-011d-4d80-86ee-19a87fafabfb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СведенияОЛьготахФизическихЛицПострадавшихВАварииЧАЭС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

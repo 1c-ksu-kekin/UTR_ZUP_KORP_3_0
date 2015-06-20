@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="984bfe78-93c8-4362-a826-253fa0529f75">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиЗарплатаКадры" category="Record">
+				<xr:TypeId>9f3cccdc-51a7-4614-a2fe-e2544c16f673</xr:TypeId>
+				<xr:ValueId>4d77742e-8a7c-4ce2-9bf1-b8955dc926de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиЗарплатаКадры" category="Manager">
+				<xr:TypeId>5001e8bd-ddaa-41d5-bd76-9138d21f1702</xr:TypeId>
+				<xr:ValueId>4122df0e-b5e5-403b-bbff-387a053ae560</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиЗарплатаКадры" category="Selection">
+				<xr:TypeId>99034dd8-1711-49f0-aec5-972aefde9804</xr:TypeId>
+				<xr:ValueId>5ae80910-6dab-4da7-bc4b-341c7a216ca3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиЗарплатаКадры" category="List">
+				<xr:TypeId>20a312b1-f98f-4b29-90e5-1040ed503be9</xr:TypeId>
+				<xr:ValueId>da6625d3-9d56-42f6-8036-f757ffca28c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиЗарплатаКадры" category="RecordSet">
+				<xr:TypeId>08907c0c-f429-4b53-9363-d7ca00523706</xr:TypeId>
+				<xr:ValueId>e1b54df2-c4cd-408a-b18a-01d88eb4b502</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиЗарплатаКадры" category="RecordKey">
+				<xr:TypeId>7f437a30-5506-4603-9993-d2aa5f98c02b</xr:TypeId>
+				<xr:ValueId>e85138d6-36f5-4b19-ba97-d5c866d0f0b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиЗарплатаКадры" category="RecordManager">
+				<xr:TypeId>338a57c0-1cf7-48fd-b81d-aa78fd0a241b</xr:TypeId>
+				<xr:ValueId>362ce5e7-0196-45cc-9609-273427099a1e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиЗарплатаКадры</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="669333fe-97b9-40f0-ac00-e0e5a3d07691">
+				<Properties>
+					<Name>ПрименятьСевернуюНадбавку</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

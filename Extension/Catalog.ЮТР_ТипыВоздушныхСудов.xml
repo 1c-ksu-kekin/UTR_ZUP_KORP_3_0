@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="de0c815b-834d-4710-8dc5-94196982e4cc">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЮТР_ТипыВоздушныхСудов" category="Object">
+				<xr:TypeId>2a5a6c5f-5087-45f7-884f-8d4932e3bb2f</xr:TypeId>
+				<xr:ValueId>32a747d4-7f1f-4bb3-abed-7f4bbf33974f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЮТР_ТипыВоздушныхСудов" category="Ref">
+				<xr:TypeId>9c3aa526-a723-4591-8970-30cb282130ff</xr:TypeId>
+				<xr:ValueId>47dc8abd-0804-4158-a0d3-3c6c4922d623</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЮТР_ТипыВоздушныхСудов" category="Selection">
+				<xr:TypeId>a25ee5f9-faba-44c2-b55b-d97c9eb97bac</xr:TypeId>
+				<xr:ValueId>1a325a96-5cbd-4caa-9078-d3d268e02336</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЮТР_ТипыВоздушныхСудов" category="List">
+				<xr:TypeId>59d87b3a-b9c4-4edc-8297-8577113e0834</xr:TypeId>
+				<xr:ValueId>84c80386-fcf0-4f0e-9c76-edf673b0475c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЮТР_ТипыВоздушныхСудов" category="Manager">
+				<xr:TypeId>8d80017d-e07b-47ff-9fcc-a977d456fc04</xr:TypeId>
+				<xr:ValueId>115c8b27-e273-453a-a594-fe0fc8c0aeca</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_ТипыВоздушныхСудов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

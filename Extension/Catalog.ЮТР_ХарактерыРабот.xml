@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="e7d0c701-e745-4f4c-82ce-97725351f202">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЮТР_ХарактерыРабот" category="Object">
+				<xr:TypeId>4b5e0706-40d6-4969-9b5d-cd5bf8838497</xr:TypeId>
+				<xr:ValueId>bb7c46b9-7201-44d7-9fb4-8017968455b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЮТР_ХарактерыРабот" category="Ref">
+				<xr:TypeId>e7b6437c-bfb6-4e18-a145-14c90bcfa8bc</xr:TypeId>
+				<xr:ValueId>638952d4-cc86-403e-a170-90b443f2b418</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЮТР_ХарактерыРабот" category="Selection">
+				<xr:TypeId>8b0c8434-2d8b-4185-a9dc-dda3d5e3273c</xr:TypeId>
+				<xr:ValueId>f7549fc1-c96b-40ba-8b08-df3e3b92bb48</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЮТР_ХарактерыРабот" category="List">
+				<xr:TypeId>3a0bc38d-6d53-4c17-98a9-43b9aedb847f</xr:TypeId>
+				<xr:ValueId>96cc98cf-c110-49ae-ac5c-2a10f0c20369</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЮТР_ХарактерыРабот" category="Manager">
+				<xr:TypeId>68bc8d33-add9-4ea9-8115-76272c0b69da</xr:TypeId>
+				<xr:ValueId>8a88bb63-dbd2-49ff-bcd6-c9b2ae5b22fd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_ХарактерыРабот</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

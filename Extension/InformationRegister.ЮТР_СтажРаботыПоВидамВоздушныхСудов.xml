@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="d3aa003a-8df6-4391-98e9-9f3f2abc3a24">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЮТР_СтажРаботыПоВидамВоздушныхСудов" category="Record">
+				<xr:TypeId>7c3ed121-35f0-4570-800c-e8ce05fa4383</xr:TypeId>
+				<xr:ValueId>a3f220fa-1cec-4618-bf2e-df398848028f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЮТР_СтажРаботыПоВидамВоздушныхСудов" category="Manager">
+				<xr:TypeId>daa2d3ee-43ff-4cf9-8abb-b5ae3a89c49e</xr:TypeId>
+				<xr:ValueId>ef7731d5-604c-4a1d-94a4-11223fd17725</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЮТР_СтажРаботыПоВидамВоздушныхСудов" category="Selection">
+				<xr:TypeId>50ad8325-f65a-4a3a-82e3-dd967b67d3ed</xr:TypeId>
+				<xr:ValueId>dbf7364d-95c3-4f80-8d0c-37ad4bb9c421</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЮТР_СтажРаботыПоВидамВоздушныхСудов" category="List">
+				<xr:TypeId>6ad79e93-cf79-4a4a-8495-e58996c02c5d</xr:TypeId>
+				<xr:ValueId>6b91dfda-2647-4f1c-ba99-1d151937f4d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЮТР_СтажРаботыПоВидамВоздушныхСудов" category="RecordSet">
+				<xr:TypeId>9bc0c3b8-2590-4834-94fd-0be8ffb293af</xr:TypeId>
+				<xr:ValueId>3cbc604c-23f8-459d-9b5d-edd1c114fd68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЮТР_СтажРаботыПоВидамВоздушныхСудов" category="RecordKey">
+				<xr:TypeId>b4574014-6aad-481d-9ca5-f53c8f64c6d5</xr:TypeId>
+				<xr:ValueId>94a8e07e-38d5-4e25-ac23-a54f3d6f1740</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЮТР_СтажРаботыПоВидамВоздушныхСудов" category="RecordManager">
+				<xr:TypeId>4bab92da-1e20-4bf2-8bdf-e1ac103abbdd</xr:TypeId>
+				<xr:ValueId>c8b8c4f6-e808-4982-bfad-eadf31e01ae8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_СтажРаботыПоВидамВоздушныхСудов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="e57d8942-3be7-4407-9254-626dbdae15eb">
+				<Properties>
+					<Name>ДатаОкончания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="e620037f-a557-4e8a-9d8b-654732fdb8a9">
+				<Properties>
+					<Name>ДатаНачала</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="18a4c19b-8ac7-4f88-9673-e6b17497dde1">
+				<Properties>
+					<Name>ТипВоздушногоСудна</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_ТипыВоздушныхСудов</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="c69beee0-c0a7-4f4c-bbca-3b9dc311e908">
+				<Properties>
+					<Name>ВидРаботы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыРаботСотрудников</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="3d75f2cb-c9d8-4140-9cf8-b8bdd3806a4e">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>
