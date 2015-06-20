@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.32</Version>
+			<Version>3.0.22.182.33</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -146,15 +146,17 @@
 			<Constant>ИспользоватьПроцессыИЗадачи1СДокументооборота</Constant>
 			<Constant>ИспользоватьРасчетСохраняемогоДенежногоСодержания</Constant>
 			<Constant>ИспользоватьСвязанныеДокументы1СДокументооборота</Constant>
+			<Constant>ИспользоватьУчетКлассныхЧинов</Constant>
 			<Constant>ИспользоватьФайловоеХранилище1СДокументооборота</Constant>
 			<Constant>ИспользоватьЭлектроннуюПочту1СДокументооборота</Constant>
 			<Constant>ИспользоватьЭлектронныеПодписи</Constant>
 			<Constant>РаботаВБюджетномУчреждении</Constant>
-			<Constant>ИспользоватьУчетКлассныхЧинов</Constant>
 			<Constant>РаботаВХозрасчетнойОрганизации</Constant>
+			<CommonForm>ВводСтажаСотрудников</CommonForm>
 			<Catalog>Вакансии</Catalog>
 			<Catalog>Валюты</Catalog>
 			<Catalog>ВерсииФайлов</Catalog>
+			<Catalog>ВидыВычетовНДФЛ</Catalog>
 			<Catalog>ВидыДокументовОбОбразовании</Catalog>
 			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
 			<Catalog>ВидыИспользованияРабочегоВремени</Catalog>
@@ -195,12 +197,15 @@
 			<Catalog>ПрофилиДолжностей</Catalog>
 			<Catalog>РазрядыКатегорииДолжностей</Catalog>
 			<Catalog>РегистрацииВНалоговомОргане</Catalog>
+			<Catalog>СостояниеВБраке</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения</Catalog>
 			<Catalog>СпособыОтраженияЗарплатыВБухУчете</Catalog>
+			<Catalog>СтатусыНалогоплательщиковПоНДФЛ</Catalog>
 			<Catalog>СтатьиРасходовЗарплата</Catalog>
 			<Catalog>СтатьиФинансированияЗарплата</Catalog>
 			<Catalog>СтепениЗнанияЯзыка</Catalog>
+			<Catalog>СтепениРодстваФизическихЛиц</Catalog>
 			<Catalog>СтраныМира</Catalog>
 			<Catalog>СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы</Catalog>
 			<Catalog>СтруктураПредприятия</Catalog>
@@ -226,6 +231,7 @@
 			<Document>ВходящаяСправкаОЗаработкеДляРасчетаПособий</Document>
 			<Document>ДоговорЗаймаСотруднику</Document>
 			<Document>ЗаявкаНаПодборПерсонала</Document>
+			<Document>ЗаявлениеНаПредоставлениеСтандартныхВычетовПоНДФЛ</Document>
 			<Document>ИзменениеПлановыхНачислений</Document>
 			<Document>ИзменениеШтатногоРасписания</Document>
 			<Document>ИндивидуальныйГрафик</Document>
@@ -243,17 +249,20 @@
 			<Document>РазовоеНачисление</Document>
 			<Document>РеестрСЗВ_6_2</Document>
 			<Document>Совмещение</Document>
+			<Document>УведомлениеОПравеНаИмущественныйВычетДляНДФЛ</Document>
 			<Document>Увольнение</Document>
 			<Document>УдержаниеВСчетРасчетовПоПрочимОперациям</Document>
 			<Document>УтверждениеШтатногоРасписания</Document>
 			<Document>ЮТР_ГрупповойПриказ</Document>
 			<DocumentJournal>ДокументыУправленияШтатнымРасписанием</DocumentJournal>
+			<DocumentJournal>Отсутствия</DocumentJournal>
 			<Enum>ВариантыПравилЗаполненияРеквизитов</Enum>
 			<Enum>ВидыДнейПроизводственногоКалендаря</Enum>
 			<Enum>ВидыДоговоровССотрудниками</Enum>
 			<Enum>ВидыЗанятости</Enum>
 			<Enum>ВидыЗастрахованныхЛицОбязательногоСтрахования</Enum>
 			<Enum>ВидыМестВыплатыЗарплаты</Enum>
+			<Enum>ВидыПрофессиональнойПодготовки</Enum>
 			<Enum>ВидыРаботСДосрочнойПенсией</Enum>
 			<Enum>ВидыСтажаПФР2014</Enum>
 			<Enum>ВидыТарифныхСтавок</Enum>

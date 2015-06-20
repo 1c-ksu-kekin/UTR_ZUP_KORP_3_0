@@ -114,8 +114,28 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="faa73ffb-fe0a-4036-864b-652f982576d0">
+				<Properties>
+					<Name>ИмеетНаучныеТруды</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0adfe64b-8ff8-4332-aad7-fe08fa89e242">
+				<Properties>
+					<Name>ИмеетИзобретения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаЭлемента</Form>
 			<Form>ТрудоваяДеятельность</Form>
+			<Form>Семья</Form>
+			<Form>ОбразованиеКвалификация</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

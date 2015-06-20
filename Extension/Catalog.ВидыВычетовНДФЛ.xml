@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="f5646988-2f65-4972-b9c9-ade2b5af6c6a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыВычетовНДФЛ" category="Object">
+				<xr:TypeId>80b6c0c7-c7ec-405e-8f46-78c10f65b381</xr:TypeId>
+				<xr:ValueId>a71316d4-fa58-4137-b2c5-18a542e3a91d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыВычетовНДФЛ" category="Ref">
+				<xr:TypeId>b53bdfdf-214e-4acd-9a02-22ddc6c47dcf</xr:TypeId>
+				<xr:ValueId>549b096f-dd52-4e12-86fd-4505ded28a0d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыВычетовНДФЛ" category="Selection">
+				<xr:TypeId>5d3c20cd-b785-4a1c-a379-8cf0470fbe8c</xr:TypeId>
+				<xr:ValueId>70e0f949-330b-47c1-b2c8-54fb056c0d00</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыВычетовНДФЛ" category="List">
+				<xr:TypeId>2aab8dc0-e136-445c-926c-38510658238b</xr:TypeId>
+				<xr:ValueId>65111bc1-c95a-4ff8-93b9-d19a2aaaeeb5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыВычетовНДФЛ" category="Manager">
+				<xr:TypeId>0896941c-736e-4bb9-aef1-ec812bb7755b</xr:TypeId>
+				<xr:ValueId>247c3643-9121-4682-afc4-dc707b1f866a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыВычетовНДФЛ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

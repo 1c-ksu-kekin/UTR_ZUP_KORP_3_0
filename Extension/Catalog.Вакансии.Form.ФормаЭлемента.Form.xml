@@ -596,7 +596,7 @@
 								<ChildItems>
 									<Button name="КандидатыСправочникКандидатыСоздатьПоURL" id="164">
 										<Type>CommandBarButton</Type>
-										<CommandName>Catalog.Кандидаты.Command.СоздатьПоURL</CommandName>
+										<CommandName>0:d6b0604d-fec9-4710-8820-48b6e6f5db2d</CommandName>
 										<Parameter xsi:nil="true"/>
 										<ExtendedTooltip name="КандидатыСправочникКандидатыСоздатьПоURLРасширеннаяПодсказка" id="165"/>
 									</Button>
@@ -1761,7 +1761,7 @@
 									<ChildItems>
 										<Button name="КандидатыСправочникКандидатыСоздатьПоURL" id="164">
 											<Type>CommandBarButton</Type>
-											<CommandName>Catalog.Кандидаты.Command.СоздатьПоURL</CommandName>
+											<CommandName>0:d6b0604d-fec9-4710-8820-48b6e6f5db2d</CommandName>
 											<Parameter xsi:nil="true"/>
 											<ExtendedTooltip name="КандидатыСправочникКандидатыСоздатьПоURLРасширеннаяПодсказка" id="165"/>
 										</Button>

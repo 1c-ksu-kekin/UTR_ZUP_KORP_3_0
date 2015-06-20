@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="198faa10-ccff-4a19-853b-8e99d895c0fe">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатусыНалогоплательщиковПоНДФЛ" category="Object">
+				<xr:TypeId>444c1ec2-232e-484f-889a-55f2e4131ff1</xr:TypeId>
+				<xr:ValueId>a70c9471-3606-4c7f-8301-9f661a6459f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатусыНалогоплательщиковПоНДФЛ" category="Ref">
+				<xr:TypeId>b11d665c-aebc-4d6e-aa0f-4a6be21ef753</xr:TypeId>
+				<xr:ValueId>8b05d652-e036-43e1-a15b-d0cd9b429e32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатусыНалогоплательщиковПоНДФЛ" category="Selection">
+				<xr:TypeId>d63f0498-c55a-4b9a-b73c-6af34da34b3a</xr:TypeId>
+				<xr:ValueId>913a4a95-25ce-43ac-a6b8-0396413497b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатусыНалогоплательщиковПоНДФЛ" category="List">
+				<xr:TypeId>2c8bc858-b771-48e6-8592-7d598f31be56</xr:TypeId>
+				<xr:ValueId>201e3998-22be-4ef6-8f4b-cc059c0ce19a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатусыНалогоплательщиковПоНДФЛ" category="Manager">
+				<xr:TypeId>49b01809-f85c-404c-8426-5ef35d35a65e</xr:TypeId>
+				<xr:ValueId>1766d71d-ed6c-495d-8b18-b5cb25f46cb5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыНалогоплательщиковПоНДФЛ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

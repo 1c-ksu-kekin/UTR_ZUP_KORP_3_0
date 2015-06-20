@@ -1,0 +1,1510 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Width>60</Width>
+	<CommandBarLocation>Bottom</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<CommandSet>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>CustomizeForm</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>Close</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<HorizontalAlign>Right</HorizontalAlign>
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаОк" id="38">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.Ок</CommandName>
+				<Parameter xsi:nil="true"/>
+				<ExtendedTooltip name="ФормаОкРасширеннаяПодсказка" id="39"/>
+			</Button>
+			<Button name="ФормаОтмена" id="40">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Отмена</CommandName>
+				<Parameter xsi:nil="true"/>
+				<ExtendedTooltip name="ФормаОтменаРасширеннаяПодсказка" id="41"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="ОбщаяГруппа" id="22">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ОбщаяГруппаExtendedTooltip" id="23"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаФизическоеЛицоОбразование" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Образование</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаФизическоеЛицоОбразованиеExtendedTooltip" id="24"/>
+					<ChildItems>
+						<Table name="ОбразованиеФизическихЛиц" id="42">
+							<Height>2</Height>
+							<HeightInTableRows>1</HeightInTableRows>
+							<VerticalScrollBar>DontUse</VerticalScrollBar>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ОбразованиеФизическихЛиц</DataPath>
+							<CommandSet>
+								<ExcludedCommand>ListSettings</ExcludedCommand>
+								<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+								<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Choose</ExcludedCommand>
+								<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+							</CommandSet>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period xsi:type="v8:StandardPeriod">
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<ContextMenu name="ОбразованиеФизическихЛицКонтекстноеМеню" id="43"/>
+							<AutoCommandBar name="ОбразованиеФизическихЛицКоманднаяПанель" id="44"/>
+							<ExtendedTooltip name="ОбразованиеФизическихЛицРасширеннаяПодсказка" id="45"/>
+							<SearchStringAddition name="ОбразованиеФизическихЛицСтрокаПоиска" id="99">
+								<Source>
+									<lf:elementId>42</lf:elementId>
+									<lf:additionId>0</lf:additionId>
+								</Source>
+								<ContextMenu name="ОбразованиеФизическихЛицСтрокаПоискаКонтекстноеМеню" id="100"/>
+								<ExtendedTooltip name="ОбразованиеФизическихЛицСтрокаПоискаРасширеннаяПодсказка" id="101"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ОбразованиеФизическихЛицСостояниеПросмотра" id="102">
+								<Source>
+									<lf:elementId>42</lf:elementId>
+									<lf:additionId>1</lf:additionId>
+								</Source>
+								<ContextMenu name="ОбразованиеФизическихЛицСостояниеПросмотраКонтекстноеМеню" id="103"/>
+								<ExtendedTooltip name="ОбразованиеФизическихЛицСостояниеПросмотраРасширеннаяПодсказка" id="104"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ОбразованиеФизическихЛицУправлениеПоиском" id="105">
+								<Source>
+									<lf:elementId>42</lf:elementId>
+									<lf:additionId>2</lf:additionId>
+								</Source>
+								<ContextMenu name="ОбразованиеФизическихЛицУправлениеПоискомКонтекстноеМеню" id="106"/>
+								<ExtendedTooltip name="ОбразованиеФизическихЛицУправлениеПоискомРасширеннаяПодсказка" id="107"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<ColumnGroup name="ОбразованиеФизическихЛицГруппаВидОбразолвания" id="97">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Вид образования</v8:content>
+										</v8:item>
+									</Title>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="ОбразованиеФизическихЛицГруппаВидОбразолванияРасширеннаяПодсказка" id="98"/>
+									<ChildItems>
+										<LabelField name="ОбразованиеФизическихЛицВидОбразования" id="52">
+											<DataPath>ОбразованиеФизическихЛиц.ВидОбразования</DataPath>
+											<ShowInHeader>false</ShowInHeader>
+											<ContextMenu name="ОбразованиеФизическихЛицВидОбразованияКонтекстноеМеню" id="53"/>
+											<ExtendedTooltip name="ОбразованиеФизическихЛицВидОбразованияРасширеннаяПодсказка" id="54"/>
+										</LabelField>
+										<LabelField name="ОбразованиеФизическихЛицВидПослевузовскогоОбразования" id="55">
+											<DataPath>ОбразованиеФизическихЛиц.ВидПослевузовскогоОбразования</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Вид образования</v8:content>
+												</v8:item>
+											</Title>
+											<ShowInHeader>false</ShowInHeader>
+											<ContextMenu name="ОбразованиеФизическихЛицВидПослевузовскогоОбразованияКонтекстноеМеню" id="56"/>
+											<ExtendedTooltip name="ОбразованиеФизическихЛицВидПослевузовскогоОбразованияРасширеннаяПодсказка" id="57"/>
+										</LabelField>
+										<LabelField name="ОбразованиеФизическихЛицВидДополнительногоОбучения" id="94">
+											<DataPath>ОбразованиеФизическихЛиц.ВидДополнительногоОбучения</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Вид образования</v8:content>
+												</v8:item>
+											</Title>
+											<ShowInHeader>false</ShowInHeader>
+											<ContextMenu name="ОбразованиеФизическихЛицВидДополнительногоОбученияКонтекстноеМеню" id="95"/>
+											<ExtendedTooltip name="ОбразованиеФизическихЛицВидДополнительногоОбученияРасширеннаяПодсказка" id="96"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+								<LabelField name="ОбразованиеФизическихЛицУчебноеЗаведение" id="58">
+									<DataPath>ОбразованиеФизическихЛиц.УчебноеЗаведение</DataPath>
+									<ContextMenu name="ОбразованиеФизическихЛицУчебноеЗаведениеКонтекстноеМеню" id="59"/>
+									<ExtendedTooltip name="ОбразованиеФизическихЛицУчебноеЗаведениеРасширеннаяПодсказка" id="60"/>
+								</LabelField>
+								<LabelField name="ОбразованиеФизическихЛицОкончание" id="82">
+									<DataPath>ОбразованиеФизическихЛиц.Окончание</DataPath>
+									<Width>10</Width>
+									<ContextMenu name="ОбразованиеФизическихЛицОкончаниеКонтекстноеМеню" id="83"/>
+									<ExtendedTooltip name="ОбразованиеФизическихЛицОкончаниеРасширеннаяПодсказка" id="84"/>
+								</LabelField>
+								<CheckBoxField name="ЮТР_ОбразованиеФизическихЛицОсновное" id="121">
+									<DataPath>ОбразованиеФизическихЛиц.ОсновноеОбразование</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Основное образование</v8:content>
+										</v8:item>
+									</Title>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ЮТР_ОбразованиеФизическихЛицОсновноеКонтекстноеМеню" id="122"/>
+									<ExtendedTooltip name="ЮТР_ОбразованиеФизическихЛицОсновноеРасширеннаяПодсказка" id="123"/>
+								</CheckBoxField>
+								<CheckBoxField name="ЮТР_ОбразованиеФизическихЛицПрофильное" id="124">
+									<DataPath>ОбразованиеФизическихЛиц.Профильное</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Профильное образование</v8:content>
+										</v8:item>
+									</Title>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ЮТР_ОбразованиеФизическихЛицПрофильноеКонтекстноеМеню" id="125"/>
+									<ExtendedTooltip name="ЮТР_ОбразованиеФизическихЛицПрофильноеРасширеннаяПодсказка" id="126"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаФизическоеЛицоПрофессии" id="18">
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаФизическоеЛицоПрофессииExtendedTooltip" id="27"/>
+					<ChildItems>
+						<LabelField name="ФизическоеЛицоПрофессииТекст" id="19">
+							<DataPath>ФизическоеЛицоПрофессииТекст</DataPath>
+							<TitleLocation>Left</TitleLocation>
+							<Height>2</Height>
+							<VerticalStretch>false</VerticalStretch>
+							<ContextMenu name="ФизическоеЛицоПрофессииТекстКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ФизическоеЛицоПрофессииТекстExtendedTooltip" id="28"/>
+						</LabelField>
+						<Button name="ФизическоеЛицоПрофессииИзменить" id="21">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ФизическоеЛицоПрофессииИзменить</CommandName>
+							<Parameter xsi:nil="true"/>
+							<ExtendedTooltip name="ФизическоеЛицоПрофессииИзменитьExtendedTooltip" id="29"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаФизическоеЛицоСпециальности" id="108">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа физическое лицо специальности</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаФизическоеЛицоСпециальностиРасширеннаяПодсказка" id="109"/>
+					<ChildItems>
+						<LabelField name="ФизическоеЛицоСпециальностиТекст" id="110">
+							<DataPath>ФизическоеЛицоСпециальностиТекст</DataPath>
+							<TitleLocation>Left</TitleLocation>
+							<Height>2</Height>
+							<VerticalStretch>false</VerticalStretch>
+							<ContextMenu name="ФизическоеЛицоСпециальностиТекстКонтекстноеМеню" id="111"/>
+							<ExtendedTooltip name="ФизическоеЛицоСпециальностиТекстРасширеннаяПодсказка" id="112"/>
+						</LabelField>
+						<Button name="ФизическоеЛицоСпециальностиИзменить" id="113">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ФизическоеЛицоСпециальностиИзменить</CommandName>
+							<Parameter xsi:nil="true"/>
+							<ExtendedTooltip name="ФизическоеЛицоСпециальностиИзменитьРасширеннаяПодсказка" id="114"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаФизическоеЛицоЗнаниеЯзыков" id="5">
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаФизическоеЛицоЗнаниеЯзыковExtendedTooltip" id="30"/>
+					<ChildItems>
+						<LabelField name="ФизическоеЛицоЗнаниеЯзыковТекст" id="6">
+							<DataPath>ФизическоеЛицоЗнаниеЯзыковТекст</DataPath>
+							<TitleLocation>Left</TitleLocation>
+							<Height>2</Height>
+							<VerticalStretch>false</VerticalStretch>
+							<ContextMenu name="ФизическоеЛицоЗнаниеЯзыковТекстКонтекстноеМеню" id="7"/>
+							<ExtendedTooltip name="ФизическоеЛицоЗнаниеЯзыковТекстExtendedTooltip" id="31"/>
+						</LabelField>
+						<Button name="ФизическоеЛицоЗнаниеЯзыковИзменить" id="8">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ФизическоеЛицоЗнаниеЯзыковИзменить</CommandName>
+							<Parameter xsi:nil="true"/>
+							<ExtendedTooltip name="ФизическоеЛицоЗнаниеЯзыковИзменитьExtendedTooltip" id="32"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаНаучныеДостижения" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Научные достижения</v8:content>
+						</v8:item>
+					</Title>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаНаучныеДостиженияExtendedTooltip" id="33"/>
+					<ChildItems>
+						<LabelField name="ФизическоеЛицоУченыеСтепениТекст" id="10">
+							<DataPath>ФизическоеЛицоУченыеСтепениТекст</DataPath>
+							<TitleLocation>Left</TitleLocation>
+							<Height>2</Height>
+							<VerticalStretch>false</VerticalStretch>
+							<Hiperlink>true</Hiperlink>
+							<ContextMenu name="ФизическоеЛицоУченыеСтепениТекстКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ФизическоеЛицоУченыеСтепениТекстExtendedTooltip" id="34"/>
+						</LabelField>
+						<LabelField name="ФизическоеЛицоУченыеЗванияТекст" id="12">
+							<DataPath>ФизическоеЛицоУченыеЗванияТекст</DataPath>
+							<TitleLocation>Left</TitleLocation>
+							<Height>2</Height>
+							<VerticalStretch>false</VerticalStretch>
+							<Hiperlink>true</Hiperlink>
+							<ContextMenu name="ФизическоеЛицоУченыеЗванияТекстКонтекстноеМеню" id="13"/>
+							<ExtendedTooltip name="ФизическоеЛицоУченыеЗванияТекстExtendedTooltip" id="35"/>
+						</LabelField>
+						<CheckBoxField name="ИмеетНаучныеТруды" id="14">
+							<DataPath>ФизическоеЛицо.ИмеетНаучныеТруды</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИмеетНаучныеТрудыКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="ИмеетНаучныеТрудыExtendedTooltip" id="36"/>
+						</CheckBoxField>
+						<CheckBoxField name="ФизическоеЛицоИмеетИзобретения" id="16">
+							<DataPath>ФизическоеЛицо.ИмеетИзобретения</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ФизическоеЛицоИмеетИзобретенияКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ФизическоеЛицоИмеетИзобретенияExtendedTooltip" id="37"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ФизическоеЛицоЗнаниеЯзыковТекст" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Владение языками</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="ФизическоеЛицоУченыеЗванияТекст" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ученые звания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="ФизическоеЛицоУченыеСтепениТекст" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ученые степени</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="ФизическоеЛицоСсылка" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физическое лицо ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ФизическоеЛицоПрофессииТекст" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Профессии</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОткрытаИзФормыСотрудника" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыта из формы сотрудника</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СотрудникСсылка" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ФизическоеЛицо" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физическое лицо</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogObject.ФизическиеЛица</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОбразованиеФизическихЛиц" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Образование физических лиц</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.ОбразованиеФизическихЛиц</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Окончание</dcsset:field>
+							<dcsset:orderType>Desc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ОсновноеОбразование</dcsset:field>
+							<dcsset:orderType>Desc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ВидОбразования.Код</dcsset:field>
+							<dcsset:orderType>Desc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>ВидОбразования</dcsset:field>
+								</dcsset:item>
+								<dcsset:item>
+									<dcsset:field>ВидПослевузовскогоОбразования</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">ОсновноеОбразование</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Видимость</dcscor:parameter>
+									<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>ВидДополнительногоОбучения</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">ОсновноеОбразование</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">ВидДополнительногоОбучения</dcsset:left>
+									<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Текст</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">Дополнительное обучение</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>Видимость</dcscor:parameter>
+									<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>ВидДополнительногоОбучения</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">ОсновноеОбразование</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Видимость</dcscor:parameter>
+									<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>ВидОбразования</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">ОсновноеОбразование</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">ВидОбразования</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.ВидыОбразованияФизическихЛиц.ПослевузовскоеОбразование</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Видимость</dcscor:parameter>
+									<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>ВидПослевузовскогоОбразования</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">ОсновноеОбразование</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">ВидОбразования</dcsset:left>
+									<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.ВидыОбразованияФизическихЛиц.ПослевузовскоеОбразование</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Видимость</dcscor:parameter>
+									<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ФизическоеЛицоПочетныеЗванияТекст" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Почетные звания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="ФизическоеЛицоСпециальностиТекст" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Специальности</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ОбразованиеФизическихЛицВидОбразования</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ОбразованиеФизическихЛиц.ВидОбразования</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Видимость</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ОбразованиеФизическихЛицВидПослевузовскогоОбразования</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ОбразованиеФизическихЛиц.ВидПослевузовскогоОбразования</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Видимость</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ОбразованиеФизическихЛицВидДополнительногоОбучения</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ОбразованиеФизическихЛиц.ВидДополнительногоОбучения</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Видимость</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="ФизическоеЛицоЗнаниеЯзыковИзменить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физическое лицо знание языков изменить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Use>
+				<xr:Common>false</xr:Common>
+			</Use>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+			</FunctionalOptions>
+		</Command>
+		<Command name="ФизическоеЛицоПрофессииИзменить" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физическое лицо профессии изменить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Use>
+				<xr:Common>false</xr:Common>
+			</Use>
+		</Command>
+		<Command name="Ок" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>OK</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ок</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Use>
+				<xr:Common>false</xr:Common>
+			</Use>
+		</Command>
+		<Command name="Отмена" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ФизическоеЛицоСпециальностиИзменить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физическое лицо профессии изменить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Use>
+				<xr:Common>false</xr:Common>
+			</Use>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="АдресВХранилище">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ФизическоеЛицоСсылка">
+			<Type>
+				<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="СотрудникСсылка">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+			</Type>
+		</Parameter>
+	</Parameters>
+	<BaseForm>
+		<Width>60</Width>
+		<CommandBarLocation>Bottom</CommandBarLocation>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<CommandSet>
+			<ExcludedCommand>No</ExcludedCommand>
+			<ExcludedCommand>CustomizeForm</ExcludedCommand>
+			<ExcludedCommand>SaveValues</ExcludedCommand>
+			<ExcludedCommand>Close</ExcludedCommand>
+			<ExcludedCommand>Help</ExcludedCommand>
+			<ExcludedCommand>Abort</ExcludedCommand>
+			<ExcludedCommand>Retry</ExcludedCommand>
+			<ExcludedCommand>Yes</ExcludedCommand>
+			<ExcludedCommand>Cancel</ExcludedCommand>
+			<ExcludedCommand>RestoreValues</ExcludedCommand>
+			<ExcludedCommand>Ignore</ExcludedCommand>
+			<ExcludedCommand>OK</ExcludedCommand>
+		</CommandSet>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<HorizontalAlign>Right</HorizontalAlign>
+			<Autofill>false</Autofill>
+			<ChildItems>
+				<Button name="ФормаОк" id="38">
+					<Type>CommandBarButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.Ок</CommandName>
+					<Parameter xsi:nil="true"/>
+					<ExtendedTooltip name="ФормаОкРасширеннаяПодсказка" id="39"/>
+				</Button>
+				<Button name="ФормаОтмена" id="40">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.Отмена</CommandName>
+					<Parameter xsi:nil="true"/>
+					<ExtendedTooltip name="ФормаОтменаРасширеннаяПодсказка" id="41"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="ОбщаяГруппа" id="22">
+				<HorizontalStretch>true</HorizontalStretch>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ОбщаяГруппаExtendedTooltip" id="23"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаФизическоеЛицоОбразование" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Образование</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Horizontal</Group>
+						<Representation>None</Representation>
+						<ExtendedTooltip name="ГруппаФизическоеЛицоОбразованиеExtendedTooltip" id="24"/>
+						<ChildItems>
+							<Table name="ОбразованиеФизическихЛиц" id="42">
+								<Height>2</Height>
+								<HeightInTableRows>1</HeightInTableRows>
+								<VerticalScrollBar>DontUse</VerticalScrollBar>
+								<UseAlternationRowColor>true</UseAlternationRowColor>
+								<EnableStartDrag>true</EnableStartDrag>
+								<DataPath>ОбразованиеФизическихЛиц</DataPath>
+								<CommandSet>
+									<ExcludedCommand>ListSettings</ExcludedCommand>
+									<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+									<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+									<ExcludedCommand>CancelSearch</ExcludedCommand>
+									<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+									<ExcludedCommand>Choose</ExcludedCommand>
+									<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+									<ExcludedCommand>Find</ExcludedCommand>
+									<ExcludedCommand>Delete</ExcludedCommand>
+								</CommandSet>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<AutoRefresh>false</AutoRefresh>
+								<AutoRefreshPeriod>60</AutoRefreshPeriod>
+								<Period xsi:type="v8:StandardPeriod">
+									<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+									<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+									<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+								</Period>
+								<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+								<RestoreCurrentRow>false</RestoreCurrentRow>
+								<TopLevelParent xsi:nil="true"/>
+								<ShowRoot>true</ShowRoot>
+								<AllowRootChoice>false</AllowRootChoice>
+								<UpdateOnDataChange>Auto</UpdateOnDataChange>
+								<ContextMenu name="ОбразованиеФизическихЛицКонтекстноеМеню" id="43"/>
+								<AutoCommandBar name="ОбразованиеФизическихЛицКоманднаяПанель" id="44"/>
+								<ExtendedTooltip name="ОбразованиеФизическихЛицРасширеннаяПодсказка" id="45"/>
+								<SearchStringAddition name="ОбразованиеФизическихЛицСтрокаПоиска" id="99">
+									<Source>
+										<lf:elementId>42</lf:elementId>
+										<lf:additionId>0</lf:additionId>
+									</Source>
+									<ContextMenu name="ОбразованиеФизическихЛицСтрокаПоискаКонтекстноеМеню" id="100"/>
+									<ExtendedTooltip name="ОбразованиеФизическихЛицСтрокаПоискаРасширеннаяПодсказка" id="101"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="ОбразованиеФизическихЛицСостояниеПросмотра" id="102">
+									<Source>
+										<lf:elementId>42</lf:elementId>
+										<lf:additionId>1</lf:additionId>
+									</Source>
+									<ContextMenu name="ОбразованиеФизическихЛицСостояниеПросмотраКонтекстноеМеню" id="103"/>
+									<ExtendedTooltip name="ОбразованиеФизическихЛицСостояниеПросмотраРасширеннаяПодсказка" id="104"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="ОбразованиеФизическихЛицУправлениеПоиском" id="105">
+									<Source>
+										<lf:elementId>42</lf:elementId>
+										<lf:additionId>2</lf:additionId>
+									</Source>
+									<ContextMenu name="ОбразованиеФизическихЛицУправлениеПоискомКонтекстноеМеню" id="106"/>
+									<ExtendedTooltip name="ОбразованиеФизическихЛицУправлениеПоискомРасширеннаяПодсказка" id="107"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<ColumnGroup name="ОбразованиеФизическихЛицГруппаВидОбразолвания" id="97">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Вид образования</v8:content>
+											</v8:item>
+										</Title>
+										<ShowInHeader>true</ShowInHeader>
+										<ExtendedTooltip name="ОбразованиеФизическихЛицГруппаВидОбразолванияРасширеннаяПодсказка" id="98"/>
+										<ChildItems>
+											<LabelField name="ОбразованиеФизическихЛицВидОбразования" id="52">
+												<DataPath>ОбразованиеФизическихЛиц.ВидОбразования</DataPath>
+												<ShowInHeader>false</ShowInHeader>
+												<ContextMenu name="ОбразованиеФизическихЛицВидОбразованияКонтекстноеМеню" id="53"/>
+												<ExtendedTooltip name="ОбразованиеФизическихЛицВидОбразованияРасширеннаяПодсказка" id="54"/>
+											</LabelField>
+											<LabelField name="ОбразованиеФизическихЛицВидПослевузовскогоОбразования" id="55">
+												<DataPath>ОбразованиеФизическихЛиц.ВидПослевузовскогоОбразования</DataPath>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Вид образования</v8:content>
+													</v8:item>
+												</Title>
+												<ShowInHeader>false</ShowInHeader>
+												<ContextMenu name="ОбразованиеФизическихЛицВидПослевузовскогоОбразованияКонтекстноеМеню" id="56"/>
+												<ExtendedTooltip name="ОбразованиеФизическихЛицВидПослевузовскогоОбразованияРасширеннаяПодсказка" id="57"/>
+											</LabelField>
+											<LabelField name="ОбразованиеФизическихЛицВидДополнительногоОбучения" id="94">
+												<DataPath>ОбразованиеФизическихЛиц.ВидДополнительногоОбучения</DataPath>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Вид образования</v8:content>
+													</v8:item>
+												</Title>
+												<ShowInHeader>false</ShowInHeader>
+												<ContextMenu name="ОбразованиеФизическихЛицВидДополнительногоОбученияКонтекстноеМеню" id="95"/>
+												<ExtendedTooltip name="ОбразованиеФизическихЛицВидДополнительногоОбученияРасширеннаяПодсказка" id="96"/>
+											</LabelField>
+										</ChildItems>
+									</ColumnGroup>
+									<LabelField name="ОбразованиеФизическихЛицУчебноеЗаведение" id="58">
+										<DataPath>ОбразованиеФизическихЛиц.УчебноеЗаведение</DataPath>
+										<ContextMenu name="ОбразованиеФизическихЛицУчебноеЗаведениеКонтекстноеМеню" id="59"/>
+										<ExtendedTooltip name="ОбразованиеФизическихЛицУчебноеЗаведениеРасширеннаяПодсказка" id="60"/>
+									</LabelField>
+									<LabelField name="ОбразованиеФизическихЛицОкончание" id="82">
+										<DataPath>ОбразованиеФизическихЛиц.Окончание</DataPath>
+										<Width>10</Width>
+										<ContextMenu name="ОбразованиеФизическихЛицОкончаниеКонтекстноеМеню" id="83"/>
+										<ExtendedTooltip name="ОбразованиеФизическихЛицОкончаниеРасширеннаяПодсказка" id="84"/>
+									</LabelField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаФизическоеЛицоПрофессии" id="18">
+						<Group>Horizontal</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаФизическоеЛицоПрофессииExtendedTooltip" id="27"/>
+						<ChildItems>
+							<LabelField name="ФизическоеЛицоПрофессииТекст" id="19">
+								<DataPath>ФизическоеЛицоПрофессииТекст</DataPath>
+								<TitleLocation>Left</TitleLocation>
+								<Height>2</Height>
+								<VerticalStretch>false</VerticalStretch>
+								<ContextMenu name="ФизическоеЛицоПрофессииТекстКонтекстноеМеню" id="20"/>
+								<ExtendedTooltip name="ФизическоеЛицоПрофессииТекстExtendedTooltip" id="28"/>
+							</LabelField>
+							<Button name="ФизическоеЛицоПрофессииИзменить" id="21">
+								<Type>Hyperlink</Type>
+								<CommandName>Form.Command.ФизическоеЛицоПрофессииИзменить</CommandName>
+								<Parameter xsi:nil="true"/>
+								<ExtendedTooltip name="ФизическоеЛицоПрофессииИзменитьExtendedTooltip" id="29"/>
+							</Button>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаФизическоеЛицоСпециальности" id="108">
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа физическое лицо специальности</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Horizontal</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаФизическоеЛицоСпециальностиРасширеннаяПодсказка" id="109"/>
+						<ChildItems>
+							<LabelField name="ФизическоеЛицоСпециальностиТекст" id="110">
+								<DataPath>ФизическоеЛицоСпециальностиТекст</DataPath>
+								<TitleLocation>Left</TitleLocation>
+								<Height>2</Height>
+								<VerticalStretch>false</VerticalStretch>
+								<ContextMenu name="ФизическоеЛицоСпециальностиТекстКонтекстноеМеню" id="111"/>
+								<ExtendedTooltip name="ФизическоеЛицоСпециальностиТекстРасширеннаяПодсказка" id="112"/>
+							</LabelField>
+							<Button name="ФизическоеЛицоСпециальностиИзменить" id="113">
+								<Type>Hyperlink</Type>
+								<CommandName>Form.Command.ФизическоеЛицоСпециальностиИзменить</CommandName>
+								<Parameter xsi:nil="true"/>
+								<ExtendedTooltip name="ФизическоеЛицоСпециальностиИзменитьРасширеннаяПодсказка" id="114"/>
+							</Button>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаФизическоеЛицоЗнаниеЯзыков" id="5">
+						<Group>Horizontal</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаФизическоеЛицоЗнаниеЯзыковExtendedTooltip" id="30"/>
+						<ChildItems>
+							<LabelField name="ФизическоеЛицоЗнаниеЯзыковТекст" id="6">
+								<DataPath>ФизическоеЛицоЗнаниеЯзыковТекст</DataPath>
+								<TitleLocation>Left</TitleLocation>
+								<Height>2</Height>
+								<VerticalStretch>false</VerticalStretch>
+								<ContextMenu name="ФизическоеЛицоЗнаниеЯзыковТекстКонтекстноеМеню" id="7"/>
+								<ExtendedTooltip name="ФизическоеЛицоЗнаниеЯзыковТекстExtendedTooltip" id="31"/>
+							</LabelField>
+							<Button name="ФизическоеЛицоЗнаниеЯзыковИзменить" id="8">
+								<Type>Hyperlink</Type>
+								<CommandName>Form.Command.ФизическоеЛицоЗнаниеЯзыковИзменить</CommandName>
+								<Parameter xsi:nil="true"/>
+								<ExtendedTooltip name="ФизическоеЛицоЗнаниеЯзыковИзменитьExtendedTooltip" id="32"/>
+							</Button>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаНаучныеДостижения" id="9">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Научные достижения</v8:content>
+							</v8:item>
+						</Title>
+						<Representation>None</Representation>
+						<ExtendedTooltip name="ГруппаНаучныеДостиженияExtendedTooltip" id="33"/>
+						<ChildItems>
+							<LabelField name="ФизическоеЛицоУченыеСтепениТекст" id="10">
+								<DataPath>ФизическоеЛицоУченыеСтепениТекст</DataPath>
+								<TitleLocation>Left</TitleLocation>
+								<Height>2</Height>
+								<VerticalStretch>false</VerticalStretch>
+								<Hiperlink>true</Hiperlink>
+								<ContextMenu name="ФизическоеЛицоУченыеСтепениТекстКонтекстноеМеню" id="11"/>
+								<ExtendedTooltip name="ФизическоеЛицоУченыеСтепениТекстExtendedTooltip" id="34"/>
+							</LabelField>
+							<LabelField name="ФизическоеЛицоУченыеЗванияТекст" id="12">
+								<DataPath>ФизическоеЛицоУченыеЗванияТекст</DataPath>
+								<TitleLocation>Left</TitleLocation>
+								<Height>2</Height>
+								<VerticalStretch>false</VerticalStretch>
+								<Hiperlink>true</Hiperlink>
+								<ContextMenu name="ФизическоеЛицоУченыеЗванияТекстКонтекстноеМеню" id="13"/>
+								<ExtendedTooltip name="ФизическоеЛицоУченыеЗванияТекстExtendedTooltip" id="35"/>
+							</LabelField>
+							<CheckBoxField name="ИмеетНаучныеТруды" id="14">
+								<DataPath>ФизическоеЛицо.ИмеетНаучныеТруды</DataPath>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИмеетНаучныеТрудыКонтекстноеМеню" id="15"/>
+								<ExtendedTooltip name="ИмеетНаучныеТрудыExtendedTooltip" id="36"/>
+							</CheckBoxField>
+							<CheckBoxField name="ФизическоеЛицоИмеетИзобретения" id="16">
+								<DataPath>ФизическоеЛицо.ИмеетИзобретения</DataPath>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ФизическоеЛицоИмеетИзобретенияКонтекстноеМеню" id="17"/>
+								<ExtendedTooltip name="ФизическоеЛицоИмеетИзобретенияExtendedTooltip" id="37"/>
+							</CheckBoxField>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="ФизическоеЛицоЗнаниеЯзыковТекст" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Владение языками</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="ФизическоеЛицоУченыеЗванияТекст" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Ученые звания</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="ФизическоеЛицоУченыеСтепениТекст" id="4">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Ученые степени</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="ФизическоеЛицоСсылка" id="5">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Физическое лицо ссылка</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ФизическоеЛицоПрофессииТекст" id="6">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Профессии</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="ОткрытаИзФормыСотрудника" id="9">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Открыта из формы сотрудника</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="СотрудникСсылка" id="10">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сотрудник ссылка</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ФизическоеЛицо" id="11">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Физическое лицо</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogObject.ФизическиеЛица</v8:Type>
+				</Type>
+				<SavedData>true</SavedData>
+			</Attribute>
+			<Attribute name="ОбразованиеФизическихЛиц" id="7">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Образование физических лиц</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:DynamicList</v8:Type>
+				</Type>
+				<Settings xsi:type="DynamicList">
+					<ManualQuery>false</ManualQuery>
+					<DynamicDataRead>true</DynamicDataRead>
+					<MainTable>Catalog.ОбразованиеФизическихЛиц</MainTable>
+					<ListSettings>
+						<dcsset:filter>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+						</dcsset:filter>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemField">
+								<dcsset:field>Окончание</dcsset:field>
+								<dcsset:orderType>Desc</dcsset:orderType>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:OrderItemField">
+								<dcsset:field>ОсновноеОбразование</dcsset:field>
+								<dcsset:orderType>Desc</dcsset:orderType>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:OrderItemField">
+								<dcsset:field>ВидОбразования.Код</dcsset:field>
+								<dcsset:orderType>Desc</dcsset:orderType>
+							</dcsset:item>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+						</dcsset:order>
+						<dcsset:conditionalAppearance>
+							<dcsset:item>
+								<dcsset:selection>
+									<dcsset:item>
+										<dcsset:field>ВидОбразования</dcsset:field>
+									</dcsset:item>
+									<dcsset:item>
+										<dcsset:field>ВидПослевузовскогоОбразования</dcsset:field>
+									</dcsset:item>
+								</dcsset:selection>
+								<dcsset:filter>
+									<dcsset:item xsi:type="dcsset:FilterItemComparison">
+										<dcsset:left xsi:type="dcscor:Field">ОсновноеОбразование</dcsset:left>
+										<dcsset:comparisonType>Equal</dcsset:comparisonType>
+										<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+									</dcsset:item>
+								</dcsset:filter>
+								<dcsset:appearance>
+									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+										<dcscor:parameter>Видимость</dcscor:parameter>
+										<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+									</dcscor:item>
+								</dcsset:appearance>
+							</dcsset:item>
+							<dcsset:item>
+								<dcsset:selection>
+									<dcsset:item>
+										<dcsset:field>ВидДополнительногоОбучения</dcsset:field>
+									</dcsset:item>
+								</dcsset:selection>
+								<dcsset:filter>
+									<dcsset:item xsi:type="dcsset:FilterItemComparison">
+										<dcsset:left xsi:type="dcscor:Field">ОсновноеОбразование</dcsset:left>
+										<dcsset:comparisonType>Equal</dcsset:comparisonType>
+										<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+									</dcsset:item>
+									<dcsset:item xsi:type="dcsset:FilterItemComparison">
+										<dcsset:left xsi:type="dcscor:Field">ВидДополнительногоОбучения</dcsset:left>
+										<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+									</dcsset:item>
+								</dcsset:filter>
+								<dcsset:appearance>
+									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+										<dcscor:parameter>Текст</dcscor:parameter>
+										<dcscor:value xsi:type="xs:string">Дополнительное обучение</dcscor:value>
+									</dcscor:item>
+									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+										<dcscor:use>false</dcscor:use>
+										<dcscor:parameter>Видимость</dcscor:parameter>
+										<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+									</dcscor:item>
+								</dcsset:appearance>
+							</dcsset:item>
+							<dcsset:item>
+								<dcsset:selection>
+									<dcsset:item>
+										<dcsset:field>ВидДополнительногоОбучения</dcsset:field>
+									</dcsset:item>
+								</dcsset:selection>
+								<dcsset:filter>
+									<dcsset:item xsi:type="dcsset:FilterItemComparison">
+										<dcsset:left xsi:type="dcscor:Field">ОсновноеОбразование</dcsset:left>
+										<dcsset:comparisonType>Equal</dcsset:comparisonType>
+										<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+									</dcsset:item>
+								</dcsset:filter>
+								<dcsset:appearance>
+									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+										<dcscor:parameter>Видимость</dcscor:parameter>
+										<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+									</dcscor:item>
+								</dcsset:appearance>
+							</dcsset:item>
+							<dcsset:item>
+								<dcsset:selection>
+									<dcsset:item>
+										<dcsset:field>ВидОбразования</dcsset:field>
+									</dcsset:item>
+								</dcsset:selection>
+								<dcsset:filter>
+									<dcsset:item xsi:type="dcsset:FilterItemComparison">
+										<dcsset:left xsi:type="dcscor:Field">ОсновноеОбразование</dcsset:left>
+										<dcsset:comparisonType>Equal</dcsset:comparisonType>
+										<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+									</dcsset:item>
+									<dcsset:item xsi:type="dcsset:FilterItemComparison">
+										<dcsset:left xsi:type="dcscor:Field">ВидОбразования</dcsset:left>
+										<dcsset:comparisonType>Equal</dcsset:comparisonType>
+										<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.ВидыОбразованияФизическихЛиц.ПослевузовскоеОбразование</dcsset:right>
+									</dcsset:item>
+								</dcsset:filter>
+								<dcsset:appearance>
+									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+										<dcscor:parameter>Видимость</dcscor:parameter>
+										<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+									</dcscor:item>
+								</dcsset:appearance>
+							</dcsset:item>
+							<dcsset:item>
+								<dcsset:selection>
+									<dcsset:item>
+										<dcsset:field>ВидПослевузовскогоОбразования</dcsset:field>
+									</dcsset:item>
+								</dcsset:selection>
+								<dcsset:filter>
+									<dcsset:item xsi:type="dcsset:FilterItemComparison">
+										<dcsset:left xsi:type="dcscor:Field">ОсновноеОбразование</dcsset:left>
+										<dcsset:comparisonType>Equal</dcsset:comparisonType>
+										<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+									</dcsset:item>
+									<dcsset:item xsi:type="dcsset:FilterItemComparison">
+										<dcsset:left xsi:type="dcscor:Field">ВидОбразования</dcsset:left>
+										<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+										<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.ВидыОбразованияФизическихЛиц.ПослевузовскоеОбразование</dcsset:right>
+									</dcsset:item>
+								</dcsset:filter>
+								<dcsset:appearance>
+									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+										<dcscor:parameter>Видимость</dcscor:parameter>
+										<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+									</dcscor:item>
+								</dcsset:appearance>
+							</dcsset:item>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+						</dcsset:conditionalAppearance>
+						<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					</ListSettings>
+				</Settings>
+			</Attribute>
+			<Attribute name="ФизическоеЛицоПочетныеЗванияТекст" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Почетные звания</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="ФизическоеЛицоСпециальностиТекст" id="8">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Специальности</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Attribute>
+		</Attributes>
+		<Commands>
+			<Command name="ФизическоеЛицоЗнаниеЯзыковИзменить" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Изменить</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Физическое лицо знание языков изменить</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Use>
+					<xr:Common>false</xr:Common>
+				</Use>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+				</FunctionalOptions>
+			</Command>
+			<Command name="ФизическоеЛицоПрофессииИзменить" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Изменить</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Физическое лицо профессии изменить</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Use>
+					<xr:Common>false</xr:Common>
+				</Use>
+			</Command>
+			<Command name="Ок" id="4">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>OK</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Ок</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Use>
+					<xr:Common>false</xr:Common>
+				</Use>
+			</Command>
+			<Command name="Отмена" id="5">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отмена</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отмена</v8:content>
+					</v8:item>
+				</ToolTip>
+			</Command>
+			<Command name="ФизическоеЛицоСпециальностиИзменить" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Изменить</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Физическое лицо профессии изменить</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Use>
+					<xr:Common>false</xr:Common>
+				</Use>
+			</Command>
+		</Commands>
+		<Parameters>
+			<Parameter name="АдресВХранилище">
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Parameter>
+			<Parameter name="ФизическоеЛицоСсылка">
+				<Type>
+					<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+				</Type>
+			</Parameter>
+			<Parameter name="СотрудникСсылка">
+				<Type>
+					<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+				</Type>
+			</Parameter>
+		</Parameters>
+	</BaseForm>
+</Form>

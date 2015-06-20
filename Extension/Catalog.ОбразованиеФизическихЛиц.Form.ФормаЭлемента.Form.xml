@@ -174,7 +174,7 @@
 							<ContextMenu name="КвалификацияКонтекстноеМеню" id="35"/>
 							<ExtendedTooltip name="КвалификацияРасширеннаяПодсказка" id="36"/>
 						</InputField>
-						<Button name="ОбщаяКомандаЮТР_ПереводВлатиницуКВ" id="108">
+						<Button name="ЮТР_ОбщаяКомандаПереводВлатиницуКВ" id="108">
 							<Type>UsualButton</Type>
 							<Representation>Picture</Representation>
 							<OnlyInAllActions>false</OnlyInAllActions>
@@ -184,7 +184,7 @@
 								<xr:Ref>CommonPicture.ЮТР_Транслит</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</Picture>
-							<ExtendedTooltip name="ОбщаяКомандаЮТР_ПереводВлатиницуКВРасширеннаяПодсказка" id="109"/>
+							<ExtendedTooltip name="ЮТР_ОбщаяКомандаПереводВлатиницуКВРасширеннаяПодсказка" id="109"/>
 						</Button>
 					</ChildItems>
 				</UsualGroup>
@@ -236,7 +236,7 @@
 									<ContextMenu name="НаименованиеКурсаКонтекстноеМеню" id="44"/>
 									<ExtendedTooltip name="НаименованиеКурсаРасширеннаяПодсказка" id="45"/>
 								</InputField>
-								<Button name="ОбщаяКомандаЮТР_ПереводВлатиницуКурс" id="112">
+								<Button name="ЮТР_ОбщаяКомандаПереводВлатиницуКурс" id="112">
 									<Type>UsualButton</Type>
 									<Representation>Picture</Representation>
 									<CommandName>CommonCommand.ЮТР_ПереводВлатиницу</CommandName>
@@ -245,7 +245,7 @@
 										<xr:Ref>CommonPicture.ЮТР_Транслит</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
-									<ExtendedTooltip name="ОбщаяКомандаЮТР_ПереводВлатиницуКурсРасширеннаяПодсказка" id="113"/>
+									<ExtendedTooltip name="ЮТР_ОбщаяКомандаПереводВлатиницуКурсРасширеннаяПодсказка" id="113"/>
 								</Button>
 							</ChildItems>
 						</UsualGroup>
@@ -257,51 +257,6 @@
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
-			</ChildItems>
-		</UsualGroup>
-		<UsualGroup name="ГруппаПрофильностьОбразования" id="95">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Вид образования по ОКИН</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа вид образования</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Group>Horizontal</Group>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаПрофильностьОбразованияРасширеннаяПодсказка" id="96"/>
-			<ChildItems>
-				<LabelDecoration name="Декорация1" id="103">
-					<Width>12</Width>
-					<Title formatted="false">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Тип образования</v8:content>
-						</v8:item>
-					</Title>
-					<ContextMenu name="Декорация1КонтекстноеМеню" id="104"/>
-					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="105"/>
-				</LabelDecoration>
-				<CheckBoxField name="Основное" id="97">
-					<DataPath>Объект.Основное</DataPath>
-					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ОсновноеКонтекстноеМеню" id="98"/>
-					<ExtendedTooltip name="ОсновноеРасширеннаяПодсказка" id="99"/>
-				</CheckBoxField>
-				<CheckBoxField name="Профильное" id="100">
-					<DataPath>Объект.Профильное</DataPath>
-					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ПрофильноеКонтекстноеМеню" id="101"/>
-					<ExtendedTooltip name="ПрофильноеРасширеннаяПодсказка" id="102"/>
-				</CheckBoxField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаДокумент" id="49">
@@ -611,51 +566,6 @@
 							</InputField>
 						</ChildItems>
 					</UsualGroup>
-				</ChildItems>
-			</UsualGroup>
-			<UsualGroup name="ГруппаПрофильностьОбразования" id="95">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Вид образования по ОКИН</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Группа вид образования</v8:content>
-					</v8:item>
-				</ToolTip>
-				<Group>Horizontal</Group>
-				<Representation>None</Representation>
-				<ShowTitle>false</ShowTitle>
-				<ExtendedTooltip name="ГруппаПрофильностьОбразованияРасширеннаяПодсказка" id="96"/>
-				<ChildItems>
-					<LabelDecoration name="Декорация1" id="103">
-						<Width>12</Width>
-						<Title formatted="false">
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Тип образования</v8:content>
-							</v8:item>
-						</Title>
-						<ContextMenu name="Декорация1КонтекстноеМеню" id="104"/>
-						<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="105"/>
-					</LabelDecoration>
-					<CheckBoxField name="Основное" id="97">
-						<DataPath>Объект.Основное</DataPath>
-						<TitleLocation>Right</TitleLocation>
-						<CheckBoxType>Auto</CheckBoxType>
-						<ContextMenu name="ОсновноеКонтекстноеМеню" id="98"/>
-						<ExtendedTooltip name="ОсновноеРасширеннаяПодсказка" id="99"/>
-					</CheckBoxField>
-					<CheckBoxField name="Профильное" id="100">
-						<DataPath>Объект.Профильное</DataPath>
-						<TitleLocation>Right</TitleLocation>
-						<CheckBoxType>Auto</CheckBoxType>
-						<ContextMenu name="ПрофильноеКонтекстноеМеню" id="101"/>
-						<ExtendedTooltip name="ПрофильноеРасширеннаяПодсказка" id="102"/>
-					</CheckBoxField>
 				</ChildItems>
 			</UsualGroup>
 			<UsualGroup name="ГруппаДокумент" id="49">

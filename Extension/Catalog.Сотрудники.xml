@@ -30,6 +30,8 @@
 		<ChildObjects>
 			<Form>ЛичныеДанные</Form>
 			<Form>ФормаЭлемента</Form>
+			<Form>НалогНаДоходы</Form>
+			<Form>Отсутствия</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

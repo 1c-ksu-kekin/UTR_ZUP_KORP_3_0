@@ -205,6 +205,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="eef85487-70f5-487f-9588-cd6dbcf38ae4">
+				<Properties>
+					<Name>ВидДополнительногоОбучения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыПрофессиональнойПодготовки</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>

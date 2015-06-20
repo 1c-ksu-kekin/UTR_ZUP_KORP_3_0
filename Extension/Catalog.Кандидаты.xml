@@ -66,13 +66,6 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Command uuid="d6b0604d-fec9-4710-8820-48b6e6f5db2d">
-				<Properties>
-					<Name>СоздатьПоURL</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Group>ActionsPanelCreate</Group>
-				</Properties>
-			</Command>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

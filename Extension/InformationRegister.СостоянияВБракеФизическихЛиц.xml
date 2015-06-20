@@ -37,6 +37,26 @@
 			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Resource uuid="22793098-fc05-4ee7-950f-7af6eefc2f85">
+				<Properties>
+					<Name>ЮТР_ОдинокийРодитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="acb544f1-2fd1-4774-b592-2ba1d77555b3">
+				<Properties>
+					<Name>СостояниеВБраке</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СостояниеВБраке</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Form>РедактированиеИстории</Form>
+		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

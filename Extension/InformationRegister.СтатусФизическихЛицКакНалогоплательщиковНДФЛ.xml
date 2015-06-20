@@ -37,6 +37,16 @@
 			<InformationRegisterPeriodicity>Month</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Resource uuid="ece4dfea-cd31-4f87-8ea4-0fda5d6f4b27">
+				<Properties>
+					<Name>Статус</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтатусыНалогоплательщиковПоНДФЛ</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

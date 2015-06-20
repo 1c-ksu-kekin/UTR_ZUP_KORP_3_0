@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems">
+	<Item id="5ab08956-35e8-402a-86fb-38f92d00c73a">
+		<Name>Нерезидент</Name>
+		<Code>000000001</Code>
+		<Description>Нерезидент</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1b1c60ee-4114-48b9-bf48-60b6eef680ac">
+		<Name>Резидент</Name>
+		<Code>000000002</Code>
+		<Description>Резидент</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

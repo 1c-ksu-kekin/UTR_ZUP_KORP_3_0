@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="1b16b3e0-256d-4f01-afc2-4675fa4543c7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СостояниеВБраке" category="Object">
+				<xr:TypeId>7bccb01c-c0d0-4a8b-93ab-0b69af45f3ef</xr:TypeId>
+				<xr:ValueId>e6fce981-bb74-418c-8378-c479103f00c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СостояниеВБраке" category="Ref">
+				<xr:TypeId>9909b434-a9fe-41da-a147-1614240fe02d</xr:TypeId>
+				<xr:ValueId>edeb9b17-fe71-4702-964e-d2bd690daa93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СостояниеВБраке" category="Selection">
+				<xr:TypeId>64e6ed3e-1a62-4265-a6e6-cf444666676a</xr:TypeId>
+				<xr:ValueId>45ac3cd1-e94e-46d2-932f-48894785bec0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СостояниеВБраке" category="List">
+				<xr:TypeId>57dc0924-54e8-4beb-a44b-39b00188e974</xr:TypeId>
+				<xr:ValueId>a7167d28-3b37-4892-9420-994dec4e9fd9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СостояниеВБраке" category="Manager">
+				<xr:TypeId>75c361c8-5b5d-4d6c-ab07-e7f1014b8678</xr:TypeId>
+				<xr:ValueId>31e7767b-c2cb-4f30-9309-2d58a71192da</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостояниеВБраке</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

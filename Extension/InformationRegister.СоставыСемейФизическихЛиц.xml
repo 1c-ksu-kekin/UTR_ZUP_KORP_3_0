@@ -37,6 +37,41 @@
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Resource uuid="f93ab83f-4928-4d25-b9bf-b2f07fe03b17">
+				<Properties>
+					<Name>СтепеньРодства</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтепениРодстваФизическихЛиц</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="91857990-15e1-4337-8eb2-2be0aa7fb376">
+				<Properties>
+					<Name>ФИО</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="f1649200-cd9c-4c67-b5af-0a2b7108ed9e">
+				<Properties>
+					<Name>ДатаРождения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

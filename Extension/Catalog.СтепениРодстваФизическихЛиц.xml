@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="7cb5024a-8ae2-4f29-b71d-239f98971ee4">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтепениРодстваФизическихЛиц" category="Object">
+				<xr:TypeId>0752c94c-0e13-4d29-bbc7-5f6a52eb8c9f</xr:TypeId>
+				<xr:ValueId>ed2769c8-9ba5-49f5-a31d-42f537f369ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтепениРодстваФизическихЛиц" category="Ref">
+				<xr:TypeId>b8890ffa-b550-42b3-9ef1-28b7be11ad05</xr:TypeId>
+				<xr:ValueId>34e9d95c-84a7-4507-a0b3-1552e451c98b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтепениРодстваФизическихЛиц" category="Selection">
+				<xr:TypeId>29fe7b4b-86c9-4162-bfce-be4141b3b944</xr:TypeId>
+				<xr:ValueId>8dd25423-383a-4645-88ad-a3d6d2c9c5df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтепениРодстваФизическихЛиц" category="List">
+				<xr:TypeId>cc52f363-5510-4e38-98b4-b8866f96e961</xr:TypeId>
+				<xr:ValueId>8551f355-a74b-45b9-b472-9a63d5e8f706</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтепениРодстваФизическихЛиц" category="Manager">
+				<xr:TypeId>4878c9b3-6206-4515-bbdf-28f40e72dfa0</xr:TypeId>
+				<xr:ValueId>c4f175fe-fc74-4f08-a6a5-cc3f0e6070be</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтепениРодстваФизическихЛиц</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

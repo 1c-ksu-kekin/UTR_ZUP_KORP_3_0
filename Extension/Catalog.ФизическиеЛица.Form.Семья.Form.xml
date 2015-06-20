@@ -1,0 +1,716 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Width>75</Width>
+	<CommandBarLocation>Bottom</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<CommandSet>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>CustomizeForm</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>Close</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<HorizontalAlign>Right</HorizontalAlign>
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаОк" id="48">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.Ок</CommandName>
+				<Parameter xsi:nil="true"/>
+				<ExtendedTooltip name="ФормаОкРасширеннаяПодсказка" id="49"/>
+			</Button>
+			<Button name="ФормаОтмена" id="50">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Отмена</CommandName>
+				<Parameter xsi:nil="true"/>
+				<ExtendedTooltip name="ФормаОтменаРасширеннаяПодсказка" id="51"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="ОбщаяГруппа" id="35">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ОбщаяГруппаExtendedTooltip" id="37"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаСостоянияВБракеФизическихЛиц" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состояние в браке</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа состояния в браке физических лиц</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаСостоянияВБракеФизическихЛицРасширеннаяПодсказка" id="38"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаСостояниеВБракеГоризонтальная" id="3">
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаСостояниеВБракеГоризонтальнаяРасширеннаяПодсказка" id="39"/>
+							<ChildItems>
+								<InputField name="СостоянияВБракеФизическихЛицСостояниеВБраке" id="4">
+									<DataPath>СостоянияВБракеФизическихЛиц.СостояниеВБраке</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="СостоянияВБракеФизическихЛицСостояниеВБракеКонтекстноеМеню" id="5"/>
+									<ExtendedTooltip name="СостоянияВБракеФизическихЛицСостояниеВБракеРасширеннаяПодсказка" id="40"/>
+								</InputField>
+								<CheckBoxField name="ЮТР_СостоянияВБракеФизическихЛицОдинокийРодитель" id="61">
+									<DataPath>СостоянияВБракеФизическихЛиц.ЮТР_ОдинокийРодитель</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Одинокий родитель</v8:content>
+										</v8:item>
+									</Title>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ЮТР_СостоянияВБракеФизическихЛицОдинокийРодительКонтекстноеМеню" id="62"/>
+									<ExtendedTooltip name="ЮТР_СостоянияВБракеФизическихЛицОдинокийРодительРасширеннаяПодсказка" id="63"/>
+									<Events>
+										<Event name="OnChange">ЮТР_СостоянияВБракеФизическихЛицОдинокийРодительПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<InputField name="СостоянияВБракеФизическихЛицПериод" id="6">
+									<DataPath>СостоянияВБракеФизическихЛиц.Period</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сведения действуют с</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СостоянияВБракеФизическихЛицПериодКонтекстноеМеню" id="7"/>
+									<ExtendedTooltip name="СостоянияВБракеФизическихЛицПериодРасширеннаяПодсказка" id="41"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<Button name="СостоянияВБракеФизическихЛицИстория" id="8">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.СостоянияВБракеФизическихЛицИстория</CommandName>
+							<Parameter xsi:nil="true"/>
+							<ExtendedTooltip name="СостоянияВБракеФизическихЛицИсторияРасширеннаяПодсказка" id="42"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаФизическоеЛицоСоставСемьи" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состав семьи</v8:content>
+						</v8:item>
+					</Title>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаФизическоеЛицоСоставСемьиExtendedTooltip" id="43"/>
+					<ChildItems>
+						<Table name="СоставыСемейФизическихЛиц" id="22">
+							<TitleLocation>Auto</TitleLocation>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>СоставыСемейФизическихЛиц</DataPath>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СоставыСемейФизическихЛицКонтекстноеМеню" id="23"/>
+							<AutoCommandBar name="СоставыСемейФизическихЛицКоманднаяПанель" id="24"/>
+							<ExtendedTooltip name="СоставыСемейФизическихЛицExtendedTooltip" id="44"/>
+							<SearchStringAddition name="СоставыСемейФизическихЛицСтрокаПоиска" id="52">
+								<Source>
+									<lf:elementId>22</lf:elementId>
+									<lf:additionId>0</lf:additionId>
+								</Source>
+								<ContextMenu name="СоставыСемейФизическихЛицСтрокаПоискаКонтекстноеМеню" id="53"/>
+								<ExtendedTooltip name="СоставыСемейФизическихЛицСтрокаПоискаРасширеннаяПодсказка" id="54"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СоставыСемейФизическихЛицСостояниеПросмотра" id="55">
+								<Source>
+									<lf:elementId>22</lf:elementId>
+									<lf:additionId>1</lf:additionId>
+								</Source>
+								<ContextMenu name="СоставыСемейФизическихЛицСостояниеПросмотраКонтекстноеМеню" id="56"/>
+								<ExtendedTooltip name="СоставыСемейФизическихЛицСостояниеПросмотраРасширеннаяПодсказка" id="57"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СоставыСемейФизическихЛицУправлениеПоиском" id="58">
+								<Source>
+									<lf:elementId>22</lf:elementId>
+									<lf:additionId>2</lf:additionId>
+								</Source>
+								<ContextMenu name="СоставыСемейФизическихЛицУправлениеПоискомКонтекстноеМеню" id="59"/>
+								<ExtendedTooltip name="СоставыСемейФизическихЛицУправлениеПоискомРасширеннаяПодсказка" id="60"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="СоставыСемейФизическихЛицСтепеньРодства" id="29">
+									<DataPath>СоставыСемейФизическихЛиц.СтепеньРодства</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>15</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="СоставыСемейФизическихЛицСтепеньРодстваКонтекстноеМеню" id="30"/>
+									<ExtendedTooltip name="СоставыСемейФизическихЛицСтепеньРодстваExtendedTooltip" id="45"/>
+								</InputField>
+								<InputField name="СоставыСемейФизическихЛицФИО" id="31">
+									<DataPath>СоставыСемейФизическихЛиц.ФИО</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СоставыСемейФизическихЛицФИОКонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="СоставыСемейФизическихЛицФИОExtendedTooltip" id="46"/>
+								</InputField>
+								<InputField name="СоставыСемейФизическихЛицДатаРождения" id="33">
+									<DataPath>СоставыСемейФизическихЛиц.ДатаРождения</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="СоставыСемейФизическихЛицДатаРожденияКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="СоставыСемейФизическихЛицДатаРожденияExtendedTooltip" id="47"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="СостоянияВБракеФизическихЛиц" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояния в браке физических лиц</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.СостоянияВБракеФизическихЛиц</v8:Type>
+			</Type>
+			<View>
+				<xr:Common>false</xr:Common>
+			</View>
+			<Edit>
+				<xr:Common>false</xr:Common>
+			</Edit>
+			<SavedData>true</SavedData>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="СостоянияВБракеФизическихЛицНаборЗаписей" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояния в браке физических лиц набор записей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.СостоянияВБракеФизическихЛиц</v8:Type>
+			</Type>
+			<View>
+				<xr:Common>false</xr:Common>
+			</View>
+			<SavedData>true</SavedData>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="СостоянияВБракеФизическихЛицНаборЗаписейПрочитан" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояния в браке физических лиц набор записей прочитан</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СостоянияВБракеФизическихЛицНоваяЗапись" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояния в браке физических лиц новая запись</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СостоянияВБракеФизическихЛицПрежняя" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояния в браке физических лиц прежняя</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ФизическоеЛицоСсылка" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физическое лицо ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СоставыСемейФизическихЛиц" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состав семьи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.СоставыСемейФизическихЛиц</v8:Type>
+			</Type>
+			<View>
+				<xr:Common>false</xr:Common>
+			</View>
+			<Edit>
+				<xr:Common>false</xr:Common>
+			</Edit>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="СоставыСемейФизическихЛицПрочитан" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Составы семей физических лиц прочитан</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СостоянияВБракеФизическихЛицИстория" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>История изменения состояния в браке</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояния в браке физических лиц история</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Use>
+				<xr:Common>false</xr:Common>
+			</Use>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+			</FunctionalOptions>
+		</Command>
+		<Command name="Ок" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>OK</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ок</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Use>
+				<xr:Common>false</xr:Common>
+			</Use>
+		</Command>
+		<Command name="Отмена" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="ФизическоеЛицоСсылка">
+			<Type>
+				<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="АдресВХранилище">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+	</Parameters>
+	<BaseForm>
+		<Width>75</Width>
+		<CommandBarLocation>Bottom</CommandBarLocation>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<CommandSet>
+			<ExcludedCommand>No</ExcludedCommand>
+			<ExcludedCommand>CustomizeForm</ExcludedCommand>
+			<ExcludedCommand>SaveValues</ExcludedCommand>
+			<ExcludedCommand>Close</ExcludedCommand>
+			<ExcludedCommand>Help</ExcludedCommand>
+			<ExcludedCommand>Abort</ExcludedCommand>
+			<ExcludedCommand>Retry</ExcludedCommand>
+			<ExcludedCommand>Yes</ExcludedCommand>
+			<ExcludedCommand>Cancel</ExcludedCommand>
+			<ExcludedCommand>RestoreValues</ExcludedCommand>
+			<ExcludedCommand>Ignore</ExcludedCommand>
+			<ExcludedCommand>OK</ExcludedCommand>
+		</CommandSet>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<HorizontalAlign>Right</HorizontalAlign>
+			<Autofill>false</Autofill>
+			<ChildItems>
+				<Button name="ФормаОк" id="48">
+					<Type>CommandBarButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.Ок</CommandName>
+					<Parameter xsi:nil="true"/>
+					<ExtendedTooltip name="ФормаОкРасширеннаяПодсказка" id="49"/>
+				</Button>
+				<Button name="ФормаОтмена" id="50">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.Отмена</CommandName>
+					<Parameter xsi:nil="true"/>
+					<ExtendedTooltip name="ФормаОтменаРасширеннаяПодсказка" id="51"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="ОбщаяГруппа" id="35">
+				<HorizontalStretch>true</HorizontalStretch>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ОбщаяГруппаExtendedTooltip" id="37"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаСостоянияВБракеФизическихЛиц" id="2">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Состояние в браке</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа состояния в браке физических лиц</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Representation>None</Representation>
+						<ExtendedTooltip name="ГруппаСостоянияВБракеФизическихЛицРасширеннаяПодсказка" id="38"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаСостояниеВБракеГоризонтальная" id="3">
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаСостояниеВБракеГоризонтальнаяРасширеннаяПодсказка" id="39"/>
+								<ChildItems>
+									<InputField name="СостоянияВБракеФизическихЛицСостояниеВБраке" id="4">
+										<DataPath>СостоянияВБракеФизическихЛиц.СостояниеВБраке</DataPath>
+										<TitleLocation>None</TitleLocation>
+										<ContextMenu name="СостоянияВБракеФизическихЛицСостояниеВБракеКонтекстноеМеню" id="5"/>
+										<ExtendedTooltip name="СостоянияВБракеФизическихЛицСостояниеВБракеРасширеннаяПодсказка" id="40"/>
+									</InputField>
+									<InputField name="СостоянияВБракеФизическихЛицПериод" id="6">
+										<DataPath>СостоянияВБракеФизическихЛиц.Period</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сведения действуют с</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="СостоянияВБракеФизическихЛицПериодКонтекстноеМеню" id="7"/>
+										<ExtendedTooltip name="СостоянияВБракеФизическихЛицПериодРасширеннаяПодсказка" id="41"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<Button name="СостоянияВБракеФизическихЛицИстория" id="8">
+								<Type>Hyperlink</Type>
+								<CommandName>Form.Command.СостоянияВБракеФизическихЛицИстория</CommandName>
+								<Parameter xsi:nil="true"/>
+								<ExtendedTooltip name="СостоянияВБракеФизическихЛицИсторияРасширеннаяПодсказка" id="42"/>
+							</Button>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаФизическоеЛицоСоставСемьи" id="9">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Состав семьи</v8:content>
+							</v8:item>
+						</Title>
+						<Representation>None</Representation>
+						<ExtendedTooltip name="ГруппаФизическоеЛицоСоставСемьиExtendedTooltip" id="43"/>
+						<ChildItems>
+							<Table name="СоставыСемейФизическихЛиц" id="22">
+								<TitleLocation>Auto</TitleLocation>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<DataPath>СоставыСемейФизическихЛиц</DataPath>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="СоставыСемейФизическихЛицКонтекстноеМеню" id="23"/>
+								<AutoCommandBar name="СоставыСемейФизическихЛицКоманднаяПанель" id="24"/>
+								<ExtendedTooltip name="СоставыСемейФизическихЛицExtendedTooltip" id="44"/>
+								<SearchStringAddition name="СоставыСемейФизическихЛицСтрокаПоиска" id="52">
+									<Source>
+										<lf:elementId>22</lf:elementId>
+										<lf:additionId>0</lf:additionId>
+									</Source>
+									<ContextMenu name="СоставыСемейФизическихЛицСтрокаПоискаКонтекстноеМеню" id="53"/>
+									<ExtendedTooltip name="СоставыСемейФизическихЛицСтрокаПоискаРасширеннаяПодсказка" id="54"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="СоставыСемейФизическихЛицСостояниеПросмотра" id="55">
+									<Source>
+										<lf:elementId>22</lf:elementId>
+										<lf:additionId>1</lf:additionId>
+									</Source>
+									<ContextMenu name="СоставыСемейФизическихЛицСостояниеПросмотраКонтекстноеМеню" id="56"/>
+									<ExtendedTooltip name="СоставыСемейФизическихЛицСостояниеПросмотраРасширеннаяПодсказка" id="57"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="СоставыСемейФизическихЛицУправлениеПоиском" id="58">
+									<Source>
+										<lf:elementId>22</lf:elementId>
+										<lf:additionId>2</lf:additionId>
+									</Source>
+									<ContextMenu name="СоставыСемейФизическихЛицУправлениеПоискомКонтекстноеМеню" id="59"/>
+									<ExtendedTooltip name="СоставыСемейФизическихЛицУправлениеПоискомРасширеннаяПодсказка" id="60"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="СоставыСемейФизическихЛицСтепеньРодства" id="29">
+										<DataPath>СоставыСемейФизическихЛиц.СтепеньРодства</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>15</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="СоставыСемейФизическихЛицСтепеньРодстваКонтекстноеМеню" id="30"/>
+										<ExtendedTooltip name="СоставыСемейФизическихЛицСтепеньРодстваExtendedTooltip" id="45"/>
+									</InputField>
+									<InputField name="СоставыСемейФизическихЛицФИО" id="31">
+										<DataPath>СоставыСемейФизическихЛиц.ФИО</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="СоставыСемейФизическихЛицФИОКонтекстноеМеню" id="32"/>
+										<ExtendedTooltip name="СоставыСемейФизическихЛицФИОExtendedTooltip" id="46"/>
+									</InputField>
+									<InputField name="СоставыСемейФизическихЛицДатаРождения" id="33">
+										<DataPath>СоставыСемейФизическихЛиц.ДатаРождения</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="СоставыСемейФизическихЛицДатаРожденияКонтекстноеМеню" id="34"/>
+										<ExtendedTooltip name="СоставыСемейФизическихЛицДатаРожденияExtendedTooltip" id="47"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="СостоянияВБракеФизическихЛиц" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Состояния в браке физических лиц</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:InformationRegisterRecordManager.СостоянияВБракеФизическихЛиц</v8:Type>
+				</Type>
+				<View>
+					<xr:Common>false</xr:Common>
+				</View>
+				<Edit>
+					<xr:Common>false</xr:Common>
+				</Edit>
+				<SavedData>true</SavedData>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="СостоянияВБракеФизическихЛицНаборЗаписей" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Состояния в браке физических лиц набор записей</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:InformationRegisterRecordSet.СостоянияВБракеФизическихЛиц</v8:Type>
+				</Type>
+				<View>
+					<xr:Common>false</xr:Common>
+				</View>
+				<SavedData>true</SavedData>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="СостоянияВБракеФизическихЛицНаборЗаписейПрочитан" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Состояния в браке физических лиц набор записей прочитан</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="СостоянияВБракеФизическихЛицНоваяЗапись" id="4">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Состояния в браке физических лиц новая запись</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="СостоянияВБракеФизическихЛицПрежняя" id="5">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Состояния в браке физических лиц прежняя</v8:content>
+					</v8:item>
+				</Title>
+				<Type/>
+			</Attribute>
+			<Attribute name="ФизическоеЛицоСсылка" id="6">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Физическое лицо ссылка</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="СоставыСемейФизическихЛиц" id="7">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Состав семьи</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:InformationRegisterRecordSet.СоставыСемейФизическихЛиц</v8:Type>
+				</Type>
+				<View>
+					<xr:Common>false</xr:Common>
+				</View>
+				<Edit>
+					<xr:Common>false</xr:Common>
+				</Edit>
+				<SavedData>true</SavedData>
+			</Attribute>
+			<Attribute name="СоставыСемейФизическихЛицПрочитан" id="8">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Составы семей физических лиц прочитан</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+		</Attributes>
+		<Commands>
+			<Command name="СостоянияВБракеФизическихЛицИстория" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>История изменения состояния в браке</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Состояния в браке физических лиц история</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Use>
+					<xr:Common>false</xr:Common>
+				</Use>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьКадровыйУчет</Item>
+				</FunctionalOptions>
+			</Command>
+			<Command name="Ок" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>OK</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Ок</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Use>
+					<xr:Common>false</xr:Common>
+				</Use>
+			</Command>
+			<Command name="Отмена" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отмена</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отмена</v8:content>
+					</v8:item>
+				</ToolTip>
+			</Command>
+		</Commands>
+		<Parameters>
+			<Parameter name="ФизическоеЛицоСсылка">
+				<Type>
+					<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+				</Type>
+			</Parameter>
+			<Parameter name="АдресВХранилище">
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Parameter>
+		</Parameters>
+	</BaseForm>
+</Form>
