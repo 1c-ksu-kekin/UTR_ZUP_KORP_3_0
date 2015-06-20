@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.16</Version>
+			<Version>3.0.22.182.17</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -59,6 +59,7 @@
 			<CommonPicture>ПересчитатьЗарплатуСерая</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
 			<CommonPicture>Информация</CommonPicture>
+			<CommonPicture>ПоказатьПодробностиРасчетаЗарплаты</CommonPicture>
 			<Role>ЮТР_ДобавлениеИзменениеНачисленийШтатногоРасписания</Role>
 			<Role>ЮТР_ДобавлениеИзменениеШтатногоРасписания</Role>
 			<Role>ЮТР_ДобавлениеИзменениеШтатногоРасписанияИзменениеТерритории</Role>
@@ -78,7 +79,11 @@
 			<FunctionalOption>ИспользоватьОбособленныеПодразделения</FunctionalOption>
 			<FunctionalOption>ИспользоватьШтатноеРасписание</FunctionalOption>
 			<FunctionalOption>ИспользоватьИсториюИзмененияШтатногоРасписания</FunctionalOption>
+			<FunctionalOption>ИспользоватьВыдачуПогашениеЗаймовСотрудникам</FunctionalOption>
+			<FunctionalOption>ИспользоватьРасчетСохраняемогоДенежногоСодержания</FunctionalOption>
+			<FunctionalOption>РаботаВБюджетномУчреждении</FunctionalOption>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
+			<DefinedType>ТерриторииВыполненияРаботВОрганизации</DefinedType>
 			<CommonCommand>ЮТР_СтатьиКД</CommonCommand>
 			<CommonCommand>ЮТР_ПереводВлатиницу</CommonCommand>
 			<CommonCommand>ЮТР_ОбработатьСклонения</CommonCommand>
@@ -86,6 +91,8 @@
 			<Constant>ИспользоватьНесколькоОрганизаций</Constant>
 			<Constant>ИспользоватьКадровыйУчет</Constant>
 			<Constant>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</Constant>
+			<Constant>РаботаВБюджетномУчреждении</Constant>
+			<Constant>ИспользоватьРасчетСохраняемогоДенежногоСодержания</Constant>
 			<Catalog>ВидыОтпусков</Catalog>
 			<Catalog>ЮТР_СтатьиКД</Catalog>
 			<Catalog>Должности</Catalog>
@@ -121,6 +128,8 @@
 			<Catalog>ЮТР_МуниципальныеОбразования</Catalog>
 			<Catalog>ЮТР_ВидыДокументаКадровоеИзменение</Catalog>
 			<Catalog>СтатьиРасходовЗарплата</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>ОснованияУвольнения</Catalog>
 			<Document>ИзменениеШтатногоРасписания</Document>
 			<Document>ПачкаДокументовСПВ_1</Document>
 			<Document>ПачкаДокументовСЗВ_6_1</Document>
@@ -132,6 +141,10 @@
 			<Document>УтверждениеШтатногоРасписания</Document>
 			<Document>Совмещение</Document>
 			<Document>Отпуск</Document>
+			<Document>Увольнение</Document>
+			<Document>ОтпускПоУходуЗаРебенком</Document>
+			<Document>УдержаниеВСчетРасчетовПоПрочимОперациям</Document>
+			<Document>ДоговорЗаймаСотруднику</Document>
 			<DocumentJournal>ДокументыУправленияШтатнымРасписанием</DocumentJournal>
 			<Enum>СпособыРасчетаОтпуска</Enum>
 			<Enum>КатегорииСтажа</Enum>
@@ -145,6 +158,10 @@
 			<Enum>ВидыТарифныхСтавок</Enum>
 			<Enum>СпособыРасчетаДоплатыЗаСовмещение</Enum>
 			<Enum>ПричиныСовмещения</Enum>
+			<Enum>КомпенсацияУдержаниеОтпускаПриУвольнении</Enum>
+			<Enum>НДФЛСтавкиНалогообложенияРезидента</Enum>
+			<Enum>ВидыЗанятости</Enum>
+			<Enum>ОснованияФинансированияПособияФедеральнымБюджетом</Enum>
 			<DataProcessor>ПодготовкаКвартальнойОтчетностиВПФР</DataProcessor>
 			<InformationRegister>ЮТР_СтатьиКД</InformationRegister>
 			<InformationRegister>НастройкиШтатногоРасписания</InformationRegister>
@@ -156,7 +173,9 @@
 			<InformationRegister>НастройкиСпециальнойОценкиУсловийТруда</InformationRegister>
 			<InformationRegister>НомераРабочихМестСпециальнойОценкиУсловийТруда</InformationRegister>
 			<InformationRegister>ТерриториальныеУсловияПФР</InformationRegister>
+			<InformationRegister>НастройкиЗаймовСотрудникам</InformationRegister>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
+			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

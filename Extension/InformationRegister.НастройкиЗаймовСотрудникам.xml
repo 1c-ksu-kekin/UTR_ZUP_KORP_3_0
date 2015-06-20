@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="971ec20a-a3fe-4f6a-85b9-e30098599fa6">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиЗаймовСотрудникам" category="Record">
+				<xr:TypeId>52a6230d-9615-4bcd-bda3-9c2c3fb8f8ba</xr:TypeId>
+				<xr:ValueId>613ef7ee-dcf7-4a86-bf96-71824b3c05f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиЗаймовСотрудникам" category="Manager">
+				<xr:TypeId>47267660-b6c9-49d0-92b1-3be4e05363f4</xr:TypeId>
+				<xr:ValueId>cd15a99c-5656-41ae-8acb-873765ba3045</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиЗаймовСотрудникам" category="Selection">
+				<xr:TypeId>55ad3d19-fe15-4fd2-8efa-93951a0aab45</xr:TypeId>
+				<xr:ValueId>ae321da7-1921-46ad-a16a-360d39bc5f96</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиЗаймовСотрудникам" category="List">
+				<xr:TypeId>754f6a88-7d41-4a88-adf2-0f5d4a4e83e9</xr:TypeId>
+				<xr:ValueId>d814cfd3-a34a-4b06-82b6-5d288939eaf9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиЗаймовСотрудникам" category="RecordSet">
+				<xr:TypeId>f498a7a0-5f08-4517-94b8-600cd63de29d</xr:TypeId>
+				<xr:ValueId>d240290a-96cb-4110-aedf-5d3803e09086</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиЗаймовСотрудникам" category="RecordKey">
+				<xr:TypeId>4c94ef48-e941-49f9-9b67-25ba398bc19e</xr:TypeId>
+				<xr:ValueId>4fe6c0c2-2df1-459e-93ba-1eba27525dcd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиЗаймовСотрудникам" category="RecordManager">
+				<xr:TypeId>0a2869bf-0950-4d02-afb3-bf6a7f7a0644</xr:TypeId>
+				<xr:ValueId>328db115-6bc1-4fea-be61-ee362ab8b633</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиЗаймовСотрудникам</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="5a7b3658-e7a7-4473-9c14-a8ae7827e255">
+				<Properties>
+					<Name>ИспользоватьЗаймыСотрудникам</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

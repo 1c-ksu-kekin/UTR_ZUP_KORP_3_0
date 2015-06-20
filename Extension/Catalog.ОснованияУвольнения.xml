@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="9cc4913b-df78-4ead-a886-eb1bb0271148">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОснованияУвольнения" category="Object">
+				<xr:TypeId>53cdb7b5-4a62-409e-b75d-90f0f8ea2a0a</xr:TypeId>
+				<xr:ValueId>f4ee1dd8-f7c3-4125-b68b-703097b02201</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОснованияУвольнения" category="Ref">
+				<xr:TypeId>394a3953-4e25-4ca4-acc0-56839e0e4cd8</xr:TypeId>
+				<xr:ValueId>ec792e8c-b4cf-4393-b6fa-4e73d2571943</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОснованияУвольнения" category="Selection">
+				<xr:TypeId>8b320e9c-67a8-42a7-924c-a76cf8e7511c</xr:TypeId>
+				<xr:ValueId>5ed4e1ab-30a4-420f-a91d-4ae65d342296</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОснованияУвольнения" category="List">
+				<xr:TypeId>bec23983-b58d-4732-9395-0b21545b5804</xr:TypeId>
+				<xr:ValueId>437a7598-082b-4b59-806b-08c12bd9c6de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОснованияУвольнения" category="Manager">
+				<xr:TypeId>8a6bded4-ffb5-45b4-b185-16b7988d8284</xr:TypeId>
+				<xr:ValueId>5c83b9de-7cfe-4dc8-9ce4-e47bde020d6b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОснованияУвольнения</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

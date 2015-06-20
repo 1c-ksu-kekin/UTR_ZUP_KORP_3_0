@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="a68ad94a-cc46-402f-b255-116533837af0">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.НДФЛСтавкиНалогообложенияРезидента" category="Ref">
+				<xr:TypeId>cf35f9f8-0433-4039-9a46-f80075f79b63</xr:TypeId>
+				<xr:ValueId>933e486e-0f7f-4adb-bcb7-736076167399</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.НДФЛСтавкиНалогообложенияРезидента" category="Manager">
+				<xr:TypeId>4df97c9d-e5d3-497b-a665-fa3e9c462387</xr:TypeId>
+				<xr:ValueId>ed27fd8e-67ec-43a0-a392-fa3e4d589d3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.НДФЛСтавкиНалогообложенияРезидента" category="List">
+				<xr:TypeId>9037e91b-58ec-4c20-b3c6-43a9ba762def</xr:TypeId>
+				<xr:ValueId>cf4e6ad1-fed3-4ffc-b5dd-18f57f64a33c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НДФЛСтавкиНалогообложенияРезидента</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

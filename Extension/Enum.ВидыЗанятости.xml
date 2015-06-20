@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="aec4eb28-4d3e-4e3f-bf1a-9faba1a98553">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыЗанятости" category="Ref">
+				<xr:TypeId>70132b4f-63eb-469c-8c6d-fed71c983d3f</xr:TypeId>
+				<xr:ValueId>cb9b0c8e-0aed-4d2a-a66a-a33ea4bf68bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыЗанятости" category="Manager">
+				<xr:TypeId>2a0f0878-99d0-4a62-b498-0b037e0a690f</xr:TypeId>
+				<xr:ValueId>a0b75b35-a66d-45df-9d67-8ff87b0b1c20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыЗанятости" category="List">
+				<xr:TypeId>9852e5e9-8f71-4860-aca1-9014ea6c002f</xr:TypeId>
+				<xr:ValueId>fe256c50-5876-4528-8680-d719d5255f37</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыЗанятости</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

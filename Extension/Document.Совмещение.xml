@@ -240,6 +240,31 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="34cd2cca-cbbe-44a4-a594-0d8ca3344bda">
+				<Properties>
+					<Name>ЮТР_Основание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="14a24065-cd53-4646-9d4f-42b383bc45bf">
+				<Properties>
+					<Name>ЮТР_ДатаЗаявленияСотрудника</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="3d04b508-614e-4c8c-b940-d535d32941a7">
 				<InternalInfo>

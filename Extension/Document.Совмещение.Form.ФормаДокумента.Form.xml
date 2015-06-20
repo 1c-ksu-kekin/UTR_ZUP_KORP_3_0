@@ -1308,6 +1308,48 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ВведенныеНаДатуДокументыГруппаРасширеннаяПодсказка" id="283"/>
 		</UsualGroup>
+		<UsualGroup name="ГруппаДатаЗаявленияОснование" id="393">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дата заявления основание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дата заявления основание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаДатаЗаявленияОснованиеРасширеннаяПодсказка" id="394"/>
+			<ChildItems>
+				<InputField name="ЮТР_ДатаЗаявленияСотрудника" id="395">
+					<DataPath>Объект.ЮТР_ДатаЗаявленияСотрудника</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата заявления сотрудника</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ЮТР_ДатаЗаявленияСотрудникаКонтекстноеМеню" id="396"/>
+					<ExtendedTooltip name="ЮТР_ДатаЗаявленияСотрудникаРасширеннаяПодсказка" id="397"/>
+				</InputField>
+				<InputField name="ЮТР_Основание" id="398">
+					<DataPath>Объект.ЮТР_Основание</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основание</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ЮТР_ОснованиеКонтекстноеМеню" id="399"/>
+					<ExtendedTooltip name="ЮТР_ОснованиеРасширеннаяПодсказка" id="400"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ПодписиГруппа" id="357">
 			<Title>
 				<v8:item>

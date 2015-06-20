@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="1cf409da-30c2-4413-ac78-a9dda3ef54f9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УдержаниеВСчетРасчетовПоПрочимОперациям" category="Object">
+				<xr:TypeId>12cd7081-52c1-49ae-8e8a-b20f1d9569fc</xr:TypeId>
+				<xr:ValueId>5be47f63-a36f-496c-875c-667f2318565f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УдержаниеВСчетРасчетовПоПрочимОперациям" category="Ref">
+				<xr:TypeId>ed622dd2-cc07-480b-89a9-8819ad3a27e5</xr:TypeId>
+				<xr:ValueId>3f7ae5ec-d0f4-44cc-9f6a-3f67b17a2291</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УдержаниеВСчетРасчетовПоПрочимОперациям" category="Selection">
+				<xr:TypeId>0967302a-5d2c-4c91-b3df-5c3bdb42810a</xr:TypeId>
+				<xr:ValueId>d25aa615-bf44-4f0c-88a6-77f14cc96c7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УдержаниеВСчетРасчетовПоПрочимОперациям" category="List">
+				<xr:TypeId>434dcd19-707a-4465-b3fe-a0448763c9d0</xr:TypeId>
+				<xr:ValueId>529ea124-5e2a-4205-89d8-01f3eb0c7d39</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УдержаниеВСчетРасчетовПоПрочимОперациям" category="Manager">
+				<xr:TypeId>26a0d42a-784b-4a72-bfc6-f84bbf96c40c</xr:TypeId>
+				<xr:ValueId>1eac6c5d-db22-46f9-a029-a4f42046796d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УдержаниеВСчетРасчетовПоПрочимОперациям</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

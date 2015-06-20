@@ -8,6 +8,7 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="AfterWriteAtServer">ЮТР_ПослеЗаписиНаСервере</Event>
+		<Event name="NotificationProcessing">ЮТР_ОбработкаОповещения</Event>
 		<Event name="OnReadAtServer">ЮТР_ПриЧтенииНаСервере</Event>
 		<Event name="OnCreateAtServer">ЮТР_ПриСозданииНаСервере</Event>
 	</Events>
