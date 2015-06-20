@@ -1,0 +1,1556 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ЮТР_ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Шапка" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</Title>
+			<Width>100</Width>
+			<HorizontalStretch>false</HorizontalStretch>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ChildItemsWidth>LeftWide</ChildItemsWidth>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаExtendedTooltip" id="153"/>
+			<ChildItems>
+				<UsualGroup name="ОсновныеРеквизиты" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основные реквизиты</v8:content>
+						</v8:item>
+					</Title>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ОсновныеРеквизитыExtendedTooltip" id="154"/>
+					<ChildItems>
+						<UsualGroup name="МесяцОрганизация" id="217">
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="МесяцОрганизацияРасширеннаяПодсказка" id="218"/>
+							<ChildItems>
+								<InputField name="ПериодРегистрации" id="7">
+									<DataPath>МесяцНачисленияСтрокой</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Месяц</v8:content>
+										</v8:item>
+									</Title>
+									<Width>13</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ChoiceButton>true</ChoiceButton>
+									<SpinButton>true</SpinButton>
+									<ContextMenu name="ПериодРегистрацииКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="ПериодРегистрацииExtendedTooltip" id="155"/>
+								</InputField>
+								<InputField name="Организация" id="3">
+									<DataPath>Объект.Организация</DataPath>
+									<ContextMenu name="ОрганизацияКонтекстноеМеню" id="4"/>
+									<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="156"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="Сотрудник" id="5">
+							<DataPath>Объект.Сотрудник</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СотрудникКонтекстноеМеню" id="6"/>
+							<ExtendedTooltip name="СотрудникExtendedTooltip" id="157"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ОбязательныеРеквизиты" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обязательные реквизиты</v8:content>
+						</v8:item>
+					</Title>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ОбязательныеРеквизитыExtendedTooltip" id="158"/>
+					<ChildItems>
+						<UsualGroup name="ДатаНомер" id="150">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дата номер</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="159"/>
+							<ChildItems>
+								<InputField name="Дата" id="10">
+									<DataPath>Объект.Date</DataPath>
+									<Width>10</Width>
+									<ContextMenu name="ДатаКонтекстноеМеню" id="11"/>
+									<ExtendedTooltip name="ДатаExtendedTooltip" id="160"/>
+								</InputField>
+								<InputField name="Номер" id="12">
+									<DataPath>Объект.Number</DataPath>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="НомерКонтекстноеМеню" id="13"/>
+									<ExtendedTooltip name="НомерExtendedTooltip" id="161"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="РасчетчикГруппа" id="152">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расчетчик</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="РасчетчикГруппаРасширеннаяПодсказка" id="163"/>
+		</UsualGroup>
+		<Pages name="Страницы" id="225">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="226"/>
+			<ChildItems>
+				<Page name="Условия" id="108">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Условия</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные о времени отсутствия будут зарегистрированы в системе 
+и в дальнейшем учтены при расчете начислений.
+</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="УсловияExtendedTooltip" id="164"/>
+					<ChildItems>
+						<CheckBoxField name="ОтсутствиеВТечениеЧастиСмены" id="109">
+							<DataPath>Объект.ОтсутствиеВТечениеЧастиСмены</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отсутствие в течение части смены</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Установите флажок, если сотрудник отсутствовал только в течение части рабочей смены.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОтсутствиеВТечениеЧастиСменыКонтекстноеМеню" id="110"/>
+							<ExtendedTooltip name="ОтсутствиеВТечениеЧастиСменыExtendedTooltip" id="168"/>
+						</CheckBoxField>
+						<UsualGroup name="ВидОтсутствияГруппа" id="210">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вид отсутствия</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вид отсутствия</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ВидОтсутствияГруппаРасширеннаяПодсказка" id="211"/>
+							<ChildItems>
+								<RadioButtonField name="СостояниеСлужебный" id="236">
+									<DataPath>СостояниеСлужебный</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Отсутствие по невыясненным причинам</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">0</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Отсутствие по болезни (неподтвержденное листком нетрудоспособности)</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">1</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Прогул</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">2</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="СостояниеСлужебныйКонтекстноеМеню" id="237"/>
+									<ExtendedTooltip name="СостояниеСлужебныйРасширеннаяПодсказка" id="238"/>
+									<Events>
+										<Event name="OnChange">ЮТР_СостояниеСлужебныйПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<RadioButtonField name="Состояние" id="212">
+									<DataPath>Объект.СостояниеСотрудника</DataPath>
+									<Visible>false</Visible>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Вид отсутствия</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ColumnsCount>1</ColumnsCount>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Отсутствие по невыясненным причинам</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xr:DesignTimeRef">Enum.СостоянияСотрудника.EnumValue.ОтсутствиеПоНевыясненнымПричинам</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Прогул</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xr:DesignTimeRef">Enum.СостоянияСотрудника.EnumValue.Прогул</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="СостояниеКонтекстноеМеню" id="213"/>
+									<ExtendedTooltip name="СостояниеРасширеннаяПодсказка" id="214"/>
+								</RadioButtonField>
+								<InputField name="ВидОтсутствия" id="136">
+									<DataPath>Объект.ВидОтсутствия</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>При расчете начислений учитывается как</v8:content>
+										</v8:item>
+									</Title>
+									<Width>36</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ВидОтсутствияКонтекстноеМеню" id="137"/>
+									<ExtendedTooltip name="ВидОтсутствияExtendedTooltip" id="172"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ПериодНевыходаГруппа" id="116">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Период невыхода группа</v8:content>
+								</v8:item>
+							</Title>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ПериодНевыходаГруппаExtendedTooltip" id="173"/>
+							<ChildItems>
+								<Pages name="ПериодНевыходаСтраницы" id="117">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Период невыхода страницы</v8:content>
+										</v8:item>
+									</Title>
+									<PagesRepresentation>None</PagesRepresentation>
+									<ExtendedTooltip name="ПериодНевыходаСтраницыExtendedTooltip" id="174"/>
+									<ChildItems>
+										<Page name="ЦелодневныйНевыходСтраница" id="118">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Целодневный невыход</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Целодневный невыход</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Horizontal</Group>
+											<ExtendedTooltip name="ЦелодневныйНевыходСтраницаExtendedTooltip" id="175"/>
+											<ChildItems>
+												<InputField name="ДатаНачала" id="124">
+													<DataPath>Объект.ДатаНачала</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="125"/>
+													<ExtendedTooltip name="ДатаНачалаExtendedTooltip" id="179"/>
+												</InputField>
+												<InputField name="ДатаОкончания" id="126">
+													<DataPath>Объект.ДатаОкончания</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="127"/>
+													<ExtendedTooltip name="ДатаОкончанияExtendedTooltip" id="180"/>
+												</InputField>
+											</ChildItems>
+										</Page>
+										<Page name="ВнутрисменныйНевыходСтраница" id="128">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Внутрисменный невыход страница</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Horizontal</Group>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ВнутрисменныйНевыходСтраницаExtendedTooltip" id="181"/>
+											<ChildItems>
+												<InputField name="ДатаОтсутствия" id="129">
+													<DataPath>Объект.ДатаОтсутствия</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Дата отсутствия</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ДатаОтсутствияКонтекстноеМеню" id="130"/>
+													<ExtendedTooltip name="ДатаОтсутствияExtendedTooltip" id="182"/>
+												</InputField>
+												<UsualGroup name="ЧасыОтпускаГруппа" id="131">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Время отсутствия</v8:content>
+														</v8:item>
+													</Title>
+													<HorizontalStretch>true</HorizontalStretch>
+													<Group>Horizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ЧасыОтпускаГруппаExtendedTooltip" id="183"/>
+													<ChildItems>
+														<InputField name="Часы" id="132">
+															<DataPath>Объект.ЧасовОтсутствия</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Часы отсутствия</v8:content>
+																</v8:item>
+															</Title>
+															<Width>10</Width>
+															<ContextMenu name="ЧасыКонтекстноеМеню" id="133"/>
+															<ExtendedTooltip name="ЧасыExtendedTooltip" id="184"/>
+														</InputField>
+														<InputField name="ВидВремениЗамещаемыйПредставление" id="134">
+															<DataPath>ВидВремениЗамещаемыйПредставление</DataPath>
+															<TitleLocation>None</TitleLocation>
+															<Width>40</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ChoiceButton>true</ChoiceButton>
+															<TextEdit>false</TextEdit>
+															<ContextMenu name="ВидВремениЗамещаемыйПредставлениеКонтекстноеМеню" id="135"/>
+															<ExtendedTooltip name="ВидВремениЗамещаемыйПредставлениеExtendedTooltip" id="185"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</Page>
+									</ChildItems>
+								</Pages>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="ПерерасчетПрошлогоПериодаГруппа" id="27">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пересчет прошлого периода</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перерасчет прошлого периода</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ПерерасчетПрошлогоПериодаГруппаExtendedTooltip" id="186"/>
+					<ChildItems>
+						<UsualGroup name="ПерерасчетПрошлогоПериодаГруппаГоризонтальная" id="219">
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ПерерасчетПрошлогоПериодаГруппаГоризонтальнаяРасширеннаяПодсказка" id="220"/>
+							<ChildItems>
+								<CommandBar name="КоманднаяПанельНачисленияПерерасчет" id="221">
+									<CommandSource>Item.НачисленияПерерасчет</CommandSource>
+									<ExtendedTooltip name="КоманднаяПанельНачисленияПерерасчетРасширеннаяПодсказка" id="222"/>
+									<ChildItems>
+										<Button name="НачисленияПерерасчетПодробно" id="102">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.ПерерасчетПодробно</CommandName>
+											<Parameter xsi:nil="true"/>
+											<ExtendedTooltip name="НачисленияПерерасчетПодробноExtendedTooltip" id="187"/>
+										</Button>
+									</ChildItems>
+								</CommandBar>
+								<Button name="Рассчитать" id="223">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Рассчитать</CommandName>
+									<Parameter xsi:nil="true"/>
+									<ExtendedTooltip name="РассчитатьРасширеннаяПодсказка" id="224"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="НачисленияПерерасчет" id="28">
+							<CommandBarLocation>None</CommandBarLocation>
+							<Height>2</Height>
+							<HeightInTableRows>2</HeightInTableRows>
+							<Footer>true</Footer>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.НачисленияПерерасчет</DataPath>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="НачисленияПерерасчетКонтекстноеМеню" id="29"/>
+							<AutoCommandBar name="НачисленияПерерасчетКоманднаяПанель" id="30"/>
+							<ExtendedTooltip name="НачисленияПерерасчетExtendedTooltip" id="188"/>
+							<SearchStringAddition name="НачисленияПерерасчетСтрокаПоиска" id="227">
+								<Source>
+									<lf:elementId>28</lf:elementId>
+									<lf:additionId>0</lf:additionId>
+								</Source>
+								<ContextMenu name="НачисленияПерерасчетСтрокаПоискаКонтекстноеМеню" id="228"/>
+								<ExtendedTooltip name="НачисленияПерерасчетСтрокаПоискаРасширеннаяПодсказка" id="229"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="НачисленияПерерасчетСостояниеПросмотра" id="230">
+								<Source>
+									<lf:elementId>28</lf:elementId>
+									<lf:additionId>1</lf:additionId>
+								</Source>
+								<ContextMenu name="НачисленияПерерасчетСостояниеПросмотраКонтекстноеМеню" id="231"/>
+								<ExtendedTooltip name="НачисленияПерерасчетСостояниеПросмотраРасширеннаяПодсказка" id="232"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="НачисленияПерерасчетУправлениеПоиском" id="233">
+								<Source>
+									<lf:elementId>28</lf:elementId>
+									<lf:additionId>2</lf:additionId>
+								</Source>
+								<ContextMenu name="НачисленияПерерасчетУправлениеПоискомКонтекстноеМеню" id="234"/>
+								<ExtendedTooltip name="НачисленияПерерасчетУправлениеПоискомРасширеннаяПодсказка" id="235"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="НачисленияПерерасчетНомерСтроки" id="31">
+									<DataPath>Объект.НачисленияПерерасчет.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НачисленияПерерасчетНомерСтрокиКонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="НачисленияПерерасчетНомерСтрокиExtendedTooltip" id="189"/>
+								</LabelField>
+								<InputField name="НачисленияПерерасчетНачисление" id="39">
+									<DataPath>Объект.НачисленияПерерасчет.Начисление</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НачисленияПерерасчетНачислениеКонтекстноеМеню" id="40"/>
+									<ExtendedTooltip name="НачисленияПерерасчетНачислениеExtendedTooltip" id="190"/>
+								</InputField>
+								<InputField name="НачисленияПерерасчетРезультат" id="43">
+									<DataPath>Объект.НачисленияПерерасчет.Результат</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<FooterDataPath>Объект.НачисленияПерерасчет.TotalРезультат</FooterDataPath>
+									<ContextMenu name="НачисленияПерерасчетРезультатКонтекстноеМеню" id="44"/>
+									<ExtendedTooltip name="НачисленияПерерасчетРезультатExtendedTooltip" id="191"/>
+								</InputField>
+								<ColumnGroup name="ДатыНачисленияПерерасчет" id="96">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Даты начисления перерасчет</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ДатыНачисленияПерерасчетExtendedTooltip" id="192"/>
+									<ChildItems>
+										<InputField name="НачисленияПерерасчетДатаНачала" id="35">
+											<DataPath>Объект.НачисленияПерерасчет.ДатаНачала</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Период</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НачисленияПерерасчетДатаНачалаКонтекстноеМеню" id="36"/>
+											<ExtendedTooltip name="НачисленияПерерасчетДатаНачалаExtendedTooltip" id="193"/>
+										</InputField>
+										<InputField name="НачисленияПерерасчетДатаОкончания" id="37">
+											<DataPath>Объект.НачисленияПерерасчет.ДатаОкончания</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ShowInFooter>false</ShowInFooter>
+											<ContextMenu name="НачисленияПерерасчетДатаОкончанияКонтекстноеМеню" id="38"/>
+											<ExtendedTooltip name="НачисленияПерерасчетДатаОкончанияExtendedTooltip" id="194"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<UsualGroup name="ГруппаИсправление" id="151">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаИсправлениеExtendedTooltip" id="209"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКомментарийОтветственный" id="215">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ChildItemsWidth>LeftWide</ChildItemsWidth>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="216"/>
+			<ChildItems>
+				<InputField name="Комментарий" id="89">
+					<DataPath>Объект.Комментарий</DataPath>
+					<TitleLocation>Left</TitleLocation>
+					<Height>1</Height>
+					<VerticalStretch>false</VerticalStretch>
+					<MultiLine>true</MultiLine>
+					<ExtendedEdit>true</ExtendedEdit>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="90"/>
+					<ExtendedTooltip name="КомментарийExtendedTooltip" id="208"/>
+				</InputField>
+				<InputField name="Ответственный" id="14">
+					<DataPath>Объект.Ответственный</DataPath>
+					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="162"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ПрогулНеявка</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="МесяцНачисленияСтрокой" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Месяц начисления</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>15</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<View>
+				<xr:Common>false</xr:Common>
+			</View>
+			<Edit>
+				<xr:Common>false</xr:Common>
+			</Edit>
+			<SavedData>true</SavedData>
+			<FillCheck>ShowError</FillCheck>
+		</Attribute>
+		<Attribute name="ВидВремениЗамещаемыйПредставление" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид времени замещаемый представление</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьУчетВнутрисменныхПрочихНевыходов</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="КартинкаИнфоВнутрисменныйНевыход" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Картинка инфо внутрисменный невыход</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьУчетВнутрисменныхПрочихНевыходов</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="ИнфонадписьСостояниеДокумента" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Инфонадпись состояние документа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>300</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьУчетВнутрисменныхПрочихНевыходов</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="РегистрацияНачисленийДоступна" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистрация начислений доступна</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИспользуетсяРасчетЗарплаты" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Используется расчет зарплаты</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОграниченияНаУровнеЗаписей" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ограничения на уровне записей</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="РасчетНеобходимоВыполнить" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расчет необходимо выполнить</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РассчитыватьДокументыПриРедактировании" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитывать документы при редактировании</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СостояниеСлужебный" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние служебный</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="НачисленияПодробно" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подробно</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать подробности расчета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ПоказатьПодробностиРасчетаЗарплаты</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+		</Command>
+		<Command name="ПерерасчетПодробно" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подробно</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать подробности расчета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ПоказатьПодробностиРасчетаЗарплаты</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+		</Command>
+		<Command name="Рассчитать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Use>
+				<xr:Common>false</xr:Common>
+			</Use>
+			<Picture>
+				<xr:Ref>CommonPicture.ПересчитатьЗарплатуСерая</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
+			</FunctionalOptions>
+			<Representation>Picture</Representation>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+	</Commands>
+	<BaseForm>
+		<AutoTime>CurrentOrLast</AutoTime>
+		<UsePostingMode>Auto</UsePostingMode>
+		<RepostOnWrite>true</RepostOnWrite>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="Шапка" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Шапка</v8:content>
+					</v8:item>
+				</Title>
+				<Width>100</Width>
+				<HorizontalStretch>false</HorizontalStretch>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ChildItemsWidth>LeftWide</ChildItemsWidth>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ШапкаExtendedTooltip" id="153"/>
+				<ChildItems>
+					<UsualGroup name="ОсновныеРеквизиты" id="2">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Основные реквизиты</v8:content>
+							</v8:item>
+						</Title>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ОсновныеРеквизитыExtendedTooltip" id="154"/>
+						<ChildItems>
+							<UsualGroup name="МесяцОрганизация" id="217">
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="МесяцОрганизацияРасширеннаяПодсказка" id="218"/>
+								<ChildItems>
+									<InputField name="ПериодРегистрации" id="7">
+										<DataPath>МесяцНачисленияСтрокой</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Месяц</v8:content>
+											</v8:item>
+										</Title>
+										<Width>13</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ChoiceButton>true</ChoiceButton>
+										<SpinButton>true</SpinButton>
+										<ContextMenu name="ПериодРегистрацииКонтекстноеМеню" id="8"/>
+										<ExtendedTooltip name="ПериодРегистрацииExtendedTooltip" id="155"/>
+									</InputField>
+									<InputField name="Организация" id="3">
+										<DataPath>Объект.Организация</DataPath>
+										<ContextMenu name="ОрганизацияКонтекстноеМеню" id="4"/>
+										<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="156"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<InputField name="Сотрудник" id="5">
+								<DataPath>Объект.Сотрудник</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="СотрудникКонтекстноеМеню" id="6"/>
+								<ExtendedTooltip name="СотрудникExtendedTooltip" id="157"/>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ОбязательныеРеквизиты" id="9">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Обязательные реквизиты</v8:content>
+							</v8:item>
+						</Title>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ОбязательныеРеквизитыExtendedTooltip" id="158"/>
+						<ChildItems>
+							<UsualGroup name="ДатаНомер" id="150">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дата номер</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="159"/>
+								<ChildItems>
+									<InputField name="Дата" id="10">
+										<DataPath>Объект.Date</DataPath>
+										<Width>10</Width>
+										<ContextMenu name="ДатаКонтекстноеМеню" id="11"/>
+										<ExtendedTooltip name="ДатаExtendedTooltip" id="160"/>
+									</InputField>
+									<InputField name="Номер" id="12">
+										<DataPath>Объект.Number</DataPath>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="НомерКонтекстноеМеню" id="13"/>
+										<ExtendedTooltip name="НомерExtendedTooltip" id="161"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="РасчетчикГруппа" id="152">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Расчетчик</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="РасчетчикГруппаРасширеннаяПодсказка" id="163"/>
+			</UsualGroup>
+			<Pages name="Страницы" id="225">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Страницы</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Страницы</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="226"/>
+				<ChildItems>
+					<Page name="Условия" id="108">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Условия</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Данные о времени отсутствия будут зарегистрированы в системе 
+и в дальнейшем учтены при расчете начислений.
+</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="УсловияExtendedTooltip" id="164"/>
+						<ChildItems>
+							<CheckBoxField name="ОтсутствиеВТечениеЧастиСмены" id="109">
+								<DataPath>Объект.ОтсутствиеВТечениеЧастиСмены</DataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отсутствие в течение части смены</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Установите флажок, если сотрудник отсутствовал только в течение части рабочей смены.</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ОтсутствиеВТечениеЧастиСменыКонтекстноеМеню" id="110"/>
+								<ExtendedTooltip name="ОтсутствиеВТечениеЧастиСменыExtendedTooltip" id="168"/>
+							</CheckBoxField>
+							<UsualGroup name="ВидОтсутствияГруппа" id="210">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Вид отсутствия</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Вид отсутствия</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Representation>None</Representation>
+								<ExtendedTooltip name="ВидОтсутствияГруппаРасширеннаяПодсказка" id="211"/>
+								<ChildItems>
+									<RadioButtonField name="Состояние" id="212">
+										<DataPath>Объект.СостояниеСотрудника</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Вид отсутствия</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>None</TitleLocation>
+										<RadioButtonType>Auto</RadioButtonType>
+										<ColumnsCount>1</ColumnsCount>
+										<ChoiceList>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Отсутствие по невыясненным причинам</v8:content>
+														</v8:item>
+													</Presentation>
+													<Value xsi:type="xr:DesignTimeRef">Enum.СостоянияСотрудника.EnumValue.ОтсутствиеПоНевыясненнымПричинам</Value>
+												</xr:Value>
+											</xr:Item>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Прогул</v8:content>
+														</v8:item>
+													</Presentation>
+													<Value xsi:type="xr:DesignTimeRef">Enum.СостоянияСотрудника.EnumValue.Прогул</Value>
+												</xr:Value>
+											</xr:Item>
+										</ChoiceList>
+										<ContextMenu name="СостояниеКонтекстноеМеню" id="213"/>
+										<ExtendedTooltip name="СостояниеРасширеннаяПодсказка" id="214"/>
+									</RadioButtonField>
+									<InputField name="ВидОтсутствия" id="136">
+										<DataPath>Объект.ВидОтсутствия</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>При расчете начислений учитывается как</v8:content>
+											</v8:item>
+										</Title>
+										<Width>36</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ВидОтсутствияКонтекстноеМеню" id="137"/>
+										<ExtendedTooltip name="ВидОтсутствияExtendedTooltip" id="172"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ПериодНевыходаГруппа" id="116">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Период невыхода группа</v8:content>
+									</v8:item>
+								</Title>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ПериодНевыходаГруппаExtendedTooltip" id="173"/>
+								<ChildItems>
+									<Pages name="ПериодНевыходаСтраницы" id="117">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Период невыхода страницы</v8:content>
+											</v8:item>
+										</Title>
+										<PagesRepresentation>None</PagesRepresentation>
+										<ExtendedTooltip name="ПериодНевыходаСтраницыExtendedTooltip" id="174"/>
+										<ChildItems>
+											<Page name="ЦелодневныйНевыходСтраница" id="118">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Целодневный невыход</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Целодневный невыход</v8:content>
+													</v8:item>
+												</ToolTip>
+												<Group>Horizontal</Group>
+												<ExtendedTooltip name="ЦелодневныйНевыходСтраницаExtendedTooltip" id="175"/>
+												<ChildItems>
+													<InputField name="ДатаНачала" id="124">
+														<DataPath>Объект.ДатаНачала</DataPath>
+														<EditMode>EnterOnInput</EditMode>
+														<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="125"/>
+														<ExtendedTooltip name="ДатаНачалаExtendedTooltip" id="179"/>
+													</InputField>
+													<InputField name="ДатаОкончания" id="126">
+														<DataPath>Объект.ДатаОкончания</DataPath>
+														<EditMode>EnterOnInput</EditMode>
+														<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="127"/>
+														<ExtendedTooltip name="ДатаОкончанияExtendedTooltip" id="180"/>
+													</InputField>
+												</ChildItems>
+											</Page>
+											<Page name="ВнутрисменныйНевыходСтраница" id="128">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Внутрисменный невыход страница</v8:content>
+													</v8:item>
+												</Title>
+												<Group>Horizontal</Group>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="ВнутрисменныйНевыходСтраницаExtendedTooltip" id="181"/>
+												<ChildItems>
+													<InputField name="ДатаОтсутствия" id="129">
+														<DataPath>Объект.ДатаОтсутствия</DataPath>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Дата отсутствия</v8:content>
+															</v8:item>
+														</Title>
+														<ContextMenu name="ДатаОтсутствияКонтекстноеМеню" id="130"/>
+														<ExtendedTooltip name="ДатаОтсутствияExtendedTooltip" id="182"/>
+													</InputField>
+													<UsualGroup name="ЧасыОтпускаГруппа" id="131">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Время отсутствия</v8:content>
+															</v8:item>
+														</Title>
+														<HorizontalStretch>true</HorizontalStretch>
+														<Group>Horizontal</Group>
+														<Representation>None</Representation>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="ЧасыОтпускаГруппаExtendedTooltip" id="183"/>
+														<ChildItems>
+															<InputField name="Часы" id="132">
+																<DataPath>Объект.ЧасовОтсутствия</DataPath>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Часы отсутствия</v8:content>
+																	</v8:item>
+																</Title>
+																<Width>10</Width>
+																<ContextMenu name="ЧасыКонтекстноеМеню" id="133"/>
+																<ExtendedTooltip name="ЧасыExtendedTooltip" id="184"/>
+															</InputField>
+															<InputField name="ВидВремениЗамещаемыйПредставление" id="134">
+																<DataPath>ВидВремениЗамещаемыйПредставление</DataPath>
+																<TitleLocation>None</TitleLocation>
+																<Width>40</Width>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ChoiceButton>true</ChoiceButton>
+																<TextEdit>false</TextEdit>
+																<ContextMenu name="ВидВремениЗамещаемыйПредставлениеКонтекстноеМеню" id="135"/>
+																<ExtendedTooltip name="ВидВремениЗамещаемыйПредставлениеExtendedTooltip" id="185"/>
+															</InputField>
+														</ChildItems>
+													</UsualGroup>
+												</ChildItems>
+											</Page>
+										</ChildItems>
+									</Pages>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="ПерерасчетПрошлогоПериодаГруппа" id="27">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Пересчет прошлого периода</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Перерасчет прошлого периода</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПерерасчетПрошлогоПериодаГруппаExtendedTooltip" id="186"/>
+						<ChildItems>
+							<UsualGroup name="ПерерасчетПрошлогоПериодаГруппаГоризонтальная" id="219">
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ПерерасчетПрошлогоПериодаГруппаГоризонтальнаяРасширеннаяПодсказка" id="220"/>
+								<ChildItems>
+									<CommandBar name="КоманднаяПанельНачисленияПерерасчет" id="221">
+										<CommandSource>Item.НачисленияПерерасчет</CommandSource>
+										<ExtendedTooltip name="КоманднаяПанельНачисленияПерерасчетРасширеннаяПодсказка" id="222"/>
+										<ChildItems>
+											<Button name="НачисленияПерерасчетПодробно" id="102">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ПерерасчетПодробно</CommandName>
+												<Parameter xsi:nil="true"/>
+												<ExtendedTooltip name="НачисленияПерерасчетПодробноExtendedTooltip" id="187"/>
+											</Button>
+										</ChildItems>
+									</CommandBar>
+									<Button name="Рассчитать" id="223">
+										<Type>UsualButton</Type>
+										<CommandName>Form.Command.Рассчитать</CommandName>
+										<Parameter xsi:nil="true"/>
+										<ExtendedTooltip name="РассчитатьРасширеннаяПодсказка" id="224"/>
+									</Button>
+								</ChildItems>
+							</UsualGroup>
+							<Table name="НачисленияПерерасчет" id="28">
+								<CommandBarLocation>None</CommandBarLocation>
+								<Height>2</Height>
+								<HeightInTableRows>2</HeightInTableRows>
+								<Footer>true</Footer>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<DataPath>Объект.НачисленияПерерасчет</DataPath>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="НачисленияПерерасчетКонтекстноеМеню" id="29"/>
+								<AutoCommandBar name="НачисленияПерерасчетКоманднаяПанель" id="30"/>
+								<ExtendedTooltip name="НачисленияПерерасчетExtendedTooltip" id="188"/>
+								<SearchStringAddition name="НачисленияПерерасчетСтрокаПоиска" id="227">
+									<Source>
+										<lf:elementId>28</lf:elementId>
+										<lf:additionId>0</lf:additionId>
+									</Source>
+									<ContextMenu name="НачисленияПерерасчетСтрокаПоискаКонтекстноеМеню" id="228"/>
+									<ExtendedTooltip name="НачисленияПерерасчетСтрокаПоискаРасширеннаяПодсказка" id="229"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="НачисленияПерерасчетСостояниеПросмотра" id="230">
+									<Source>
+										<lf:elementId>28</lf:elementId>
+										<lf:additionId>1</lf:additionId>
+									</Source>
+									<ContextMenu name="НачисленияПерерасчетСостояниеПросмотраКонтекстноеМеню" id="231"/>
+									<ExtendedTooltip name="НачисленияПерерасчетСостояниеПросмотраРасширеннаяПодсказка" id="232"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="НачисленияПерерасчетУправлениеПоиском" id="233">
+									<Source>
+										<lf:elementId>28</lf:elementId>
+										<lf:additionId>2</lf:additionId>
+									</Source>
+									<ContextMenu name="НачисленияПерерасчетУправлениеПоискомКонтекстноеМеню" id="234"/>
+									<ExtendedTooltip name="НачисленияПерерасчетУправлениеПоискомРасширеннаяПодсказка" id="235"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<LabelField name="НачисленияПерерасчетНомерСтроки" id="31">
+										<DataPath>Объект.НачисленияПерерасчет.LineNumber</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НачисленияПерерасчетНомерСтрокиКонтекстноеМеню" id="32"/>
+										<ExtendedTooltip name="НачисленияПерерасчетНомерСтрокиExtendedTooltip" id="189"/>
+									</LabelField>
+									<InputField name="НачисленияПерерасчетНачисление" id="39">
+										<DataPath>Объект.НачисленияПерерасчет.Начисление</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НачисленияПерерасчетНачислениеКонтекстноеМеню" id="40"/>
+										<ExtendedTooltip name="НачисленияПерерасчетНачислениеExtendedTooltip" id="190"/>
+									</InputField>
+									<InputField name="НачисленияПерерасчетРезультат" id="43">
+										<DataPath>Объект.НачисленияПерерасчет.Результат</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<FooterDataPath>Объект.НачисленияПерерасчет.TotalРезультат</FooterDataPath>
+										<ContextMenu name="НачисленияПерерасчетРезультатКонтекстноеМеню" id="44"/>
+										<ExtendedTooltip name="НачисленияПерерасчетРезультатExtendedTooltip" id="191"/>
+									</InputField>
+									<ColumnGroup name="ДатыНачисленияПерерасчет" id="96">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Даты начисления перерасчет</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ДатыНачисленияПерерасчетExtendedTooltip" id="192"/>
+										<ChildItems>
+											<InputField name="НачисленияПерерасчетДатаНачала" id="35">
+												<DataPath>Объект.НачисленияПерерасчет.ДатаНачала</DataPath>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Период</v8:content>
+													</v8:item>
+												</Title>
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="НачисленияПерерасчетДатаНачалаКонтекстноеМеню" id="36"/>
+												<ExtendedTooltip name="НачисленияПерерасчетДатаНачалаExtendedTooltip" id="193"/>
+											</InputField>
+											<InputField name="НачисленияПерерасчетДатаОкончания" id="37">
+												<DataPath>Объект.НачисленияПерерасчет.ДатаОкончания</DataPath>
+												<EditMode>EnterOnInput</EditMode>
+												<ShowInHeader>false</ShowInHeader>
+												<ShowInFooter>false</ShowInFooter>
+												<ContextMenu name="НачисленияПерерасчетДатаОкончанияКонтекстноеМеню" id="38"/>
+												<ExtendedTooltip name="НачисленияПерерасчетДатаОкончанияExtendedTooltip" id="194"/>
+											</InputField>
+										</ChildItems>
+									</ColumnGroup>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+			<UsualGroup name="ГруппаИсправление" id="151">
+				<HorizontalStretch>true</HorizontalStretch>
+				<Group>Horizontal</Group>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаИсправлениеExtendedTooltip" id="209"/>
+			</UsualGroup>
+			<UsualGroup name="ГруппаКомментарийОтветственный" id="215">
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ChildItemsWidth>LeftWide</ChildItemsWidth>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="216"/>
+				<ChildItems>
+					<InputField name="Комментарий" id="89">
+						<DataPath>Объект.Комментарий</DataPath>
+						<TitleLocation>Left</TitleLocation>
+						<Height>1</Height>
+						<VerticalStretch>false</VerticalStretch>
+						<MultiLine>true</MultiLine>
+						<ExtendedEdit>true</ExtendedEdit>
+						<ContextMenu name="КомментарийКонтекстноеМеню" id="90"/>
+						<ExtendedTooltip name="КомментарийExtendedTooltip" id="208"/>
+					</InputField>
+					<InputField name="Ответственный" id="14">
+						<DataPath>Объект.Ответственный</DataPath>
+						<ContextMenu name="ОтветственныйКонтекстноеМеню" id="15"/>
+						<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="162"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="Объект" id="1">
+				<Type>
+					<v8:Type>cfg:DocumentObject.ПрогулНеявка</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<SavedData>true</SavedData>
+				<UseAlways>
+					<Field>Объект.RegisterRecords</Field>
+				</UseAlways>
+			</Attribute>
+			<Attribute name="МесяцНачисленияСтрокой" id="8">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Месяц начисления</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>15</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<View>
+					<xr:Common>false</xr:Common>
+				</View>
+				<Edit>
+					<xr:Common>false</xr:Common>
+				</Edit>
+				<SavedData>true</SavedData>
+				<FillCheck>ShowError</FillCheck>
+			</Attribute>
+			<Attribute name="ВидВремениЗамещаемыйПредставление" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Вид времени замещаемый представление</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>100</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<SavedData>true</SavedData>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьУчетВнутрисменныхПрочихНевыходов</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="КартинкаИнфоВнутрисменныйНевыход" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Картинка инфо внутрисменный невыход</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>1</v8:Digits>
+						<v8:FractionDigits>0</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьУчетВнутрисменныхПрочихНевыходов</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="ИнфонадписьСостояниеДокумента" id="4">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Инфонадпись состояние документа</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>300</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьУчетВнутрисменныхПрочихНевыходов</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="РегистрацияНачисленийДоступна" id="6">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Регистрация начислений доступна</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ИспользуетсяРасчетЗарплаты" id="7">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Используется расчет зарплаты</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ОграниченияНаУровнеЗаписей" id="9">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Ограничения на уровне записей</v8:content>
+					</v8:item>
+				</Title>
+				<Type/>
+			</Attribute>
+			<Attribute name="РасчетНеобходимоВыполнить" id="10">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Расчет необходимо выполнить</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="РассчитыватьДокументыПриРедактировании" id="5">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Рассчитывать документы при редактировании</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+		</Attributes>
+		<Commands>
+			<Command name="НачисленияПодробно" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подробно</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Показать подробности расчета</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.ПоказатьПодробностиРасчетаЗарплаты</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+			</Command>
+			<Command name="ПерерасчетПодробно" id="4">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подробно</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Показать подробности расчета</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.ПоказатьПодробностиРасчетаЗарплаты</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+			</Command>
+			<Command name="Рассчитать" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Рассчитать</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Рассчитать</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Use>
+					<xr:Common>false</xr:Common>
+				</Use>
+				<Picture>
+					<xr:Ref>CommonPicture.ПересчитатьЗарплатуСерая</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
+				</FunctionalOptions>
+				<Representation>Picture</Representation>
+				<ModifiesSavedData>true</ModifiesSavedData>
+			</Command>
+		</Commands>
+	</BaseForm>
+</Form>

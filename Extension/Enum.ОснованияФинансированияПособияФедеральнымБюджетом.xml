@@ -19,6 +19,37 @@
 			<Name>ОснованияФинансированияПособияФедеральнымБюджетом</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<EnumValue uuid="b84956e3-6756-4677-8b24-9772332afbda">
+				<Properties>
+					<Name>Семипалатинск</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="981eeab1-4a8f-4641-9b13-ab18e5063400">
+				<Properties>
+					<Name>ЗачетНестраховыхПериодов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7de36683-729b-42c3-90cf-f9338a905a9f">
+				<Properties>
+					<Name>Чернобыль</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1deb6923-ea34-43bb-a19c-dcb04a1d25a6">
+				<Properties>
+					<Name>Маяк</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bef567f5-3c53-40c0-9fb8-6f0001318fb7">
+				<Properties>
+					<Name>ПодразделенияОсобогоРиска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
 	</Enum>
 </MetaDataObject>

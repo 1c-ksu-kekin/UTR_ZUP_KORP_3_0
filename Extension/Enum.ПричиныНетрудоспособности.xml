@@ -1,10 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<CommonCommand uuid="14cd9bfd-a87b-4e77-9e75-d3eac636ac35">
+	<Enum uuid="98cebf9a-f2b1-4274-8387-fc3875684b23">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПричиныНетрудоспособности" category="Ref">
+				<xr:TypeId>2252f0d5-5227-4e27-85a5-8527e0e9f91f</xr:TypeId>
+				<xr:ValueId>f5aca689-efeb-4625-b1c9-c568348415e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПричиныНетрудоспособности" category="Manager">
+				<xr:TypeId>84c68982-4fee-4207-90d7-6fc2628c07c1</xr:TypeId>
+				<xr:ValueId>825dc130-34d8-4841-b9c3-dbe94ce9632a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПричиныНетрудоспособности" category="List">
+				<xr:TypeId>5d6bd222-c5d7-4f59-82de-987bd93d1d97</xr:TypeId>
+				<xr:ValueId>832ac531-f3a8-4dd3-b5aa-611f54196170</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>ЮТР_ТестовыйРасчетПоВедомости</Name>
+			<Name>ПричиныНетрудоспособности</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Group>NavigationPanelOrdinary</Group>
 		</Properties>
-	</CommonCommand>
+		<ChildObjects/>
+	</Enum>
 </MetaDataObject>

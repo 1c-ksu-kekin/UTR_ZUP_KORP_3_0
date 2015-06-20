@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="ef826d66-28ee-46de-a519-e58afe2ea1db">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявлениеСотрудникаНаВыплатуПособия" category="Object">
+				<xr:TypeId>91e53727-f2d2-4702-92f0-6a84b55aa5db</xr:TypeId>
+				<xr:ValueId>b99c92d5-8a76-4bc2-a199-ca48e3b406da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявлениеСотрудникаНаВыплатуПособия" category="Ref">
+				<xr:TypeId>ff052814-6d29-464a-94d9-d92ccbd1a005</xr:TypeId>
+				<xr:ValueId>8374df4d-5a44-4309-ad51-0173156fd5fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявлениеСотрудникаНаВыплатуПособия" category="Selection">
+				<xr:TypeId>df44096d-02c0-48fe-b92b-41f489594671</xr:TypeId>
+				<xr:ValueId>ed9ed74a-133f-4021-997b-43f0bbc90d86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявлениеСотрудникаНаВыплатуПособия" category="List">
+				<xr:TypeId>0c5d0dd7-f305-4d41-87a1-c481c8038dcf</xr:TypeId>
+				<xr:ValueId>be28302e-bebc-4472-92b8-6b63433b0d97</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявлениеСотрудникаНаВыплатуПособия" category="Manager">
+				<xr:TypeId>0fedbc86-b5a2-42f4-b6b8-7aa179145207</xr:TypeId>
+				<xr:ValueId>d1dbce0e-6ee1-48ae-a695-fcb43e186f88</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаявлениеСотрудникаНаВыплатуПособия</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

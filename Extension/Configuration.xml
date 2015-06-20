@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.34</Version>
+			<Version>3.0.22.182.35</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -101,6 +101,7 @@
 			<FunctionalOption>ИспользоватьВыдачуПогашениеЗаймовСотрудникам</FunctionalOption>
 			<FunctionalOption>ИспользоватьЕжедневныеОтчеты1СДокументооборота</FunctionalOption>
 			<FunctionalOption>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</FunctionalOption>
+			<FunctionalOption>ИспользоватьИндивидуальныйГрафикПриСменеГрафикаРаботы</FunctionalOption>
 			<FunctionalOption>ИспользоватьИсториюИзмененияШтатногоРасписания</FunctionalOption>
 			<FunctionalOption>ИспользоватьКадровыйУчет</FunctionalOption>
 			<FunctionalOption>ИспользоватьЛичныеДанныеВФормеСотрудника</FunctionalOption>
@@ -116,19 +117,19 @@
 			<FunctionalOption>ИспользоватьРасчетСохраняемогоДенежногоСодержания</FunctionalOption>
 			<FunctionalOption>ИспользоватьСвязанныеДокументы1СДокументооборота</FunctionalOption>
 			<FunctionalOption>ИспользоватьСпециальнуюОценкуУсловийТруда</FunctionalOption>
+			<FunctionalOption>ИспользоватьУчетВнутрисменныхПрочихНевыходов</FunctionalOption>
+			<FunctionalOption>ИспользоватьУчетКлассныхЧинов</FunctionalOption>
 			<FunctionalOption>ИспользоватьФайловоеХранилище1СДокументооборота</FunctionalOption>
 			<FunctionalOption>ИспользоватьШтатноеРасписание</FunctionalOption>
 			<FunctionalOption>ИспользоватьЭлектроннуюПочту1СДокументооборота</FunctionalOption>
 			<FunctionalOption>ИспользоватьЭлектронныеПодписи</FunctionalOption>
+			<FunctionalOption>ИспользуютсяРаботыСДосрочнойПенсией</FunctionalOption>
 			<FunctionalOption>НеИспользоватьВилкуСтавокВШтатномРасписании</FunctionalOption>
 			<FunctionalOption>НеИспользоватьШтатноеРасписание</FunctionalOption>
 			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТруда</FunctionalOption>
 			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТрудаРасширенная</FunctionalOption>
 			<FunctionalOption>ПрименятьСевернуюНадбавку</FunctionalOption>
 			<FunctionalOption>РаботаВБюджетномУчреждении</FunctionalOption>
-			<FunctionalOption>ИспользоватьУчетКлассныхЧинов</FunctionalOption>
-			<FunctionalOption>ИспользоватьИндивидуальныйГрафикПриСменеГрафикаРаботы</FunctionalOption>
-			<FunctionalOption>ИспользуютсяРаботыСДосрочнойПенсией</FunctionalOption>
 			<FunctionalOption>РаботаВХозрасчетнойОрганизации</FunctionalOption>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<DefinedType>ТерриторииВыполненияРаботВОрганизации</DefinedType>
@@ -194,6 +195,7 @@
 			<Catalog>ПравилаИнтеграцииС1СДокументооборотом</Catalog>
 			<Catalog>ПричиныОткрытияВакансий</Catalog>
 			<Catalog>ПроизводственныеКалендари</Catalog>
+			<Catalog>ПрофессииРабочих</Catalog>
 			<Catalog>ПрофилиГруппДоступа</Catalog>
 			<Catalog>ПрофилиДолжностей</Catalog>
 			<Catalog>РазрядыКатегорииДолжностей</Catalog>
@@ -228,12 +230,13 @@
 			<Catalog>ЮТР_ТипыВоздушныхСудов</Catalog>
 			<Catalog>ЮТР_ХарактерыРабот</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
-			<Catalog>ПрофессииРабочих</Catalog>
+			<Document>БольничныйЛист</Document>
 			<Document>ВводНачальныхОстатковОтпусков</Document>
 			<Document>ВходящаяСправкаОЗаработкеДляРасчетаПособий</Document>
 			<Document>ДоговорЗаймаСотруднику</Document>
 			<Document>ЗаявкаНаПодборПерсонала</Document>
 			<Document>ЗаявлениеНаПредоставлениеСтандартныхВычетовПоНДФЛ</Document>
+			<Document>ЗаявлениеСотрудникаНаВыплатуПособия</Document>
 			<Document>ИзменениеПлановыхНачислений</Document>
 			<Document>ИзменениеШтатногоРасписания</Document>
 			<Document>ИндивидуальныйГрафик</Document>
@@ -248,6 +251,7 @@
 			<Document>ПачкаДокументовСПВ_2</Document>
 			<Document>ПереводКДругомуРаботодателю</Document>
 			<Document>ПриемНаРаботу</Document>
+			<Document>ПрогулНеявка</Document>
 			<Document>РазовоеНачисление</Document>
 			<Document>РеестрСЗВ_6_2</Document>
 			<Document>Совмещение</Document>
@@ -264,6 +268,7 @@
 			<Enum>ВидыЗанятости</Enum>
 			<Enum>ВидыЗастрахованныхЛицОбязательногоСтрахования</Enum>
 			<Enum>ВидыМестВыплатыЗарплаты</Enum>
+			<Enum>ВидыОграниченияПособия</Enum>
 			<Enum>ВидыПрофессиональнойПодготовки</Enum>
 			<Enum>ВидыРаботСДосрочнойПенсией</Enum>
 			<Enum>ВидыСтажаПФР2014</Enum>
@@ -283,7 +288,10 @@
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</Enum>
 			<Enum>Приоритет</Enum>
+			<Enum>ПричиныНетрудоспособности</Enum>
 			<Enum>ПричиныСовмещения</Enum>
+			<Enum>СлучаиУходаЗаБольнымиДетьми</Enum>
+			<Enum>СостоянияСотрудника</Enum>
 			<Enum>СпособыРасчетаАванса</Enum>
 			<Enum>СпособыРасчетаДоплатыЗаСовмещение</Enum>
 			<Enum>СпособыРасчетаОтпуска</Enum>
