@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="e494f43a-75cb-4e2b-b0e2-67b04df652a2">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НачислениеЗаПервуюПоловинуМесяца" category="Object">
+				<xr:TypeId>d0015b8a-9c3e-4519-8889-7936a0587b1f</xr:TypeId>
+				<xr:ValueId>8f9fb492-b920-438b-9965-00892a4e44ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НачислениеЗаПервуюПоловинуМесяца" category="Ref">
+				<xr:TypeId>0fbb05ca-9d45-4854-8afe-949c2534e5ef</xr:TypeId>
+				<xr:ValueId>284d62ce-026a-4753-966f-d0c96525468d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НачислениеЗаПервуюПоловинуМесяца" category="Selection">
+				<xr:TypeId>58d3d3f8-bdcf-4a1a-8f9b-355f029e1553</xr:TypeId>
+				<xr:ValueId>f028ac72-0bc2-4e4c-8ec8-b639c88421fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НачислениеЗаПервуюПоловинуМесяца" category="List">
+				<xr:TypeId>4c49864e-7703-418c-b596-f7af54914429</xr:TypeId>
+				<xr:ValueId>b0e9d65e-71d9-4fcb-905b-d66983de1906</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НачислениеЗаПервуюПоловинуМесяца" category="Manager">
+				<xr:TypeId>cae3aa32-2171-4ea1-8362-4d83c84f1740</xr:TypeId>
+				<xr:ValueId>8b9db411-8eaa-499a-ae5c-2e5470096690</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НачислениеЗаПервуюПоловинуМесяца</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="34c34648-7888-4346-9a1c-7cfd79a6cd8a">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.НачислениеЗаПервуюПоловинуМесяца.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>86e00226-d33d-4b9c-9e88-28760b326982</xr:TypeId>
+						<xr:ValueId>1c40497a-8770-4833-b7c9-1724f472f6a2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.НачислениеЗаПервуюПоловинуМесяца.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>9719a3f3-13ef-42bc-bb3f-a3bc17cb09dc</xr:TypeId>
+						<xr:ValueId>594b9233-1915-43e6-a393-9c9e4c859cfb</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="e1233395-cbe9-4d07-8388-ca872c6b49c5">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

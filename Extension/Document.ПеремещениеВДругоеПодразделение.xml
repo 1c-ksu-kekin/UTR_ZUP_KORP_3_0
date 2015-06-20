@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="71656ca9-71d9-4799-816a-1a8caa1b5a95">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПеремещениеВДругоеПодразделение" category="Object">
+				<xr:TypeId>bfa50e19-fd97-44b0-a9fb-f8d19c153d21</xr:TypeId>
+				<xr:ValueId>c49e82de-0ad6-4915-9bdc-9ec4749267fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПеремещениеВДругоеПодразделение" category="Ref">
+				<xr:TypeId>4ab5a8d5-dde4-4cc3-b124-a4fc4f14e122</xr:TypeId>
+				<xr:ValueId>3ec313d8-2c81-4c41-bb6b-6a2cdffb0e38</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПеремещениеВДругоеПодразделение" category="Selection">
+				<xr:TypeId>c43ca2f4-1629-4f40-bfc8-3939ae8c8dce</xr:TypeId>
+				<xr:ValueId>6dcf589d-124a-4222-9b6b-1cfbef5d58dd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПеремещениеВДругоеПодразделение" category="List">
+				<xr:TypeId>6a2f8d45-1ebe-4fc6-87f0-da8f931efba8</xr:TypeId>
+				<xr:ValueId>fd49d3c5-8a92-454a-85ef-c0016b586eca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПеремещениеВДругоеПодразделение" category="Manager">
+				<xr:TypeId>f737be07-b60b-4814-a566-198d7d0bc8ad</xr:TypeId>
+				<xr:ValueId>2c0b9208-85fe-4134-a11d-3ae802bdf34e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПеремещениеВДругоеПодразделение</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="4fd356c0-e766-43f1-b101-c791e796fa81">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПеремещениеВДругоеПодразделение.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>27d28a64-a8f2-49ae-be7d-498d313b8c67</xr:TypeId>
+						<xr:ValueId>36397bdd-8639-449d-b6ce-323c3fe76725</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПеремещениеВДругоеПодразделение.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>32da11b0-5fe0-4cca-a45e-c24e8ff13839</xr:TypeId>
+						<xr:ValueId>132d2688-eb4c-4ffb-8806-93da9d496d53</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="09164cec-5896-4c96-84d9-6dbe84ade818">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

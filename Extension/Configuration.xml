@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.37</Version>
+			<Version>3.0.22.182.38</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -57,6 +57,8 @@
 			<StyleItem>ТекстЗапрещеннойЯчейкиЦвет</StyleItem>
 			<StyleItem>ФонУправляющегоПоля</StyleItem>
 			<StyleItem>ЦветОтличающейсяСтрокиДокумента</StyleItem>
+			<StyleItem>ПоясняющийОшибкуТекст</StyleItem>
+			<StyleItem>ШрифтРасширеннойПодсказкиМоноширинный</StyleItem>
 			<CommonPicture>ВариантыПравилЗаполненияРеквизитов</CommonPicture>
 			<CommonPicture>ВосклицательныйЗнакСерый</CommonPicture>
 			<CommonPicture>ЗакончитьРедактированиеФайла</CommonPicture>
@@ -93,6 +95,8 @@
 			<Role>ЮТР_ДобавлениеИзменениеНачисленийШтатногоРасписания</Role>
 			<Role>ЮТР_ДобавлениеИзменениеШтатногоРасписания</Role>
 			<Role>ЮТР_ДобавлениеИзменениеШтатногоРасписанияИзменениеТерритории</Role>
+			<Role>ЮТР_ДобавлениеИзменениеКадровоеИзменениеВидДокументаИзменениеГрафика</Role>
+			<FilterCriterion>ДокументыСотрудников</FilterCriterion>
 			<CommonModule>ЛьготыСотрудников</CommonModule>
 			<CommonModule>СотрудникиФормыРасширенный</CommonModule>
 			<FunctionalOption>ИспользоватьВилкуСтавокВШтатномРасписании</FunctionalOption>
@@ -128,11 +132,14 @@
 			<FunctionalOption>НеИспользоватьШтатноеРасписание</FunctionalOption>
 			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТруда</FunctionalOption>
 			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТрудаРасширенная</FunctionalOption>
+			<FunctionalOption>ИспользоватьМногофункциональностьДокументовЗарплатаКадры</FunctionalOption>
+			<FunctionalOption>ИспользоватьИндексациюЗаработка</FunctionalOption>
 			<FunctionalOption>ПрименятьСевернуюНадбавку</FunctionalOption>
 			<FunctionalOption>РаботаВБюджетномУчреждении</FunctionalOption>
 			<FunctionalOption>РаботаВХозрасчетнойОрганизации</FunctionalOption>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<DefinedType>ТерриторииВыполненияРаботВОрганизации</DefinedType>
+			<DefinedType>Респондент</DefinedType>
 			<DefinedType>ВладелецФайлов</DefinedType>
 			<CommonCommand>ПрисоединенныеФайлы</CommonCommand>
 			<CommonCommand>ЮТР_ОбработатьСклонения</CommonCommand>
@@ -153,6 +160,7 @@
 			<Constant>ИспользоватьЭлектроннуюПочту1СДокументооборота</Constant>
 			<Constant>ИспользоватьЭлектронныеПодписи</Constant>
 			<Constant>РаботаВБюджетномУчреждении</Constant>
+			<Constant>ИспользоватьМногофункциональностьДокументов</Constant>
 			<Constant>РаботаВХозрасчетнойОрганизации</Constant>
 			<CommonForm>ВводСтажаСотрудников</CommonForm>
 			<Catalog>Вакансии</Catalog>
@@ -205,7 +213,9 @@
 			<Catalog>СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения</Catalog>
 			<Catalog>СпособыОтраженияЗарплатыВБухУчете</Catalog>
 			<Catalog>СтатусыНалогоплательщиковПоНДФЛ</Catalog>
+			<Catalog>ВидыДоходовПоСтраховымВзносам</Catalog>
 			<Catalog>СтатьиРасходовЗарплата</Catalog>
+			<Catalog>ВидыДоходовНДФЛ</Catalog>
 			<Catalog>СтатьиФинансированияЗарплата</Catalog>
 			<Catalog>СтепениЗнанияЯзыка</Catalog>
 			<Catalog>СтепениРодстваФизическихЛиц</Catalog>
@@ -230,43 +240,166 @@
 			<Catalog>ЮТР_ТипыВоздушныхСудов</Catalog>
 			<Catalog>ЮТР_ХарактерыРабот</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
+			<Document>АвансовыйПлатежИностранцаПоНДФЛ</Document>
+			<Document>АктПриемкиВыполненныхРаботОказанныхУслуг</Document>
+			<Document>АктПроверкиСтраховыхВзносов</Document>
+			<Document>Анкета</Document>
 			<Document>БольничныйЛист</Document>
+			<Document>БронированиеГражданПребывающихВЗапасе</Document>
 			<Document>ВводНачальныхОстатковОтпусков</Document>
+			<Document>ВедомостьНаВыплатуЗарплатыВБанк</Document>
+			<Document>ВедомостьНаВыплатуЗарплатыВКассу</Document>
+			<Document>ВедомостьНаВыплатуЗарплатыПеречислением</Document>
+			<Document>ВедомостьНаВыплатуЗарплатыРаздатчиком</Document>
+			<Document>ВключениеВКадровыйРезерв</Document>
+			<Document>ВозвратИзОтпускаПоУходуЗаРебенком</Document>
+			<Document>ВозвратНДФЛ</Document>
+			<Document>ВозвратСотрудникомЗадолженности</Document>
 			<Document>ВходящаяСправкаОЗаработкеДляРасчетаПособий</Document>
+			<Document>ВыдачаЗаймаСотруднику</Document>
+			<Document>ВыплатаБывшимСотрудникам</Document>
+			<Document>ВыплатаДепонированнойЗарплаты</Document>
+			<Document>ГрафикОтпусков</Document>
+			<Document>ДанныеДляРасчетаЗарплаты</Document>
+			<Document>ДепонированиеЗарплаты</Document>
+			<Document>ДивидендыФизическимЛицам</Document>
+			<Document>ДоговорАвторскогоЗаказа</Document>
 			<Document>ДоговорЗаймаСотруднику</Document>
+			<Document>ДоговорРаботыУслуги</Document>
+			<Document>ДоходВНатуральнойФорме</Document>
+			<Document>ЕдиновременноеПособиеЗаСчетФСС</Document>
+			<Document>ЗаявкаНаВключениеВКадровыйРезерв</Document>
+			<Document>ЗаявкаНаЗакрытиеЛицевыхСчетовСотрудников</Document>
+			<Document>ЗаявкаНаКомандировку</Document>
+			<Document>ЗаявкаНаОткрытиеЛицевыхСчетовСотрудников</Document>
+			<Document>ЗаявкаНаОтпуск</Document>
 			<Document>ЗаявкаНаПодборПерсонала</Document>
+			<Document>ЗаявлениеВФССОВозмещенииВыплатРодителямДетейИнвалидов</Document>
+			<Document>ЗаявлениеВФССОВозмещенииРасходовНаПогребение</Document>
 			<Document>ЗаявлениеНаПредоставлениеСтандартныхВычетовПоНДФЛ</Document>
 			<Document>ЗаявлениеСотрудникаНаВыплатуПособия</Document>
+			<Document>ИзменениеАванса</Document>
+			<Document>ИзменениеГрафикаРаботыСписком</Document>
+			<Document>ИзменениеКвалификационногоРазряда</Document>
+			<Document>ИзменениеЛьготСотрудников</Document>
+			<Document>ИзменениеОплатыТруда</Document>
 			<Document>ИзменениеПлановыхНачислений</Document>
+			<Document>ИзменениеУсловийДоговораЗаймаСотруднику</Document>
+			<Document>ИзменениеУсловийИсполнительногоЛиста</Document>
+			<Document>ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком</Document>
 			<Document>ИзменениеШтатногоРасписания</Document>
+			<Document>ИндексацияЗаработка</Document>
 			<Document>ИндивидуальныйГрафик</Document>
+			<Document>ИсключениеИзКадровогоРезерва</Document>
+			<Document>ИсполнительныйЛист</Document>
 			<Document>ИсходящаяСправкаОЗаработкеДляРасчетаПособий</Document>
 			<Document>КадровыйПеревод</Document>
+			<Document>КадровыйПереводСписком</Document>
+			<Document>Командировка</Document>
+			<Document>КомандировкиСотрудников</Document>
+			<Document>КомпенсацияЗаЗадержкуЗарплаты</Document>
+			<Document>МатериальнаяПомощь</Document>
+			<Document>НазначениеОпросов</Document>
+			<Document>НаправлениеНаВнешнююАттестацию</Document>
+			<Document>НачальнаяЗадолженностьПоЗарплате</Document>
+			<Document>НачальнаяШтатнаяРасстановка</Document>
+			<Document>НачислениеЗаПервуюПоловинуМесяца</Document>
+			<Document>НачислениеЗарплаты</Document>
+			<Document>НачислениеОценочныхОбязательствПоОтпускам</Document>
+			<Document>ОперацияНалоговогоУчетаПоНДФЛ</Document>
+			<Document>ОперацияУчетаПоСтраховымВзносам</Document>
+			<Document>ОплатаДнейУходаЗаДетьмиИнвалидами</Document>
+			<Document>ОплатаПоСреднемуЗаработку</Document>
+			<Document>Отгул</Document>
+			<Document>ОтменаБронированияГражданПребывающихВЗапасе</Document>
+			<Document>ОтменаДоплатыДоСреднегоЗаработка</Document>
+			<Document>ОтменаЗаявкиНаКомандировку</Document>
+			<Document>ОтменаЗаявкиНаОтпуск</Document>
+			<Document>ОтменаСовмещения</Document>
 			<Document>Отпуск</Document>
+			<Document>ОтпускаСотрудников</Document>
+			<Document>ОтпускБезСохраненияОплаты</Document>
 			<Document>ОтпускПоУходуЗаРебенком</Document>
+			<Document>ОтражениеЗарплатыВБухучете</Document>
+			<Document>ОтражениеЗарплатыВФинансовомУчете</Document>
+			<Document>ПачкаДокументовАДВ_1</Document>
+			<Document>ПачкаДокументовАДВ_2</Document>
+			<Document>ПачкаДокументовАДВ_3</Document>
+			<Document>ПачкаДокументовДСВ_1</Document>
 			<Document>ПачкаДокументовСЗВ_6_1</Document>
 			<Document>ПачкаДокументовСЗВ_6_3</Document>
 			<Document>ПачкаДокументовСЗВ_6_4</Document>
+			<Document>ПачкаДокументовСЗВ_К</Document>
 			<Document>ПачкаДокументовСПВ_1</Document>
 			<Document>ПачкаДокументовСПВ_2</Document>
+			<Document>ПачкаРазделов6РасчетаРСВ_1</Document>
 			<Document>ПереводКДругомуРаботодателю</Document>
+			<Document>ПеремещениеВДругоеПодразделение</Document>
+			<Document>ПеремещениеМеждуТерриториями</Document>
+			<Document>ПереносОтпуска</Document>
+			<Document>ПерерасчетНДФЛ</Document>
+			<Document>ПерерасчетСтраховыхВзносов</Document>
+			<Document>ПеречислениеНДФЛВБюджет</Document>
+			<Document>ПлатежноеПоручение</Document>
+			<Document>ПогашениеЗаймаСотруднику</Document>
+			<Document>ПодтверждениеЗачисленияЗарплаты</Document>
+			<Document>ПодтверждениеОткрытияЛицевыхСчетовСотрудников</Document>
+			<Document>ПостоянноеУдержаниеВПользуТретьихЛиц</Document>
+			<Document>ПрекращениеСтандартныхВычетовНДФЛ</Document>
+			<Document>Премия</Document>
 			<Document>ПриемНаРаботу</Document>
+			<Document>ПриемНаРаботуСписком</Document>
+			<Document>ПризПодарок</Document>
+			<Document>ПриказНаДоплатуДоСреднегоЗаработка</Document>
+			<Document>ПриказОбАттестацииСотрудников</Document>
 			<Document>ПрогулНеявка</Document>
+			<Document>ПродлениеКонтрактаДоговора</Document>
+			<Document>ПростойСотрудников</Document>
+			<Document>РаботаВВыходныеИПраздничныеДни</Document>
+			<Document>РаботаСверхурочно</Document>
 			<Document>РазовоеНачисление</Document>
+			<Document>РаспределениеОсновногоЗаработка</Document>
+			<Document>РегистрацияПереработок</Document>
+			<Document>РегистрацияПрочихДоходов</Document>
+			<Document>РеестрДСВ_3</Document>
 			<Document>РеестрСЗВ_6_2</Document>
+			<Document>РезультатыАттестацииСотрудников</Document>
+			<Document>СведенияОНезачисленнойЗарплате</Document>
 			<Document>Совмещение</Document>
+			<Document>СообщениеОбОтсутствии</Document>
+			<Document>СообщениеОНеправильныхДанныхСотрудника</Document>
+			<Document>СписаниеДепонированнойЗарплаты</Document>
+			<Document>СправкаНДФЛ</Document>
+			<Document>СправкиНДФЛДляПередачиВНалоговыйОрган</Document>
+			<Document>СправкиПоНДФЛДляРасчетаПоНалогуНаПрибыль</Document>
+			<Document>ТабельУчетаРабочегоВремени</Document>
 			<Document>УведомлениеОПравеНаИмущественныйВычетДляНДФЛ</Document>
 			<Document>Увольнение</Document>
+			<Document>УвольнениеСписком</Document>
 			<Document>УдержаниеВСчетРасчетовПоПрочимОперациям</Document>
+			<Document>УдержаниеДобровольныхВзносовВНПФ</Document>
+			<Document>УдержаниеДобровольныхСтраховыхВзносов</Document>
+			<Document>УдержаниеПрофсоюзныхВзносов</Document>
+			<Document>УплатаСтраховыхВзносовВФонды</Document>
 			<Document>УтверждениеШтатногоРасписания</Document>
+			<Document>УченическийДоговор</Document>
+			<Document>ФормированиеАттестационнойКомиссииСотрудников</Document>
+			<Document>ХодатайствоОБронированииГражданПребывающихВЗапасе</Document>
 			<Document>ЮТР_ГрупповойПриказ</Document>
+			<Document>ЮТР_Справка</Document>
+			<Document>ЮТР_Уведомление</Document>
+			<Document>ЮТР_УплатаАлиментовИПрофвзносов</Document>
 			<DocumentJournal>ДокументыУправленияШтатнымРасписанием</DocumentJournal>
+			<DocumentJournal>ГрафикиПереносыОтпусков</DocumentJournal>
+			<DocumentJournal>ПриемыПереводыУвольнения</DocumentJournal>
+			<DocumentJournal>КадровыеДокументы</DocumentJournal>
 			<DocumentJournal>Отсутствия</DocumentJournal>
 			<Enum>ВариантыПравилЗаполненияРеквизитов</Enum>
 			<Enum>ВидыДнейПроизводственногоКалендаря</Enum>
 			<Enum>ВидыДоговоровССотрудниками</Enum>
 			<Enum>ВидыЗанятости</Enum>
 			<Enum>ВидыЗастрахованныхЛицОбязательногоСтрахования</Enum>
+			<Enum>ВидыОбязательногоСтрахованияСотрудников</Enum>
 			<Enum>ВидыМестВыплатыЗарплаты</Enum>
 			<Enum>ВидыОграниченияПособия</Enum>
 			<Enum>ВидыПрофессиональнойПодготовки</Enum>
@@ -287,6 +420,20 @@
 			<Enum>ОтношениеКЕНВДЗатратНаЗарплату</Enum>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</Enum>
+			<Enum>ПериодыРасчетаБазовыхНачислений</Enum>
+			<Enum>УчетНачисленийВСреднемЗаработкеОбщий</Enum>
+			<Enum>СтратегииОтраженияВУчетеНачисленийУдержаний</Enum>
+			<Enum>ВидыСтажаСЗВ</Enum>
+			<Enum>ВидыРабочегоВремениСотрудников</Enum>
+			<Enum>ПорядокОпределенияРасчетногоПериодаСреднегоЗаработка</Enum>
+			<Enum>ПорядокРасчетаСреднегоЗаработкаОбщий</Enum>
+			<Enum>ВидыДокументовНачисления</Enum>
+			<Enum>ВидыНачисленийОплатыТрудаДляНУ</Enum>
+			<Enum>КатегорииНачисленийИНеоплаченногоВремени</Enum>
+			<Enum>СпособыВыполненияНачислений</Enum>
+			<Enum>КатегорииУдержаний</Enum>
+			<Enum>СпособыВыполненияУдержаний</Enum>
+			<Enum>ВидыОперацийПоЗарплате</Enum>
 			<Enum>Приоритет</Enum>
 			<Enum>ПричиныНетрудоспособности</Enum>
 			<Enum>ПричиныСовмещения</Enum>

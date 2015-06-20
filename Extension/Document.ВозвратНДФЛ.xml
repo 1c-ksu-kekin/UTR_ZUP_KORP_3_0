@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="05d145cf-5f90-489c-883d-a186b92828ec">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратНДФЛ" category="Object">
+				<xr:TypeId>8364c0e4-b219-4d78-9278-f37de5628656</xr:TypeId>
+				<xr:ValueId>e49063bc-2bb2-456b-8336-3ba6bce24516</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратНДФЛ" category="Ref">
+				<xr:TypeId>aa54fa31-ab95-4771-b8df-89acc75459db</xr:TypeId>
+				<xr:ValueId>a7f6a7d7-29d5-4783-8fa1-178ca3165080</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратНДФЛ" category="Selection">
+				<xr:TypeId>b9dc064e-bf32-46c1-9386-5ff56c7880ed</xr:TypeId>
+				<xr:ValueId>f453d49a-406b-47b6-a335-9c607752e9eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратНДФЛ" category="List">
+				<xr:TypeId>0029249a-9fdc-4d4a-abb7-366f64c9ff2b</xr:TypeId>
+				<xr:ValueId>caa6ddad-1df2-4ca4-9c35-d96ba1901dfb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратНДФЛ" category="Manager">
+				<xr:TypeId>0c692d7f-53af-406f-b5bd-29d5f0ab7005</xr:TypeId>
+				<xr:ValueId>113f7a53-61e8-405e-9a1d-c259c9252b8b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВозвратНДФЛ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="eb9ee1a5-06b3-4ecd-906e-56949010bebf">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

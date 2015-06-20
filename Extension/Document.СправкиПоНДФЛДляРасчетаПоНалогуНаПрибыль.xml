@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="3ef245bc-17c0-4de3-b65c-6a0654afe099">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СправкиПоНДФЛДляРасчетаПоНалогуНаПрибыль" category="Object">
+				<xr:TypeId>b709a476-21f6-41f3-a326-a41f266cd7ff</xr:TypeId>
+				<xr:ValueId>8b5e2723-9afe-4339-b5ee-106255523190</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СправкиПоНДФЛДляРасчетаПоНалогуНаПрибыль" category="Ref">
+				<xr:TypeId>f7787c0c-4525-4f85-9309-a337a6b9af5b</xr:TypeId>
+				<xr:ValueId>540abf71-ecc9-40ae-b1fd-74070b8cc33f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СправкиПоНДФЛДляРасчетаПоНалогуНаПрибыль" category="Selection">
+				<xr:TypeId>7b550036-a120-49a0-a5b4-a0b9027b85a8</xr:TypeId>
+				<xr:ValueId>6b1abb83-9a52-45ff-a5f5-1efb02296047</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СправкиПоНДФЛДляРасчетаПоНалогуНаПрибыль" category="List">
+				<xr:TypeId>520788dc-48e3-44a9-bc98-311539c2df03</xr:TypeId>
+				<xr:ValueId>08830274-5fe6-410c-8f89-64aef94cb775</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СправкиПоНДФЛДляРасчетаПоНалогуНаПрибыль" category="Manager">
+				<xr:TypeId>c75bc6ad-4d28-4e9a-a14b-421078dae4fd</xr:TypeId>
+				<xr:ValueId>37646cd7-23c1-490b-a923-ee501717952f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СправкиПоНДФЛДляРасчетаПоНалогуНаПрибыль</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="bef20ea8-27c2-40ad-85d6-700500719a2b">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СправкиПоНДФЛДляРасчетаПоНалогуНаПрибыль.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>74e9246d-ab9d-4771-80f6-81552284405c</xr:TypeId>
+						<xr:ValueId>9cc3da4d-1c15-4552-b332-a2b48a955f92</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СправкиПоНДФЛДляРасчетаПоНалогуНаПрибыль.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>9c89aafa-904a-4450-94d8-b46f0ed36e9e</xr:TypeId>
+						<xr:ValueId>99ef5568-a625-49b8-97dc-f5066c05600c</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="b5f90cd9-6f62-4f2f-9979-9dd302ef0a9f">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="66aa7397-fdf0-41ad-867a-af1c3c33428d">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СправкиПоНДФЛДляРасчетаПоНалогуНаПрибыль.Сотрудники" category="TabularSection">
+						<xr:TypeId>4f699d0a-47a3-4cba-8b65-6b5f1f98b429</xr:TypeId>
+						<xr:ValueId>2fbb6053-a66c-4fae-a73b-7091575d1228</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СправкиПоНДФЛДляРасчетаПоНалогуНаПрибыль.Сотрудники" category="TabularSectionRow">
+						<xr:TypeId>6c7ce495-6989-40f1-a50a-0d754ee4d7e2</xr:TypeId>
+						<xr:ValueId>53ce8a4a-a946-43de-b2f4-ddab5142917d</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Сотрудники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4c51fd27-898d-4b1d-89c1-b9c904068c11">
+						<Properties>
+							<Name>Сотрудник</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

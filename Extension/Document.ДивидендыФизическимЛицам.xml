@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="971f404d-7e5a-409c-8ade-2341325398de">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ДивидендыФизическимЛицам" category="Object">
+				<xr:TypeId>b13f6a2f-993c-4e92-a2c5-c31297fc17d5</xr:TypeId>
+				<xr:ValueId>6e5f1938-5eb1-4614-9339-5ec47694fb03</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ДивидендыФизическимЛицам" category="Ref">
+				<xr:TypeId>56ae3265-3494-4791-802f-edac4de9bad6</xr:TypeId>
+				<xr:ValueId>de5250df-cece-4bc7-b6bf-8cc6f77643fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ДивидендыФизическимЛицам" category="Selection">
+				<xr:TypeId>d2f8c388-7891-4525-b19f-03b01cdcad6d</xr:TypeId>
+				<xr:ValueId>a5a029c3-e85b-4082-b3d4-5462e15ff767</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ДивидендыФизическимЛицам" category="List">
+				<xr:TypeId>e9fbb1ec-336c-43c0-ba4b-d461bc62ca6c</xr:TypeId>
+				<xr:ValueId>37aa4f25-d339-4b38-8cf5-5d47246e2caa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ДивидендыФизическимЛицам" category="Manager">
+				<xr:TypeId>de07a07e-83e2-4235-8766-867de13a35c5</xr:TypeId>
+				<xr:ValueId>543a5918-655a-4dfb-b5d1-77f688d2ac57</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДивидендыФизическимЛицам</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="6d56db75-2c4c-41eb-90eb-3c4820a6238f">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ДивидендыФизическимЛицам.Начисления" category="TabularSection">
+						<xr:TypeId>6bad6f42-3844-429c-9c6e-411b9f9d36fd</xr:TypeId>
+						<xr:ValueId>bce5c769-90d9-4809-b781-679cfd015a38</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ДивидендыФизическимЛицам.Начисления" category="TabularSectionRow">
+						<xr:TypeId>b34e37cf-14b0-418a-8c31-7260675f44af</xr:TypeId>
+						<xr:ValueId>98a210d9-b9a4-4d33-bb5a-0f882900e551</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Начисления</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4b1d25ec-beb8-4896-b48e-7a7e0c31f638">
+						<Properties>
+							<Name>Акционер</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

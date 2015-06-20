@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="2aa71ce0-8c04-4d8f-9298-18cdb50e286b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеЛьготСотрудников" category="Object">
+				<xr:TypeId>89a22d51-bc97-45c1-ae05-a4594ebe1887</xr:TypeId>
+				<xr:ValueId>5968635e-9af0-487e-8158-1e13f6a2076c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеЛьготСотрудников" category="Ref">
+				<xr:TypeId>085ca072-9ba9-4867-8592-011441d5c3be</xr:TypeId>
+				<xr:ValueId>7e9641f9-0144-4026-a834-92382c624f8f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеЛьготСотрудников" category="Selection">
+				<xr:TypeId>e5a3a4d5-1349-4360-9200-03fe63b090e7</xr:TypeId>
+				<xr:ValueId>96cc7b14-e5f9-4ba7-b053-6ebbcdd93398</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеЛьготСотрудников" category="List">
+				<xr:TypeId>ef2f5fdb-d3de-4221-9e8b-fe5b2fbe84c3</xr:TypeId>
+				<xr:ValueId>34e4c131-54c9-4690-a7e5-7c5853454aac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеЛьготСотрудников" category="Manager">
+				<xr:TypeId>04ede891-159e-4168-a566-dd1da0c4a09f</xr:TypeId>
+				<xr:ValueId>8e22ade0-3943-4594-8db6-cd255a36f7bb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеЛьготСотрудников</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="15d469cb-6da1-462f-aa9d-598a82c9eed2">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИзменениеЛьготСотрудников.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>044ab682-6665-4895-9a1a-452866e49bab</xr:TypeId>
+						<xr:ValueId>42c1dd3e-ab31-44fd-b7db-7250a71b152f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИзменениеЛьготСотрудников.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>1ec6e8a6-1f2a-44d5-96a7-cdd523e60e88</xr:TypeId>
+						<xr:ValueId>26a1a47e-9741-44ac-a275-d8029c7a6207</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="91ec12dc-58c4-469b-9870-de989f3e7514">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

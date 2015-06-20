@@ -1,32 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Document uuid="ef826d66-28ee-46de-a519-e58afe2ea1db">
+	<Document uuid="17978d41-de7d-4ce0-a26c-da6cf1550a2b">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ЗаявлениеСотрудникаНаВыплатуПособия" category="Object">
-				<xr:TypeId>91e53727-f2d2-4702-92f0-6a84b55aa5db</xr:TypeId>
-				<xr:ValueId>b99c92d5-8a76-4bc2-a199-ca48e3b406da</xr:ValueId>
+				<xr:TypeId>40e0c2ba-9e04-4f3f-b361-b3b5a2855532</xr:TypeId>
+				<xr:ValueId>ff1904ab-7743-415a-b961-f1ecacb00df3</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentRef.ЗаявлениеСотрудникаНаВыплатуПособия" category="Ref">
-				<xr:TypeId>ff052814-6d29-464a-94d9-d92ccbd1a005</xr:TypeId>
-				<xr:ValueId>8374df4d-5a44-4309-ad51-0173156fd5fa</xr:ValueId>
+				<xr:TypeId>c27a7cb7-0dc7-43be-9d01-fe99f49ab894</xr:TypeId>
+				<xr:ValueId>c6b3f173-b901-4b0f-8037-7e9e546fae54</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentSelection.ЗаявлениеСотрудникаНаВыплатуПособия" category="Selection">
-				<xr:TypeId>df44096d-02c0-48fe-b92b-41f489594671</xr:TypeId>
-				<xr:ValueId>ed9ed74a-133f-4021-997b-43f0bbc90d86</xr:ValueId>
+				<xr:TypeId>226df2ab-b69b-48d0-bd1d-f45be9f40da4</xr:TypeId>
+				<xr:ValueId>a30ba1f9-90ee-4a25-a496-dbc324981ba8</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentList.ЗаявлениеСотрудникаНаВыплатуПособия" category="List">
-				<xr:TypeId>0c5d0dd7-f305-4d41-87a1-c481c8038dcf</xr:TypeId>
-				<xr:ValueId>be28302e-bebc-4472-92b8-6b63433b0d97</xr:ValueId>
+				<xr:TypeId>30ffc010-cd5b-4cfa-892c-dbce64ec72c2</xr:TypeId>
+				<xr:ValueId>dc96bae4-c171-4741-bdb4-d8f663b8d8f1</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentManager.ЗаявлениеСотрудникаНаВыплатуПособия" category="Manager">
-				<xr:TypeId>0fedbc86-b5a2-42f4-b6b8-7aa179145207</xr:TypeId>
-				<xr:ValueId>d1dbce0e-6ee1-48ae-a695-fcb43e186f88</xr:ValueId>
+				<xr:TypeId>f2e5fb9a-e444-4d9c-9561-d9846d05bc6e</xr:TypeId>
+				<xr:ValueId>da1c469b-a46b-4b4f-8855-e29f20ab0866</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ЗаявлениеСотрудникаНаВыплатуПособия</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="3b9daa2e-013d-480e-951f-89192dd3cf7b">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>

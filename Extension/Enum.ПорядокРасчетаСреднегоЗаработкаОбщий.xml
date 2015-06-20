@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="ad644a8b-638e-4e3b-a047-4a3849a43e9f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокРасчетаСреднегоЗаработкаОбщий" category="Ref">
+				<xr:TypeId>c47f41b0-4f11-4bec-bd39-d3a75c65fa30</xr:TypeId>
+				<xr:ValueId>11df0628-124d-4792-91f8-38fbb5a6999e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокРасчетаСреднегоЗаработкаОбщий" category="Manager">
+				<xr:TypeId>d1828ba7-58f8-4d1f-b0bd-119c2a1b004f</xr:TypeId>
+				<xr:ValueId>9da2656c-044c-4ac7-8272-785c1c3480e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокРасчетаСреднегоЗаработкаОбщий" category="List">
+				<xr:TypeId>e856cdd9-ca1e-48f2-9190-baee2be9a9d2</xr:TypeId>
+				<xr:ValueId>b90dd329-87f7-4494-8b6e-f85aafa942b4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПорядокРасчетаСреднегоЗаработкаОбщий</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

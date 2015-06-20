@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="859288b4-210d-49b4-9a2f-166952d69af8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ДепонированиеЗарплаты" category="Object">
+				<xr:TypeId>6102363c-14ca-4981-83f5-8062c49960a4</xr:TypeId>
+				<xr:ValueId>a4d09eb1-e3b8-46e7-b746-ef50dcf1957e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ДепонированиеЗарплаты" category="Ref">
+				<xr:TypeId>cbcaa742-4d7c-4185-873a-751d72dba9bb</xr:TypeId>
+				<xr:ValueId>c34b2fc3-8700-493c-9118-a7969bd68856</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ДепонированиеЗарплаты" category="Selection">
+				<xr:TypeId>3d5dac98-2324-46e5-a904-198c3f1d2d8f</xr:TypeId>
+				<xr:ValueId>d86cce42-4b24-404b-ae5b-79e649324250</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ДепонированиеЗарплаты" category="List">
+				<xr:TypeId>67503c66-fbd4-4540-a9d8-d993c1d46b75</xr:TypeId>
+				<xr:ValueId>0c54957d-10a1-402a-b421-b55fa23318c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ДепонированиеЗарплаты" category="Manager">
+				<xr:TypeId>b2b28c6b-d71d-4c9f-b692-76a93ac52616</xr:TypeId>
+				<xr:ValueId>1e79ad86-12b9-47ba-b97a-487e80f61c14</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДепонированиеЗарплаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="3dd7e048-f23c-42a5-8fd1-b8e1824de698">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ДепонированиеЗарплаты.Депоненты" category="TabularSection">
+						<xr:TypeId>deea72a5-f59b-4196-bd52-e17f9afe519e</xr:TypeId>
+						<xr:ValueId>4949f23b-0702-4cf3-b07d-d71cebc2f750</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ДепонированиеЗарплаты.Депоненты" category="TabularSectionRow">
+						<xr:TypeId>9a83cdfe-88ca-44dd-b751-f1751c2775b9</xr:TypeId>
+						<xr:ValueId>b4873efb-29cb-460a-81f5-b732c8c11d04</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Депоненты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="f805508d-6927-4a51-810a-904eb392b598">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

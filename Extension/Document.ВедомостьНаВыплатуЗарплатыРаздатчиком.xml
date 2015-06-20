@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="ca1d9853-540b-497f-a4ba-52bdf75656f3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВедомостьНаВыплатуЗарплатыРаздатчиком" category="Object">
+				<xr:TypeId>c28513f0-6679-428c-9315-a162d8c443f4</xr:TypeId>
+				<xr:ValueId>21f66ae0-1a74-4437-b85c-02ffbc563f65</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВедомостьНаВыплатуЗарплатыРаздатчиком" category="Ref">
+				<xr:TypeId>2489fab1-44ff-4a38-9c0e-62890aeaa8b6</xr:TypeId>
+				<xr:ValueId>85245af7-b707-4149-b38e-719c5fedd891</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВедомостьНаВыплатуЗарплатыРаздатчиком" category="Selection">
+				<xr:TypeId>6e1bfc2d-eaae-4593-a9e8-2f041cdab2dd</xr:TypeId>
+				<xr:ValueId>89293a33-37fe-4c10-9465-c1391ee85e0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВедомостьНаВыплатуЗарплатыРаздатчиком" category="List">
+				<xr:TypeId>96d412fb-f7d0-4f96-af1c-f40d81765fba</xr:TypeId>
+				<xr:ValueId>342b252f-26f2-4636-a51f-910ab9717ce8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВедомостьНаВыплатуЗарплатыРаздатчиком" category="Manager">
+				<xr:TypeId>71877026-a806-48e8-86af-7070e85c7ba4</xr:TypeId>
+				<xr:ValueId>758a8991-f628-4e94-ba3e-6f00c6d257de</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВедомостьНаВыплатуЗарплатыРаздатчиком</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="b209e7ef-6c40-4f8c-bff3-32f55b3ad00e">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВедомостьНаВыплатуЗарплатыРаздатчиком.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>098ee322-3b66-449b-853d-47a699fd43d8</xr:TypeId>
+						<xr:ValueId>e39a362f-51fb-45b5-8114-bad5078ebc44</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВедомостьНаВыплатуЗарплатыРаздатчиком.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>5fb29931-1d0f-4880-a105-061c12da2675</xr:TypeId>
+						<xr:ValueId>728cf86d-86ac-42e7-90f5-60a034839526</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="3b988016-bf03-4adb-9f66-35b6add73b53">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

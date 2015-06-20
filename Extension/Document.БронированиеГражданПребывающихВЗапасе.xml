@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="f7fdae36-d9d7-4620-9c39-b0ea39ebc341">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.БронированиеГражданПребывающихВЗапасе" category="Object">
+				<xr:TypeId>80a1885b-d77b-43b8-a32b-9dabbc9717a9</xr:TypeId>
+				<xr:ValueId>bfd82111-1f07-4ba8-84ec-14c61395e8e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.БронированиеГражданПребывающихВЗапасе" category="Ref">
+				<xr:TypeId>af44e774-efea-43fa-9933-9522ff9718b2</xr:TypeId>
+				<xr:ValueId>f3a668cb-d1d8-46e7-9bba-d51d0d9a93f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.БронированиеГражданПребывающихВЗапасе" category="Selection">
+				<xr:TypeId>9177005b-6cd4-4253-bc32-a2b552e9986e</xr:TypeId>
+				<xr:ValueId>8500e34d-e828-429c-bae9-eb4f05c97c7b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.БронированиеГражданПребывающихВЗапасе" category="List">
+				<xr:TypeId>f4a6788d-1c5e-4286-83ff-937bb4b3988d</xr:TypeId>
+				<xr:ValueId>e93030f6-2e25-498f-b04e-bf0683609df9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.БронированиеГражданПребывающихВЗапасе" category="Manager">
+				<xr:TypeId>da11c531-98c9-44a9-94c4-1c7ba3e5fb06</xr:TypeId>
+				<xr:ValueId>86b1e9a1-8696-457e-a92c-575b3f65ad4e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БронированиеГражданПребывающихВЗапасе</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="3ce61bdd-5ffc-47ae-b5de-0a9299bdf888">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.БронированиеГражданПребывающихВЗапасе.Сотрудники" category="TabularSection">
+						<xr:TypeId>c3e221e0-f2c9-4742-a962-c52c6ad1ab86</xr:TypeId>
+						<xr:ValueId>6dd741a5-a017-4f34-bbf5-c0ff77d5c534</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.БронированиеГражданПребывающихВЗапасе.Сотрудники" category="TabularSectionRow">
+						<xr:TypeId>274c9b20-5307-481d-9f0c-ec7fe8bf46b2</xr:TypeId>
+						<xr:ValueId>72d839e2-5882-4ceb-a512-c81d91fe84a4</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Сотрудники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="5f3d4c74-fa1b-47b0-bf43-6cac10d5fcdf">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

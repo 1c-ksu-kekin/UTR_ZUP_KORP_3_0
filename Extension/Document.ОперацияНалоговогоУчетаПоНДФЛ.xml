@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="e5d22f96-320e-41f6-b05d-14427d2e0463">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОперацияНалоговогоУчетаПоНДФЛ" category="Object">
+				<xr:TypeId>adf8a6d7-60d0-4fc5-859a-b6bdb984fe80</xr:TypeId>
+				<xr:ValueId>5c490a1d-0fe4-4b7b-9c8b-67f93ae6a5ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОперацияНалоговогоУчетаПоНДФЛ" category="Ref">
+				<xr:TypeId>b1f3d398-aab0-4dae-b2f5-7dd27ba1ab11</xr:TypeId>
+				<xr:ValueId>4a0fdd3c-4417-427c-a1c2-e168aac0ad70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОперацияНалоговогоУчетаПоНДФЛ" category="Selection">
+				<xr:TypeId>940b9eec-6178-47ed-b5a3-a33c5785f6ae</xr:TypeId>
+				<xr:ValueId>89e4d3d7-f2c4-4e20-939f-5884e5012ba4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОперацияНалоговогоУчетаПоНДФЛ" category="List">
+				<xr:TypeId>c7716bfd-4fa7-4e73-bb7f-9c702b57eb64</xr:TypeId>
+				<xr:ValueId>04361066-ed3a-4c10-bb6a-44c3ec13b5ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОперацияНалоговогоУчетаПоНДФЛ" category="Manager">
+				<xr:TypeId>30eb8d9b-f5fd-4e79-bff9-a49b2e648fcd</xr:TypeId>
+				<xr:ValueId>5f1b6ae7-741e-4ffd-93b9-1c79c62f977c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОперацияНалоговогоУчетаПоНДФЛ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="86246415-bf01-46da-90b2-8927356de530">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -27,6 +27,34 @@
 			<Name>ПачкаДокументовСЗВ_6_1</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<TabularSection uuid="ecaf3f4f-f82c-4f61-b889-69d9ed1434ac">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПачкаДокументовСЗВ_6_1.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>fcf4afbf-63e6-4d5d-9188-5723e11f5ed4</xr:TypeId>
+						<xr:ValueId>365b6ec8-604d-494a-8218-9283d98205cc</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПачкаДокументовСЗВ_6_1.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>22ae631b-0126-4a3e-9ae6-4f55001cd01d</xr:TypeId>
+						<xr:ValueId>7d9015f0-b261-4a65-864f-8c44ca539020</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="50c156d5-30dc-4035-866d-38ceeeed6c36">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>

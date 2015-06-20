@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="06ab10ba-770d-4568-9e83-2ff26811501e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КомандировкиСотрудников" category="Object">
+				<xr:TypeId>75342eab-0ea4-408c-8fbc-3d0868a5489f</xr:TypeId>
+				<xr:ValueId>43c68a9f-f868-4e50-9f92-90ddd50a5d8b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КомандировкиСотрудников" category="Ref">
+				<xr:TypeId>521b7b07-9338-4794-bbd6-54a61ef615c5</xr:TypeId>
+				<xr:ValueId>fcc2a361-ff94-4991-a8fc-e1f2e0d6d20a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КомандировкиСотрудников" category="Selection">
+				<xr:TypeId>477df313-c6ae-4b11-92a3-458c71ce2a33</xr:TypeId>
+				<xr:ValueId>5a0d3dfa-b361-40d4-90cb-1144bc1658e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КомандировкиСотрудников" category="List">
+				<xr:TypeId>f13c8db8-3840-40c4-ad8f-8e11d3e70e8f</xr:TypeId>
+				<xr:ValueId>6af53136-49d0-4074-9d54-09c4cf5aa777</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КомандировкиСотрудников" category="Manager">
+				<xr:TypeId>229b29f2-15b1-4c61-a81b-21c4cbd81853</xr:TypeId>
+				<xr:ValueId>4042f38a-f77a-488e-86a3-ec378419368c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КомандировкиСотрудников</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="81faa62f-5e79-4c04-8a71-5ada9ddb68c4">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.КомандировкиСотрудников.Сотрудники" category="TabularSection">
+						<xr:TypeId>8531c22a-3222-4c6b-a345-858b1524afc1</xr:TypeId>
+						<xr:ValueId>cf8dfe15-406f-466c-abff-89ce035192f9</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.КомандировкиСотрудников.Сотрудники" category="TabularSectionRow">
+						<xr:TypeId>48dab04c-e103-4e61-83b3-c6f57d710565</xr:TypeId>
+						<xr:ValueId>b2c2a4a4-39ef-4508-bae6-e5f2364e217d</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Сотрудники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="ec980a4f-1a1b-4945-8883-6aaca1776bae">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

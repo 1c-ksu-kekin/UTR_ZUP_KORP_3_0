@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="72774352-e081-4b95-b28b-3239e5f39f8b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком" category="Object">
+				<xr:TypeId>a8aecc7d-0f4c-4f63-adce-efc1e111dff3</xr:TypeId>
+				<xr:ValueId>bb91518c-a6a2-4177-adfd-abd0b89e3ef7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком" category="Ref">
+				<xr:TypeId>99456d31-9e7f-42c8-8d6c-e34990a79393</xr:TypeId>
+				<xr:ValueId>8ccd7ef3-45e9-42be-9c12-6f84ffce31a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком" category="Selection">
+				<xr:TypeId>01630778-0ed7-40df-ac73-60ff6b0c16e9</xr:TypeId>
+				<xr:ValueId>4d1daf6a-7845-487c-b393-21a82aabf027</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком" category="List">
+				<xr:TypeId>1eebcefb-3c1d-4768-97c3-3ce2b5aaeb50</xr:TypeId>
+				<xr:ValueId>01719d70-5ce6-4eb3-9c2f-18850f1050d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком" category="Manager">
+				<xr:TypeId>67e51732-27f4-4c83-8f2e-93574d054379</xr:TypeId>
+				<xr:ValueId>91e26988-70cc-4eed-8e27-a04eeefec81a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c770ba4d-3c1d-4bad-9125-9370df61b912">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

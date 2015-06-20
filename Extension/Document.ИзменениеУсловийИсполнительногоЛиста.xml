@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="de88ffed-5a3d-41b1-99cd-89dbbded0602">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеУсловийИсполнительногоЛиста" category="Object">
+				<xr:TypeId>c8205cbe-2725-4344-be05-4f7ce30923e0</xr:TypeId>
+				<xr:ValueId>a65d0279-db52-4ecb-919b-0b7aad9f3bdb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеУсловийИсполнительногоЛиста" category="Ref">
+				<xr:TypeId>07dfabce-100b-4553-8276-1f5f017ebe62</xr:TypeId>
+				<xr:ValueId>bda3612d-e640-4b43-b532-71d5c926370d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеУсловийИсполнительногоЛиста" category="Selection">
+				<xr:TypeId>88125f8d-9084-4d8c-b0f5-be308277a231</xr:TypeId>
+				<xr:ValueId>b10da925-a161-43b5-ad15-914a09967043</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеУсловийИсполнительногоЛиста" category="List">
+				<xr:TypeId>45863703-be73-45be-959c-d9db43c4c0e7</xr:TypeId>
+				<xr:ValueId>1a187bc6-b361-40be-a09e-f448a59a2359</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеУсловийИсполнительногоЛиста" category="Manager">
+				<xr:TypeId>39879d9c-ba25-4710-9ad9-790deff88265</xr:TypeId>
+				<xr:ValueId>1abe1722-64c4-4a51-bf18-2eb464b1d950</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеУсловийИсполнительногоЛиста</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e29023bf-653f-4b1d-a39d-0d70c0100703">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

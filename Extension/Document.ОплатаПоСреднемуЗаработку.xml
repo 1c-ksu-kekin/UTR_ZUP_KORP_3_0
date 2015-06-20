@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="15bec498-2bbd-4ea2-a0fc-46af39ab31c7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОплатаПоСреднемуЗаработку" category="Object">
+				<xr:TypeId>2601802c-83a2-4546-89c8-d64d6fd7714a</xr:TypeId>
+				<xr:ValueId>3fb56ecf-1dd2-48d4-9ed8-6012c46a233c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОплатаПоСреднемуЗаработку" category="Ref">
+				<xr:TypeId>9dc1f64e-7ea2-411a-a767-a26aaeaab88b</xr:TypeId>
+				<xr:ValueId>76202f89-1331-4ed3-a1cf-8cbc3dee57ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОплатаПоСреднемуЗаработку" category="Selection">
+				<xr:TypeId>8189b212-c1d1-47f9-b92e-c901836ec44a</xr:TypeId>
+				<xr:ValueId>7d1710d7-2402-463f-865c-657ecef111c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОплатаПоСреднемуЗаработку" category="List">
+				<xr:TypeId>33ecb6a4-7efd-49e0-879a-b77864c7ebae</xr:TypeId>
+				<xr:ValueId>f4045ad5-0728-4e1e-abdc-fbcbdc56070d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОплатаПоСреднемуЗаработку" category="Manager">
+				<xr:TypeId>93615360-670c-470b-9f30-a1f4d98d6699</xr:TypeId>
+				<xr:ValueId>e3ca924c-0d77-40d5-9f47-74aecec2db70</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОплатаПоСреднемуЗаработку</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="517402f0-44c3-4fc3-a501-dd3cf7e201e4">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

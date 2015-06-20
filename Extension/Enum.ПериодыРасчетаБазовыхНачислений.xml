@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="d9ce753f-f8c1-47e3-81ed-1634b8f57595">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПериодыРасчетаБазовыхНачислений" category="Ref">
+				<xr:TypeId>fe619160-585a-48ca-919b-2072b3bed47f</xr:TypeId>
+				<xr:ValueId>488b15a6-9a6b-4249-96d5-4b4ebde6d833</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПериодыРасчетаБазовыхНачислений" category="Manager">
+				<xr:TypeId>edd59020-b188-4869-a30d-f1ad853a0ae4</xr:TypeId>
+				<xr:ValueId>716a04a8-bf53-4f12-a3cb-286b1c5fb569</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПериодыРасчетаБазовыхНачислений" category="List">
+				<xr:TypeId>2c38e56c-bd65-42b4-9ef2-d4d10445bc74</xr:TypeId>
+				<xr:ValueId>e1154c8f-651f-4301-9e15-a971521c4490</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПериодыРасчетаБазовыхНачислений</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="fa82309f-2166-4cde-b452-96aa64eff86c">
+				<Properties>
+					<Name>ПредыдущийКвартал</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3ddcbf82-f80f-472c-8e34-82cb1ea037e7">
+				<Properties>
+					<Name>ТекущийГод</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f2294cac-8854-4142-9629-8055df9f382e">
+				<Properties>
+					<Name>ПредыдущийМесяц</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="73e014ea-d102-4e86-b14c-eecde4042eef">
+				<Properties>
+					<Name>ТекущийКвартал</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2632ac5c-7baf-40a5-b689-973b84bfe0ab">
+				<Properties>
+					<Name>НесколькоПредыдущихМесяцев</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2c0189be-bbe7-47f4-a721-e954ea6c6e2d">
+				<Properties>
+					<Name>ТекущийМесяц</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f2aa1873-272b-44cb-8a70-43fb150a2ce8">
+				<Properties>
+					<Name>ПредыдущийГод</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

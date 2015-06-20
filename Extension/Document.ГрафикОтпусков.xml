@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="32465803-27d0-45fd-aa8d-db1503045955">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ГрафикОтпусков" category="Object">
+				<xr:TypeId>57ff6ed7-e82d-4ada-8f36-f2f483bbf348</xr:TypeId>
+				<xr:ValueId>2bda37d8-119c-4f38-9f3d-a9233d8835f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ГрафикОтпусков" category="Ref">
+				<xr:TypeId>a65d1eda-fd02-46d3-8f77-83ce453a54d3</xr:TypeId>
+				<xr:ValueId>923d766d-cc0f-42aa-bb7f-5f6c4affe52a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ГрафикОтпусков" category="Selection">
+				<xr:TypeId>e071b9ce-5ced-4052-ad71-3d266340cb96</xr:TypeId>
+				<xr:ValueId>9de7c9f6-53c9-4a67-8d8d-6926a70db283</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ГрафикОтпусков" category="List">
+				<xr:TypeId>18dbe194-44ee-4410-b5fc-8ba5b630e1d9</xr:TypeId>
+				<xr:ValueId>6c6a7ca0-3145-4867-a6ea-2a6e8245cc39</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ГрафикОтпусков" category="Manager">
+				<xr:TypeId>82371d75-b9df-4a8a-88ef-d783c6fc68e2</xr:TypeId>
+				<xr:ValueId>84fb6931-93d2-418f-98d7-bd1e4cc30c77</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГрафикОтпусков</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="64338497-1793-4c09-b417-f6f0244b833e">
+				<Properties>
+					<Name>РуководительКадровойСлужбы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c2c0eb61-767c-4a7d-ad5c-a8a6d1c7c409">
+				<Properties>
+					<Name>ДолжностьРуководителя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d8606da9-c38a-4257-840c-7d4364fc234b">
+				<Properties>
+					<Name>Руководитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="00c95126-2a13-4e97-aded-6d2da590ded9">
+				<Properties>
+					<Name>ДолжностьРуководителяКадровойСлужбы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="51f12edf-6439-4573-b46e-061c0dcd240c">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b894ae96-1866-4f26-96f9-7f39021a160b">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="542a93cc-b02f-4004-a7d1-0f8017a4d8fd">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="787e46ec-ad72-4b7a-aedf-038c53f2d2fc">
+				<Properties>
+					<Name>ЮТР_Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="520c632c-0c5b-42ee-8a8b-25a7bb48e32a">
+				<Properties>
+					<Name>КраткийСоставДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
+			<TabularSection uuid="1236feb7-6c65-4748-b14d-257586c09c73">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ГрафикОтпусков.Сотрудники" category="TabularSection">
+						<xr:TypeId>2e7faeb2-5b22-4577-bc0e-609c737e1f90</xr:TypeId>
+						<xr:ValueId>967ac49e-ad3d-430c-b2c9-4c144fb441cd</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ГрафикОтпусков.Сотрудники" category="TabularSectionRow">
+						<xr:TypeId>30859f32-2a38-413d-addf-c26e911e2fc5</xr:TypeId>
+						<xr:ValueId>c2982078-a196-41a7-90d1-77a4cc3579b7</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Сотрудники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="ec9f3b81-58dc-451b-a668-069d868e6904">
+						<Properties>
+							<Name>ДатаНачала</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="250a6f2b-897f-4084-a570-d312ef47aa88">
+						<Properties>
+							<Name>ДатаОкончания</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c080c9d5-eb93-4e9b-8dad-15837123ec80">
+						<Properties>
+							<Name>ВидОтпуска</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ВидыОтпусков</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="874ad074-8211-4ff6-aa7d-0982422b2550">
+						<Properties>
+							<Name>НачалоПериодаЗаКоторыйПредоставляетсяОтпуск</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ac082929-ee39-429c-aadd-da03ca9cd588">
+						<Properties>
+							<Name>Сотрудник</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0ef9cbd4-3b9f-434f-b188-44abf3ce7e72">
+						<Properties>
+							<Name>КоличествоДней</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>3</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c6af9d9b-b032-46f6-82aa-71a28fa96d59">
+						<Properties>
+							<Name>КонецПериодаЗаКоторыйПредоставляетсяОтпуск</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="cc0dd1e5-5457-4084-99ff-a4af2757ea01">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

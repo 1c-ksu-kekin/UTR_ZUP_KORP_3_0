@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="090d8d0f-25f9-49fa-a02c-8ef47391fab1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеГрафикаРаботыСписком" category="Object">
+				<xr:TypeId>4c247861-e5b4-4470-acea-bd2507d426db</xr:TypeId>
+				<xr:ValueId>cea80df3-f33f-452b-aaba-3ffcbc65896d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеГрафикаРаботыСписком" category="Ref">
+				<xr:TypeId>3076cb1c-77b6-4852-b928-0881564a723c</xr:TypeId>
+				<xr:ValueId>430d8d61-d02c-4d88-a4ea-9413c2fd2777</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеГрафикаРаботыСписком" category="Selection">
+				<xr:TypeId>681e51e2-93ec-41e3-96d8-a3d9128d7cc4</xr:TypeId>
+				<xr:ValueId>b2916fb8-fd7a-4b84-9394-076714de65d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеГрафикаРаботыСписком" category="List">
+				<xr:TypeId>4cfdb813-fbe7-4c46-a187-95e7d750e975</xr:TypeId>
+				<xr:ValueId>ff4dd56f-2011-41f9-8d76-4e77d818d8a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеГрафикаРаботыСписком" category="Manager">
+				<xr:TypeId>b25ae035-4ddd-4c48-aa2b-5c6bccc5d31c</xr:TypeId>
+				<xr:ValueId>a9fc33fd-9c97-4c1a-896e-b0fa527546d4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеГрафикаРаботыСписком</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="5e25907b-8fee-48d2-a241-58839ac9635d">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИзменениеГрафикаРаботыСписком.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>4e9dcc53-3d12-4812-9267-1c84ae810a59</xr:TypeId>
+						<xr:ValueId>66dd7d6d-7d7d-4d6c-866f-8f0e906af50b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИзменениеГрафикаРаботыСписком.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>b241b4f5-5e5c-4215-a1d2-97b4b89e2cde</xr:TypeId>
+						<xr:ValueId>c7cb71bd-f7e9-4520-a5e8-f91a2bffb544</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="3f6984b8-edc8-4bda-b1cd-3784595bd2ef">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

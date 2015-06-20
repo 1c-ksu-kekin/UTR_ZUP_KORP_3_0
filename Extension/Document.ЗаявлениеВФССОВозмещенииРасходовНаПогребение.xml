@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="c32c87fd-f2e9-4e18-8120-4f31110f1e46">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявлениеВФССОВозмещенииРасходовНаПогребение" category="Object">
+				<xr:TypeId>39fb7cb6-8ee3-4ac6-a89e-8b3997236901</xr:TypeId>
+				<xr:ValueId>563489d7-1966-4972-8fe1-d5eaedcfcfe4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявлениеВФССОВозмещенииРасходовНаПогребение" category="Ref">
+				<xr:TypeId>64cd5595-3546-40ec-b5f2-256650f1dbef</xr:TypeId>
+				<xr:ValueId>d67aa063-7d97-402a-83b7-bb71dae7be11</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявлениеВФССОВозмещенииРасходовНаПогребение" category="Selection">
+				<xr:TypeId>b3184287-55da-4bce-b690-0c02375aa799</xr:TypeId>
+				<xr:ValueId>af529d72-2ace-4dc4-9bee-e14df6e4f7d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявлениеВФССОВозмещенииРасходовНаПогребение" category="List">
+				<xr:TypeId>3168e38b-0985-4905-a6cc-1f9ad048fa41</xr:TypeId>
+				<xr:ValueId>1bac57c6-5f00-433b-9326-45135c8f4b74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявлениеВФССОВозмещенииРасходовНаПогребение" category="Manager">
+				<xr:TypeId>9cd0cd9c-1783-428e-a254-389b3c510bc2</xr:TypeId>
+				<xr:ValueId>0f50a571-85ee-4af7-ba2d-22250fde67fd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаявлениеВФССОВозмещенииРасходовНаПогребение</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="8668eedc-3a01-4061-918b-3e3e70bdd5fc">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЗаявлениеВФССОВозмещенииРасходовНаПогребение.Оплаты" category="TabularSection">
+						<xr:TypeId>15ce158a-7ef1-4ef2-8552-9ddb5d61304f</xr:TypeId>
+						<xr:ValueId>893a043d-7039-4ea7-8820-203a1729a60d</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗаявлениеВФССОВозмещенииРасходовНаПогребение.Оплаты" category="TabularSectionRow">
+						<xr:TypeId>e0bbd1a8-b7b4-4343-af20-d92e565de331</xr:TypeId>
+						<xr:ValueId>52d9d0aa-ae38-49a5-a03c-d84309a222a4</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Оплаты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="0ac56079-1405-47d8-99cc-33ad67b701b6">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DocumentJournal uuid="aeb2d069-6c88-457d-8649-7d71463bc343">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ГрафикиПереносыОтпусков" category="Selection">
+				<xr:TypeId>2c71b183-4b46-4eb8-9922-68e264365e33</xr:TypeId>
+				<xr:ValueId>875dd15d-702c-46e8-afd9-22c1c0a5f368</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ГрафикиПереносыОтпусков" category="List">
+				<xr:TypeId>188791ea-8f82-45fd-9439-f55ed97558b2</xr:TypeId>
+				<xr:ValueId>81e97999-fd4d-4302-bc49-0adeaff46005</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ГрафикиПереносыОтпусков" category="Manager">
+				<xr:TypeId>8cff3aa6-7f58-46ea-aaa2-e0a596b92441</xr:TypeId>
+				<xr:ValueId>a3c03e54-b732-4227-8b23-c74044e1dc66</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГрафикиПереносыОтпусков</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ГрафикОтпусков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПереносОтпуска</xr:Item>
+			</RegisteredDocuments>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="274c52f5-7369-48c7-a719-dba1ef5641ad">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="c0610dc1-0439-41f3-9c39-68b585324993">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="0034f1a5-5557-46c1-8ee1-d67e8bad36cd">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="229225ec-2e6f-4e66-879c-2b3a144f3950">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="bd3c2e65-6601-4658-83a6-4f8eabf65f73">
+				<Properties>
+					<Name>ЮТР_Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

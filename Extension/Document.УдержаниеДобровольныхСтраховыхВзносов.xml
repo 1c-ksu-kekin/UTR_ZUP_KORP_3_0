@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="af05b76d-942f-4296-9874-dcc3ad02c79c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УдержаниеДобровольныхСтраховыхВзносов" category="Object">
+				<xr:TypeId>bc650aaf-a376-456a-b1f7-6f44cc43e3ce</xr:TypeId>
+				<xr:ValueId>f3fd3577-1d59-4912-89cb-b08aa4177992</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УдержаниеДобровольныхСтраховыхВзносов" category="Ref">
+				<xr:TypeId>fa57398f-74dd-4a59-bbee-5c0348b735e9</xr:TypeId>
+				<xr:ValueId>69264c9a-789a-41f3-8ac5-eb9d3db23f85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УдержаниеДобровольныхСтраховыхВзносов" category="Selection">
+				<xr:TypeId>be47dd69-086c-4503-881f-7cd7de6d6e29</xr:TypeId>
+				<xr:ValueId>2167d10d-9a76-4956-a904-f56154f5ce92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УдержаниеДобровольныхСтраховыхВзносов" category="List">
+				<xr:TypeId>cd660d0b-add6-42a1-8629-9adc7902c737</xr:TypeId>
+				<xr:ValueId>be1a728f-c670-4347-972a-a3632f21297d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УдержаниеДобровольныхСтраховыхВзносов" category="Manager">
+				<xr:TypeId>65c29dec-88ce-40b1-82b4-fdf3788ef270</xr:TypeId>
+				<xr:ValueId>8125f32f-0db0-496a-a981-3b992b67108f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УдержаниеДобровольныхСтраховыхВзносов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f454418b-e6f6-40b7-98d7-c114eb902092">
+				<Properties>
+					<Name>УдалитьФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

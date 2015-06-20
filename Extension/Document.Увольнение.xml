@@ -420,6 +420,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="7f92b1ae-a38b-40af-b938-ef71babbc0c7">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="84db01a7-285c-4648-9369-ef52a53c275b">
 				<InternalInfo>

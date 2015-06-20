@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="20328506-a712-422c-b162-403f0e9f7052">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КомпенсацияЗаЗадержкуЗарплаты" category="Object">
+				<xr:TypeId>65328068-2ef7-4ffe-9ce8-c79d0861aa3c</xr:TypeId>
+				<xr:ValueId>582502b3-c441-41b3-b39d-46a6bd8c5f98</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КомпенсацияЗаЗадержкуЗарплаты" category="Ref">
+				<xr:TypeId>93b5bcbf-a4b4-4953-842f-f32b9469c668</xr:TypeId>
+				<xr:ValueId>7d8c97f0-21c5-4d5c-a722-7194509e9637</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КомпенсацияЗаЗадержкуЗарплаты" category="Selection">
+				<xr:TypeId>c621b945-d550-4f68-bbfb-2530a7f6ce89</xr:TypeId>
+				<xr:ValueId>b4afebff-3ef0-43c8-8827-6babb817d5a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КомпенсацияЗаЗадержкуЗарплаты" category="List">
+				<xr:TypeId>0013c18e-cf16-4dee-bc65-48ed0f22a133</xr:TypeId>
+				<xr:ValueId>053176fc-ef5e-4b29-8e42-11204f97072c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КомпенсацияЗаЗадержкуЗарплаты" category="Manager">
+				<xr:TypeId>d032364f-bafb-4115-ab0f-5bce3a62451f</xr:TypeId>
+				<xr:ValueId>f66e68e4-f712-4b41-b6b2-cd87368e61bf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КомпенсацияЗаЗадержкуЗарплаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="d56be8d5-946a-4bf6-a59c-186af2aeaf8d">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.КомпенсацияЗаЗадержкуЗарплаты.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>936fac47-19c1-4216-a436-3f7982cea61c</xr:TypeId>
+						<xr:ValueId>9e753825-f538-47ab-9337-01585ea76d59</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.КомпенсацияЗаЗадержкуЗарплаты.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>fe6a997a-55fa-4835-8f7a-46124b894ab2</xr:TypeId>
+						<xr:ValueId>724c75eb-0732-4371-aad6-55ccd188e4c6</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="0332cf82-d7a2-46ab-9a8c-b0d619fcde04">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

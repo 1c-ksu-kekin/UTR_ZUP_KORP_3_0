@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="153753f8-5f3b-4211-971a-1d0e98cb1f4a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтпускаСотрудников" category="Object">
+				<xr:TypeId>216fe811-a9d9-4704-8a1a-3e6e4143c8ed</xr:TypeId>
+				<xr:ValueId>69d7576e-32c9-480f-ba86-11697b4e0e79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтпускаСотрудников" category="Ref">
+				<xr:TypeId>7a7b8681-3fd5-4cec-b927-f932a4daa3cc</xr:TypeId>
+				<xr:ValueId>7758a948-4e8f-4cdd-b2bb-ed1998d893b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтпускаСотрудников" category="Selection">
+				<xr:TypeId>ad35c50c-93ae-4d86-acfb-5c36d4a0854a</xr:TypeId>
+				<xr:ValueId>10ca71a5-4d47-4def-8093-64daa8d54878</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтпускаСотрудников" category="List">
+				<xr:TypeId>b282bd53-bb8e-4033-b34f-b85a46a470ba</xr:TypeId>
+				<xr:ValueId>f7d41201-5855-42bd-9bb5-e58e755a0b36</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтпускаСотрудников" category="Manager">
+				<xr:TypeId>179db6ca-925b-4713-ba92-1e7bd79f242d</xr:TypeId>
+				<xr:ValueId>b710244c-9ec8-47b2-a0f6-b4500d21dd83</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтпускаСотрудников</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="4677487d-772a-49d6-a953-542a0079a6a9">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтпускаСотрудников.Сотрудники" category="TabularSection">
+						<xr:TypeId>adb09b3c-4089-441e-80b6-04c91d188ed5</xr:TypeId>
+						<xr:ValueId>69315197-2235-48b1-bf52-3baf99194d68</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтпускаСотрудников.Сотрудники" category="TabularSectionRow">
+						<xr:TypeId>679ce16b-8b3c-4318-8029-6a5aeff62ed1</xr:TypeId>
+						<xr:ValueId>e03c74c5-723f-49f6-8263-99416efb9e7f</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Сотрудники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="59ba13bc-2336-4409-b137-3b5aa822a329">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

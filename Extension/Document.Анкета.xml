@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="b776e5cb-88f4-4fa3-9eac-e6bbb0ecb7a5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Анкета" category="Object">
+				<xr:TypeId>01812cff-8825-49cd-b5ac-cd9c6bdbbe62</xr:TypeId>
+				<xr:ValueId>2d7df395-c84a-4efc-86ec-2d7dbb809807</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Анкета" category="Ref">
+				<xr:TypeId>12bd258d-0268-46d6-a1c0-cac6bfa81653</xr:TypeId>
+				<xr:ValueId>2db0179a-150b-4365-ad0b-2add33acc869</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Анкета" category="Selection">
+				<xr:TypeId>54624136-32e1-4143-a86d-ddf1b0f1a89b</xr:TypeId>
+				<xr:ValueId>586fc000-67e5-4490-802f-4532eb8acee1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Анкета" category="List">
+				<xr:TypeId>fcde7776-14b5-4c6b-8d19-45e67deb8ce9</xr:TypeId>
+				<xr:ValueId>eb1ae1e7-2ab4-414a-a6a0-46dbc104df46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Анкета" category="Manager">
+				<xr:TypeId>fd49be44-fdf4-479c-a68e-cd766f9484b8</xr:TypeId>
+				<xr:ValueId>01cdc951-1f9b-4efc-aae2-c5a0414db4af</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Анкета</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="14b69738-b8c2-4250-96cb-dbd984414bc5">
+				<Properties>
+					<Name>Респондент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.Респондент</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

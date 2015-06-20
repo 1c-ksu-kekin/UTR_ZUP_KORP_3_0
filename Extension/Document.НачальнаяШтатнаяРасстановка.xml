@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="f2d1cc43-4349-4143-afda-b169df02eb56">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НачальнаяШтатнаяРасстановка" category="Object">
+				<xr:TypeId>3f10adc3-2fba-4e9c-9c38-f0d46c64154a</xr:TypeId>
+				<xr:ValueId>835dfbaa-94ee-40fb-a27a-1eed4e685a0e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НачальнаяШтатнаяРасстановка" category="Ref">
+				<xr:TypeId>b10233e7-9e98-478b-bbf1-863bd33d0fbb</xr:TypeId>
+				<xr:ValueId>7531e4e8-c918-4e46-890b-2ca27b0e9c4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НачальнаяШтатнаяРасстановка" category="Selection">
+				<xr:TypeId>8a85686f-69e7-43d6-be6e-d196f4fbb0e2</xr:TypeId>
+				<xr:ValueId>47ec2b37-36f9-42cd-a6fb-67fde0dd17eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НачальнаяШтатнаяРасстановка" category="List">
+				<xr:TypeId>4e022671-5241-40ad-ac4c-e5a8c31288d6</xr:TypeId>
+				<xr:ValueId>977554ea-6e49-4096-a789-afa62189b62f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НачальнаяШтатнаяРасстановка" category="Manager">
+				<xr:TypeId>6795eb87-5b57-4bd0-aa72-dd373bbf006e</xr:TypeId>
+				<xr:ValueId>30f90f4b-1749-4863-9da2-ed92066c099e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НачальнаяШтатнаяРасстановка</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="1a408a8b-4d2e-4f01-ad95-be26beebd279">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.НачальнаяШтатнаяРасстановка.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>dab22243-b5ce-4bae-8648-0f243bbf2da8</xr:TypeId>
+						<xr:ValueId>39e0cb6b-5ce8-476c-bf0b-33e945225dbc</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.НачальнаяШтатнаяРасстановка.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>f0903cd4-5128-4a94-bc60-cb994d62b050</xr:TypeId>
+						<xr:ValueId>12a754cb-ab23-4006-af9f-e65b1adba3ce</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="23aa3a1a-2aae-45ff-a228-06830bb46a8e">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="685353a1-0c57-49ae-9dff-f87f842b5207">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РаспределениеОсновногоЗаработка" category="Object">
+				<xr:TypeId>2ece10bb-aaa6-4d94-b54a-3801de43ce4e</xr:TypeId>
+				<xr:ValueId>1f7d927e-c0ee-4312-9f5a-27b2ba36dcd2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РаспределениеОсновногоЗаработка" category="Ref">
+				<xr:TypeId>313f3d73-ab2d-43b1-ac6a-0a9e729638b3</xr:TypeId>
+				<xr:ValueId>451abf36-7648-4681-a66f-a3f42604f9c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РаспределениеОсновногоЗаработка" category="Selection">
+				<xr:TypeId>a88bf9cd-0b23-4bdf-a192-d70da349f7f5</xr:TypeId>
+				<xr:ValueId>25dafebd-5e21-4483-b627-f8ba1dc2ad98</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РаспределениеОсновногоЗаработка" category="List">
+				<xr:TypeId>a30b5ce1-9c72-47bd-b09e-e44d4759afe2</xr:TypeId>
+				<xr:ValueId>2499ddba-16c6-4bdb-be30-3d0306aaa130</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РаспределениеОсновногоЗаработка" category="Manager">
+				<xr:TypeId>08ed3816-ce75-4009-87d3-a09af83d6783</xr:TypeId>
+				<xr:ValueId>0c9e5e6a-3303-4fa4-a319-32dcb785ad02</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РаспределениеОсновногоЗаработка</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="116c1084-e001-489b-b84a-b12cf9b1e5a4">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

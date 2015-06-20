@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="a146d2a6-c36f-4575-803f-3a7dd7a7f30e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Отгул" category="Object">
+				<xr:TypeId>6577d237-8b47-4098-8eb4-6d3590bb68c1</xr:TypeId>
+				<xr:ValueId>b18729d0-eaa5-45fd-acf4-4be46e7edb9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Отгул" category="Ref">
+				<xr:TypeId>6f4fc63f-42fc-4b62-ad0f-8032cf4f0eca</xr:TypeId>
+				<xr:ValueId>8b516a16-40ac-448d-a495-2dfcf47033ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Отгул" category="Selection">
+				<xr:TypeId>b82f9a9d-b627-4029-bd61-75ea5eede51f</xr:TypeId>
+				<xr:ValueId>c9923a21-73f6-42e9-ba94-00740c298260</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Отгул" category="List">
+				<xr:TypeId>c8d7f351-01d2-4dd2-bb45-8ff9906a58bb</xr:TypeId>
+				<xr:ValueId>d10a3b46-b0dc-49e5-96ab-df44ea2f09c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Отгул" category="Manager">
+				<xr:TypeId>33d4748d-dc7c-4e94-8391-af192d35c435</xr:TypeId>
+				<xr:ValueId>a128cda3-c80c-4086-a716-1410d54538b9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Отгул</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9fd657c1-c2cd-4ec3-a6ab-b712bda95f82">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

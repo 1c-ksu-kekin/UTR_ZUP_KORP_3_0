@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="3d3de7a3-42d1-44b9-8689-c32c9db74ae3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СообщениеОНеправильныхДанныхСотрудника" category="Object">
+				<xr:TypeId>990c57fc-cf01-4945-92ea-ba95bc0dee71</xr:TypeId>
+				<xr:ValueId>93fb2f0b-c267-4b52-bd85-0419c2f9c6fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СообщениеОНеправильныхДанныхСотрудника" category="Ref">
+				<xr:TypeId>79065d94-2a8b-42b6-bb39-03d3bff09712</xr:TypeId>
+				<xr:ValueId>9eedc8ca-230e-4e1f-9e35-656fe5f799eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СообщениеОНеправильныхДанныхСотрудника" category="Selection">
+				<xr:TypeId>0dbf39e3-cf35-434b-91ec-cd6a0533ab4f</xr:TypeId>
+				<xr:ValueId>084edc70-8efc-427d-a040-649044fe0251</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СообщениеОНеправильныхДанныхСотрудника" category="List">
+				<xr:TypeId>c3e5bd43-326d-4ab2-92c0-2c4d20723811</xr:TypeId>
+				<xr:ValueId>bc9d84ed-c4fa-483c-ae56-f2d19394d6ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СообщениеОНеправильныхДанныхСотрудника" category="Manager">
+				<xr:TypeId>79587a55-8be1-43ef-b0e8-40f7d3888388</xr:TypeId>
+				<xr:ValueId>6683438c-fa70-4ae0-9564-40bf597e4b8b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СообщениеОНеправильныхДанныхСотрудника</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="76e79205-91b4-4b4e-ad2e-3672adda3652">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

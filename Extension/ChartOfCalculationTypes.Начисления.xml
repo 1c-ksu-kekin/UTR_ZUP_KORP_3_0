@@ -51,6 +51,323 @@
 			<Name>Начисления</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="a17ff595-04be-4a34-9f56-ec5a83bc97db">
+				<Properties>
+					<Name>ВидСтажаСЗВ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыСтажаСЗВ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2f9310c3-21a5-43ef-a537-f84c8e5d66f2">
+				<Properties>
+					<Name>ОтношениеКЕНВД</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ОтношениеКЕНВДЗатратНаЗарплату</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1ba0edfd-ad42-46a2-980e-d19854d0aa3b">
+				<Properties>
+					<Name>СтатьяФинансированияОпределяетсяПоСреднемуЗаработку</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1b318bbc-aa73-431f-9484-90f1b8124e70">
+				<Properties>
+					<Name>КоличествоБаллов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1bce3c3e-ed88-41e4-a369-77818607d52e">
+				<Properties>
+					<Name>ВАрхиве</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="823883d7-e693-4951-8013-dd1bffc8dbca">
+				<Properties>
+					<Name>КатегорияНачисленияИлиНеоплаченногоВремени</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.КатегорииНачисленийИНеоплаченногоВремени</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d1589d62-c91a-4078-8a5a-0a04b95300d2">
+				<Properties>
+					<Name>СтатьяРасходов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтатьиРасходовЗарплата</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="83f8e57a-1a62-4841-a6e4-43c0c2779174">
+				<Properties>
+					<Name>КоличествоМесяцевБазовогоПериода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="80839113-dd06-4675-8fa2-cc74f4ca2526">
+				<Properties>
+					<Name>КодДоходаНДФЛ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыДоходовНДФЛ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4446b38f-f21e-43df-89f2-272ab5a4f1f2">
+				<Properties>
+					<Name>ВидВремени</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыРабочегоВремениСотрудников</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4e187d61-2f89-4da9-afa2-98dd0455b59a">
+				<Properties>
+					<Name>ПериодРасчетаБазовыхНачислений</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПериодыРасчетаБазовыхНачислений</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="eefd1250-933a-486e-895d-0b90b2c96daa">
+				<Properties>
+					<Name>ВидСтажаПФР2014</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыСтажаПФР2014</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="88a72451-00d6-455c-8ebd-52fcb5bc7cae">
+				<Properties>
+					<Name>СпособВыполненияНачисления</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыВыполненияНачислений</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ba8a0b33-2e63-4a0c-b3d6-94cbc1192fe7">
+				<Properties>
+					<Name>ВидОтпуска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыОтпусков</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4e02dc39-36c6-47aa-838c-3d86755927ba">
+				<Properties>
+					<Name>СтатьяФинансирования</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтатьиФинансированияЗарплата</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3adb91db-bc19-43f3-853e-98fcccac9d01">
+				<Properties>
+					<Name>КоличествоМесяцевРасчетаСреднегоЗаработка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a515295d-1480-499b-824c-ef9903cbc2f8">
+				<Properties>
+					<Name>СпособОтраженияЗарплатыВБухучете</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СпособыОтраженияЗарплатыВБухУчете</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4a5188ec-3ef5-43b9-a5a0-383348bb4229">
+				<Properties>
+					<Name>НачисляетсяПриРасчетеПервойПоловиныМесяца</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d59d455a-1b61-404e-b7d4-5b9a7e7cdc4f">
+				<Properties>
+					<Name>ОбозначениеВТабелеУчетаРабочегоВремени</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыИспользованияРабочегоВремени</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e926e103-b78d-4180-a583-32aca781e5da">
+				<Properties>
+					<Name>ВидДокументаНачисления</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыДокументовНачисления</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="328060f3-d157-454a-b9bd-d88e313e5763">
+				<Properties>
+					<Name>ВидНачисленияДляНУ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыНачисленийОплатыТрудаДляНУ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="83f60474-0591-4d33-a506-8b33c308f071">
+				<Properties>
+					<Name>ФормулаРасчета</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ba67d372-99a0-4402-bdd6-ff3ffbb4029a">
+				<Properties>
+					<Name>ПорядокОпределенияРасчетногоПериодаСреднегоЗаработка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПорядокОпределенияРасчетногоПериодаСреднегоЗаработка</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="22e766b8-b943-4259-8e59-6a83c14fb198">
+				<Properties>
+					<Name>ЛьготаУчитываетсяПриРасчетеЗарплаты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fba57118-64e0-469d-bef1-a87695c7b253">
+				<Properties>
+					<Name>КраткоеНаименование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>25</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="80374fd5-ff6b-4a49-a1be-486f3e390230">
+				<Properties>
+					<Name>Описание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3ef21d47-d82c-4f84-bf22-2469a916e70d">
+				<Properties>
+					<Name>КодДоходаСтраховыеВзносы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыДоходовПоСтраховымВзносам</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="611cc347-8777-44ba-8242-8e4d3e1341a5">
+				<Properties>
+					<Name>СтратегияОтраженияВУчете</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтратегииОтраженияВУчетеНачисленийУдержаний</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="fbe83985-ce6a-40a5-b545-fe69a623c7a3">
+				<InternalInfo>
+					<xr:GeneratedType name="ChartOfCalculationTypesTabularSection.Начисления.Показатели" category="TabularSection">
+						<xr:TypeId>a8d8ee2a-b9de-4558-8af4-95a7c7298ce0</xr:TypeId>
+						<xr:ValueId>993408c7-0329-4b5a-9eab-6a64d91644d4</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="ChartOfCalculationTypesTabularSectionRow.Начисления.Показатели" category="TabularSectionRow">
+						<xr:TypeId>cd8491bd-6887-415f-8e3d-5d89cfd1bac0</xr:TypeId>
+						<xr:ValueId>4a64e1f4-c2ce-45cf-96c3-47ffebfe27d6</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Показатели</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="bd80b621-3c2e-4999-b5da-c3061a74674a">
+						<Properties>
+							<Name>ЗапрашиватьПриВводе</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="702f1662-f4ba-4d0c-97ab-6e401bd93058">
+						<Properties>
+							<Name>Показатель</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПоказателиРасчетаЗарплаты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаВидаРасчета</Form>
+		</ChildObjects>
 	</ChartOfCalculationTypes>
 </MetaDataObject>

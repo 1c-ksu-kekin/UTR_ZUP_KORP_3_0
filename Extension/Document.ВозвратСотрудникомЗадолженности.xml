@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="d643c005-558d-44e3-82b6-15a408753400">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратСотрудникомЗадолженности" category="Object">
+				<xr:TypeId>5f192c13-09da-4b63-89a1-62f7451545e9</xr:TypeId>
+				<xr:ValueId>49dcee8b-d566-4a50-b6ff-d62ced1f6d89</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратСотрудникомЗадолженности" category="Ref">
+				<xr:TypeId>12349897-850f-4096-a532-d4823a9dde67</xr:TypeId>
+				<xr:ValueId>301eab34-397a-4865-be7d-4e796b707430</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратСотрудникомЗадолженности" category="Selection">
+				<xr:TypeId>70ca2205-4273-442e-a95e-0323ff8ed39b</xr:TypeId>
+				<xr:ValueId>db14af63-c625-4e76-852d-32d5d1d38b0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратСотрудникомЗадолженности" category="List">
+				<xr:TypeId>88b67159-05df-4952-8c1c-11b69fef9244</xr:TypeId>
+				<xr:ValueId>79471a95-600d-4469-9363-95f97bf7ddbd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратСотрудникомЗадолженности" category="Manager">
+				<xr:TypeId>24549882-c925-4ecf-bf1a-c6bf9ea116a6</xr:TypeId>
+				<xr:ValueId>78414e3e-bab1-4bc7-83ef-9b55b89e5ded</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВозвратСотрудникомЗадолженности</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="6df84ed3-4de5-4c4f-a731-46751cb4b9dc">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

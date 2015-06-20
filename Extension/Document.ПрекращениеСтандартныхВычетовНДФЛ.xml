@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="a161dd39-1479-4631-9e79-d475796cf76a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПрекращениеСтандартныхВычетовНДФЛ" category="Object">
+				<xr:TypeId>ba6881fa-0066-4f8f-8f14-518b738613cf</xr:TypeId>
+				<xr:ValueId>d82760af-59fd-48b9-9f05-8b08f3816e4d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПрекращениеСтандартныхВычетовНДФЛ" category="Ref">
+				<xr:TypeId>95e0690a-d021-452c-8512-63a5485d3b38</xr:TypeId>
+				<xr:ValueId>9fff47ab-7b7a-4ba3-a125-caae357b3867</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПрекращениеСтандартныхВычетовНДФЛ" category="Selection">
+				<xr:TypeId>2bedc71d-37ee-4e4b-9216-0cdc4fe60482</xr:TypeId>
+				<xr:ValueId>27514faf-1593-4aed-a263-ed46608b5b9d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПрекращениеСтандартныхВычетовНДФЛ" category="List">
+				<xr:TypeId>75901683-12dc-48e7-a5ee-999ea1fa3973</xr:TypeId>
+				<xr:ValueId>ca5ae527-6757-4d58-a613-1db2e9813c14</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПрекращениеСтандартныхВычетовНДФЛ" category="Manager">
+				<xr:TypeId>39b4aea7-701e-4728-a88a-fd3361d24fd1</xr:TypeId>
+				<xr:ValueId>286f124a-2e63-405b-838c-6f51ba92ce46</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПрекращениеСтандартныхВычетовНДФЛ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="fe27e1b1-a078-4ef7-88cd-2ac93ef2b092">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

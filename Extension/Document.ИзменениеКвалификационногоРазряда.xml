@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="f02edc12-7ca3-4892-8f15-b3bfcab3ecdb">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеКвалификационногоРазряда" category="Object">
+				<xr:TypeId>76375dec-8997-44fc-ab35-dbf00af54077</xr:TypeId>
+				<xr:ValueId>2905c2ca-9ced-423d-b041-79b12c1b377a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеКвалификационногоРазряда" category="Ref">
+				<xr:TypeId>2a9a1f2b-123b-45ec-8fe8-5bbce5d0be99</xr:TypeId>
+				<xr:ValueId>c10164a0-ad75-4667-a71f-d77e72ea06f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеКвалификационногоРазряда" category="Selection">
+				<xr:TypeId>c19a54f0-841f-40cd-a8cc-e3ca15021686</xr:TypeId>
+				<xr:ValueId>884c5d5c-c130-4f7b-9ef3-fe98689d9c5c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеКвалификационногоРазряда" category="List">
+				<xr:TypeId>8c20830e-dc32-4a02-92dd-d1dc01511d47</xr:TypeId>
+				<xr:ValueId>a8a2c490-b760-4932-9530-717745e39a34</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеКвалификационногоРазряда" category="Manager">
+				<xr:TypeId>428c81f9-b9d7-4b9e-a050-156ef8141cf6</xr:TypeId>
+				<xr:ValueId>49287e14-de02-4493-8fb1-cc1a5cc4cb0a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеКвалификационногоРазряда</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f98bcdbf-6074-48e0-b448-a67570a75b50">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

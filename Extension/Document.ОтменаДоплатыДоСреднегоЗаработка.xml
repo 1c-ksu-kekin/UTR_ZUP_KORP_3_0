@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="2a6fd1d7-4840-47c7-b308-0cd11a23f8bb">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтменаДоплатыДоСреднегоЗаработка" category="Object">
+				<xr:TypeId>85a44f8d-e4f4-4b9a-bcc1-f59febaf4820</xr:TypeId>
+				<xr:ValueId>a2dc4d92-7173-4033-8a3c-3c606b83540e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтменаДоплатыДоСреднегоЗаработка" category="Ref">
+				<xr:TypeId>93f17b4b-b1cb-48d9-8caa-336dfe0df4e8</xr:TypeId>
+				<xr:ValueId>de1f82f6-8167-4149-8606-47df0f68bf2f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтменаДоплатыДоСреднегоЗаработка" category="Selection">
+				<xr:TypeId>9b12915d-2022-42c4-9169-acb43eb66666</xr:TypeId>
+				<xr:ValueId>0518b78d-e372-47ae-b12b-ea1829e498d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтменаДоплатыДоСреднегоЗаработка" category="List">
+				<xr:TypeId>0d4fbbbb-ee88-4216-afb9-5790e6ebe50f</xr:TypeId>
+				<xr:ValueId>39a99340-5c50-4d74-9d59-f7fcd39e3cdb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтменаДоплатыДоСреднегоЗаработка" category="Manager">
+				<xr:TypeId>4a425959-1048-495f-907f-7b2eed1b1468</xr:TypeId>
+				<xr:ValueId>6973889e-8880-4467-b97c-41e19c0d2157</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтменаДоплатыДоСреднегоЗаработка</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a1270654-06b0-4bf4-b41a-a14eca38c032">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

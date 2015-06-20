@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="6156baba-5da3-41fc-bfa9-c01fe22f0b1e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПодтверждениеОткрытияЛицевыхСчетовСотрудников" category="Object">
+				<xr:TypeId>3784e38d-1ae6-446f-9488-3407ea3c7ee1</xr:TypeId>
+				<xr:ValueId>8c06ea56-f9e8-4594-85aa-cf43be37c9be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПодтверждениеОткрытияЛицевыхСчетовСотрудников" category="Ref">
+				<xr:TypeId>bbb3538b-e9b7-48e7-8325-2e79a4d6c755</xr:TypeId>
+				<xr:ValueId>eed02363-6a8d-4da2-80cb-1176351b3f7b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПодтверждениеОткрытияЛицевыхСчетовСотрудников" category="Selection">
+				<xr:TypeId>6cae5ea8-70db-4a1f-a358-453d19be8b69</xr:TypeId>
+				<xr:ValueId>a3e541f4-5459-4fad-b472-f6c3167c0c1a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПодтверждениеОткрытияЛицевыхСчетовСотрудников" category="List">
+				<xr:TypeId>3820ebb0-e3ff-43fe-9020-77d3bcbca9ce</xr:TypeId>
+				<xr:ValueId>2a09288a-3122-498c-a6cd-65ab94eb2d7d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПодтверждениеОткрытияЛицевыхСчетовСотрудников" category="Manager">
+				<xr:TypeId>400df2f4-18f6-4f53-88b2-0314f19d00e5</xr:TypeId>
+				<xr:ValueId>cfef12ed-48e9-4e50-93cc-e22a082c5d50</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПодтверждениеОткрытияЛицевыхСчетовСотрудников</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="7ad6579d-1488-433c-aca5-85f6d353621a">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПодтверждениеОткрытияЛицевыхСчетовСотрудников.Сотрудники" category="TabularSection">
+						<xr:TypeId>f108e7b2-0524-4ad9-848b-637f6a5c3ba5</xr:TypeId>
+						<xr:ValueId>4a4ad873-6f00-4c49-8c19-5dfc0fd5f14e</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПодтверждениеОткрытияЛицевыхСчетовСотрудников.Сотрудники" category="TabularSectionRow">
+						<xr:TypeId>02769045-1dea-456f-a5c4-2391f20308ca</xr:TypeId>
+						<xr:ValueId>d16ce3cf-9118-4413-b68f-90f8cf2c8588</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Сотрудники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="26ed476b-ca16-40c0-9085-2da413cc182e">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

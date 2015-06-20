@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="de795ea7-563e-40f1-bb2a-dc8f0b9412fd">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЮТР_Справка" category="Object">
+				<xr:TypeId>632a2b6d-ebb1-4b95-bc03-39851b794def</xr:TypeId>
+				<xr:ValueId>80034d23-cf6a-48e4-9030-0c024ed3a550</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЮТР_Справка" category="Ref">
+				<xr:TypeId>739b041b-65fb-428c-904f-ea7a783852e4</xr:TypeId>
+				<xr:ValueId>c82547d4-d2dc-4f67-800d-8b55e41c6102</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЮТР_Справка" category="Selection">
+				<xr:TypeId>71a1394f-ca6f-4672-beeb-fa7c0f585514</xr:TypeId>
+				<xr:ValueId>3dae0b7a-0513-4e9b-be0e-1c64555a9868</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЮТР_Справка" category="List">
+				<xr:TypeId>e0ad00c0-b6d4-456b-9c27-1ee414b6fba6</xr:TypeId>
+				<xr:ValueId>71748c96-75eb-41e1-a8e4-bfeda25ad851</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЮТР_Справка" category="Manager">
+				<xr:TypeId>0ead65da-a91e-46c5-8cf1-295f8f4a1cc0</xr:TypeId>
+				<xr:ValueId>dd31de09-0e90-4384-88cd-42d21b02cde6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_Справка</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4e786f42-4e44-4344-90e9-98c765792fee">
+				<Properties>
+					<Name>ФизическоЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

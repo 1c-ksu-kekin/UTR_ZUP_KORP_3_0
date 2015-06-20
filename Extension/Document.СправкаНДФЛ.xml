@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="7da3c45a-c775-4536-a0e1-20150d45bf9e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СправкаНДФЛ" category="Object">
+				<xr:TypeId>fa898556-aaa2-4e5d-bdcb-3751dbb676b8</xr:TypeId>
+				<xr:ValueId>85083ea9-71f4-44b5-aa66-e99bb2e7bb00</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СправкаНДФЛ" category="Ref">
+				<xr:TypeId>980d0339-c11e-4033-ba8c-7066bd69375b</xr:TypeId>
+				<xr:ValueId>1d5082a4-4033-4f9b-a7c2-3834ec15e4cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СправкаНДФЛ" category="Selection">
+				<xr:TypeId>78622371-9b10-4e4a-8a80-a5871e936bfd</xr:TypeId>
+				<xr:ValueId>6a21ae08-0281-4f0c-8fa0-46502f7fcfc8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СправкаНДФЛ" category="List">
+				<xr:TypeId>9991aa6f-88ba-49f2-b3a1-8148f9379cf0</xr:TypeId>
+				<xr:ValueId>03425dfb-2fea-4601-927b-ef95ae59c8d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СправкаНДФЛ" category="Manager">
+				<xr:TypeId>0ccbca0e-5f4a-48bb-8632-f1b9fe19d613</xr:TypeId>
+				<xr:ValueId>3d34434c-10b7-429e-a360-5f95785664b0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СправкаНДФЛ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="75bae2ca-1cc1-4a17-b4a3-16bec9bbd9c2">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

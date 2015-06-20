@@ -26,6 +26,9 @@
 		<Properties>
 			<Name>КадровыйПеревод</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="9cf9c896-4fb4-4d6c-baae-16c2ed51f921">
@@ -639,8 +642,27 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="511916cd-3726-4ed1-9b01-aa3d0c4d83fb">
+				<Properties>
+					<Name>НачисленияУтверждены</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b2b9a275-7404-46c1-ac1e-b06151b063bb">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаРедактированияПравНаОтпуск</Form>
 			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
 			<TabularSection uuid="9d1889e9-10dc-4ce3-966b-0acd50ba2c0d">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.КадровыйПеревод.Начисления" category="TabularSection">

@@ -51,6 +51,151 @@
 			<Name>Удержания</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="baef1c80-23df-4789-80fb-dd053e39b209">
+				<Properties>
+					<Name>КраткоеНаименование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>25</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8fa43355-6a7c-461e-946b-5b20801a905a">
+				<Properties>
+					<Name>Описание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3faa7f00-a6dc-401d-af80-c0a4e69d4908">
+				<Properties>
+					<Name>ФормулаРасчета</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="030f978f-3471-4502-a848-f9ec6a920f07">
+				<Properties>
+					<Name>ВАрхиве</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="357f80db-ba02-4f83-b8fd-2242a5200054">
+				<Properties>
+					<Name>ВидОтпуска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыОтпусков</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f43f2eec-e675-4ee3-a00f-d74b25658be0">
+				<Properties>
+					<Name>ВидОперацииПоЗарплате</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыОперацийПоЗарплате</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3905ce77-c21b-4485-9e46-8bd8f224bc88">
+				<Properties>
+					<Name>КатегорияУдержания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.КатегорииУдержаний</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1e3a63b3-99ad-4f1b-a9aa-509d4feca491">
+				<Properties>
+					<Name>ПорядокОпределенияРасчетногоПериодаСреднегоЗаработка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПорядокОпределенияРасчетногоПериодаСреднегоЗаработка</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f91ffaeb-02f9-4ac6-a668-f4b86d79c2f0">
+				<Properties>
+					<Name>КоличествоМесяцевРасчетаСреднегоЗаработка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="49937ce6-52e2-4e14-aad7-525f561d12a3">
+				<Properties>
+					<Name>СпособВыполненияУдержания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыВыполненияУдержаний</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="2a2b634b-a41a-471c-a338-bdb5edef7b5b">
+				<InternalInfo>
+					<xr:GeneratedType name="ChartOfCalculationTypesTabularSection.Удержания.Показатели" category="TabularSection">
+						<xr:TypeId>cea4da33-4e35-459b-8c55-443cc8859b9d</xr:TypeId>
+						<xr:ValueId>1f2f880e-97fb-418e-aee7-a0071171a154</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="ChartOfCalculationTypesTabularSectionRow.Удержания.Показатели" category="TabularSectionRow">
+						<xr:TypeId>922aab17-ca95-4498-96f7-0c19658ae7a8</xr:TypeId>
+						<xr:ValueId>e97799cf-0d6c-4e5c-8cf9-d3926832ffad</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Показатели</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="b5dcf6ea-d27f-4980-95bb-8a072183e5e6">
+						<Properties>
+							<Name>Показатель</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПоказателиРасчетаЗарплаты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="04612893-4228-4b80-985a-e08c92dde4ec">
+						<Properties>
+							<Name>ЗапрашиватьПриВводе</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаВидаРасчета</Form>
+		</ChildObjects>
 	</ChartOfCalculationTypes>
 </MetaDataObject>

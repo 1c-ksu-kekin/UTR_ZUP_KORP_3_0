@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="0b038566-3569-462f-8dc5-d922f7bf8185">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПачкаДокументовСЗВ_К" category="Object">
+				<xr:TypeId>cb028a4e-edda-45c2-b42b-bd59f7632961</xr:TypeId>
+				<xr:ValueId>eb75fd3d-a61c-4ec0-9e9a-7eb26e213d82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПачкаДокументовСЗВ_К" category="Ref">
+				<xr:TypeId>dbf19b54-9b55-418b-b5a4-198d74a8adea</xr:TypeId>
+				<xr:ValueId>e6138875-eb55-4e21-84e9-838c9c57090b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПачкаДокументовСЗВ_К" category="Selection">
+				<xr:TypeId>56292476-3194-4ad7-9afd-297e5b731990</xr:TypeId>
+				<xr:ValueId>9f830417-3885-44cb-a5f8-7210acf2539a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПачкаДокументовСЗВ_К" category="List">
+				<xr:TypeId>8cf76e54-9f33-4ddc-9a72-b207571d429f</xr:TypeId>
+				<xr:ValueId>33e46ef4-03e0-443a-85c5-14b32bd3e68f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПачкаДокументовСЗВ_К" category="Manager">
+				<xr:TypeId>10f59a83-8f86-4c86-a726-72c8a8c0cffd</xr:TypeId>
+				<xr:ValueId>3cfef91f-beba-4501-98e9-9116dd976933</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПачкаДокументовСЗВ_К</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="74981290-b5dc-4624-aece-7c900b8b5cef">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПачкаДокументовСЗВ_К.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>bea4b2c4-1f5c-49e5-a2c6-253cd7a4ec3e</xr:TypeId>
+						<xr:ValueId>e21e90b9-5aa7-4dcb-abb9-42c11922e619</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПачкаДокументовСЗВ_К.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>0f8cd5d6-469b-424f-8334-42a5153afaef</xr:TypeId>
+						<xr:ValueId>cd9ca1d4-4cb9-4cbc-bf16-09da576d1b66</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="302a998c-850f-48d7-b754-7dd94b84c441">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

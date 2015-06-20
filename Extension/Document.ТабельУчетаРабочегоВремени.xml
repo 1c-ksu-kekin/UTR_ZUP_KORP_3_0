@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="053d7569-5b76-441e-8f3b-ad52a9dc0c30">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ТабельУчетаРабочегоВремени" category="Object">
+				<xr:TypeId>f3df045d-fda5-4057-8fab-90d1714f9817</xr:TypeId>
+				<xr:ValueId>bb6b3c6e-877a-4bb9-9552-b900179365ca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ТабельУчетаРабочегоВремени" category="Ref">
+				<xr:TypeId>1e4eb334-a9b4-4b2a-9cf9-0082d5d6ad10</xr:TypeId>
+				<xr:ValueId>bcc49c89-8944-4a9a-ae1b-a2aaaff5af85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ТабельУчетаРабочегоВремени" category="Selection">
+				<xr:TypeId>3039e737-090b-4728-a451-46f8a2c4b07a</xr:TypeId>
+				<xr:ValueId>22c3c721-eb35-430a-a2a7-859b0dea0253</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ТабельУчетаРабочегоВремени" category="List">
+				<xr:TypeId>389969c1-74ad-4084-a477-9ac1f84a2c22</xr:TypeId>
+				<xr:ValueId>c378a9a9-8e16-4f00-b10a-a9e757375302</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ТабельУчетаРабочегоВремени" category="Manager">
+				<xr:TypeId>9d02a82f-12e1-4272-b903-e55902133f44</xr:TypeId>
+				<xr:ValueId>e2182574-8fde-42bf-9041-5af3eb2a5803</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТабельУчетаРабочегоВремени</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="c5f79474-7218-47f4-bbab-78d6db61f2cc">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ТабельУчетаРабочегоВремени.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>bc5cdc80-9716-4304-b515-fa3a717bb994</xr:TypeId>
+						<xr:ValueId>005d60b7-04bf-4161-8886-3809bc120512</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ТабельУчетаРабочегоВремени.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>38744abc-18e1-4a16-8244-76d29a730439</xr:TypeId>
+						<xr:ValueId>92e56fb9-218b-4632-b080-fb758c3e8209</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="bc8dca4a-3812-4f50-a85f-397f035aa1a7">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

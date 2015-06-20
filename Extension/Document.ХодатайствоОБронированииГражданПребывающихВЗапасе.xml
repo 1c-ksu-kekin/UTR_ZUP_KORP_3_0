@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="1f44b862-018d-4a6d-b336-7060bc811dfb">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ХодатайствоОБронированииГражданПребывающихВЗапасе" category="Object">
+				<xr:TypeId>c21b82be-e92d-4e56-a8c7-6bcbdbd6fdfe</xr:TypeId>
+				<xr:ValueId>505e996e-9290-4dc3-9c53-77de02e8cd4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ХодатайствоОБронированииГражданПребывающихВЗапасе" category="Ref">
+				<xr:TypeId>6bb03d13-2e20-4b97-a9ba-84e098073652</xr:TypeId>
+				<xr:ValueId>012687f4-9348-4e08-8328-20225071f47e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ХодатайствоОБронированииГражданПребывающихВЗапасе" category="Selection">
+				<xr:TypeId>24e31735-c655-4f33-9460-c0ee1a07b779</xr:TypeId>
+				<xr:ValueId>2db340c7-83e6-4eee-a840-f9e61ecbf352</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ХодатайствоОБронированииГражданПребывающихВЗапасе" category="List">
+				<xr:TypeId>caea4785-de47-4105-bb34-bceac6a4e383</xr:TypeId>
+				<xr:ValueId>f856316b-2950-418b-9f67-ee8155f2bcd3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ХодатайствоОБронированииГражданПребывающихВЗапасе" category="Manager">
+				<xr:TypeId>55051012-1c5d-4c75-9a6e-32b0cfec7a7c</xr:TypeId>
+				<xr:ValueId>0d9006d3-2bd5-47e7-b907-5aa691d0c385</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ХодатайствоОБронированииГражданПребывающихВЗапасе</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="4728f99a-02e0-4362-a06e-384cf3793289">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ХодатайствоОБронированииГражданПребывающихВЗапасе.Сотрудники" category="TabularSection">
+						<xr:TypeId>d6bbd171-800c-4155-9852-72f7ae121b6c</xr:TypeId>
+						<xr:ValueId>9e136d26-7d7f-4266-b284-91645a3fe0bd</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ХодатайствоОБронированииГражданПребывающихВЗапасе.Сотрудники" category="TabularSectionRow">
+						<xr:TypeId>4032f225-cbf9-4a8f-9a1a-6dba77aa9c98</xr:TypeId>
+						<xr:ValueId>82b75754-a389-4d31-a008-7fe29a5e07be</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Сотрудники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="f00d9eab-c9f9-439a-9444-943eb6a54dfa">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

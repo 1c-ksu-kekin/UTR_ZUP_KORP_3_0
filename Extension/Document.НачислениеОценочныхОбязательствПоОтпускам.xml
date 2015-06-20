@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="9e027b48-90f7-4326-aa4a-dcc911e3af67">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НачислениеОценочныхОбязательствПоОтпускам" category="Object">
+				<xr:TypeId>4f085bcc-5513-4d7a-9837-55170cfc7cfd</xr:TypeId>
+				<xr:ValueId>4ed30a63-1bef-4dd2-9445-fab5eaf90862</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НачислениеОценочныхОбязательствПоОтпускам" category="Ref">
+				<xr:TypeId>783ce9db-0125-48b6-bc70-06f6e3f84cd4</xr:TypeId>
+				<xr:ValueId>f7efed81-eaa2-432c-8b20-ef18e78ffc25</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НачислениеОценочныхОбязательствПоОтпускам" category="Selection">
+				<xr:TypeId>c36260b1-bcb4-4271-a86a-cc72391c7646</xr:TypeId>
+				<xr:ValueId>5ef892ae-a2f3-4a48-89a3-54cc1c4129b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НачислениеОценочныхОбязательствПоОтпускам" category="List">
+				<xr:TypeId>e6f24a9c-dbaa-49d9-b98e-39b31e200204</xr:TypeId>
+				<xr:ValueId>d3800cc7-4079-4723-85c9-9f43f75c3950</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НачислениеОценочныхОбязательствПоОтпускам" category="Manager">
+				<xr:TypeId>bd2f10fc-3960-4b2f-9f01-e3d792ab48d3</xr:TypeId>
+				<xr:ValueId>c981a2d9-5bbb-41a4-bef7-63e67347ca4d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НачислениеОценочныхОбязательствПоОтпускам</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="e196329d-7a0a-4f05-a73a-0d3ac745dfc8">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.НачислениеОценочныхОбязательствПоОтпускам.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>23d0dbd3-3a19-4022-8175-c76368c23f06</xr:TypeId>
+						<xr:ValueId>f4e7cd76-ef7b-439c-990a-4046504162d9</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.НачислениеОценочныхОбязательствПоОтпускам.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>844777c8-5ae9-4ba4-b135-d895a858253e</xr:TypeId>
+						<xr:ValueId>81028272-d26d-4632-89f2-d7151ec2f253</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="a9686bcf-4d35-4555-98c7-0a9e92753a40">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

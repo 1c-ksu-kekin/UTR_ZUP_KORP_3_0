@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="ada0dce9-f3c4-437f-95f2-b4f2c51eac76">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПачкаРазделов6РасчетаРСВ_1" category="Object">
+				<xr:TypeId>d6e89133-1180-4e09-b0bd-4b8b515c5364</xr:TypeId>
+				<xr:ValueId>fd74c26a-87f9-4905-97de-026eac23ab1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПачкаРазделов6РасчетаРСВ_1" category="Ref">
+				<xr:TypeId>f22af9c9-3ea9-4176-834a-a36f7f378774</xr:TypeId>
+				<xr:ValueId>c81648be-9252-4352-a84a-97fb64598011</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПачкаРазделов6РасчетаРСВ_1" category="Selection">
+				<xr:TypeId>14039a2b-607a-4469-bb2f-3348e1ca2bec</xr:TypeId>
+				<xr:ValueId>ed81b7d4-14d1-4bfc-b077-683d4bde059f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПачкаРазделов6РасчетаРСВ_1" category="List">
+				<xr:TypeId>89177b0e-99be-4670-aba8-7d6106e8a22e</xr:TypeId>
+				<xr:ValueId>71d6f9bc-01c4-4fe4-a944-2174d62cf83d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПачкаРазделов6РасчетаРСВ_1" category="Manager">
+				<xr:TypeId>c9120121-47b3-4fe6-9cc6-d19237051f72</xr:TypeId>
+				<xr:ValueId>9d227eed-e854-419e-aeb7-a787ff5e2781</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПачкаРазделов6РасчетаРСВ_1</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="f8cdb7e8-a5c5-46c0-83a3-eaefc3361d69">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПачкаРазделов6РасчетаРСВ_1.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>f9dde9ab-f760-4776-8459-4b09bace7c0d</xr:TypeId>
+						<xr:ValueId>e9894cdc-074e-430e-a7f0-a4cb8c5a3521</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПачкаРазделов6РасчетаРСВ_1.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>c02f9668-9888-4c09-b030-1000057a4f4c</xr:TypeId>
+						<xr:ValueId>9d9154c2-1cdb-4040-aeb9-0224d25a77b8</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d15786c3-16ee-4b83-b25b-169eeed2c898">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

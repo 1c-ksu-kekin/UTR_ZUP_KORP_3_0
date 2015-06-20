@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="bca1d5be-ccbc-442c-ab93-b3da5ba38708">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УвольнениеСписком" category="Object">
+				<xr:TypeId>cba6dbb2-7baf-43d6-a70a-6db87d9218f3</xr:TypeId>
+				<xr:ValueId>542b1202-a213-42a8-a701-c7c5857e33a9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УвольнениеСписком" category="Ref">
+				<xr:TypeId>9f80a823-c354-40ef-bc7b-ac83cbe8a610</xr:TypeId>
+				<xr:ValueId>6a6b3ff8-8e83-474c-8677-ea5cf9333371</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УвольнениеСписком" category="Selection">
+				<xr:TypeId>b71886d5-c3b1-4d8c-be2c-a88eac7ee74d</xr:TypeId>
+				<xr:ValueId>2077d004-8090-4024-a9dc-f1e140458496</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УвольнениеСписком" category="List">
+				<xr:TypeId>e26d7ad7-1ac0-42f7-8031-49a76bf8e8c1</xr:TypeId>
+				<xr:ValueId>7d8515ad-c669-4c73-83a9-9e4be697cd68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УвольнениеСписком" category="Manager">
+				<xr:TypeId>e51816a8-269f-4c88-a51b-950396f018a3</xr:TypeId>
+				<xr:ValueId>f2231f68-4ef3-4d2a-be74-87f32ec2f6f2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УвольнениеСписком</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="beccf6e3-e475-42a1-af7c-72c460ff5ccc">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.УвольнениеСписком.Сотрудники" category="TabularSection">
+						<xr:TypeId>b75aa4b7-4277-427f-92d3-6be1f7092dd7</xr:TypeId>
+						<xr:ValueId>02c32201-54f6-4f34-bcdc-ba8210f14a6d</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.УвольнениеСписком.Сотрудники" category="TabularSectionRow">
+						<xr:TypeId>0464093f-baa6-49de-bf15-c415854705cc</xr:TypeId>
+						<xr:ValueId>4512b893-e245-484d-847b-f8cccaf9130e</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Сотрудники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="04c5e21b-48e6-4188-81fa-5e1c2b6d88d3">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

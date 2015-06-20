@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="912b5e5c-e9f5-45b8-a49d-9a2a278d7f15">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АктПриемкиВыполненныхРаботОказанныхУслуг" category="Object">
+				<xr:TypeId>378d47d9-0629-44f0-83e4-9af2384684e3</xr:TypeId>
+				<xr:ValueId>9337cccd-9a96-4e92-baef-2d51137a7c86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АктПриемкиВыполненныхРаботОказанныхУслуг" category="Ref">
+				<xr:TypeId>10e557e9-64b5-4788-87a6-81a1bc21bbe6</xr:TypeId>
+				<xr:ValueId>4bd7c0f9-2f8f-4d96-9284-ec94c7edb1bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АктПриемкиВыполненныхРаботОказанныхУслуг" category="Selection">
+				<xr:TypeId>57800fdb-7e4e-43f6-8b50-bbe4f4dab266</xr:TypeId>
+				<xr:ValueId>8e2e37e6-eaba-43b9-a40e-4fd94e6c1c38</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АктПриемкиВыполненныхРаботОказанныхУслуг" category="List">
+				<xr:TypeId>2bd0a961-18c4-4dd5-bf8e-79c90ce2bd84</xr:TypeId>
+				<xr:ValueId>e3deaba4-22de-4902-9b94-1d422672e14c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АктПриемкиВыполненныхРаботОказанныхУслуг" category="Manager">
+				<xr:TypeId>9c21cf6f-08ff-41b1-9132-fa1565fc9366</xr:TypeId>
+				<xr:ValueId>51433db1-1ee2-4244-833a-f751f96f9d74</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АктПриемкиВыполненныхРаботОказанныхУслуг</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="dd0641cc-8323-43eb-bdb0-8ab911619e6b">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

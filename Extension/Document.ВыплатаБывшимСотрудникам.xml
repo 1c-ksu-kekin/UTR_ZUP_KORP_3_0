@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="8134bd87-536b-4941-8cfc-e7426af1e2f7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВыплатаБывшимСотрудникам" category="Object">
+				<xr:TypeId>794e734b-17c7-45bd-b982-ed0da0c5c8ba</xr:TypeId>
+				<xr:ValueId>f253df8d-cc14-48f8-bafa-3fd4c261cb6d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВыплатаБывшимСотрудникам" category="Ref">
+				<xr:TypeId>a1f643bf-b467-4dfb-86ec-16ecfb0bf62a</xr:TypeId>
+				<xr:ValueId>513c00e1-1541-4085-876a-06bcedb16b4d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВыплатаБывшимСотрудникам" category="Selection">
+				<xr:TypeId>29669fbe-e217-45ad-a30a-52c77ec6fe22</xr:TypeId>
+				<xr:ValueId>711d05a4-cab5-4e68-9f33-d2d16c58ca88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВыплатаБывшимСотрудникам" category="List">
+				<xr:TypeId>0281205b-1800-488c-8fe9-880f7447b5a8</xr:TypeId>
+				<xr:ValueId>0e4b9cf5-c5d6-49f7-9518-1b529ab7c86b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВыплатаБывшимСотрудникам" category="Manager">
+				<xr:TypeId>416d8b67-4aea-4309-b933-b2cf7346dd13</xr:TypeId>
+				<xr:ValueId>4aa5f834-5ed2-44bc-9a08-dc4c37c872a2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВыплатаБывшимСотрудникам</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="09373e1d-89f4-4622-bb1d-b3faa7fb62da">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВыплатаБывшимСотрудникам.НачисленияУдержанияВзносы" category="TabularSection">
+						<xr:TypeId>14cb15fb-1c44-41cf-a9d2-1c16ce0723f8</xr:TypeId>
+						<xr:ValueId>6ca1288e-4d72-4aa8-96e6-4168e20ac079</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВыплатаБывшимСотрудникам.НачисленияУдержанияВзносы" category="TabularSectionRow">
+						<xr:TypeId>ea330d7c-2aaa-4810-a727-cf082bba58ae</xr:TypeId>
+						<xr:ValueId>31f137e1-0b35-431d-ac94-7adefae06c03</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>НачисленияУдержанияВзносы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="cbd40066-51a2-4dd1-8a88-1b746f4f4892">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

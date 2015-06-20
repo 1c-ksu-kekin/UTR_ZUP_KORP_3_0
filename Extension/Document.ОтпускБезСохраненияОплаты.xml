@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="b75a21fe-da6c-4bee-a203-f5e18a0c8975">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтпускБезСохраненияОплаты" category="Object">
+				<xr:TypeId>7fd937cf-d985-40b1-8683-149089b5b2cd</xr:TypeId>
+				<xr:ValueId>895a9482-598d-45ba-9cf9-8397e15c3c0e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтпускБезСохраненияОплаты" category="Ref">
+				<xr:TypeId>ea00b7af-24bf-4bf5-814a-fb1ee7db8bd0</xr:TypeId>
+				<xr:ValueId>af44ab34-cd08-464d-b1ac-cbc58b68aa51</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтпускБезСохраненияОплаты" category="Selection">
+				<xr:TypeId>34a631b3-3340-49b7-9197-09636af85f69</xr:TypeId>
+				<xr:ValueId>9b3faef8-8d0e-4947-9947-ce6bccb56f08</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтпускБезСохраненияОплаты" category="List">
+				<xr:TypeId>418f1ab2-2f0b-4eb2-88cd-c9fe4cdc2845</xr:TypeId>
+				<xr:ValueId>1a590094-4c7f-4113-9f0b-defafd2a9e2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтпускБезСохраненияОплаты" category="Manager">
+				<xr:TypeId>e67f12fc-8295-41f5-9f36-2b111073f28d</xr:TypeId>
+				<xr:ValueId>973b6f95-3ad4-4f9f-87a5-bd2693b39d9f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтпускБезСохраненияОплаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="02fe3bf9-8968-4372-904c-a69ae092a505">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

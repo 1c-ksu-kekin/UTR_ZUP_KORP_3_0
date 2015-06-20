@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="58428f9b-756d-43ba-a762-bea4a0a65811">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Командировка" category="Object">
+				<xr:TypeId>cffdb64f-7c90-4d2d-bfc4-5372b28c98af</xr:TypeId>
+				<xr:ValueId>263b4db8-652e-40ae-b6bc-900d877e5424</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Командировка" category="Ref">
+				<xr:TypeId>e299c75a-f5f1-4d87-bb4e-4c64a322a55b</xr:TypeId>
+				<xr:ValueId>ca58635a-c335-4a62-b3cc-75590f0277ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Командировка" category="Selection">
+				<xr:TypeId>21670cf0-8324-4db1-834b-1cc8f5dc589e</xr:TypeId>
+				<xr:ValueId>06cf4936-c161-44cb-a083-b3ca3dfa16fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Командировка" category="List">
+				<xr:TypeId>ac6ff57f-753d-4b28-9023-40c107c79495</xr:TypeId>
+				<xr:ValueId>085f5adf-a9df-40b3-b954-e80c1d6ad4bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Командировка" category="Manager">
+				<xr:TypeId>d8e65d9f-7ee5-4c17-beb0-152ffe328994</xr:TypeId>
+				<xr:ValueId>dc7d0586-8dbb-404e-85ec-0b021c3b8700</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Командировка</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f494b1cc-a562-4ae3-8aaf-0ba4465ef39d">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

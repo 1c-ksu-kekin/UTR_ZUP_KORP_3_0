@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="2167fcf8-f3d7-43e8-ba6d-b2b88bcf4429">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЕдиновременноеПособиеЗаСчетФСС" category="Object">
+				<xr:TypeId>b6b997b0-d6bb-4157-ba35-28eff101b37e</xr:TypeId>
+				<xr:ValueId>1bafd533-51f0-4d6e-804a-ada4bffe6345</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЕдиновременноеПособиеЗаСчетФСС" category="Ref">
+				<xr:TypeId>cafdd0f6-75cd-423d-bd4d-e8c96b5c9e25</xr:TypeId>
+				<xr:ValueId>600b4188-a931-4cef-a60e-defd7b1a41b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЕдиновременноеПособиеЗаСчетФСС" category="Selection">
+				<xr:TypeId>f4f7c807-1591-4dff-be94-ee88a3e2b155</xr:TypeId>
+				<xr:ValueId>ce0c1983-fdbe-44f4-8ce4-24984c48bb40</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЕдиновременноеПособиеЗаСчетФСС" category="List">
+				<xr:TypeId>a3c79662-b7e0-40b8-b470-f2005336b014</xr:TypeId>
+				<xr:ValueId>c1cfa2f1-c344-46db-8cbd-9a48666f57ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЕдиновременноеПособиеЗаСчетФСС" category="Manager">
+				<xr:TypeId>21116fe8-da0e-459c-8554-431fd7c54a91</xr:TypeId>
+				<xr:ValueId>2f1546b6-4b47-4ec3-8242-b80fee971870</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЕдиновременноеПособиеЗаСчетФСС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f53f14b2-0b39-44bf-a053-6bd90726ed53">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

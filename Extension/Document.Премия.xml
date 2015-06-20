@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="dc57b160-f2f8-4807-8083-b4ef979a5ed4">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Премия" category="Object">
+				<xr:TypeId>d3c5403d-b34b-4748-9338-30daada8a162</xr:TypeId>
+				<xr:ValueId>cdd3cdab-a030-4dbb-89bc-1cd5954207de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Премия" category="Ref">
+				<xr:TypeId>cf3e1272-d095-49c5-b56a-1432078be480</xr:TypeId>
+				<xr:ValueId>30d060e1-44dd-4626-9d58-076877325497</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Премия" category="Selection">
+				<xr:TypeId>7defd8a2-2347-4596-aab0-b4e5c22e884c</xr:TypeId>
+				<xr:ValueId>9c7bb50c-0a60-4ed3-9717-c2cd74759102</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Премия" category="List">
+				<xr:TypeId>85aa832c-b182-4cb3-9c04-a40e9e9ff7ec</xr:TypeId>
+				<xr:ValueId>c1fa4978-bbc1-47a5-b55e-389e24f9c596</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Премия" category="Manager">
+				<xr:TypeId>ed138e99-1797-4bc8-8f6f-6e2938debded</xr:TypeId>
+				<xr:ValueId>98202f79-f12c-430c-b261-38edd288102b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Премия</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="44d7e49d-aac1-44fa-aa41-29916804b875">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.Премия.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>54510098-08e3-4745-99dd-3166a1c18893</xr:TypeId>
+						<xr:ValueId>4886f8b6-3fb7-49d7-9f4a-fb8e89f60c59</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.Премия.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>78835dee-f1b7-4184-b5d2-6071dbd86dc2</xr:TypeId>
+						<xr:ValueId>4ad6bcef-d196-4961-88b2-3e7f5b43e231</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d63e62bd-398f-4202-97ac-e2bd24868b7b">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

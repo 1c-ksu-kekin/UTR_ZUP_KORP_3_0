@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="e0252536-23f1-42ac-860a-5d7159760c54">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ДоговорАвторскогоЗаказа" category="Object">
+				<xr:TypeId>69fa0057-21cb-4e17-adbb-174133d40825</xr:TypeId>
+				<xr:ValueId>66a917df-bf76-491b-8753-f06ad8eb517a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ДоговорАвторскогоЗаказа" category="Ref">
+				<xr:TypeId>d6b6c202-33df-4ef4-8b8a-22ccef40d5e7</xr:TypeId>
+				<xr:ValueId>d03a6073-0c1a-49fc-8794-82d1a6a33479</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ДоговорАвторскогоЗаказа" category="Selection">
+				<xr:TypeId>2816a152-e2a1-407d-98ee-3eee0ab5af68</xr:TypeId>
+				<xr:ValueId>79808b87-56bb-4f2d-ac30-5cb47eace661</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ДоговорАвторскогоЗаказа" category="List">
+				<xr:TypeId>fc96765b-22a1-4429-8e69-c8992cd8bb37</xr:TypeId>
+				<xr:ValueId>d2fd6b0c-1375-4c46-a444-b6889d1792ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ДоговорАвторскогоЗаказа" category="Manager">
+				<xr:TypeId>1d4090c2-0257-450b-9e6d-d1d0de57d671</xr:TypeId>
+				<xr:ValueId>2e5b2156-8706-4a86-96e5-a42c6c0e9ed4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДоговорАвторскогоЗаказа</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="111dd599-9ea9-4bf8-9c6d-3d0a215537c3">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

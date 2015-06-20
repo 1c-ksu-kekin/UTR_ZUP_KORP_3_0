@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="d173b4ab-adc5-4561-bdfd-7468d5989a80">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеОплатыТруда" category="Object">
+				<xr:TypeId>e8897555-8ec6-40ed-8fd4-86069b9014c5</xr:TypeId>
+				<xr:ValueId>48e94cb1-ab18-4403-9f3e-8139cf874fa4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеОплатыТруда" category="Ref">
+				<xr:TypeId>62640001-3160-48fc-b3e4-68d99e7e44db</xr:TypeId>
+				<xr:ValueId>76a5ae1a-441c-43bd-bc2c-440f9c23f957</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеОплатыТруда" category="Selection">
+				<xr:TypeId>5d50e919-60da-4743-9c4b-044b4d4a9fc5</xr:TypeId>
+				<xr:ValueId>b3c70885-64ce-4980-a856-bef10291f14c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеОплатыТруда" category="List">
+				<xr:TypeId>ef4513ed-0948-4e45-bde5-11f3681df9e1</xr:TypeId>
+				<xr:ValueId>00cba068-120e-4267-8f2d-a8f7cf140f2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеОплатыТруда" category="Manager">
+				<xr:TypeId>8c647a90-94d0-4168-a92c-f6289ad43158</xr:TypeId>
+				<xr:ValueId>4c98f3b1-73a7-4509-bfb2-5d369da64c0a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеОплатыТруда</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="86b686f0-c653-46f0-841a-e5ab6407fe3b">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

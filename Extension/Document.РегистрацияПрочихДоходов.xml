@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="8d887af1-9e16-479e-9920-75445715e84b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РегистрацияПрочихДоходов" category="Object">
+				<xr:TypeId>55e3031b-15b7-42a5-8072-35dba1421f38</xr:TypeId>
+				<xr:ValueId>570eed78-5f03-4c52-b46f-f679dc670bf2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РегистрацияПрочихДоходов" category="Ref">
+				<xr:TypeId>31d8ac21-3e76-4145-b461-590f44e4c1cb</xr:TypeId>
+				<xr:ValueId>474c1ae1-c9dc-47db-8522-680d6e40ff54</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РегистрацияПрочихДоходов" category="Selection">
+				<xr:TypeId>80a306c4-e071-406b-a40e-120609b7cb43</xr:TypeId>
+				<xr:ValueId>1e0c4462-ecd2-48d1-ab05-ae8e982c99e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РегистрацияПрочихДоходов" category="List">
+				<xr:TypeId>14e50657-ee6f-4118-b324-9dc72e8e47d2</xr:TypeId>
+				<xr:ValueId>4b6f5498-6b4a-4335-853b-8035d3780d35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РегистрацияПрочихДоходов" category="Manager">
+				<xr:TypeId>c11e79f5-00ef-4b21-b4db-df866a06ef6e</xr:TypeId>
+				<xr:ValueId>df285423-2ff5-4e0c-9f1d-5f551b0378e5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РегистрацияПрочихДоходов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="30cc2921-0b15-4c5b-844a-a897741be324">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РегистрацияПрочихДоходов.НачисленияУдержанияВзносы" category="TabularSection">
+						<xr:TypeId>2b1f7554-45cb-45cc-99dd-d68edb5b3a5b</xr:TypeId>
+						<xr:ValueId>4afaa7f1-b430-47c2-8b48-346f49930bcb</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РегистрацияПрочихДоходов.НачисленияУдержанияВзносы" category="TabularSectionRow">
+						<xr:TypeId>d5e9c021-4f09-4627-96a6-5da7b2bb2674</xr:TypeId>
+						<xr:ValueId>2c4fe378-e963-4be9-bd7a-8519e95c013a</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>НачисленияУдержанияВзносы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="06f7a605-5ed6-4c1a-9593-c321e86078fd">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

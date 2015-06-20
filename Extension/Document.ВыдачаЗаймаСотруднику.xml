@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="857226fc-876b-4e96-9654-ac1cda28a097">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВыдачаЗаймаСотруднику" category="Object">
+				<xr:TypeId>cbc0d423-c866-4274-b1ef-916446ab2ed3</xr:TypeId>
+				<xr:ValueId>b4097dcf-535e-49ee-a89b-d28ac3e88fd6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВыдачаЗаймаСотруднику" category="Ref">
+				<xr:TypeId>05767133-c58d-4b31-a952-fba057cfec1d</xr:TypeId>
+				<xr:ValueId>485d4275-c26f-4a9a-a0ec-4b59b6d84ca9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВыдачаЗаймаСотруднику" category="Selection">
+				<xr:TypeId>9c5a1a5a-d35e-4844-9041-5eae73e4751a</xr:TypeId>
+				<xr:ValueId>8c85450d-5520-4b32-bf2b-4331c1e9450d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВыдачаЗаймаСотруднику" category="List">
+				<xr:TypeId>a945fd9c-0f95-4ee0-8546-18e361040d0a</xr:TypeId>
+				<xr:ValueId>c7a9b6d8-8863-4c92-b27c-17b4f3095d88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВыдачаЗаймаСотруднику" category="Manager">
+				<xr:TypeId>d3fbdde1-da27-4a70-9fd3-fbff64fcfa03</xr:TypeId>
+				<xr:ValueId>6f19a9a7-8a2d-45d5-a616-3ce7833d47bf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВыдачаЗаймаСотруднику</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="746c59d3-22ba-4ed1-a25d-bbd1e50a0b22">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

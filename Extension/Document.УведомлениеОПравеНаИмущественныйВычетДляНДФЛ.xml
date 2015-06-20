@@ -1,32 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Document uuid="7009ef34-ed93-40cc-90de-a766e9817d9a">
+	<Document uuid="324f6986-7102-4536-aded-cef17720c288">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.УведомлениеОПравеНаИмущественныйВычетДляНДФЛ" category="Object">
-				<xr:TypeId>a6ea2d35-1dfd-4ffc-b989-696be7a66af8</xr:TypeId>
-				<xr:ValueId>9b5df39c-a6fd-43cc-99a1-29a59a231913</xr:ValueId>
+				<xr:TypeId>9d2b31ba-2acf-4df8-bd93-f6fbae9f759a</xr:TypeId>
+				<xr:ValueId>03b6f294-9446-4aa7-ab16-b10779b6cc73</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentRef.УведомлениеОПравеНаИмущественныйВычетДляНДФЛ" category="Ref">
-				<xr:TypeId>7d36ed99-1db6-4a04-af41-7dea9c71be5f</xr:TypeId>
-				<xr:ValueId>06a79ebd-ae66-4ea5-b478-230d74a4052f</xr:ValueId>
+				<xr:TypeId>3882473a-a1c1-4e60-9652-933fd0d6dc2d</xr:TypeId>
+				<xr:ValueId>2474ecbb-7d3d-498d-9ae7-e3e8bfdf48b2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentSelection.УведомлениеОПравеНаИмущественныйВычетДляНДФЛ" category="Selection">
-				<xr:TypeId>93ab20d0-b054-4547-be4c-3f6ec66b32a1</xr:TypeId>
-				<xr:ValueId>ff8306c5-c503-489b-a9b1-db1311443841</xr:ValueId>
+				<xr:TypeId>a778a1b8-481d-46d2-b16d-502fd6f7c804</xr:TypeId>
+				<xr:ValueId>42f238e8-71a6-43fe-b0c7-aaff484df152</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentList.УведомлениеОПравеНаИмущественныйВычетДляНДФЛ" category="List">
-				<xr:TypeId>93732dc2-bf15-4ccf-a718-065f93e5d299</xr:TypeId>
-				<xr:ValueId>34ffac18-ec25-4546-8be3-0ae6b5ea57cf</xr:ValueId>
+				<xr:TypeId>db5dcfc0-5c5e-43bb-bf30-e655352b4756</xr:TypeId>
+				<xr:ValueId>a465f18f-9266-4dd1-8343-db2cc40e2d8c</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentManager.УведомлениеОПравеНаИмущественныйВычетДляНДФЛ" category="Manager">
-				<xr:TypeId>a4e8b44a-d141-441c-bac3-36d8857a6994</xr:TypeId>
-				<xr:ValueId>edab8dfb-b774-44d6-b50b-74166c677e10</xr:ValueId>
+				<xr:TypeId>3a65b639-ed66-4dfa-b543-43a76136ae31</xr:TypeId>
+				<xr:ValueId>458e9049-16ff-487f-a52f-fa93ca887ca8</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>УведомлениеОПравеНаИмущественныйВычетДляНДФЛ</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="c211a551-9b01-44b5-bf6a-e332b4578844">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>

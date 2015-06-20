@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="7e497cfe-1ce8-4f2b-b73a-7b275dce6f13">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВыплатаДепонированнойЗарплаты" category="Object">
+				<xr:TypeId>1797f3d4-7c79-4917-b9d0-6dd507b12031</xr:TypeId>
+				<xr:ValueId>8a1df60c-3709-454c-b68f-2825c804955b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВыплатаДепонированнойЗарплаты" category="Ref">
+				<xr:TypeId>7a6dbac9-04ac-4a2e-b4a5-ba1f6a996cd9</xr:TypeId>
+				<xr:ValueId>a760deb7-ebfb-464d-b3d1-6375d0916a92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВыплатаДепонированнойЗарплаты" category="Selection">
+				<xr:TypeId>94f19f81-c1d0-4271-a041-6c36ae025346</xr:TypeId>
+				<xr:ValueId>b391ad3a-8678-4621-9bee-032ba5053661</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВыплатаДепонированнойЗарплаты" category="List">
+				<xr:TypeId>af588fb4-6093-475e-b1da-efea5f54119c</xr:TypeId>
+				<xr:ValueId>854a4efe-ac91-4afa-830d-255e958282fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВыплатаДепонированнойЗарплаты" category="Manager">
+				<xr:TypeId>639999eb-db2a-4d83-92ab-b8c61f4b389f</xr:TypeId>
+				<xr:ValueId>17076eed-1839-4f94-b86d-fc287bd2c28d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВыплатаДепонированнойЗарплаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="bcc7413e-9281-45fa-a92b-880050ba1bd6">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

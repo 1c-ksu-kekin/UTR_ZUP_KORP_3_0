@@ -340,6 +340,33 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<TabularSection uuid="16725a5a-334f-41b6-81ce-a4830b85bdf0">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РазовоеНачисление.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>4f589096-426d-4d34-bbbf-1f21928c56d6</xr:TypeId>
+						<xr:ValueId>ce2938ac-e8a0-403e-a915-747ea8148bbb</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РазовоеНачисление.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>a7c82847-759f-4153-ab6c-fbb8f8387e64</xr:TypeId>
+						<xr:ValueId>76f9d19b-8ca5-4552-ab01-1200ee02ad93</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="0dfea32b-c552-498d-997e-b79e80952ba0">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

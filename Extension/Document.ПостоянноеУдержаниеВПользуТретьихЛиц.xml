@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="509082bb-13d5-453b-b4f5-00ee12da6f93">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПостоянноеУдержаниеВПользуТретьихЛиц" category="Object">
+				<xr:TypeId>3f3fd6f8-f634-46ef-9a2d-a3acc94b808a</xr:TypeId>
+				<xr:ValueId>2e922c81-61a4-44cf-9d63-2e0b5bf297f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПостоянноеУдержаниеВПользуТретьихЛиц" category="Ref">
+				<xr:TypeId>f7a82f9d-7502-427a-8960-ee341357b318</xr:TypeId>
+				<xr:ValueId>30165948-b6c3-4243-bfe2-489153870b07</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПостоянноеУдержаниеВПользуТретьихЛиц" category="Selection">
+				<xr:TypeId>8d23a4d3-34bb-43d3-8ae9-f2b54dd151a3</xr:TypeId>
+				<xr:ValueId>ee085d6f-f17d-4354-a229-b255d2c3a651</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПостоянноеУдержаниеВПользуТретьихЛиц" category="List">
+				<xr:TypeId>3f583417-dbed-4259-9502-491937c6af89</xr:TypeId>
+				<xr:ValueId>caee9808-28ae-4c05-a94c-c5fb6100e1be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПостоянноеУдержаниеВПользуТретьихЛиц" category="Manager">
+				<xr:TypeId>7ccf3878-6a26-46ab-99f7-718e60c98fda</xr:TypeId>
+				<xr:ValueId>7c72e7b8-2e9d-4343-81fe-da0b6513995f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПостоянноеУдержаниеВПользуТретьихЛиц</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="6d512881-312e-4946-890b-7ad9c0879496">
+				<Properties>
+					<Name>УдалитьФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

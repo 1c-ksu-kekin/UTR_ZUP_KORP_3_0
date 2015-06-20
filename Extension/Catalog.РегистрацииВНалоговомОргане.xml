@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Catalog uuid="8f6be55a-04be-4e83-a050-fe29417cb334">
+	<Catalog uuid="fa395dd0-422c-4617-b1f2-6394e0681411">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.РегистрацииВНалоговомОргане" category="Object">
-				<xr:TypeId>ba034bf5-a77d-4c58-a6ab-3e37e942c19f</xr:TypeId>
-				<xr:ValueId>a5642130-9673-46bf-a792-478322f1b514</xr:ValueId>
+				<xr:TypeId>f8734219-cd57-405c-ab12-3a08f8a991e9</xr:TypeId>
+				<xr:ValueId>9f0ae990-eda1-4b01-a3de-2e8670305367</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.РегистрацииВНалоговомОргане" category="Ref">
-				<xr:TypeId>945ee936-5552-40c0-9164-cc6b3c4ab68c</xr:TypeId>
-				<xr:ValueId>457c9834-3222-474a-a535-a3f935468b32</xr:ValueId>
+				<xr:TypeId>5a902603-5493-4854-9d0b-8d50b8f0cafd</xr:TypeId>
+				<xr:ValueId>8a7a7919-ed51-40ea-a8ed-79a871dc4172</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.РегистрацииВНалоговомОргане" category="Selection">
-				<xr:TypeId>3bac885b-6f0f-4a1f-8d92-9a0f686db0ae</xr:TypeId>
-				<xr:ValueId>b4bbf177-e5c3-42fd-9769-22a14e45a9b9</xr:ValueId>
+				<xr:TypeId>32edebf8-1ae8-4c77-81fb-7fdb918645ba</xr:TypeId>
+				<xr:ValueId>68e154eb-2f85-4e33-a1ac-c6ba4432c990</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.РегистрацииВНалоговомОргане" category="List">
-				<xr:TypeId>617db349-ba8e-460e-96dd-bda489066199</xr:TypeId>
-				<xr:ValueId>52075c1b-ec2d-4573-9b38-2f137dd711a0</xr:ValueId>
+				<xr:TypeId>07d25e4e-873c-4f19-a36c-b722cd3d8464</xr:TypeId>
+				<xr:ValueId>1f4cc9e1-a896-4532-87f6-ca15e74d54f7</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.РегистрацииВНалоговомОргане" category="Manager">
-				<xr:TypeId>edc6a524-ef98-4534-a1d4-fcdcaaa4dab4</xr:TypeId>
-				<xr:ValueId>8bb935be-23b3-4189-9dba-d93a1c3a497f</xr:ValueId>
+				<xr:TypeId>a90da74d-184a-477f-ad85-af9c4d339535</xr:TypeId>
+				<xr:ValueId>1f160707-cc7f-4dce-8b9c-3511a2417793</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

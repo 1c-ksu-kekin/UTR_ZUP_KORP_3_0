@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="8c58c8f4-63e8-4ee5-8ad8-48262362f719">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтменаЗаявкиНаОтпуск" category="Object">
+				<xr:TypeId>0b1bd9ac-bb22-4817-8b0f-50e6c5f3384e</xr:TypeId>
+				<xr:ValueId>b84e6c9a-fec9-4ffd-be20-774570bd9523</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтменаЗаявкиНаОтпуск" category="Ref">
+				<xr:TypeId>59c49719-3079-433f-a59b-536d1eb74244</xr:TypeId>
+				<xr:ValueId>95d7ffd9-3c03-471d-b418-316dffa2d6f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтменаЗаявкиНаОтпуск" category="Selection">
+				<xr:TypeId>b50f7a53-c5fa-473e-bd03-330239027c9a</xr:TypeId>
+				<xr:ValueId>cb35890b-c453-48aa-8568-eb168e7510c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтменаЗаявкиНаОтпуск" category="List">
+				<xr:TypeId>dec37311-9b30-4597-b9ef-1b114b2944b6</xr:TypeId>
+				<xr:ValueId>1ad935f1-d3e3-41c2-95a9-61a3345313c9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтменаЗаявкиНаОтпуск" category="Manager">
+				<xr:TypeId>b6997021-8f70-4ecc-9f4c-e1237b3eeafa</xr:TypeId>
+				<xr:ValueId>9fd58972-d277-4f72-bc1b-8ead7c4b31de</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтменаЗаявкиНаОтпуск</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c469c001-4941-42d9-99a4-fca967bf162d">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

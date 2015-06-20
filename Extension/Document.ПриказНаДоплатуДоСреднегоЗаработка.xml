@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="13544f33-d25b-4e87-b2a7-705e51b267cb">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПриказНаДоплатуДоСреднегоЗаработка" category="Object">
+				<xr:TypeId>73b7fa10-8f7b-4f4c-a760-a367c28df8c2</xr:TypeId>
+				<xr:ValueId>5ea75070-1eeb-487c-9d11-3d9f87fff9bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПриказНаДоплатуДоСреднегоЗаработка" category="Ref">
+				<xr:TypeId>ff11dda8-c052-47b0-984b-1a3f8e047081</xr:TypeId>
+				<xr:ValueId>f519c3b1-1108-4e07-9cfc-bdbfaf30284f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПриказНаДоплатуДоСреднегоЗаработка" category="Selection">
+				<xr:TypeId>874de989-5349-4caa-8858-2bb167b70c88</xr:TypeId>
+				<xr:ValueId>e4fc2c06-3e6c-40a0-9b0b-ce6e588d05f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПриказНаДоплатуДоСреднегоЗаработка" category="List">
+				<xr:TypeId>141cc887-9c4c-4e0f-9c71-3cec2a17c994</xr:TypeId>
+				<xr:ValueId>6fd60b18-2826-43d2-bf29-d626cabb2e6f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПриказНаДоплатуДоСреднегоЗаработка" category="Manager">
+				<xr:TypeId>58844e6f-3525-479c-96b3-84d6fd510fc1</xr:TypeId>
+				<xr:ValueId>ef64f88d-631a-4460-a277-c3af650cc4a6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПриказНаДоплатуДоСреднегоЗаработка</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e6fe616b-522b-4623-ac64-a250e5aa28bf">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

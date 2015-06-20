@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="dc5d2d85-dea0-454a-af36-320a0481adb1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПерерасчетНДФЛ" category="Object">
+				<xr:TypeId>f6febdf3-b51c-472b-a495-80456412cd0c</xr:TypeId>
+				<xr:ValueId>73d1e684-45b9-4b1a-85a4-bca3f82a406b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПерерасчетНДФЛ" category="Ref">
+				<xr:TypeId>048b53b4-f25b-4700-b326-cdb12807ce8c</xr:TypeId>
+				<xr:ValueId>3fd8d30d-4f96-45fb-be1e-da43e0b93ea0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПерерасчетНДФЛ" category="Selection">
+				<xr:TypeId>2eb767e5-88fe-4aef-8f87-4cd0de807c8e</xr:TypeId>
+				<xr:ValueId>fd0bd67a-d728-4def-9b89-d4f73d0cc600</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПерерасчетНДФЛ" category="List">
+				<xr:TypeId>70331274-0410-44c9-8614-da8ab8920739</xr:TypeId>
+				<xr:ValueId>ee1e0796-0cb2-464d-840c-eab221deec45</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПерерасчетНДФЛ" category="Manager">
+				<xr:TypeId>2725547c-5581-4c31-a738-910d38d3ef0d</xr:TypeId>
+				<xr:ValueId>0b33a193-4e5a-4302-a084-a9c6f315af11</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПерерасчетНДФЛ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="c07a6f72-8cfb-4cdf-b478-8c32123f654b">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПерерасчетНДФЛ.Сотрудники" category="TabularSection">
+						<xr:TypeId>4071e648-52ce-4c1f-b00d-d790f850bddb</xr:TypeId>
+						<xr:ValueId>74a000c7-08d7-492d-904e-f13eae21005c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПерерасчетНДФЛ.Сотрудники" category="TabularSectionRow">
+						<xr:TypeId>04b1096e-d2f2-4f53-916f-867e1c435399</xr:TypeId>
+						<xr:ValueId>99ba62f2-e54b-4e63-9654-7369922b3650</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Сотрудники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="2a3d1414-19be-4af4-a356-fe9230fa6f7d">
+						<Properties>
+							<Name>Сотрудник</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

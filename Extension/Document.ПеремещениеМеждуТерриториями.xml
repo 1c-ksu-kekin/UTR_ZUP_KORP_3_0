@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="741053f3-7a1d-4bb9-a422-74ae6ef0e1b3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПеремещениеМеждуТерриториями" category="Object">
+				<xr:TypeId>ff6875af-9a2b-4115-ab87-b7849b075b5b</xr:TypeId>
+				<xr:ValueId>560030ad-791f-4949-b3dc-10da499e1953</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПеремещениеМеждуТерриториями" category="Ref">
+				<xr:TypeId>e89f1c0f-0ec4-4ecd-958f-f3d30b67e630</xr:TypeId>
+				<xr:ValueId>f612e3c9-e1b2-4454-8f92-31ffc90304d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПеремещениеМеждуТерриториями" category="Selection">
+				<xr:TypeId>4448b726-e4d4-4cf2-991e-16ce73e5b57e</xr:TypeId>
+				<xr:ValueId>8fd01abd-76db-415f-8a97-70895a8e75c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПеремещениеМеждуТерриториями" category="List">
+				<xr:TypeId>7ea94930-3292-45d9-a95c-64bdb9c564fc</xr:TypeId>
+				<xr:ValueId>347e81c6-b826-42a1-9fa9-7da45d97af40</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПеремещениеМеждуТерриториями" category="Manager">
+				<xr:TypeId>fe27a620-4cdb-47d3-a5ed-2e0ce73d1f60</xr:TypeId>
+				<xr:ValueId>d8ee3b12-9c5a-4eb5-ae15-ef6c30cdd7e3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПеремещениеМеждуТерриториями</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="851db089-000d-4ca0-90c8-bf1704de1d3f">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПеремещениеМеждуТерриториями.Сотрудники" category="TabularSection">
+						<xr:TypeId>378eaa75-84ca-444c-a00b-a5ab00cbfa67</xr:TypeId>
+						<xr:ValueId>ad80bdf8-6fcf-449d-aa76-a0778693f40f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПеремещениеМеждуТерриториями.Сотрудники" category="TabularSectionRow">
+						<xr:TypeId>670ee6c6-0701-4dc4-b173-c081e7dd1bfd</xr:TypeId>
+						<xr:ValueId>056c6e3c-29b5-403f-8687-85f4cde90e23</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Сотрудники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="792dab80-9ca8-4d43-8aae-5f212c40fb5d">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

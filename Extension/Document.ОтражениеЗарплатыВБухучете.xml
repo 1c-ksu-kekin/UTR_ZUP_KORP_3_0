@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="39652891-fc9c-458b-b022-39551f75148a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтражениеЗарплатыВБухучете" category="Object">
+				<xr:TypeId>a547f89a-6d38-46af-b106-7d8323a14005</xr:TypeId>
+				<xr:ValueId>4727fd90-ab17-45e5-84d7-3d07b8823794</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтражениеЗарплатыВБухучете" category="Ref">
+				<xr:TypeId>f88d23a6-c0fe-45bb-a12b-436fbad7cccd</xr:TypeId>
+				<xr:ValueId>6e0e4e5e-c412-42e6-8538-c092a35f77a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтражениеЗарплатыВБухучете" category="Selection">
+				<xr:TypeId>d1012345-4580-461f-88e0-254ecb77cdac</xr:TypeId>
+				<xr:ValueId>fc44eaf6-9eff-4788-ad8d-97240a42edae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтражениеЗарплатыВБухучете" category="List">
+				<xr:TypeId>e9899e87-236e-47a4-8648-f5739b2aba91</xr:TypeId>
+				<xr:ValueId>be6e3d47-c0d5-4d9c-b039-60d744606f07</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтражениеЗарплатыВБухучете" category="Manager">
+				<xr:TypeId>1cbeba64-5169-4fcb-9b15-e283d63cc003</xr:TypeId>
+				<xr:ValueId>24fc2ce4-5226-4bc4-92de-ed39860a87ac</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтражениеЗарплатыВБухучете</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="a6f913a7-ec9e-4d98-9886-4a8e14711086">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтражениеЗарплатыВБухучете.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>62e19b3b-f95f-4539-a166-e1df6fb98b83</xr:TypeId>
+						<xr:ValueId>ba6e9ab4-f805-4dea-8208-851426eb4828</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтражениеЗарплатыВБухучете.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>94ef8670-1d26-4747-87e8-47e895e2fbbb</xr:TypeId>
+						<xr:ValueId>7e5b6454-0aba-4eff-b742-87e6e6a365aa</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="40defe33-de0b-4ebe-845e-da234d34616c">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

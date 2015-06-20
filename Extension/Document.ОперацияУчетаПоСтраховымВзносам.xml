@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="8f9b1d45-25e0-4c1a-abb1-0d5ed02faf8c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОперацияУчетаПоСтраховымВзносам" category="Object">
+				<xr:TypeId>27276143-4c69-493a-a2f4-d6ad44ea4991</xr:TypeId>
+				<xr:ValueId>ca476677-c665-4d01-8d4d-fcd0aad2d74c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОперацияУчетаПоСтраховымВзносам" category="Ref">
+				<xr:TypeId>06db2a89-2570-4417-82f2-2acf5810eca7</xr:TypeId>
+				<xr:ValueId>44075220-cdae-40ac-a8b4-3979b41900b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОперацияУчетаПоСтраховымВзносам" category="Selection">
+				<xr:TypeId>f955cce5-2982-4c26-98d4-a34bbc6222a8</xr:TypeId>
+				<xr:ValueId>2636622d-ac64-439c-afa8-d3cca4ae3338</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОперацияУчетаПоСтраховымВзносам" category="List">
+				<xr:TypeId>bc1571fe-335c-47d4-bcfc-65f9d46a1fdb</xr:TypeId>
+				<xr:ValueId>e7087426-2344-4974-b959-c3ca23d4ffb1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОперацияУчетаПоСтраховымВзносам" category="Manager">
+				<xr:TypeId>cc0c1da1-c98d-49f3-b0c3-fccb61c0c9fc</xr:TypeId>
+				<xr:ValueId>8e597ce4-5603-4370-aa93-0959defac3a6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОперацияУчетаПоСтраховымВзносам</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="aef184a9-42bf-4bdc-a6c0-45312ea31842">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

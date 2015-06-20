@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="9b8e4a7b-7caf-4029-b58d-876ef4cf6047">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РезультатыАттестацииСотрудников" category="Object">
+				<xr:TypeId>33e8f931-e1a1-42d8-bc16-59769fc416af</xr:TypeId>
+				<xr:ValueId>a162ee5a-c71b-4022-be53-ab0809271730</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РезультатыАттестацииСотрудников" category="Ref">
+				<xr:TypeId>849d62d8-2b91-49ec-9b73-43d646cbfd37</xr:TypeId>
+				<xr:ValueId>2d60113f-c159-478e-a20a-7b38022b67cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РезультатыАттестацииСотрудников" category="Selection">
+				<xr:TypeId>7dff071e-3a25-4275-abfd-bf4a23f0b2a4</xr:TypeId>
+				<xr:ValueId>0bc53228-a6da-426f-848c-42ce47bd7abc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РезультатыАттестацииСотрудников" category="List">
+				<xr:TypeId>bc90c429-bb9f-47d8-9c07-86cd4a6c8ac0</xr:TypeId>
+				<xr:ValueId>84ba4464-8639-40c9-ae10-9b2252211621</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РезультатыАттестацииСотрудников" category="Manager">
+				<xr:TypeId>c7d7b2cf-c5c2-4a40-979a-476b847b8396</xr:TypeId>
+				<xr:ValueId>c63796ac-43f9-471c-8447-191aa12eb710</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РезультатыАттестацииСотрудников</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="d69f2aa8-c3c4-4e60-8910-6c9094fde9f9">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РезультатыАттестацииСотрудников.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>a0563c7e-0f51-452b-af59-2768cf484c07</xr:TypeId>
+						<xr:ValueId>5e4734f4-f181-4a31-b812-67f28a78855c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РезультатыАттестацииСотрудников.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>b5973b24-ed1d-40c7-a97d-bccd0a3cc9bc</xr:TypeId>
+						<xr:ValueId>66e20926-21d0-4ec8-b235-a4e169750e66</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="f6e71cff-54d1-4f18-ae89-b5c3a5be05f6">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

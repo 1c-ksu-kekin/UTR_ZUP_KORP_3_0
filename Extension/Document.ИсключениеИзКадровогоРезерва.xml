@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="c13a8920-a551-4aa6-82c3-829592cadfa3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИсключениеИзКадровогоРезерва" category="Object">
+				<xr:TypeId>578e5587-1120-43f2-81eb-a699abc63b52</xr:TypeId>
+				<xr:ValueId>dd73c4b0-088c-4906-8db3-d79d248bca12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИсключениеИзКадровогоРезерва" category="Ref">
+				<xr:TypeId>6918369c-8f68-4f3a-9476-026157761bd9</xr:TypeId>
+				<xr:ValueId>576f0310-9bd1-42d0-9901-1da5beea803f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИсключениеИзКадровогоРезерва" category="Selection">
+				<xr:TypeId>76082aee-f99b-4ca9-b4f7-a217896bf514</xr:TypeId>
+				<xr:ValueId>b50e7103-a9c8-49c1-ac60-92757269c313</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИсключениеИзКадровогоРезерва" category="List">
+				<xr:TypeId>889b018a-dbee-456a-a2c5-ee3203804f30</xr:TypeId>
+				<xr:ValueId>d25b9518-bd32-4009-9b53-5c5fe8cb1be5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИсключениеИзКадровогоРезерва" category="Manager">
+				<xr:TypeId>9b0cdda3-48e4-4910-852d-5666d19482ca</xr:TypeId>
+				<xr:ValueId>caea385c-41ba-4110-bff6-e75fd4a62fb1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИсключениеИзКадровогоРезерва</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="16157d9c-a03d-4bbe-ba3b-a4da4b75bbbe">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

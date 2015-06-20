@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="6a39ee16-dbe0-46f4-96c3-57ff0f0757d6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СообщениеОбОтсутствии" category="Object">
+				<xr:TypeId>31d65548-1aa4-4d83-94c3-5d719a684613</xr:TypeId>
+				<xr:ValueId>17276d7b-e3a9-4517-8f85-05c20a1d72b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СообщениеОбОтсутствии" category="Ref">
+				<xr:TypeId>3b5a318a-a2fc-4606-b08f-19ccdf5a106b</xr:TypeId>
+				<xr:ValueId>e5a491e6-ed4d-425f-957f-5463f1b60b18</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СообщениеОбОтсутствии" category="Selection">
+				<xr:TypeId>e36a35f0-65b8-406b-873b-1f3f4e744336</xr:TypeId>
+				<xr:ValueId>10014d2a-d35b-4136-8c0b-648ad62daf5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СообщениеОбОтсутствии" category="List">
+				<xr:TypeId>f39d236b-29ef-414f-820f-ec74a5ccecf9</xr:TypeId>
+				<xr:ValueId>5588a318-ec09-4c66-844a-0a1a33245616</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СообщениеОбОтсутствии" category="Manager">
+				<xr:TypeId>03c7629e-28ef-431c-a0ba-fd7f85c6de9b</xr:TypeId>
+				<xr:ValueId>f8e10a29-3d15-4bac-a997-5eaa4bbc5fda</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СообщениеОбОтсутствии</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="6570f156-1f16-4c77-bd1e-4d7c386d7f19">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -58,6 +58,10 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="BeforeWrite">ЮТР_ПередЗаписью</Event>
+		<Event name="OnCreateAtServer">ЮТР_ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="НаименованиеКод" id="13">
 			<Title>
@@ -235,6 +239,9 @@
 					<DataPath>ЮТР_СтатьиКД.СтатьяКД</DataPath>
 					<ContextMenu name="ЮТР_СтатьиКДСтатьяКДКонтекстноеМеню" id="60"/>
 					<ExtendedTooltip name="ЮТР_СтатьиКДСтатьяКДРасширеннаяПодсказка" id="61"/>
+					<Events>
+						<Event name="OnChange">ЮТР_СтатьиКДСтатьяКДПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="ЮТР_СтатьиКДПериодСтрокой" id="62">
 					<DataPath>ЮТР_СтатьиКДПериодСтрокой</DataPath>
@@ -246,6 +253,13 @@
 					</ChoiceButtonPicture>
 					<ContextMenu name="ЮТР_СтатьиКДПериодСтрокойКонтекстноеМеню" id="63"/>
 					<ExtendedTooltip name="ЮТР_СтатьиКДПериодСтрокойРасширеннаяПодсказка" id="64"/>
+					<Events>
+						<Event name="OnChange">ЮТР_СтатьиКДПериодСтрокойПриИзменении</Event>
+						<Event name="AutoComplete">ЮТР_СтатьиКДПериодСтрокойАвтоПодбор</Event>
+						<Event name="StartChoice">ЮТР_СтатьиКДПериодСтрокойНачалоВыбора</Event>
+						<Event name="Tuning">ЮТР_СтатьиКДПериодСтрокойРегулирование</Event>
+						<Event name="TextEditEnd">ЮТР_СтатьиКДПериодСтрокойОкончаниеВводаТекста</Event>
+					</Events>
 				</InputField>
 				<Button name="ОбщаяКомандаЮТР_СтатьиКД" id="65">
 					<Type>Hyperlink</Type>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="2af5cde8-3c2e-4e78-af44-9106bae7c457">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УдержаниеДобровольныхВзносовВНПФ" category="Object">
+				<xr:TypeId>40c1d5c1-adf0-45b0-9c82-b7f1a151f302</xr:TypeId>
+				<xr:ValueId>706b3ab5-b28c-47f4-a437-b552eb9b45d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УдержаниеДобровольныхВзносовВНПФ" category="Ref">
+				<xr:TypeId>7d601ea8-07fd-4ea0-bdf3-2f124adf3860</xr:TypeId>
+				<xr:ValueId>cdc873e5-8e81-4241-8a83-b7c9bc0f24eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УдержаниеДобровольныхВзносовВНПФ" category="Selection">
+				<xr:TypeId>24f93204-3d71-41a5-8321-1a09fbc1d2db</xr:TypeId>
+				<xr:ValueId>7aaed6a8-9b65-429f-8189-14a14c7bfdcb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УдержаниеДобровольныхВзносовВНПФ" category="List">
+				<xr:TypeId>e2b56749-f5e4-4aaf-b3b6-9095eb6530e3</xr:TypeId>
+				<xr:ValueId>1b483591-dc26-471e-b60c-d26a19905a0e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УдержаниеДобровольныхВзносовВНПФ" category="Manager">
+				<xr:TypeId>74ab302b-b0ef-4656-9739-557b97a0213f</xr:TypeId>
+				<xr:ValueId>10087040-0681-4e47-b94a-b226ad1b80b8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УдержаниеДобровольныхВзносовВНПФ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e0175e0f-a4de-412a-8d61-8b673d97d25a">
+				<Properties>
+					<Name>УдалитьФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

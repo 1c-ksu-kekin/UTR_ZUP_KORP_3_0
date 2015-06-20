@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="f50f2478-cc01-40d7-a767-9e0d4e443dc6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НазначениеОпросов" category="Object">
+				<xr:TypeId>eaaa3446-837b-42d6-8564-f8bbb5288fde</xr:TypeId>
+				<xr:ValueId>6648d7b1-1d48-45cd-8539-c3ee41335e35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НазначениеОпросов" category="Ref">
+				<xr:TypeId>db0363e4-c233-4cdc-86ea-ea65dd744015</xr:TypeId>
+				<xr:ValueId>b24d43cf-7f87-4c91-b748-cd2dc9716f2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НазначениеОпросов" category="Selection">
+				<xr:TypeId>bb56af1a-df07-4bed-9f51-b3a5f62e01d4</xr:TypeId>
+				<xr:ValueId>26d90bae-ca06-494b-ae38-8d99847a6464</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НазначениеОпросов" category="List">
+				<xr:TypeId>a38ce802-a251-4982-b271-ef3c7d22ffdc</xr:TypeId>
+				<xr:ValueId>84b3c3ea-3982-49d7-b380-fe1b02a1f365</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НазначениеОпросов" category="Manager">
+				<xr:TypeId>29b5c9a5-4c92-42d6-bc5a-413122e0bf30</xr:TypeId>
+				<xr:ValueId>0e7ee8f1-da91-4a3e-b5d6-7c62b2aba02b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НазначениеОпросов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="d9ec9845-615e-4c3d-bf22-565241c2d14f">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.НазначениеОпросов.Респонденты" category="TabularSection">
+						<xr:TypeId>a764d4fa-aaff-4097-bb78-f29069d2e5b1</xr:TypeId>
+						<xr:ValueId>8a43e0ea-c054-4bb9-a5c3-e7c88a8bc1b7</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.НазначениеОпросов.Респонденты" category="TabularSectionRow">
+						<xr:TypeId>4e5cdc69-a7d9-4167-b67c-143bb3cb5a83</xr:TypeId>
+						<xr:ValueId>9e827881-70c9-430b-8b48-62f07338f29f</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Респонденты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="03f2700d-7d60-4f29-9606-95b272898dd6">
+						<Properties>
+							<Name>Респондент</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.Респондент</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

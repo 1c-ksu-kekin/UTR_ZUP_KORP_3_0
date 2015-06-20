@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="8292b2ba-5923-4c0a-a928-b92f61858f32">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВключениеВКадровыйРезерв" category="Object">
+				<xr:TypeId>c34e44e3-6c84-4c72-a60e-f60ea0707048</xr:TypeId>
+				<xr:ValueId>9ea6fd4b-2b01-4240-b310-e3f26956c964</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВключениеВКадровыйРезерв" category="Ref">
+				<xr:TypeId>2e9eebeb-7f47-4352-946a-83bac608fcdb</xr:TypeId>
+				<xr:ValueId>c9301781-9273-43ed-89d1-15cab7d96ab2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВключениеВКадровыйРезерв" category="Selection">
+				<xr:TypeId>668418dc-0a1f-4913-8ad1-58f0518b2758</xr:TypeId>
+				<xr:ValueId>2bce38b2-c307-40fc-9e8c-b79f4f6750fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВключениеВКадровыйРезерв" category="List">
+				<xr:TypeId>617cb820-d955-44ad-8fbb-e825d3925cd7</xr:TypeId>
+				<xr:ValueId>66a04f27-a5fb-427d-92b7-422f4fca6502</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВключениеВКадровыйРезерв" category="Manager">
+				<xr:TypeId>868a72f0-ae10-45d9-b7a6-923ab4f66186</xr:TypeId>
+				<xr:ValueId>1748049f-340c-4c95-96c4-6390b6672f13</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВключениеВКадровыйРезерв</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="549fbb7c-8c08-4cf0-b73c-def36e10213f">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВключениеВКадровыйРезерв.Сотрудники" category="TabularSection">
+						<xr:TypeId>c88d36a1-2bcb-4b31-8de2-1d2719d26c36</xr:TypeId>
+						<xr:ValueId>128f75aa-7050-46b8-a25f-e845fc6e7030</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВключениеВКадровыйРезерв.Сотрудники" category="TabularSectionRow">
+						<xr:TypeId>0ad16357-660f-4318-8e8e-1a7d0684232e</xr:TypeId>
+						<xr:ValueId>84039abe-cd19-460a-9abd-3d67dafebc45</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Сотрудники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="78bac371-e135-45d0-b8f5-f4411dfb1180">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

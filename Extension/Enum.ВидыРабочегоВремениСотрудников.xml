@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="2298b44e-353d-4afd-bb2b-39afd95a66b7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыРабочегоВремениСотрудников" category="Ref">
+				<xr:TypeId>eb861283-37df-4d88-a2a4-23193331a7e8</xr:TypeId>
+				<xr:ValueId>feb9f9ef-6339-45da-b312-0abe92eb1db4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыРабочегоВремениСотрудников" category="Manager">
+				<xr:TypeId>9472b502-deae-44f4-b200-ab1ced13676a</xr:TypeId>
+				<xr:ValueId>594e7789-cf2a-4676-9674-83e047e54653</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыРабочегоВремениСотрудников" category="List">
+				<xr:TypeId>39850aa6-7b45-438e-ab45-410b5d97385f</xr:TypeId>
+				<xr:ValueId>26314601-9201-4d00-9c3c-51059c4ca5f4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыРабочегоВремениСотрудников</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="d2918112-a601-4116-ab08-0bec1d6bb2a1">
+				<Properties>
+					<Name>ОтработанноеСверхНормы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a0251171-3f46-4eec-818d-2d74d850918b">
+				<Properties>
+					<Name>ЧасовоеОтработанноеВПределахНормы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c16cd317-1bbe-4109-8724-399515ee9c25">
+				<Properties>
+					<Name>ЦелодневноеНеотработанное</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4cc7561e-9bd3-4ee1-a3c6-71d4f7760c7b">
+				<Properties>
+					<Name>ДополнительноОплачиваемоеВПределахНормы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="964c2eb4-7f0d-492a-90e7-ae4b9665929d">
+				<Properties>
+					<Name>ЧасовоеНеотработанное</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7bf02ecd-31a6-4f6e-999c-a53686604593">
+				<Properties>
+					<Name>ОтработанноеВПределахНормы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

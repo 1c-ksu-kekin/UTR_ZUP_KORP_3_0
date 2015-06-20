@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="5dc0b892-2a72-4f4c-8c1d-c25e57cce3eb">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаНаВключениеВКадровыйРезерв" category="Object">
+				<xr:TypeId>3c634809-c0b4-42de-9226-a009808b6ecc</xr:TypeId>
+				<xr:ValueId>e0447359-b67f-4296-8747-aff302beefdd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаНаВключениеВКадровыйРезерв" category="Ref">
+				<xr:TypeId>cb3fac2c-4530-434a-b7f9-d9574005735c</xr:TypeId>
+				<xr:ValueId>2f8244e2-cf8e-4c7c-a75b-0986f0efcd20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаВключениеВКадровыйРезерв" category="Selection">
+				<xr:TypeId>1277a816-7653-4e34-a6b6-d6f5e396f91f</xr:TypeId>
+				<xr:ValueId>d169f805-479c-4626-ad61-cccd9c5df79f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаНаВключениеВКадровыйРезерв" category="List">
+				<xr:TypeId>a690fb1a-7753-4c21-9660-ea5c71ac7698</xr:TypeId>
+				<xr:ValueId>cf9e1632-3c1c-408e-8026-5ff885a429f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаНаВключениеВКадровыйРезерв" category="Manager">
+				<xr:TypeId>ea62f11c-1e37-4a7d-a190-8db9745d9d40</xr:TypeId>
+				<xr:ValueId>031d9c74-3888-4540-a4f4-382237ba64be</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаявкаНаВключениеВКадровыйРезерв</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="6bcbc19c-d463-4fa1-a023-fcccdaf7eb83">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

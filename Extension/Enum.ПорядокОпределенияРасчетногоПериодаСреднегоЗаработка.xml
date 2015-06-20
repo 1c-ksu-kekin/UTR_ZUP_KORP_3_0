@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="c757317f-cdae-4698-bc21-af3b0b48e370">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокОпределенияРасчетногоПериодаСреднегоЗаработка" category="Ref">
+				<xr:TypeId>c61f5227-6863-498e-923e-7927ec8fe11b</xr:TypeId>
+				<xr:ValueId>edc63ff0-b1f8-48a8-ad31-782d429b2033</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокОпределенияРасчетногоПериодаСреднегоЗаработка" category="Manager">
+				<xr:TypeId>c26e2d32-34c3-4267-8ad1-9daffd1941d5</xr:TypeId>
+				<xr:ValueId>919c59d7-f6e7-44dc-a31c-d0a2d7198a0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокОпределенияРасчетногоПериодаСреднегоЗаработка" category="List">
+				<xr:TypeId>fbfee8aa-f9a8-4bb3-972e-37d5c230d8ba</xr:TypeId>
+				<xr:ValueId>6a88f97b-71b3-4ac2-83f5-b5c919e09659</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПорядокОпределенияРасчетногоПериодаСреднегоЗаработка</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="9f78c2cb-0ce6-4534-a847-82d68e91a110">
+				<Properties>
+					<Name>ПоКолдоговору</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="49da976e-0c18-424d-8ec9-1375f26c6c8b">
+				<Properties>
+					<Name>ПоТрудовомуЗаконодательству</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

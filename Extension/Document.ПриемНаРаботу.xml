@@ -601,6 +601,28 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="1004beed-000e-4526-80a9-0444fb9949f8">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d633960b-29c7-437c-9774-3b03b50b73da">
+				<Properties>
+					<Name>ЮТР_ИзмененияТД</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаРедактированияПравНаОтпуск</Form>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="d523e1bd-9be3-40b2-ab0c-5ed0af63abe3">

@@ -54,6 +54,15 @@
 					</Type>
 				</Properties>
 			</Resource>
+			<Resource uuid="b2cbf710-1c81-40e0-a8a6-b6561b9b1fb1">
+				<Properties>
+					<Name>ИспользоватьИндексациюЗаработка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
 			<Resource uuid="9c4e95cc-e845-4978-a48d-98bb8dfaf708">
 				<Properties>
 					<Name>ИспользоватьУчетВнутрисменныхПрочихНевыходов</Name>

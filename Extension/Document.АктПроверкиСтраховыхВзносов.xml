@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="5d82a7e8-3e38-434b-997b-702c570bbdb2">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АктПроверкиСтраховыхВзносов" category="Object">
+				<xr:TypeId>b8b1b833-01e3-4984-82f3-36185a5f0f61</xr:TypeId>
+				<xr:ValueId>3c45aefb-f005-45e4-97b5-dddd652711a8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АктПроверкиСтраховыхВзносов" category="Ref">
+				<xr:TypeId>a20957d4-dde8-4404-923e-1ab54bf55ab0</xr:TypeId>
+				<xr:ValueId>34e9219a-beb0-4df1-b774-9e7fd275c457</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АктПроверкиСтраховыхВзносов" category="Selection">
+				<xr:TypeId>89f90996-9ad0-46e9-9791-cc3202811015</xr:TypeId>
+				<xr:ValueId>7bdc28ca-7505-4678-8125-91b5c86439f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АктПроверкиСтраховыхВзносов" category="List">
+				<xr:TypeId>7c16467e-f972-4a75-92dc-a6c9a98dca75</xr:TypeId>
+				<xr:ValueId>93532ad2-6438-4623-93e3-18cf7fab382b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АктПроверкиСтраховыхВзносов" category="Manager">
+				<xr:TypeId>79ef70f4-83da-4b68-983f-95a13480be3b</xr:TypeId>
+				<xr:ValueId>53718250-0b50-4bcb-b317-667011a9695d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АктПроверкиСтраховыхВзносов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="8517f470-b88f-48d4-a499-a5bfefa0922f">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.АктПроверкиСтраховыхВзносов.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>ebc42450-41b2-4707-a832-333e9700486e</xr:TypeId>
+						<xr:ValueId>93e9c7ef-f6ea-49bd-9c6c-aac899f34873</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.АктПроверкиСтраховыхВзносов.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>aa198782-a535-45f0-8f34-c5815cd6943e</xr:TypeId>
+						<xr:ValueId>c2243347-d825-4c59-8a8a-876a3473bb4b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="7c291325-c35d-4986-9269-0377d03b8c6f">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

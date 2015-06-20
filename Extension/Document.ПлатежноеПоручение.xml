@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="27c748c7-0885-4639-bccf-24ec66fdde7b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПлатежноеПоручение" category="Object">
+				<xr:TypeId>f5fe333a-6d52-4553-b0f2-72252e6d726c</xr:TypeId>
+				<xr:ValueId>0beda41f-bf3d-4e33-b9ae-2d59d237be11</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПлатежноеПоручение" category="Ref">
+				<xr:TypeId>b679ef62-76da-412c-82ff-a30a8fbb126b</xr:TypeId>
+				<xr:ValueId>56a31194-40e9-41b3-85a4-94fb2de5835b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПлатежноеПоручение" category="Selection">
+				<xr:TypeId>0f1d11b9-9067-4f22-9690-b5f9c9394895</xr:TypeId>
+				<xr:ValueId>7c833103-4cf6-4dcf-9305-a24526802dbd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПлатежноеПоручение" category="List">
+				<xr:TypeId>154c4dcf-9d75-4285-9839-5cfcf79645ea</xr:TypeId>
+				<xr:ValueId>c29a2239-62d6-4bd6-870f-6f8dd00ff0de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПлатежноеПоручение" category="Manager">
+				<xr:TypeId>17e00abb-442a-4ef5-bca3-7adbb6b3c455</xr:TypeId>
+				<xr:ValueId>55641ed6-bc44-4f9f-b921-20ab134fd237</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПлатежноеПоручение</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="1103b832-8903-406d-b60a-212fda337788">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПлатежноеПоручение.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>f559c7e6-b02b-42a1-bd36-918bc14c70f3</xr:TypeId>
+						<xr:ValueId>88251b19-c1b2-4258-9b51-5a32f1dc7447</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПлатежноеПоручение.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>052c96f2-6ee4-4d78-9e56-b0fb55b9f6ee</xr:TypeId>
+						<xr:ValueId>1f82045f-e118-49f7-8af5-e8b5296a03b6</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="8820899d-b196-40b8-81a4-11b15f5f34ff">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

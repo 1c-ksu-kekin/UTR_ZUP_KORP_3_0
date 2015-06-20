@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="4b6b0019-a3ea-4df3-acc0-e328e6df3b49">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтменаЗаявкиНаКомандировку" category="Object">
+				<xr:TypeId>bdd4dcb5-f89f-47aa-8273-f5f5cff16aee</xr:TypeId>
+				<xr:ValueId>dfa4c13f-2222-441f-bc36-11c6e1036ca7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтменаЗаявкиНаКомандировку" category="Ref">
+				<xr:TypeId>6f9db3c3-9554-45ca-a438-42f94e30d1cf</xr:TypeId>
+				<xr:ValueId>40ee8b3c-5189-4be7-aa21-9fb3afa0ce98</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтменаЗаявкиНаКомандировку" category="Selection">
+				<xr:TypeId>0a254f3f-11aa-4097-99d6-507e5245402c</xr:TypeId>
+				<xr:ValueId>14752a1d-e33f-4311-b468-068bbfadd3c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтменаЗаявкиНаКомандировку" category="List">
+				<xr:TypeId>9e950d29-db57-40f6-96b2-f4ec6147ebca</xr:TypeId>
+				<xr:ValueId>9ba1638f-a975-4a57-ab6f-b1fb05656793</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтменаЗаявкиНаКомандировку" category="Manager">
+				<xr:TypeId>021969ce-2469-4e57-b522-664936ab4344</xr:TypeId>
+				<xr:ValueId>d11cb390-a218-4045-8d4f-9e6061294269</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтменаЗаявкиНаКомандировку</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1252fb77-03c0-42bd-b86f-f86cd5b816d9">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="b0b4b488-b47f-423c-9506-3b856b1fc15b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтменаСовмещения" category="Object">
+				<xr:TypeId>dd70f081-3e9c-4095-b193-1cfb8872f675</xr:TypeId>
+				<xr:ValueId>af2a4770-260d-4395-b4cf-be75d919ac37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтменаСовмещения" category="Ref">
+				<xr:TypeId>3cb837d9-61c0-4054-a97d-a76b3300b33a</xr:TypeId>
+				<xr:ValueId>d9559ff8-0c45-4535-aa4a-d8361550f1f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтменаСовмещения" category="Selection">
+				<xr:TypeId>e8493b14-a250-4ea1-8f7d-21b339d52ea6</xr:TypeId>
+				<xr:ValueId>8b749929-200f-46d6-8cf4-019970d818f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтменаСовмещения" category="List">
+				<xr:TypeId>1e27a7a1-4524-462d-9877-864b61483ca9</xr:TypeId>
+				<xr:ValueId>d376e431-203a-4915-9ad9-fd5be0a455d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтменаСовмещения" category="Manager">
+				<xr:TypeId>f613b380-d2d9-4efc-8cb5-2bbba12ef678</xr:TypeId>
+				<xr:ValueId>c94281ab-2f3d-41e9-aae1-3b87dbafeb6b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтменаСовмещения</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="63dbf7e8-f4d9-41a8-86f5-55ba4e35653e">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

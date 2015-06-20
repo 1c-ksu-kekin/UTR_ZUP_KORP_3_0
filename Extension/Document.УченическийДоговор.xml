@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="77e112d1-b7cb-4427-b195-cbf23478cefc">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УченическийДоговор" category="Object">
+				<xr:TypeId>aac1e353-4298-4830-b75b-4b986aafec26</xr:TypeId>
+				<xr:ValueId>10d5152a-741b-42d3-abed-ce503ba98b45</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УченическийДоговор" category="Ref">
+				<xr:TypeId>137f1f53-0943-4abd-a89a-5705ec98ea31</xr:TypeId>
+				<xr:ValueId>b334b4ee-eb27-46f6-a281-6fb00de3f49b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УченическийДоговор" category="Selection">
+				<xr:TypeId>0708598b-5866-48ae-8188-3e63d8dfd568</xr:TypeId>
+				<xr:ValueId>67de6403-e63c-4a63-81a0-8914fe2d1cce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УченическийДоговор" category="List">
+				<xr:TypeId>21a45951-1e31-4235-afbe-38c357c657b6</xr:TypeId>
+				<xr:ValueId>0dc410ff-cf7d-4baf-b73f-63f386b5c65f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УченическийДоговор" category="Manager">
+				<xr:TypeId>f636e73e-975c-4249-ba7e-dd28c6168b0d</xr:TypeId>
+				<xr:ValueId>75c864b7-0b98-4e62-87ed-b7e431c5b667</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УченическийДоговор</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="7a718164-8718-4e19-adb4-25c77ce40836">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

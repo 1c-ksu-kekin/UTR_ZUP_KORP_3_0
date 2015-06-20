@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="d7993042-5def-4d14-aebd-0af480f0a232">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПризПодарок" category="Object">
+				<xr:TypeId>9c6021d7-91ba-4849-8ca9-4626839fa812</xr:TypeId>
+				<xr:ValueId>4f36487e-d063-495a-bef7-bc9d0103b895</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПризПодарок" category="Ref">
+				<xr:TypeId>c5e717fd-3404-44f3-bf58-6ea0ed603541</xr:TypeId>
+				<xr:ValueId>d35efcca-ddc2-4b76-8e3f-fdbfbf4195f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПризПодарок" category="Selection">
+				<xr:TypeId>bb7b6534-c208-4ab2-9141-5cf8e404cd0f</xr:TypeId>
+				<xr:ValueId>9fa829e1-2906-4ea0-a611-ba1b8d11ddd6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПризПодарок" category="List">
+				<xr:TypeId>769a88e6-ee4e-4b22-bc2c-c39132bfee88</xr:TypeId>
+				<xr:ValueId>b00b58ce-6abe-43c5-87fc-ba0d71fdc2cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПризПодарок" category="Manager">
+				<xr:TypeId>2ceb5db8-b787-4cca-be73-587797f663ff</xr:TypeId>
+				<xr:ValueId>45dc53d6-0965-4ba1-9fde-acbc9c61091d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПризПодарок</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="f8fbcfb7-62a9-4517-9f24-c4c10b2a2226">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПризПодарок.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>f1d76af2-fccf-4cff-8f26-80c44d7b6886</xr:TypeId>
+						<xr:ValueId>a9530e7d-26bc-4103-99d3-98ab35ff387e</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПризПодарок.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>c4d18879-0ea0-43ce-bcd6-276db41789cc</xr:TypeId>
+						<xr:ValueId>ad39df88-c6f1-41f8-837d-d49bff66d4b0</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="6a4d8f07-5530-495b-ada9-a84890d204c0">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

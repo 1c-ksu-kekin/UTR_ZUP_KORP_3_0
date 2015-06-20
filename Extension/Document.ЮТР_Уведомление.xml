@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="0031b62a-aa4c-4d83-8746-573c575dc88e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЮТР_Уведомление" category="Object">
+				<xr:TypeId>876583bf-3580-4d72-953e-cc76f81cbf02</xr:TypeId>
+				<xr:ValueId>0dcf500e-9a88-44a2-9c53-4a7bfa1291a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЮТР_Уведомление" category="Ref">
+				<xr:TypeId>bc6e937c-36d1-408c-bc90-ef3311528d1c</xr:TypeId>
+				<xr:ValueId>b074f3c1-aa30-451a-821d-a5d4acbe89c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЮТР_Уведомление" category="Selection">
+				<xr:TypeId>8d2ae028-db61-4800-bf4d-ca363e5cf71f</xr:TypeId>
+				<xr:ValueId>29b2e32d-6c2a-4003-97ed-66f6269d17ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЮТР_Уведомление" category="List">
+				<xr:TypeId>0af28195-baeb-470c-802f-caa9f4255391</xr:TypeId>
+				<xr:ValueId>8ca1914b-3aea-4426-9de3-43f0dd965f61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЮТР_Уведомление" category="Manager">
+				<xr:TypeId>ef24c985-38b9-4160-a58a-7368123d68b1</xr:TypeId>
+				<xr:ValueId>6a41726a-85a7-4526-b564-f42b26af628a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_Уведомление</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="363333e9-a2fe-48c9-babc-637e13d4f087">
+				<Properties>
+					<Name>ФизическоЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

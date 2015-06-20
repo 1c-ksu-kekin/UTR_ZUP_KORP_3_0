@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="7ad01e18-8415-49b7-9d2d-00460a441df9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПерерасчетСтраховыхВзносов" category="Object">
+				<xr:TypeId>8739497d-69f3-48ad-9bc2-ff1250521985</xr:TypeId>
+				<xr:ValueId>ef21ba79-c12f-48ef-a86a-8fefffccc0ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПерерасчетСтраховыхВзносов" category="Ref">
+				<xr:TypeId>0570ee6e-766a-430d-8cb1-1584a0bdef86</xr:TypeId>
+				<xr:ValueId>2a9c987f-3487-48a7-9d0e-795183c314a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПерерасчетСтраховыхВзносов" category="Selection">
+				<xr:TypeId>376aafc6-3a54-4974-9b4f-29bbcc4620cf</xr:TypeId>
+				<xr:ValueId>1a196ec2-7edd-42eb-8134-559e91df3845</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПерерасчетСтраховыхВзносов" category="List">
+				<xr:TypeId>0b1e30e5-5155-4e76-b7c2-e7c645bb6ab6</xr:TypeId>
+				<xr:ValueId>81c4821c-e38f-40ad-a708-3ac494773151</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПерерасчетСтраховыхВзносов" category="Manager">
+				<xr:TypeId>a29978de-1907-4c7b-b82c-f73a8e3c2397</xr:TypeId>
+				<xr:ValueId>cc50411e-b53c-47b8-8f8d-9f67b62d76a9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПерерасчетСтраховыхВзносов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="8f123687-1640-476c-9860-39b9fcd17222">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПерерасчетСтраховыхВзносов.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>ee670fb2-db59-4446-8eca-ce9ba59c5dca</xr:TypeId>
+						<xr:ValueId>a0fbdc79-4d35-4082-a6cc-87172cd52017</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПерерасчетСтраховыхВзносов.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>ce9defd7-977a-4960-bda6-2105a4095dc1</xr:TypeId>
+						<xr:ValueId>0abdb625-607e-46b8-8694-7a6506bd1d59</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="425ce5a8-4057-4e42-8194-f1540ac2a760">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

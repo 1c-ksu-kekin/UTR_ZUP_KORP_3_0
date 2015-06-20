@@ -27,6 +27,34 @@
 			<Name>ИндивидуальныйГрафик</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<TabularSection uuid="1e39137f-febf-44e0-8010-2e154fc317e1">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИндивидуальныйГрафик.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>ffb21fce-be31-4c7b-aa2e-41fa5f04f229</xr:TypeId>
+						<xr:ValueId>2b1435e1-985f-41af-b2c9-b1351aa08234</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИндивидуальныйГрафик.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>e4d88e34-3147-4002-b035-77b602cc8582</xr:TypeId>
+						<xr:ValueId>c455c302-fcac-45e4-a64e-bf5bede00f27</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="b3ac5c47-a5c0-4c88-b61d-8567a1203805">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>

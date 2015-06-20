@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="e2fd60a1-6db4-4acb-91d7-e6f7a9a8055d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеАванса" category="Object">
+				<xr:TypeId>5666e172-d0fc-4f49-8e3a-2fa1a99cf931</xr:TypeId>
+				<xr:ValueId>79cbb578-d931-4344-8db6-d446a9d5565a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеАванса" category="Ref">
+				<xr:TypeId>41f28d02-d86a-4b3c-8608-ea504f6cdd8c</xr:TypeId>
+				<xr:ValueId>13c6f0e7-9b23-4e21-96e0-33254d9b6915</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеАванса" category="Selection">
+				<xr:TypeId>858e54d8-1973-47e1-a5ca-c879fb71743d</xr:TypeId>
+				<xr:ValueId>83c88ebc-f089-4bd3-9cfe-f7bbb4e0d21c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеАванса" category="List">
+				<xr:TypeId>da9fb4b4-b590-46d1-b3e8-03a40a474ac3</xr:TypeId>
+				<xr:ValueId>280087e3-d8cf-41ce-980d-9992727eae2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеАванса" category="Manager">
+				<xr:TypeId>310d186d-6397-4cbf-a941-135eecfffe6a</xr:TypeId>
+				<xr:ValueId>02013c63-4fc2-43cd-9eee-f41773621988</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеАванса</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="9a51b6ad-bf83-48c7-8b27-759a728a8f5f">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИзменениеАванса.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>8f1dcc14-1e63-468f-8ada-1ff995d75208</xr:TypeId>
+						<xr:ValueId>d409ac3b-dc46-43f5-a4c3-5fe6093a9d03</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИзменениеАванса.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>088db013-5d6a-40e0-8d30-f4aadfea78fd</xr:TypeId>
+						<xr:ValueId>b9d060e1-197d-4226-9a45-5bc3143b7fc5</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4be7f85c-6248-4d53-9953-718985670d01">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="fbce3835-e6a8-466a-9c58-ae55dc99eadc">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.МатериальнаяПомощь" category="Object">
+				<xr:TypeId>fb865212-16cc-4ded-9651-c5566b83b25b</xr:TypeId>
+				<xr:ValueId>69e5e7b1-b5ae-4f25-95d6-27f34822be3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.МатериальнаяПомощь" category="Ref">
+				<xr:TypeId>8c0099fd-0af0-42fc-98ef-c0a9da799df8</xr:TypeId>
+				<xr:ValueId>460f69d4-644d-4fd5-b46a-5bd5e6915841</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.МатериальнаяПомощь" category="Selection">
+				<xr:TypeId>7c4dff18-1a9e-4ae2-ade3-0d0aa10f814b</xr:TypeId>
+				<xr:ValueId>26e85298-ced7-4d7c-b631-ac0c952f0b69</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.МатериальнаяПомощь" category="List">
+				<xr:TypeId>4f82b791-7205-4305-86de-443b5b546b93</xr:TypeId>
+				<xr:ValueId>2c145029-7eaf-4416-a306-6d914c62a80d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.МатериальнаяПомощь" category="Manager">
+				<xr:TypeId>0414d74b-1226-4edb-b269-9c890d52c46d</xr:TypeId>
+				<xr:ValueId>69ed9030-39f8-416b-8cea-87dc3a65dcf3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>МатериальнаяПомощь</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ccb1f1fe-e2e1-4c5c-b671-d47ec05d8482">
+				<Properties>
+					<Name>УдалитьФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

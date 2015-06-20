@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="5748d6a1-468c-40f6-ae99-76b52ed90fba">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийПоЗарплате" category="Ref">
+				<xr:TypeId>5f72dbb9-1afb-4175-a18a-b94dacd0dbf6</xr:TypeId>
+				<xr:ValueId>e82a4f34-2b7e-49c3-a230-6dda8e00eb8a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийПоЗарплате" category="Manager">
+				<xr:TypeId>6e40445b-619d-416d-b6cc-db4e61fc1439</xr:TypeId>
+				<xr:ValueId>9c579086-1061-47b5-bd51-8f39be8a2cd5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийПоЗарплате" category="List">
+				<xr:TypeId>66a3febe-2803-455b-865a-499753160b5c</xr:TypeId>
+				<xr:ValueId>2437a4b5-cb29-4a05-942a-8f5789b0829f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОперацийПоЗарплате</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

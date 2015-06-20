@@ -125,7 +125,10 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="AfterWrite">ЮТР_ПослеЗаписи</Event>
 		<Event name="ChoiceProcessing">ЮТР_ОбработкаВыбора</Event>
+		<Event name="OnReadAtServer">ЮТР_ПриЧтенииНаСервере</Event>
+		<Event name="BeforeWrite">ЮТР_ПередЗаписью</Event>
 		<Event name="OnCreateAtServer">ЮТР_ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -172,6 +175,9 @@
 							</ChoiceParameterLinks>
 							<ContextMenu name="СотрудникКонтекстноеМеню" id="105"/>
 							<ExtendedTooltip name="СотрудникExtendedTooltip" id="331"/>
+							<Events>
+								<Event name="OnChange">ЮТР_СотрудникПриИзменении</Event>
+							</Events>
 						</InputField>
 						<UsualGroup name="ДатыПеремещения" id="145">
 							<Title>
@@ -189,6 +195,9 @@
 									<DataPath>Объект.ДатаНачала</DataPath>
 									<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="115"/>
 									<ExtendedTooltip name="ДатаНачалаExtendedTooltip" id="333"/>
+									<Events>
+										<Event name="OnChange">ЮТР_ДатаНачалаПриИзменении</Event>
+									</Events>
 								</InputField>
 								<InputField name="ДатаОкончания" id="118">
 									<DataPath>Объект.ДатаОкончания</DataPath>
@@ -271,6 +280,9 @@
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="СменаВидаДоговораКонтекстноеМеню" id="654"/>
 							<ExtendedTooltip name="СменаВидаДоговораРасширеннаяПодсказка" id="655"/>
+							<Events>
+								<Event name="OnChange">ЮТР_СменаВидаДоговораПриИзменении</Event>
+							</Events>
 						</CheckBoxField>
 					</ChildItems>
 				</UsualGroup>
@@ -346,7 +358,6 @@
 								</InputField>
 								<InputField name="Территория" id="778">
 									<DataPath>Объект.Территория</DataPath>
-									<ReadOnly>true</ReadOnly>
 									<ContextMenu name="ТерриторияКонтекстноеМеню" id="779"/>
 									<ExtendedTooltip name="ТерриторияРасширеннаяПодсказка" id="780"/>
 								</InputField>
@@ -366,6 +377,9 @@
 											</Title>
 											<ContextMenu name="ПозицияШтатногоРасписанияКонтекстноеМеню" id="109"/>
 											<ExtendedTooltip name="ПозицияШтатногоРасписанияExtendedTooltip" id="347"/>
+											<Events>
+												<Event name="OnChange">ЮТР_ПозицияШтатногоРасписанияПриИзменении</Event>
+											</Events>
 										</InputField>
 										<InputField name="Должность" id="110">
 											<DataPath>Объект.Должность</DataPath>
@@ -584,18 +598,21 @@
 												</Button>
 											</ChildItems>
 										</UsualGroup>
+										<InputField name="ЮТР_РежимРабочегоВремени" id="796">
+											<DataPath>Объект.ЮТР_РежимРабочегоВремени</DataPath>
+											<ContextMenu name="ЮТР_РежимРабочегоВремениКонтекстноеМеню" id="797"/>
+											<ExtendedTooltip name="ЮТР_РежимРабочегоВремениРасширеннаяПодсказка" id="798"/>
+											<Events>
+												<Event name="OnChange">ЮТР_РежимРабочегоВремениПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="ЮТР_ХарактерРабот" id="799">
+											<DataPath>Объект.ЮТР_ХарактерРабот</DataPath>
+											<ContextMenu name="ЮТР_ХарактерРаботКонтекстноеМеню" id="800"/>
+											<ExtendedTooltip name="ЮТР_ХарактерРаботРасширеннаяПодсказка" id="801"/>
+										</InputField>
 									</ChildItems>
 								</UsualGroup>
-								<InputField name="ЮТР_РежимРабочегоВремени" id="799">
-									<DataPath>Объект.ЮТР_РежимРабочегоВремени</DataPath>
-									<ContextMenu name="ЮТР_РежимРабочегоВремениКонтекстноеМеню" id="800"/>
-									<ExtendedTooltip name="ЮТР_РежимРабочегоВремениРасширеннаяПодсказка" id="801"/>
-								</InputField>
-								<InputField name="ЮТР_ХарактерРабот" id="883">
-									<DataPath>Объект.ЮТР_ХарактерРабот</DataPath>
-									<ContextMenu name="ЮТР_ХарактерРаботКонтекстноеМеню" id="884"/>
-									<ExtendedTooltip name="ЮТР_ХарактерРаботРасширеннаяПодсказка" id="885"/>
-								</InputField>
 								<UsualGroup name="ГрафикГруппа" id="152">
 									<Title>
 										<v8:item>
@@ -623,7 +640,6 @@
 										</CheckBoxField>
 										<InputField name="График" id="120">
 											<DataPath>Объект.ГрафикРаботы</DataPath>
-											<ListChoiceMode>true</ListChoiceMode>
 											<ContextMenu name="ГрафикКонтекстноеМеню" id="121"/>
 											<ExtendedTooltip name="ГрафикExtendedTooltip" id="356"/>
 										</InputField>
@@ -812,13 +828,9 @@
 													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИзменилисьНачисленияКонтекстноеМеню" id="156"/>
 													<ExtendedTooltip name="ИзменилисьНачисленияExtendedTooltip" id="375"/>
-												</CheckBoxField>
-												<CheckBoxField name="ЮТР_ИндивидуальнаяСистемаОплатыТруда" id="874">
-													<DataPath>Объект.ЮТР_ИндивидуальнаяСистемаОплатыТруда</DataPath>
-													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
-													<ContextMenu name="ЮТР_ИндивидуальнаяСистемаОплатыТрудаКонтекстноеМеню" id="875"/>
-													<ExtendedTooltip name="ЮТР_ИндивидуальнаяСистемаОплатыТрудаРасширеннаяПодсказка" id="876"/>
+													<Events>
+														<Event name="OnChange">ЮТР_ИзменилисьНачисленияПриИзменении</Event>
+													</Events>
 												</CheckBoxField>
 												<UsualGroup name="РасчетчикГруппа" id="327">
 													<Title>
@@ -832,6 +844,15 @@
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="РасчетчикГруппаРасширеннаяПодсказка" id="370"/>
 												</UsualGroup>
+												<CheckBoxField name="ЮТР_ИндивидуальнаяСистемаОплатыТруда" id="802">
+													<DataPath>Объект.ЮТР_ИндивидуальнаяСистемаОплатыТруда</DataPath>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ЮТР_ИндивидуальнаяСистемаОплатыТрудаКонтекстноеМеню" id="803"/>
+													<ExtendedTooltip name="ЮТР_ИндивидуальнаяСистемаОплатыТрудаРасширеннаяПодсказка" id="804"/>
+													<Events>
+														<Event name="OnChange">ЮТР_ЮТР_ИндивидуальнаяСистемаОплатыТрудаПриИзменении</Event>
+													</Events>
+												</CheckBoxField>
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="КомандныеПанелиНачислений" id="276">
@@ -1963,6 +1984,9 @@
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИзменитьСведенияОДоговореКонтрактеКонтекстноеМеню" id="680"/>
 							<ExtendedTooltip name="ИзменитьСведенияОДоговореКонтрактеРасширеннаяПодсказка" id="681"/>
+							<Events>
+								<Event name="OnChange">ЮТР_ИзменитьСведенияОДоговореКонтрактеПриИзменении</Event>
+							</Events>
 						</CheckBoxField>
 						<UsualGroup name="ГруппаНомерДатаТрудовогоДоговора" id="606">
 							<Title>
@@ -2002,7 +2026,7 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
-						<UsualGroup name="ЮТР_ГруппаДС" id="835">
+						<UsualGroup name="ЮТР_ГруппаДС" id="805">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -2012,9 +2036,9 @@
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ЮТР_ГруппаДСРасширеннаяПодсказка" id="836"/>
+							<ExtendedTooltip name="ЮТР_ГруппаДСРасширеннаяПодсказка" id="806"/>
 							<ChildItems>
-								<InputField name="ЮТР_НомерДополнительногоСоглашения" id="868">
+								<InputField name="ЮТР_НомерДополнительногоСоглашения" id="807">
 									<DataPath>Объект.ЮТР_НомерДополнительногоСоглашения</DataPath>
 									<Title>
 										<v8:item>
@@ -2023,10 +2047,10 @@
 										</v8:item>
 									</Title>
 									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="ЮТР_НомерДополнительногоСоглашенияКонтекстноеМеню" id="869"/>
-									<ExtendedTooltip name="ЮТР_НомерДополнительногоСоглашенияРасширеннаяПодсказка" id="870"/>
+									<ContextMenu name="ЮТР_НомерДополнительногоСоглашенияКонтекстноеМеню" id="808"/>
+									<ExtendedTooltip name="ЮТР_НомерДополнительногоСоглашенияРасширеннаяПодсказка" id="809"/>
 								</InputField>
-								<InputField name="ЮТР_ДатаДополнительногоСоглашения" id="837">
+								<InputField name="ЮТР_ДатаДополнительногоСоглашения" id="810">
 									<DataPath>Объект.ЮТР_ДатаДополнительногоСоглашения</DataPath>
 									<Title>
 										<v8:item>
@@ -2034,13 +2058,13 @@
 											<v8:content>от</v8:content>
 										</v8:item>
 									</Title>
-									<ContextMenu name="ЮТР_ДатаДополнительногоСоглашенияКонтекстноеМеню" id="838"/>
-									<ExtendedTooltip name="ЮТР_ДатаДополнительногоСоглашенияРасширеннаяПодсказка" id="839"/>
+									<ContextMenu name="ЮТР_ДатаДополнительногоСоглашенияКонтекстноеМеню" id="811"/>
+									<ExtendedTooltip name="ЮТР_ДатаДополнительногоСоглашенияРасширеннаяПодсказка" id="812"/>
 								</InputField>
-								<InputField name="ЮТР_ДатаИзмененияРедакцииТД" id="796">
+								<InputField name="ЮТР_ДатаИзмененияРедакцииТД" id="813">
 									<DataPath>Объект.ЮТР_ДатаИзмененияРедакцииТД</DataPath>
-									<ContextMenu name="ЮТР_ДатаИзмененияРедакцииТДКонтекстноеМеню" id="797"/>
-									<ExtendedTooltip name="ЮТР_ДатаИзмененияРедакцииТДРасширеннаяПодсказка" id="798"/>
+									<ContextMenu name="ЮТР_ДатаИзмененияРедакцииТДКонтекстноеМеню" id="814"/>
+									<ExtendedTooltip name="ЮТР_ДатаИзмененияРедакцииТДРасширеннаяПодсказка" id="815"/>
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
@@ -2134,11 +2158,11 @@
 							<ContextMenu name="ОборудованиеРабочегоМестаКонтекстноеМеню" id="648"/>
 							<ExtendedTooltip name="ОборудованиеРабочегоМестаРасширеннаяПодсказка" id="649"/>
 						</InputField>
-						<CheckBoxField name="ЮТР_ПредоставлятьАвтотранспорт" id="871">
+						<CheckBoxField name="ЮТР_ПредоставлятьАвтотранспорт" id="816">
 							<DataPath>Объект.ЮТР_ПредоставлятьАвтотранспорт</DataPath>
 							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="ЮТР_ПредоставлятьАвтотранспортКонтекстноеМеню" id="872"/>
-							<ExtendedTooltip name="ЮТР_ПредоставлятьАвтотранспортРасширеннаяПодсказка" id="873"/>
+							<ContextMenu name="ЮТР_ПредоставлятьАвтотранспортКонтекстноеМеню" id="817"/>
+							<ExtendedTooltip name="ЮТР_ПредоставлятьАвтотранспортРасширеннаяПодсказка" id="818"/>
 						</CheckBoxField>
 						<InputField name="ИныеУсловияДоговора" id="650">
 							<DataPath>Объект.ИныеУсловияДоговора</DataPath>
@@ -2190,12 +2214,12 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
-						<InputField name="ЮТР_ДатаЗаявленияСотрудника" id="877">
+						<InputField name="ЮТР_ДатаЗаявленияСотрудника" id="819">
 							<DataPath>Объект.ЮТР_ДатаЗаявленияСотрудника</DataPath>
-							<ContextMenu name="ЮТР_ДатаЗаявленияСотрудникаКонтекстноеМеню" id="878"/>
-							<ExtendedTooltip name="ЮТР_ДатаЗаявленияСотрудникаРасширеннаяПодсказка" id="879"/>
+							<ContextMenu name="ЮТР_ДатаЗаявленияСотрудникаКонтекстноеМеню" id="820"/>
+							<ExtendedTooltip name="ЮТР_ДатаЗаявленияСотрудникаРасширеннаяПодсказка" id="821"/>
 						</InputField>
-						<UsualGroup name="ЮТР_ГруппаИзмененияТД" id="802">
+						<UsualGroup name="ЮТР_ГруппаИзмененияТД" id="822">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -2211,66 +2235,66 @@
 							</CollapsedRepresentationTitle>
 							<Collapsed>true</Collapsed>
 							<Representation>None</Representation>
-							<ExtendedTooltip name="ЮТР_ГруппаИзмененияТДРасширеннаяПодсказка" id="803"/>
+							<ExtendedTooltip name="ЮТР_ГруппаИзмененияТДРасширеннаяПодсказка" id="823"/>
 							<ChildItems>
-								<Table name="ЮТР_ИзмененияТД" id="840">
+								<Table name="ЮТР_ИзмененияТД" id="824">
 									<Representation>List</Representation>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
 									<DataPath>ЮТР_ИзмененияТД</DataPath>
 									<RowFilter xsi:nil="true"/>
-									<ContextMenu name="ЮТР_ИзмененияТДКонтекстноеМеню" id="841"/>
-									<AutoCommandBar name="ЮТР_ИзмененияТДКоманднаяПанель" id="842"/>
-									<ExtendedTooltip name="ЮТР_ИзмененияТДРасширеннаяПодсказка" id="843"/>
-									<SearchStringAddition name="ЮТР_ИзмененияТДСтрокаПоиска" id="844">
+									<ContextMenu name="ЮТР_ИзмененияТДКонтекстноеМеню" id="825"/>
+									<AutoCommandBar name="ЮТР_ИзмененияТДКоманднаяПанель" id="826"/>
+									<ExtendedTooltip name="ЮТР_ИзмененияТДРасширеннаяПодсказка" id="827"/>
+									<SearchStringAddition name="ЮТР_ИзмененияТДСтрокаПоиска" id="828">
 										<Source>
-											<lf:elementId>840</lf:elementId>
+											<lf:elementId>824</lf:elementId>
 											<lf:additionId>0</lf:additionId>
 										</Source>
-										<ContextMenu name="ЮТР_ИзмененияТДСтрокаПоискаКонтекстноеМеню" id="847"/>
-										<ExtendedTooltip name="ЮТР_ИзмененияТДСтрокаПоискаРасширеннаяПодсказка" id="848"/>
+										<ContextMenu name="ЮТР_ИзмененияТДСтрокаПоискаКонтекстноеМеню" id="829"/>
+										<ExtendedTooltip name="ЮТР_ИзмененияТДСтрокаПоискаРасширеннаяПодсказка" id="830"/>
 									</SearchStringAddition>
-									<ViewStatusAddition name="ЮТР_ИзмененияТДСостояниеПросмотра" id="849">
+									<ViewStatusAddition name="ЮТР_ИзмененияТДСостояниеПросмотра" id="831">
 										<Source>
-											<lf:elementId>840</lf:elementId>
+											<lf:elementId>824</lf:elementId>
 											<lf:additionId>1</lf:additionId>
 										</Source>
-										<ContextMenu name="ЮТР_ИзмененияТДСостояниеПросмотраКонтекстноеМеню" id="852"/>
-										<ExtendedTooltip name="ЮТР_ИзмененияТДСостояниеПросмотраРасширеннаяПодсказка" id="853"/>
+										<ContextMenu name="ЮТР_ИзмененияТДСостояниеПросмотраКонтекстноеМеню" id="832"/>
+										<ExtendedTooltip name="ЮТР_ИзмененияТДСостояниеПросмотраРасширеннаяПодсказка" id="833"/>
 									</ViewStatusAddition>
-									<SearchControlAddition name="ЮТР_ИзмененияТДУправлениеПоиском" id="854">
+									<SearchControlAddition name="ЮТР_ИзмененияТДУправлениеПоиском" id="834">
 										<Source>
-											<lf:elementId>840</lf:elementId>
+											<lf:elementId>824</lf:elementId>
 											<lf:additionId>2</lf:additionId>
 										</Source>
-										<ContextMenu name="ЮТР_ИзмененияТДУправлениеПоискомКонтекстноеМеню" id="857"/>
-										<ExtendedTooltip name="ЮТР_ИзмененияТДУправлениеПоискомРасширеннаяПодсказка" id="858"/>
+										<ContextMenu name="ЮТР_ИзмененияТДУправлениеПоискомКонтекстноеМеню" id="835"/>
+										<ExtendedTooltip name="ЮТР_ИзмененияТДУправлениеПоискомРасширеннаяПодсказка" id="836"/>
 									</SearchControlAddition>
 									<ChildItems>
-										<InputField name="ЮТР_ИзмененияТДИзменяемыйПунктТД" id="859">
+										<InputField name="ЮТР_ИзмененияТДИзменяемыйПунктТД" id="837">
 											<DataPath>ЮТР_ИзмененияТД.ИзменяемыйПунктТД</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ЮТР_ИзмененияТДИзменяемыйПунктТДКонтекстноеМеню" id="860"/>
-											<ExtendedTooltip name="ЮТР_ИзмененияТДИзменяемыйПунктТДРасширеннаяПодсказка" id="861"/>
+											<ContextMenu name="ЮТР_ИзмененияТДИзменяемыйПунктТДКонтекстноеМеню" id="838"/>
+											<ExtendedTooltip name="ЮТР_ИзмененияТДИзменяемыйПунктТДРасширеннаяПодсказка" id="839"/>
 										</InputField>
-										<InputField name="ЮТР_ИзмененияТДИзменяемыйПодпунктТД" id="862">
+										<InputField name="ЮТР_ИзмененияТДИзменяемыйПодпунктТД" id="840">
 											<DataPath>ЮТР_ИзмененияТД.ИзменяемыйПодпунктТД</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ЮТР_ИзмененияТДИзменяемыйПодпунктТДКонтекстноеМеню" id="863"/>
-											<ExtendedTooltip name="ЮТР_ИзмененияТДИзменяемыйПодпунктТДРасширеннаяПодсказка" id="864"/>
+											<ContextMenu name="ЮТР_ИзмененияТДИзменяемыйПодпунктТДКонтекстноеМеню" id="841"/>
+											<ExtendedTooltip name="ЮТР_ИзмененияТДИзменяемыйПодпунктТДРасширеннаяПодсказка" id="842"/>
 										</InputField>
-										<InputField name="ЮТР_ИзмененияТДИзменяемыйПунктПриложенияКТД" id="880">
+										<InputField name="ЮТР_ИзмененияТДИзменяемыйПунктПриложенияКТД" id="846">
 											<DataPath>ЮТР_ИзмененияТД.ИзменяемыйПунктПриложенияКТД</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ЮТР_ИзмененияТДИзменяемыйПунктПриложенияКТДКонтекстноеМеню" id="881"/>
-											<ExtendedTooltip name="ЮТР_ИзмененияТДИзменяемыйПунктПриложенияКТДРасширеннаяПодсказка" id="882"/>
+											<ContextMenu name="ЮТР_ИзмененияТДИзменяемыйПунктПриложенияКТДКонтекстноеМеню" id="847"/>
+											<ExtendedTooltip name="ЮТР_ИзмененияТДИзменяемыйПунктПриложенияКТДРасширеннаяПодсказка" id="848"/>
 										</InputField>
-										<InputField name="ЮТР_ИзмененияТДТекстИзменения" id="865">
+										<InputField name="ЮТР_ИзмененияТДТекстИзменения" id="843">
 											<DataPath>ЮТР_ИзмененияТД.ТекстИзменения</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ЮТР_ИзмененияТДТекстИзмененияКонтекстноеМеню" id="866"/>
-											<ExtendedTooltip name="ЮТР_ИзмененияТДТекстИзмененияРасширеннаяПодсказка" id="867"/>
+											<ContextMenu name="ЮТР_ИзмененияТДТекстИзмененияКонтекстноеМеню" id="844"/>
+											<ExtendedTooltip name="ЮТР_ИзмененияТДТекстИзмененияРасширеннаяПодсказка" id="845"/>
 										</InputField>
 									</ChildItems>
 								</Table>
@@ -3197,7 +3221,18 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ЮТР_ИзмененияТД" id="48">
+		<Attribute name="ЮТР_ТекущийВидДокумента" id="48">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий вид документа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ЮТР_ВидыДокументов</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЮТР_ИзмененияТД" id="49">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3270,17 +3305,6 @@
 					</Type>
 				</Column>
 			</Columns>
-		</Attribute>
-		<Attribute name="ЮТР_ТекущийВидДокумента" id="49">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Текущий вид документа</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>cfg:CatalogRef.ЮТР_ВидыДокументов</v8:Type>
-			</Type>
 		</Attribute>
 		<ConditionalAppearance>
 			<dcsset:item>
@@ -3807,11 +3831,6 @@
 									</InputField>
 								</ChildItems>
 							</UsualGroup>
-							<InputField name="ЮТР_ВидДокумента" id="793">
-								<DataPath>Объект.ЮТР_ВидДокумента</DataPath>
-								<ContextMenu name="ЮТР_ВидДокументаКонтекстноеМеню" id="794"/>
-								<ExtendedTooltip name="ЮТР_ВидДокументаРасширеннаяПодсказка" id="795"/>
-							</InputField>
 							<CheckBoxField name="СменаВидаДоговора" id="653">
 								<DataPath>Объект.СменаВидаДоговора</DataPath>
 								<Title>
@@ -3900,7 +3919,6 @@
 									</InputField>
 									<InputField name="Территория" id="778">
 										<DataPath>Объект.Территория</DataPath>
-										<ReadOnly>true</ReadOnly>
 										<ContextMenu name="ТерриторияКонтекстноеМеню" id="779"/>
 										<ExtendedTooltip name="ТерриторияРасширеннаяПодсказка" id="780"/>
 									</InputField>
@@ -4140,16 +4158,6 @@
 											</UsualGroup>
 										</ChildItems>
 									</UsualGroup>
-									<InputField name="ЮТР_РежимРабочегоВремени" id="799">
-										<DataPath>Объект.ЮТР_РежимРабочегоВремени</DataPath>
-										<ContextMenu name="ЮТР_РежимРабочегоВремениКонтекстноеМеню" id="800"/>
-										<ExtendedTooltip name="ЮТР_РежимРабочегоВремениРасширеннаяПодсказка" id="801"/>
-									</InputField>
-									<InputField name="ЮТР_ХарактерРабот" id="883">
-										<DataPath>Объект.ЮТР_ХарактерРабот</DataPath>
-										<ContextMenu name="ЮТР_ХарактерРаботКонтекстноеМеню" id="884"/>
-										<ExtendedTooltip name="ЮТР_ХарактерРаботРасширеннаяПодсказка" id="885"/>
-									</InputField>
 									<UsualGroup name="ГрафикГруппа" id="152">
 										<Title>
 											<v8:item>
@@ -4177,7 +4185,6 @@
 											</CheckBoxField>
 											<InputField name="График" id="120">
 												<DataPath>Объект.ГрафикРаботы</DataPath>
-												<ListChoiceMode>true</ListChoiceMode>
 												<ContextMenu name="ГрафикКонтекстноеМеню" id="121"/>
 												<ExtendedTooltip name="ГрафикExtendedTooltip" id="356"/>
 											</InputField>
@@ -4366,13 +4373,6 @@
 														<CheckBoxType>Auto</CheckBoxType>
 														<ContextMenu name="ИзменилисьНачисленияКонтекстноеМеню" id="156"/>
 														<ExtendedTooltip name="ИзменилисьНачисленияExtendedTooltip" id="375"/>
-													</CheckBoxField>
-													<CheckBoxField name="ЮТР_ИндивидуальнаяСистемаОплатыТруда" id="874">
-														<DataPath>Объект.ЮТР_ИндивидуальнаяСистемаОплатыТруда</DataPath>
-														<TitleLocation>Right</TitleLocation>
-														<CheckBoxType>Auto</CheckBoxType>
-														<ContextMenu name="ЮТР_ИндивидуальнаяСистемаОплатыТрудаКонтекстноеМеню" id="875"/>
-														<ExtendedTooltip name="ЮТР_ИндивидуальнаяСистемаОплатыТрудаРасширеннаяПодсказка" id="876"/>
 													</CheckBoxField>
 													<UsualGroup name="РасчетчикГруппа" id="327">
 														<Title>
@@ -5556,48 +5556,6 @@
 									</InputField>
 								</ChildItems>
 							</UsualGroup>
-							<UsualGroup name="ЮТР_ГруппаДС" id="835">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа ДС</v8:content>
-									</v8:item>
-								</Title>
-								<Group>Horizontal</Group>
-								<Representation>None</Representation>
-								<ShowTitle>false</ShowTitle>
-								<ExtendedTooltip name="ЮТР_ГруппаДСРасширеннаяПодсказка" id="836"/>
-								<ChildItems>
-									<InputField name="ЮТР_НомерДополнительногоСоглашения" id="868">
-										<DataPath>Объект.ЮТР_НомерДополнительногоСоглашения</DataPath>
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Дополнительное соглашение №</v8:content>
-											</v8:item>
-										</Title>
-										<HorizontalStretch>false</HorizontalStretch>
-										<ContextMenu name="ЮТР_НомерДополнительногоСоглашенияКонтекстноеМеню" id="869"/>
-										<ExtendedTooltip name="ЮТР_НомерДополнительногоСоглашенияРасширеннаяПодсказка" id="870"/>
-									</InputField>
-									<InputField name="ЮТР_ДатаДополнительногоСоглашения" id="837">
-										<DataPath>Объект.ЮТР_ДатаДополнительногоСоглашения</DataPath>
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>от</v8:content>
-											</v8:item>
-										</Title>
-										<ContextMenu name="ЮТР_ДатаДополнительногоСоглашенияКонтекстноеМеню" id="838"/>
-										<ExtendedTooltip name="ЮТР_ДатаДополнительногоСоглашенияРасширеннаяПодсказка" id="839"/>
-									</InputField>
-									<InputField name="ЮТР_ДатаИзмененияРедакцииТД" id="796">
-										<DataPath>Объект.ЮТР_ДатаИзмененияРедакцииТД</DataPath>
-										<ContextMenu name="ЮТР_ДатаИзмененияРедакцииТДКонтекстноеМеню" id="797"/>
-										<ExtendedTooltip name="ЮТР_ДатаИзмененияРедакцииТДРасширеннаяПодсказка" id="798"/>
-									</InputField>
-								</ChildItems>
-							</UsualGroup>
 							<UsualGroup name="ГруппаСрочныйДоговорОснование" id="614">
 								<Title>
 									<v8:item>
@@ -5688,12 +5646,6 @@
 								<ContextMenu name="ОборудованиеРабочегоМестаКонтекстноеМеню" id="648"/>
 								<ExtendedTooltip name="ОборудованиеРабочегоМестаРасширеннаяПодсказка" id="649"/>
 							</InputField>
-							<CheckBoxField name="ЮТР_ПредоставлятьАвтотранспорт" id="871">
-								<DataPath>Объект.ЮТР_ПредоставлятьАвтотранспорт</DataPath>
-								<CheckBoxType>Auto</CheckBoxType>
-								<ContextMenu name="ЮТР_ПредоставлятьАвтотранспортКонтекстноеМеню" id="872"/>
-								<ExtendedTooltip name="ЮТР_ПредоставлятьАвтотранспортРасширеннаяПодсказка" id="873"/>
-							</CheckBoxField>
 							<InputField name="ИныеУсловияДоговора" id="650">
 								<DataPath>Объект.ИныеУсловияДоговора</DataPath>
 								<Title>
@@ -5742,92 +5694,6 @@
 										<ContextMenu name="ВидАктаГосорганаКонтекстноеМеню" id="645"/>
 										<ExtendedTooltip name="ВидАктаГосорганаРасширеннаяПодсказка" id="646"/>
 									</InputField>
-								</ChildItems>
-							</UsualGroup>
-							<InputField name="ЮТР_ДатаЗаявленияСотрудника" id="877">
-								<DataPath>Объект.ЮТР_ДатаЗаявленияСотрудника</DataPath>
-								<ContextMenu name="ЮТР_ДатаЗаявленияСотрудникаКонтекстноеМеню" id="878"/>
-								<ExtendedTooltip name="ЮТР_ДатаЗаявленияСотрудникаРасширеннаяПодсказка" id="879"/>
-							</InputField>
-							<UsualGroup name="ЮТР_ГруппаИзмененияТД" id="802">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Скрыть изменения ТД</v8:content>
-									</v8:item>
-								</Title>
-								<Behavior>Collapsible</Behavior>
-								<CollapsedRepresentationTitle>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Показать изменения ТД</v8:content>
-									</v8:item>
-								</CollapsedRepresentationTitle>
-								<Collapsed>true</Collapsed>
-								<Representation>None</Representation>
-								<ExtendedTooltip name="ЮТР_ГруппаИзмененияТДРасширеннаяПодсказка" id="803"/>
-								<ChildItems>
-									<Table name="ЮТР_ИзмененияТД" id="840">
-										<Representation>List</Representation>
-										<AutoInsertNewRow>true</AutoInsertNewRow>
-										<EnableStartDrag>true</EnableStartDrag>
-										<EnableDrag>true</EnableDrag>
-										<DataPath>ЮТР_ИзмененияТД</DataPath>
-										<RowFilter xsi:nil="true"/>
-										<ContextMenu name="ЮТР_ИзмененияТДКонтекстноеМеню" id="841"/>
-										<AutoCommandBar name="ЮТР_ИзмененияТДКоманднаяПанель" id="842"/>
-										<ExtendedTooltip name="ЮТР_ИзмененияТДРасширеннаяПодсказка" id="843"/>
-										<SearchStringAddition name="ЮТР_ИзмененияТДСтрокаПоиска" id="844">
-											<Source>
-												<lf:elementId>840</lf:elementId>
-												<lf:additionId>0</lf:additionId>
-											</Source>
-											<ContextMenu name="ЮТР_ИзмененияТДСтрокаПоискаКонтекстноеМеню" id="847"/>
-											<ExtendedTooltip name="ЮТР_ИзмененияТДСтрокаПоискаРасширеннаяПодсказка" id="848"/>
-										</SearchStringAddition>
-										<ViewStatusAddition name="ЮТР_ИзмененияТДСостояниеПросмотра" id="849">
-											<Source>
-												<lf:elementId>840</lf:elementId>
-												<lf:additionId>1</lf:additionId>
-											</Source>
-											<ContextMenu name="ЮТР_ИзмененияТДСостояниеПросмотраКонтекстноеМеню" id="852"/>
-											<ExtendedTooltip name="ЮТР_ИзмененияТДСостояниеПросмотраРасширеннаяПодсказка" id="853"/>
-										</ViewStatusAddition>
-										<SearchControlAddition name="ЮТР_ИзмененияТДУправлениеПоиском" id="854">
-											<Source>
-												<lf:elementId>840</lf:elementId>
-												<lf:additionId>2</lf:additionId>
-											</Source>
-											<ContextMenu name="ЮТР_ИзмененияТДУправлениеПоискомКонтекстноеМеню" id="857"/>
-											<ExtendedTooltip name="ЮТР_ИзмененияТДУправлениеПоискомРасширеннаяПодсказка" id="858"/>
-										</SearchControlAddition>
-										<ChildItems>
-											<InputField name="ЮТР_ИзмененияТДИзменяемыйПунктТД" id="859">
-												<DataPath>ЮТР_ИзмененияТД.ИзменяемыйПунктТД</DataPath>
-												<EditMode>EnterOnInput</EditMode>
-												<ContextMenu name="ЮТР_ИзмененияТДИзменяемыйПунктТДКонтекстноеМеню" id="860"/>
-												<ExtendedTooltip name="ЮТР_ИзмененияТДИзменяемыйПунктТДРасширеннаяПодсказка" id="861"/>
-											</InputField>
-											<InputField name="ЮТР_ИзмененияТДИзменяемыйПодпунктТД" id="862">
-												<DataPath>ЮТР_ИзмененияТД.ИзменяемыйПодпунктТД</DataPath>
-												<EditMode>EnterOnInput</EditMode>
-												<ContextMenu name="ЮТР_ИзмененияТДИзменяемыйПодпунктТДКонтекстноеМеню" id="863"/>
-												<ExtendedTooltip name="ЮТР_ИзмененияТДИзменяемыйПодпунктТДРасширеннаяПодсказка" id="864"/>
-											</InputField>
-											<InputField name="ЮТР_ИзмененияТДИзменяемыйПунктПриложенияКТД" id="880">
-												<DataPath>ЮТР_ИзмененияТД.ИзменяемыйПунктПриложенияКТД</DataPath>
-												<EditMode>EnterOnInput</EditMode>
-												<ContextMenu name="ЮТР_ИзмененияТДИзменяемыйПунктПриложенияКТДКонтекстноеМеню" id="881"/>
-												<ExtendedTooltip name="ЮТР_ИзмененияТДИзменяемыйПунктПриложенияКТДРасширеннаяПодсказка" id="882"/>
-											</InputField>
-											<InputField name="ЮТР_ИзмененияТДТекстИзменения" id="865">
-												<DataPath>ЮТР_ИзмененияТД.ТекстИзменения</DataPath>
-												<EditMode>EnterOnInput</EditMode>
-												<ContextMenu name="ЮТР_ИзмененияТДТекстИзмененияКонтекстноеМеню" id="866"/>
-												<ExtendedTooltip name="ЮТР_ИзмененияТДТекстИзмененияРасширеннаяПодсказка" id="867"/>
-											</InputField>
-										</ChildItems>
-									</Table>
 								</ChildItems>
 							</UsualGroup>
 						</ChildItems>
@@ -6749,91 +6615,6 @@
 						<v8:Length>0</v8:Length>
 						<v8:AllowedLength>Variable</v8:AllowedLength>
 					</v8:StringQualifiers>
-				</Type>
-			</Attribute>
-			<Attribute name="ЮТР_ИзмененияТД" id="48">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Изменения ТД</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>v8:ValueTable</v8:Type>
-				</Type>
-				<Columns>
-					<Column name="ИзменяемыйПунктТД" id="1">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Изменяемый пункт ТД</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>10</v8:Digits>
-								<v8:FractionDigits>0</v8:FractionDigits>
-								<v8:AllowedSign>Any</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-					</Column>
-					<Column name="ИзменяемыйПодпунктТД" id="2">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Изменяемый подпункт ТД</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:string</v8:Type>
-							<v8:StringQualifiers>
-								<v8:Length>0</v8:Length>
-								<v8:AllowedLength>Variable</v8:AllowedLength>
-							</v8:StringQualifiers>
-						</Type>
-					</Column>
-					<Column name="ТекстИзменения" id="3">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Текст изменения</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:string</v8:Type>
-							<v8:StringQualifiers>
-								<v8:Length>0</v8:Length>
-								<v8:AllowedLength>Variable</v8:AllowedLength>
-							</v8:StringQualifiers>
-						</Type>
-					</Column>
-					<Column name="ИзменяемыйПунктПриложенияКТД" id="4">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Изменяемый пункт приложения к ТД</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:string</v8:Type>
-							<v8:StringQualifiers>
-								<v8:Length>0</v8:Length>
-								<v8:AllowedLength>Variable</v8:AllowedLength>
-							</v8:StringQualifiers>
-						</Type>
-					</Column>
-				</Columns>
-			</Attribute>
-			<Attribute name="ЮТР_ТекущийВидДокумента" id="49">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Текущий вид документа</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>cfg:CatalogRef.ЮТР_ВидыДокументов</v8:Type>
 				</Type>
 			</Attribute>
 			<ConditionalAppearance>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="b03d8b4b-b6be-4410-ae80-bd11f5b7f4da">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИндексацияЗаработка" category="Object">
+				<xr:TypeId>bd43c94e-8d40-4953-802b-6482d6488615</xr:TypeId>
+				<xr:ValueId>da3dff8b-063d-4639-a445-2821bd96ab0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИндексацияЗаработка" category="Ref">
+				<xr:TypeId>8c712ea0-467f-444b-b76a-d23781f6a560</xr:TypeId>
+				<xr:ValueId>a8099851-0d31-4077-9793-29d031823b4a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИндексацияЗаработка" category="Selection">
+				<xr:TypeId>03f49217-1296-46b8-808e-ba675a9e4315</xr:TypeId>
+				<xr:ValueId>3ce18ede-512d-48a3-92b2-471c7143d63f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИндексацияЗаработка" category="List">
+				<xr:TypeId>095ef2b4-994c-43c2-af74-f992f8440d6a</xr:TypeId>
+				<xr:ValueId>44550825-db94-4c34-b778-7bd97cc1f4d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИндексацияЗаработка" category="Manager">
+				<xr:TypeId>994f2460-30b5-4e9b-bf62-eaf152cee067</xr:TypeId>
+				<xr:ValueId>c7e64304-4bc9-4029-99b3-c65afe9fccf5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИндексацияЗаработка</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="404088da-65c3-48bd-b78f-e238c256d7d4">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИндексацияЗаработка.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>65b4fcb5-dc38-4960-8c56-6d743279ffec</xr:TypeId>
+						<xr:ValueId>0d895b7f-83d3-4e09-8777-a25833f2017b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИндексацияЗаработка.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>e5fcfff3-79cb-4834-b094-3f70eab409fb</xr:TypeId>
+						<xr:ValueId>e9acf78f-605c-4205-8b07-aa6987e64be9</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="348ca9c1-78e7-4d6c-aea7-131c44f2684f">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

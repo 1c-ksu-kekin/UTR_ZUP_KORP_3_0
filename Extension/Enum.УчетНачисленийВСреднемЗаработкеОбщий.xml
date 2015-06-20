@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="66afdcc1-16e8-4840-9bb5-f3b138e1c80b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.УчетНачисленийВСреднемЗаработкеОбщий" category="Ref">
+				<xr:TypeId>77d36e32-256c-4847-9ec1-25d105277a7d</xr:TypeId>
+				<xr:ValueId>7f4c2501-500e-448b-9445-db2a76af81e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.УчетНачисленийВСреднемЗаработкеОбщий" category="Manager">
+				<xr:TypeId>33603323-84f1-4ae9-af31-f98262e442b5</xr:TypeId>
+				<xr:ValueId>51cc8b99-68c6-4270-b828-70bd8cb87a83</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.УчетНачисленийВСреднемЗаработкеОбщий" category="List">
+				<xr:TypeId>9dcf0621-386f-456e-9472-6f13422f6699</xr:TypeId>
+				<xr:ValueId>b4b82303-366a-4956-8e94-c1b50996f545</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УчетНачисленийВСреднемЗаработкеОбщий</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="71ab7431-427b-48d6-86ba-166bde05b1fd">
+				<Properties>
+					<Name>ПремияПроцентом</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="49752b1b-b793-41cf-bbed-83c791918eb2">
+				<Properties>
+					<Name>ПремияГодоваяПроцентом</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="46417e97-10bf-4df0-8638-7bb768b0c697">
+				<Properties>
+					<Name>ОбщийЗаработок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="19a01b01-3ef5-4c7a-9181-5b9a99d7e9b2">
+				<Properties>
+					<Name>НеВключать</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2075cf6a-4842-44b2-af6b-c8e0c37890fa">
+				<Properties>
+					<Name>ПремияФиксированнойСуммой</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="30eaa027-8419-4d05-af78-fd6ff4c9d2fa">
+				<Properties>
+					<Name>ПремияГодоваяФиксированнойСуммой</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

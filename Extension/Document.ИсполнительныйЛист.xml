@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="642c0bee-17e2-4fe1-877f-632ff8e2da7f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИсполнительныйЛист" category="Object">
+				<xr:TypeId>886688d1-71b7-4421-9e93-76fb0a8cb574</xr:TypeId>
+				<xr:ValueId>daa9da78-6878-4bdd-b235-113d724a6970</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИсполнительныйЛист" category="Ref">
+				<xr:TypeId>dd1e1f02-a975-4322-bccd-5c4db9f090c1</xr:TypeId>
+				<xr:ValueId>bba62232-679a-4675-a492-52b4f3c62d12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИсполнительныйЛист" category="Selection">
+				<xr:TypeId>295f12cc-a1a3-43bd-a752-594c59117a3a</xr:TypeId>
+				<xr:ValueId>5457b321-db66-4e1f-9385-2e1a7dcac5fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИсполнительныйЛист" category="List">
+				<xr:TypeId>f0cb9232-d6ba-474d-9441-e42b9869b8aa</xr:TypeId>
+				<xr:ValueId>b5788139-690c-4734-9ebe-21d96f6b2dbd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИсполнительныйЛист" category="Manager">
+				<xr:TypeId>751b888a-585b-45ef-a9b4-ff43b5b307ec</xr:TypeId>
+				<xr:ValueId>b89870af-05e3-415a-89e2-bb6d1438f470</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИсполнительныйЛист</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="309c6e33-d093-4581-827b-1bc8c7aad61a">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
