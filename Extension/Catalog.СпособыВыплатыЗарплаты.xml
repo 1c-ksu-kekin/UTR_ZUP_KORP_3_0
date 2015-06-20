@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="1284f014-49f8-475a-aaa2-e2557f88b73f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СпособыВыплатыЗарплаты" category="Object">
+				<xr:TypeId>b020e0fd-c757-4d40-a767-469ce79eada4</xr:TypeId>
+				<xr:ValueId>e3a337b7-a688-47df-860a-527171c6d70f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СпособыВыплатыЗарплаты" category="Ref">
+				<xr:TypeId>afceeb91-3551-48f3-ae3a-9256be124819</xr:TypeId>
+				<xr:ValueId>e435e9f5-b5cf-40db-a303-2e4337344579</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СпособыВыплатыЗарплаты" category="Selection">
+				<xr:TypeId>bee74a41-cee1-43d8-a329-44043229f5ce</xr:TypeId>
+				<xr:ValueId>9ca9bedb-ed40-4aec-ac14-df2a8a7747c9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СпособыВыплатыЗарплаты" category="List">
+				<xr:TypeId>159de6d5-ee63-4f26-9fb0-f0bf479047c9</xr:TypeId>
+				<xr:ValueId>8c77fdab-cc40-4866-a4f7-3bf6fcbf8013</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СпособыВыплатыЗарплаты" category="Manager">
+				<xr:TypeId>58bff142-8d38-4bf1-a9ae-92086ab17e1c</xr:TypeId>
+				<xr:ValueId>e0a26a0e-d11f-49c5-9dfc-7d5bc3f6a030</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыВыплатыЗарплаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

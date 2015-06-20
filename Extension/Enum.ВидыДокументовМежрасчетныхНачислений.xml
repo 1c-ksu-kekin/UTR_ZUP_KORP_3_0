@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="19f0df48-a915-4dd1-aa36-19ba5c052e7e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДокументовМежрасчетныхНачислений" category="Ref">
+				<xr:TypeId>bab9d87d-18fc-4c48-bc8f-8d457f70e902</xr:TypeId>
+				<xr:ValueId>8acfaa17-10f1-44cd-b16a-e06c119b45c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДокументовМежрасчетныхНачислений" category="Manager">
+				<xr:TypeId>9223ec5a-9c9b-4b43-9342-3a8f28f5b2e4</xr:TypeId>
+				<xr:ValueId>e8b41f9e-ece5-4d08-a036-f6e9ea40e78f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДокументовМежрасчетныхНачислений" category="List">
+				<xr:TypeId>9924c5ac-d571-4e21-ad92-f02c36d1cf6d</xr:TypeId>
+				<xr:ValueId>6807986a-d2c8-428d-a4c9-d74610390f57</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыДокументовМежрасчетныхНачислений</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -26,8 +26,169 @@
 		<Properties>
 			<Name>ВедомостьНаВыплатуЗарплатыВБанк</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="3139fe19-7368-4d95-ac69-a9c74ae14151">
+				<Properties>
+					<Name>СтатьяФинансирования</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтатьиФинансированияЗарплата</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b684d682-53ab-436d-91fc-1cbacd34072e">
+				<Properties>
+					<Name>Бухгалтер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e79453dc-a544-47d3-af07-28b831ce3673">
+				<Properties>
+					<Name>ПеречислениеНДФЛРеквизиты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="01daf467-fac3-4583-aa22-65d1ceab0436">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="87d6404a-e28b-4905-8e4e-1cf345fef76a">
+				<Properties>
+					<Name>ПеречислениеНДФЛВыполнено</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="db2d9973-c434-4148-95b6-b2bf2a0e660e">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2dcbbb49-3ffa-49c1-a0f2-436f5e11bf0d">
+				<Properties>
+					<Name>ГлавныйБухгалтер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="036ac844-845e-4f9a-9740-fbd410b823b6">
+				<Properties>
+					<Name>ПроцентВыплаты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e46e0664-f778-4da9-90de-c514dd859d62">
+				<Properties>
+					<Name>СтатьяРасходов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтатьиРасходовЗарплата</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3ec8c1ce-0ea8-4b22-903a-ba629742f8d1">
+				<Properties>
+					<Name>Руководитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ba9afbf7-3869-486f-9325-dab04fd8388c">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f48a50af-88d2-4f0c-9cb1-da435c464504">
+				<Properties>
+					<Name>ЗарплатныйПроект</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЗарплатныеПроекты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7b2e7317-283c-4938-aeda-77ae30bb70a3">
+				<Properties>
+					<Name>СпособВыплаты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СпособыВыплатыЗарплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a302bd18-92a0-41c3-b392-71f6e19b863f">
+				<Properties>
+					<Name>ДолжностьРуководителя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3068d0ed-eaf5-442c-8da8-10c9a0a7ddfe">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="db6f72ba-db31-4940-a1a2-d0065ecd74b1">
+				<Properties>
+					<Name>Округление</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СпособыОкругленияПриРасчетеЗарплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="f4ed7148-a135-419d-90a8-a5fdba8f1757">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ВедомостьНаВыплатуЗарплатыВБанк.ФизическиеЛица" category="TabularSection">
@@ -45,6 +206,110 @@
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="3346c5c0-ef5d-4838-be57-4a5c4d5f0d51">
+						<Properties>
+							<Name>ФизическоеЛицо</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="e6fc83f7-ca3e-4239-a443-31af9c965cfd">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВедомостьНаВыплатуЗарплатыВБанк.Зарплата" category="TabularSection">
+						<xr:TypeId>3ca29b59-cfcd-419e-9c4e-c3d6e472c0a2</xr:TypeId>
+						<xr:ValueId>384f54a1-17f8-4985-abb3-172929eb588a</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВедомостьНаВыплатуЗарплатыВБанк.Зарплата" category="TabularSectionRow">
+						<xr:TypeId>d4f2561e-cfc9-4915-b8f6-c44c04edde68</xr:TypeId>
+						<xr:ValueId>bc91b592-7d50-4451-9a58-d6f92686b9d6</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Зарплата</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="17888bbf-b73e-4fc6-b6e8-6bb11e0fa30c">
+						<Properties>
+							<Name>КВыплате</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="813ed5db-5b25-4bbc-aa13-bbd1be10d421">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВедомостьНаВыплатуЗарплатыВБанк.НДФЛ" category="TabularSection">
+						<xr:TypeId>749d9796-e681-4a39-81e7-2b1fe359cfea</xr:TypeId>
+						<xr:ValueId>3f3a5894-dc7e-4dbe-9664-4c10b7bbbda0</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВедомостьНаВыплатуЗарплатыВБанк.НДФЛ" category="TabularSectionRow">
+						<xr:TypeId>372c8922-7844-416d-9192-13fffb143718</xr:TypeId>
+						<xr:ValueId>123ed2dd-d048-4beb-b81f-985c2bf00b2e</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>НДФЛ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="368db644-71aa-4bfe-8943-acf765f52f4e">
+						<Properties>
+							<Name>Сумма</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>13</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="313bb5fd-5670-45a8-880c-523bacd50439">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВедомостьНаВыплатуЗарплатыВБанк.Состав" category="TabularSection">
+						<xr:TypeId>4be6200a-e64a-41f3-82a4-849295b4361b</xr:TypeId>
+						<xr:ValueId>6bcd2dab-50c9-4c7b-aaa2-6edae439fcb5</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВедомостьНаВыплатуЗарплатыВБанк.Состав" category="TabularSectionRow">
+						<xr:TypeId>acf5ecf1-6099-4722-8961-2918ceaed9f0</xr:TypeId>
+						<xr:ValueId>50ce3083-6883-4411-970e-b95e6bad7a28</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Состав</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="c011f438-790a-452c-a609-c69ede18f84e">
+						<Properties>
+							<Name>НомерЛицевогоСчета</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>20</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f0f7c505-5bab-478c-b964-f3283f3e8f73">
 						<Properties>
 							<Name>ФизическоеЛицо</Name>
 							<ObjectBelonging>Adopted</ObjectBelonging>
