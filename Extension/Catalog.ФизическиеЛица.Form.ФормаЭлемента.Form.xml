@@ -141,6 +141,7 @@
 				</UsualGroup>
 				<Button name="ТрудоваяДеятельность" id="483">
 					<Type>Hyperlink</Type>
+					<Visible>false</Visible>
 					<CommandName>Form.Command.ТрудоваяДеятельность</CommandName>
 					<Parameter xsi:nil="true"/>
 					<ExtendedTooltip name="ТрудоваяДеятельностьРасширеннаяПодсказка" id="484"/>
@@ -1875,7 +1876,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>ЮТР включение периодов трудовой деятельности в стаж</v8:content>
+					<v8:content>Включение периодов трудовой деятельности в стаж</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

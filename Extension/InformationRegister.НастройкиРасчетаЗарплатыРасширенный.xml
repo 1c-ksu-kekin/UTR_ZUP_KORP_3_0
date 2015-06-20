@@ -81,6 +81,15 @@
 					</Type>
 				</Properties>
 			</Resource>
+			<Resource uuid="5fe9236f-a15d-4698-91fa-87c4654e8cdd">
+				<Properties>
+					<Name>ИспользоватьНесколькоТарифныхСтавок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

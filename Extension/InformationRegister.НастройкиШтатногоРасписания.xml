@@ -81,6 +81,15 @@
 					</Type>
 				</Properties>
 			</Resource>
+			<Resource uuid="8577be22-21fa-4560-9007-cc6a9749ba14">
+				<Properties>
+					<Name>ИспользоватьПриОписанииПозицииШтатногоРасписанияРазрядыКатегорииКлассыДолжностейИПрофессий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.39</Version>
+			<Version>3.0.22.182.40</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -59,6 +59,7 @@
 			<StyleItem>ЦветОтличающейсяСтрокиДокумента</StyleItem>
 			<StyleItem>ПоясняющийОшибкуТекст</StyleItem>
 			<StyleItem>ШрифтРасширеннойПодсказкиМоноширинный</StyleItem>
+			<StyleItem>ЗакрытыйДокумент</StyleItem>
 			<CommonPicture>ВариантыПравилЗаполненияРеквизитов</CommonPicture>
 			<CommonPicture>ВосклицательныйЗнакСерый</CommonPicture>
 			<CommonPicture>ЗакончитьРедактированиеФайла</CommonPicture>
@@ -99,27 +100,34 @@
 			<FilterCriterion>ДокументыСотрудников</FilterCriterion>
 			<CommonModule>ЛьготыСотрудников</CommonModule>
 			<CommonModule>СотрудникиФормыРасширенный</CommonModule>
+			<CommonModule>СотрудникиКлиентСерверРасширенный</CommonModule>
+			<FunctionalOption>ВыбиратьВидНачисленияДоплатыЗаДниБолезни</FunctionalOption>
 			<FunctionalOption>ИспользоватьВилкуСтавокВШтатномРасписании</FunctionalOption>
 			<FunctionalOption>ИспользоватьВоинскийУчет</FunctionalOption>
 			<FunctionalOption>ИспользоватьВоинскийУчетВФормеСотрудника</FunctionalOption>
 			<FunctionalOption>ИспользоватьВыдачуПогашениеЗаймовСотрудникам</FunctionalOption>
 			<FunctionalOption>ИспользоватьЕжедневныеОтчеты1СДокументооборота</FunctionalOption>
+			<FunctionalOption>ИспользоватьИндексациюЗаработка</FunctionalOption>
 			<FunctionalOption>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</FunctionalOption>
 			<FunctionalOption>ИспользоватьИндивидуальныйГрафикПриСменеГрафикаРаботы</FunctionalOption>
 			<FunctionalOption>ИспользоватьИсториюИзмененияШтатногоРасписания</FunctionalOption>
 			<FunctionalOption>ИспользоватьКадровыйУчет</FunctionalOption>
 			<FunctionalOption>ИспользоватьЛичныеДанныеВФормеСотрудника</FunctionalOption>
+			<FunctionalOption>ИспользоватьМногофункциональностьДокументовЗарплатаКадры</FunctionalOption>
 			<FunctionalOption>ИспользоватьНачислениеЗарплаты</FunctionalOption>
 			<FunctionalOption>ИспользоватьНачислениеЗарплатыВНесколькихОрганизациях</FunctionalOption>
 			<FunctionalOption>ИспользоватьНесколькоОрганизацийЗарплатаКадрыРасширенная</FunctionalOption>
+			<FunctionalOption>ИспользоватьНесколькоТарифныхСтавок</FunctionalOption>
 			<FunctionalOption>ИспользоватьОбособленныеПодразделения</FunctionalOption>
 			<FunctionalOption>ИспользоватьОбособленныеПодразделенияРасширенная</FunctionalOption>
 			<FunctionalOption>ИспользоватьОтпускаДляПострадавшихВАварииЧАЭС</FunctionalOption>
 			<FunctionalOption>ИспользоватьПереносОстатковОтпускаПриУвольненииПереводом</FunctionalOption>
+			<FunctionalOption>ИспользоватьПриОписанииПозицииШтатногоРасписанияРазрядыКатегорииКлассыДолжностейИПрофессий</FunctionalOption>
 			<FunctionalOption>ИспользоватьПроцессыИЗадачи1СДокументооборота</FunctionalOption>
 			<FunctionalOption>ИспользоватьРасчетЗарплатыРасширенная</FunctionalOption>
 			<FunctionalOption>ИспользоватьРасчетСохраняемогоДенежногоСодержания</FunctionalOption>
 			<FunctionalOption>ИспользоватьСвязанныеДокументы1СДокументооборота</FunctionalOption>
+			<FunctionalOption>ИспользоватьСпециальностиФизическихЛиц</FunctionalOption>
 			<FunctionalOption>ИспользоватьСпециальнуюОценкуУсловийТруда</FunctionalOption>
 			<FunctionalOption>ИспользоватьУчетВнутрисменныхПрочихНевыходов</FunctionalOption>
 			<FunctionalOption>ИспользоватьУчетКлассныхЧинов</FunctionalOption>
@@ -132,12 +140,9 @@
 			<FunctionalOption>НеИспользоватьШтатноеРасписание</FunctionalOption>
 			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТруда</FunctionalOption>
 			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТрудаРасширенная</FunctionalOption>
-			<FunctionalOption>ИспользоватьМногофункциональностьДокументовЗарплатаКадры</FunctionalOption>
-			<FunctionalOption>ИспользоватьИндексациюЗаработка</FunctionalOption>
 			<FunctionalOption>ПрименятьСевернуюНадбавку</FunctionalOption>
 			<FunctionalOption>РаботаВБюджетномУчреждении</FunctionalOption>
 			<FunctionalOption>РаботаВХозрасчетнойОрганизации</FunctionalOption>
-			<FunctionalOption>ВыбиратьВидНачисленияДоплатыЗаДниБолезни</FunctionalOption>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<DefinedType>ТерриторииВыполненияРаботВОрганизации</DefinedType>
 			<DefinedType>Респондент</DefinedType>
@@ -163,6 +168,7 @@
 			<Constant>РаботаВБюджетномУчреждении</Constant>
 			<Constant>ИспользоватьМногофункциональностьДокументов</Constant>
 			<Constant>РаботаВХозрасчетнойОрганизации</Constant>
+			<Constant>ИспользоватьСпециальностиФизическихЛиц</Constant>
 			<CommonForm>ВводСтажаСотрудников</CommonForm>
 			<Catalog>Вакансии</Catalog>
 			<Catalog>Валюты</Catalog>
