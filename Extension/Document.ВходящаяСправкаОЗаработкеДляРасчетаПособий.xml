@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="04335755-baeb-44ba-8281-abcda70ccbdd">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВходящаяСправкаОЗаработкеДляРасчетаПособий" category="Object">
+				<xr:TypeId>32a81122-2310-40ec-b0a9-b435ea0ffe8a</xr:TypeId>
+				<xr:ValueId>0b192252-67e0-4640-8ecc-874979ffa116</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВходящаяСправкаОЗаработкеДляРасчетаПособий" category="Ref">
+				<xr:TypeId>7844710b-db29-4fff-b639-3e93b7e8483d</xr:TypeId>
+				<xr:ValueId>64797ec6-573c-4fa3-a1f9-21434fb16532</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВходящаяСправкаОЗаработкеДляРасчетаПособий" category="Selection">
+				<xr:TypeId>98f5a0a1-11c1-4f07-8790-4a77de3ab008</xr:TypeId>
+				<xr:ValueId>0c15d471-242b-4ec4-a8b5-430b5a5dbbc3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВходящаяСправкаОЗаработкеДляРасчетаПособий" category="List">
+				<xr:TypeId>d2197f1f-e200-4bd4-b410-695b5ad46aeb</xr:TypeId>
+				<xr:ValueId>f6ae5af1-2c50-4f94-b2f6-abff4cab5379</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВходящаяСправкаОЗаработкеДляРасчетаПособий" category="Manager">
+				<xr:TypeId>470ab0d2-0c9d-40c0-801f-f9103c1b778c</xr:TypeId>
+				<xr:ValueId>00fbc913-9d8a-4301-8707-0f8251f5fb0a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВходящаяСправкаОЗаработкеДляРасчетаПособий</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

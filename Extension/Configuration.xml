@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.26</Version>
+			<Version>3.0.22.182.27</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -55,6 +55,8 @@
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<StyleItem>РезультатПроблемаЦвет</StyleItem>
 			<StyleItem>ТекстЗапрещеннойЯчейкиЦвет</StyleItem>
+			<StyleItem>ФонУправляющегоПоля</StyleItem>
+			<StyleItem>ЦветОтличающейсяСтрокиДокумента</StyleItem>
 			<CommonPicture>Информация</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
 			<CommonPicture>ПересчитатьЗарплатуСерая</CommonPicture>
@@ -63,6 +65,22 @@
 			<CommonPicture>ПротоколСОшибкой</CommonPicture>
 			<CommonPicture>ЮТР_Склонения</CommonPicture>
 			<CommonPicture>ЮТР_Транслит</CommonPicture>
+			<CommonPicture>ВариантыПравилЗаполненияРеквизитов</CommonPicture>
+			<CommonPicture>Этап03</CommonPicture>
+			<CommonPicture>СтатусыДокумента</CommonPicture>
+			<CommonPicture>Этап02</CommonPicture>
+			<CommonPicture>Этап01</CommonPicture>
+			<CommonPicture>ПодписанЭП</CommonPicture>
+			<CommonPicture>РезультатыВыполненияПроцессовИЗадачЗаголовок</CommonPicture>
+			<CommonPicture>КоллекцияЗадачиИБизнесПроцессы</CommonPicture>
+			<CommonPicture>КоллекцияВходящийИсходящийВнутренний</CommonPicture>
+			<CommonPicture>РезультатыВыполненияПроцессовИЗадачКоллекция</CommonPicture>
+			<CommonPicture>СохранитьФайлКак</CommonPicture>
+			<CommonPicture>ОбновитьФайлИзФайлаНаДиске</CommonPicture>
+			<CommonPicture>КоллекцияВариантыВажности</CommonPicture>
+			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
+			<CommonPicture>ВосклицательныйЗнакСерый</CommonPicture>
+			<CommonPicture>ОткрытьВыбранныйФайл</CommonPicture>
 			<Role>ЮТР_ДобавлениеИзменениеНачисленийШтатногоРасписания</Role>
 			<Role>ЮТР_ДобавлениеИзменениеШтатногоРасписания</Role>
 			<Role>ЮТР_ДобавлениеИзменениеШтатногоРасписанияИзменениеТерритории</Role>
@@ -72,36 +90,51 @@
 			<FunctionalOption>ИспользоватьВоинскийУчет</FunctionalOption>
 			<FunctionalOption>ИспользоватьВоинскийУчетВФормеСотрудника</FunctionalOption>
 			<FunctionalOption>ИспользоватьВыдачуПогашениеЗаймовСотрудникам</FunctionalOption>
+			<FunctionalOption>ИспользоватьЕжедневныеОтчеты1СДокументооборота</FunctionalOption>
 			<FunctionalOption>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</FunctionalOption>
 			<FunctionalOption>ИспользоватьИсториюИзмененияШтатногоРасписания</FunctionalOption>
 			<FunctionalOption>ИспользоватьКадровыйУчет</FunctionalOption>
 			<FunctionalOption>ИспользоватьЛичныеДанныеВФормеСотрудника</FunctionalOption>
 			<FunctionalOption>ИспользоватьНачислениеЗарплаты</FunctionalOption>
+			<FunctionalOption>ИспользоватьНачислениеЗарплатыВНесколькихОрганизациях</FunctionalOption>
 			<FunctionalOption>ИспользоватьНесколькоОрганизацийЗарплатаКадрыРасширенная</FunctionalOption>
 			<FunctionalOption>ИспользоватьОбособленныеПодразделения</FunctionalOption>
 			<FunctionalOption>ИспользоватьОбособленныеПодразделенияРасширенная</FunctionalOption>
+			<FunctionalOption>ИспользоватьОтпускаДляПострадавшихВАварииЧАЭС</FunctionalOption>
+			<FunctionalOption>ИспользоватьПереносОстатковОтпускаПриУвольненииПереводом</FunctionalOption>
+			<FunctionalOption>ИспользоватьПроцессыИЗадачи1СДокументооборота</FunctionalOption>
 			<FunctionalOption>ИспользоватьРасчетЗарплатыРасширенная</FunctionalOption>
 			<FunctionalOption>ИспользоватьРасчетСохраняемогоДенежногоСодержания</FunctionalOption>
+			<FunctionalOption>ИспользоватьСвязанныеДокументы1СДокументооборота</FunctionalOption>
 			<FunctionalOption>ИспользоватьСпециальнуюОценкуУсловийТруда</FunctionalOption>
+			<FunctionalOption>ИспользоватьФайловоеХранилище1СДокументооборота</FunctionalOption>
 			<FunctionalOption>ИспользоватьШтатноеРасписание</FunctionalOption>
+			<FunctionalOption>ИспользоватьЭлектроннуюПочту1СДокументооборота</FunctionalOption>
+			<FunctionalOption>ИспользоватьЭлектронныеПодписи</FunctionalOption>
 			<FunctionalOption>НеИспользоватьВилкуСтавокВШтатномРасписании</FunctionalOption>
 			<FunctionalOption>НеИспользоватьШтатноеРасписание</FunctionalOption>
 			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТруда</FunctionalOption>
 			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТрудаРасширенная</FunctionalOption>
 			<FunctionalOption>ПрименятьСевернуюНадбавку</FunctionalOption>
 			<FunctionalOption>РаботаВБюджетномУчреждении</FunctionalOption>
-			<FunctionalOption>ИспользоватьОтпускаДляПострадавшихВАварииЧАЭС</FunctionalOption>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<DefinedType>ТерриторииВыполненияРаботВОрганизации</DefinedType>
 			<CommonCommand>ПрисоединенныеФайлы</CommonCommand>
 			<CommonCommand>ЮТР_ОбработатьСклонения</CommonCommand>
 			<CommonCommand>ЮТР_ПереводВлатиницу</CommonCommand>
 			<CommonCommand>ЮТР_СтатьиКД</CommonCommand>
+			<Constant>ИспользоватьЕжедневныеОтчеты1СДокументооборота</Constant>
 			<Constant>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</Constant>
 			<Constant>ИспользоватьКадровыйУчет</Constant>
 			<Constant>ИспользоватьНачислениеЗарплаты</Constant>
+			<Constant>ИспользоватьНачислениеЗарплатыВНесколькихОрганизациях</Constant>
 			<Constant>ИспользоватьНесколькоОрганизаций</Constant>
+			<Constant>ИспользоватьПроцессыИЗадачи1СДокументооборота</Constant>
 			<Constant>ИспользоватьРасчетСохраняемогоДенежногоСодержания</Constant>
+			<Constant>ИспользоватьСвязанныеДокументы1СДокументооборота</Constant>
+			<Constant>ИспользоватьФайловоеХранилище1СДокументооборота</Constant>
+			<Constant>ИспользоватьЭлектроннуюПочту1СДокументооборота</Constant>
+			<Constant>ИспользоватьЭлектронныеПодписи</Constant>
 			<Constant>РаботаВБюджетномУчреждении</Constant>
 			<Catalog>ВидыДокументовОбОбразовании</Catalog>
 			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
@@ -112,6 +145,7 @@
 			<Catalog>ГрафикиРаботыСотрудников</Catalog>
 			<Catalog>ГруппыДоступаФизическихЛиц</Catalog>
 			<Catalog>Должности</Catalog>
+			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
 			<Catalog>КлассификаторСпециальностейПоОбразованию</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Награды</Catalog>
@@ -125,6 +159,8 @@
 			<Catalog>ПодразделенияОрганизаций</Catalog>
 			<Catalog>ПоказателиРасчетаЗарплаты</Catalog>
 			<Catalog>Пользователи</Catalog>
+			<Catalog>ПравилаИнтеграцииС1СДокументооборотом</Catalog>
+			<Catalog>ПроизводственныеКалендари</Catalog>
 			<Catalog>РазрядыКатегорииДолжностей</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения</Catalog>
@@ -148,10 +184,13 @@
 			<Catalog>ЮТР_ТипыВоздушныхСудов</Catalog>
 			<Catalog>ЮТР_ХарактерыРабот</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
-			<Catalog>ПроизводственныеКалендари</Catalog>
+			<Document>ВводНачальныхОстатковОтпусков</Document>
+			<Document>ВходящаяСправкаОЗаработкеДляРасчетаПособий</Document>
 			<Document>ДоговорЗаймаСотруднику</Document>
 			<Document>ИзменениеПлановыхНачислений</Document>
 			<Document>ИзменениеШтатногоРасписания</Document>
+			<Document>ИндивидуальныйГрафик</Document>
+			<Document>ИсходящаяСправкаОЗаработкеДляРасчетаПособий</Document>
 			<Document>КадровыйПеревод</Document>
 			<Document>Отпуск</Document>
 			<Document>ОтпускПоУходуЗаРебенком</Document>
@@ -160,13 +199,15 @@
 			<Document>ПачкаДокументовСЗВ_6_4</Document>
 			<Document>ПачкаДокументовСПВ_1</Document>
 			<Document>ПачкаДокументовСПВ_2</Document>
+			<Document>ПереводКДругомуРаботодателю</Document>
 			<Document>ПриемНаРаботу</Document>
+			<Document>РазовоеНачисление</Document>
 			<Document>РеестрСЗВ_6_2</Document>
 			<Document>Совмещение</Document>
 			<Document>Увольнение</Document>
 			<Document>УдержаниеВСчетРасчетовПоПрочимОперациям</Document>
 			<Document>УтверждениеШтатногоРасписания</Document>
-			<Document>РазовоеНачисление</Document>
+			<Document>ЮТР_ГрупповойПриказ</Document>
 			<DocumentJournal>ДокументыУправленияШтатнымРасписанием</DocumentJournal>
 			<Enum>ВидыЗанятости</Enum>
 			<Enum>ВидыМестВыплатыЗарплаты</Enum>
@@ -186,6 +227,10 @@
 			<Enum>СпособыРасчетаДоплатыЗаСовмещение</Enum>
 			<Enum>СпособыРасчетаОтпуска</Enum>
 			<Enum>ТипыСведенийСЗВ</Enum>
+			<Enum>ТипыФайловСохраненияПечатныхФормОбъектов</Enum>
+			<Enum>ВариантыПравилЗаполненияРеквизитов</Enum>
+			<Enum>СпособыРасчетаАванса</Enum>
+			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
 			<DataProcessor>ПодготовкаКвартальнойОтчетностиВПФР</DataProcessor>
 			<InformationRegister>БухучетЗарплатыПодразделений</InformationRegister>
 			<InformationRegister>ВоинскийУчет</InformationRegister>
@@ -223,6 +268,8 @@
 			<InformationRegister>ЮТР_СтатьиКД</InformationRegister>
 			<InformationRegister>ЮТР_ТрудоваяДеятельностьФизическихЛиц</InformationRegister>
 			<InformationRegister>НастройкиРасчетаЗарплатыРасширенный</InformationRegister>
+			<InformationRegister>НастройкиКадровогоУчета</InformationRegister>
+			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
 		</ChildObjects>

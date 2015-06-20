@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="6faa726a-7330-4ebf-9930-99b8c29ab75f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЮТР_ГрупповойПриказ" category="Object">
+				<xr:TypeId>94b20276-7b33-4916-8064-97c3db0803b3</xr:TypeId>
+				<xr:ValueId>57284824-46ec-4b1e-a6c8-b6163959bf7d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЮТР_ГрупповойПриказ" category="Ref">
+				<xr:TypeId>2c31650b-33c6-4ddb-8531-ba51d6afc7ad</xr:TypeId>
+				<xr:ValueId>c5318dde-eb78-429d-b0fb-20effef751d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЮТР_ГрупповойПриказ" category="Selection">
+				<xr:TypeId>84de705a-2f6a-4e5d-9b37-2c5b6d4de568</xr:TypeId>
+				<xr:ValueId>fb26a273-64bd-48ae-b27a-f3882bcd8b85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЮТР_ГрупповойПриказ" category="List">
+				<xr:TypeId>abf28f59-4a92-4b86-9d95-c019e047e4cc</xr:TypeId>
+				<xr:ValueId>eefa28c9-2991-4b96-99dc-3f3174c4d447</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЮТР_ГрупповойПриказ" category="Manager">
+				<xr:TypeId>4a3ea5cb-01c0-4df9-99ba-2b16cde59355</xr:TypeId>
+				<xr:ValueId>71d59a1a-f57d-40ac-b4bc-dc32ccc17a9c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_ГрупповойПриказ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

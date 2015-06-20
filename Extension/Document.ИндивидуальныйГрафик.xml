@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="7d710956-d22c-4372-b635-18c9da07997d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИндивидуальныйГрафик" category="Object">
+				<xr:TypeId>63ccc304-51a1-485c-866e-b262e3900f8e</xr:TypeId>
+				<xr:ValueId>f5653205-2c28-49d7-a3fb-fe195fbba8eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИндивидуальныйГрафик" category="Ref">
+				<xr:TypeId>9737dee8-d463-484f-979c-84ad39f47f8c</xr:TypeId>
+				<xr:ValueId>4432cb14-797d-4114-a250-78e231b7fd76</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИндивидуальныйГрафик" category="Selection">
+				<xr:TypeId>064da587-8719-4fc2-ac7c-4fc7bc03eeee</xr:TypeId>
+				<xr:ValueId>ff8249d3-3c8f-48e7-a80b-edae2b1bee4b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИндивидуальныйГрафик" category="List">
+				<xr:TypeId>5f5b5941-fa97-4eb8-8087-099ce779ca41</xr:TypeId>
+				<xr:ValueId>703a7a2a-21a1-442c-a6b5-459814b22200</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИндивидуальныйГрафик" category="Manager">
+				<xr:TypeId>4b091bf5-bbc4-4885-9653-ce57fc7315e6</xr:TypeId>
+				<xr:ValueId>ad7125b7-1847-4bcb-ae36-d83f81309c4f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИндивидуальныйГрафик</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

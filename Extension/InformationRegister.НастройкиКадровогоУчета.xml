@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="518b0626-bc18-4980-a3b9-87e323182ee8">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиКадровогоУчета" category="Record">
+				<xr:TypeId>476683fc-a7db-489a-8633-0307fcc6a727</xr:TypeId>
+				<xr:ValueId>de54ef5a-fc12-4502-a389-6b95fee4c458</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиКадровогоУчета" category="Manager">
+				<xr:TypeId>a3b2909e-f403-4595-b675-39e20646c0e2</xr:TypeId>
+				<xr:ValueId>6fbff378-5d4f-4f1e-b632-6c7de64c641f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиКадровогоУчета" category="Selection">
+				<xr:TypeId>2f266d35-b4fe-4875-94e3-57dc778a35cd</xr:TypeId>
+				<xr:ValueId>66a11064-e3e4-4d9b-85ee-2367a720d86f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиКадровогоУчета" category="List">
+				<xr:TypeId>dd563465-96da-4a8b-b4de-d69dbb4bae6d</xr:TypeId>
+				<xr:ValueId>7a28f858-e642-4175-924c-845e5af71622</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиКадровогоУчета" category="RecordSet">
+				<xr:TypeId>3c500881-bc2e-4c55-bc56-4cbdb6086ff7</xr:TypeId>
+				<xr:ValueId>4bcc254e-0eb0-4ab1-9002-ebf99a411a8b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиКадровогоУчета" category="RecordKey">
+				<xr:TypeId>e94e78c3-2a2f-4de7-9e7d-ce96010ccee4</xr:TypeId>
+				<xr:ValueId>10e2b9d9-fe76-4e75-9fa4-d6a6500dd03f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиКадровогоУчета" category="RecordManager">
+				<xr:TypeId>4139da65-4428-439d-a197-02592100f963</xr:TypeId>
+				<xr:ValueId>b87bc767-5d2c-482b-96a7-f95b44fae334</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиКадровогоУчета</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="3ef76051-e73d-4de0-b288-dd6d45cd8c1d">
+				<Properties>
+					<Name>ИспользоватьПереносОстатковОтпускаПриУвольненииПереводом</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

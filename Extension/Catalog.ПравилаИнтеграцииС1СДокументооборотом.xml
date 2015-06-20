@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="e156cf56-02ca-43f1-9102-96b93bacdb85">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПравилаИнтеграцииС1СДокументооборотом" category="Object">
+				<xr:TypeId>9c635db8-bae5-4ac4-ae3b-61bfa252b6a6</xr:TypeId>
+				<xr:ValueId>488e5c4b-1d6c-4132-a460-3ba119d4960a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПравилаИнтеграцииС1СДокументооборотом" category="Ref">
+				<xr:TypeId>d7764e11-fb20-43c2-9da3-4f843cd8ab07</xr:TypeId>
+				<xr:ValueId>55390c82-1a6d-46ff-adc8-576098f4c33c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПравилаИнтеграцииС1СДокументооборотом" category="Selection">
+				<xr:TypeId>b05c546a-1a7d-4b32-9cf8-5d23c97c6a34</xr:TypeId>
+				<xr:ValueId>e8167e48-3378-4a40-ac1d-c8e691f4db58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПравилаИнтеграцииС1СДокументооборотом" category="List">
+				<xr:TypeId>b0279bc2-8869-48c2-ac5a-8cd71f2167fa</xr:TypeId>
+				<xr:ValueId>7130c506-e415-4c90-a902-5788b779c621</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПравилаИнтеграцииС1СДокументооборотом" category="Manager">
+				<xr:TypeId>1dbb9b46-3df0-466d-9bbe-c9e15bc49f7c</xr:TypeId>
+				<xr:ValueId>8531cf69-b76a-4883-ac78-60a85003f885</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПравилаИнтеграцииС1СДокументооборотом</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="6d0cb496-302c-4d8f-a25f-b6ebc08a2529">
+				<Properties>
+					<Name>ТипФайловСохраненияПечатныхФорм</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыФайловСохраненияПечатныхФормОбъектов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d8fa7ae6-3876-4ad1-b2db-62ff3983a6e8">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="52b30b5e-8de6-4424-bac1-2d130fedee33">
+				<Properties>
+					<Name>ЮТР_ВидДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_ВидыДокументов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1cd12389-3595-4b9f-9d55-a6d338a9dc8e">
+				<Properties>
+					<Name>ТипОбъектаПотребителя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="1b19364f-06c1-40eb-a062-517849d55eef">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ПравилаИнтеграцииС1СДокументооборотом.ПравилаЗаполненияРеквизитовПриВыгрузке" category="TabularSection">
+						<xr:TypeId>73d8be99-6085-4e3f-85f8-56e033fae8ca</xr:TypeId>
+						<xr:ValueId>66803600-35e3-45f4-80bc-c3bac0c40c10</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ПравилаИнтеграцииС1СДокументооборотом.ПравилаЗаполненияРеквизитовПриВыгрузке" category="TabularSectionRow">
+						<xr:TypeId>015ea439-0d5f-4c1e-b14f-12ee1a6ba616</xr:TypeId>
+						<xr:ValueId>323c25a4-3c89-4247-92da-da2938bb5fa2</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ПравилаЗаполненияРеквизитовПриВыгрузке</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
