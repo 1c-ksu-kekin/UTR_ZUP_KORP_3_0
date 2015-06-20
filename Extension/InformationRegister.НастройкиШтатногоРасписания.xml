@@ -63,6 +63,24 @@
 					</Type>
 				</Properties>
 			</Resource>
+			<Resource uuid="343c79ef-d44c-4f21-944b-6a8a4f2df4de">
+				<Properties>
+					<Name>ИспользоватьШтатноеРасписание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="bdfb6239-3b30-41f3-819c-06d450de1ffc">
+				<Properties>
+					<Name>ИспользоватьИсториюИзмененияШтатногоРасписания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

@@ -381,6 +381,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="cd132385-29a9-4fed-a900-f6ce6bc47401">
+				<Properties>
+					<Name>ЮТР_МуниципальноеОбразование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_МуниципальныеОбразования</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="d4d17238-1500-4ee0-8a3c-d4786dd3ada8">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.ШтатноеРасписание.Показатели" category="TabularSection">

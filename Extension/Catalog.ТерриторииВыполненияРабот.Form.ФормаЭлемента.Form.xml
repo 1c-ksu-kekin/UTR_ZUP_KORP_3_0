@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Владелец" id="49">
+			<DataPath>Объект.Owner</DataPath>
+			<ContextMenu name="ВладелецКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="51"/>
+		</InputField>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="МуниципальноеОбразование" id="88">
+			<DataPath>Объект.ЮТР_МуниципальноеОбразование</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Муниципальное образование</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="МуниципальноеОбразованиеКонтекстноеМеню" id="89"/>
+			<ExtendedTooltip name="МуниципальноеОбразованиеРасширеннаяПодсказка" id="90"/>
+			<Events>
+				<Event name="OnChange">ЮТР_МуниципальноеОбразованиеПриИзменении</Event>
+			</Events>
+		</InputField>
+		<CheckBoxField name="СоответствуетСудамЗарегистрированнымВРоссийскомМеждународномРеестреСудов" id="16">
+			<DataPath>Объект.СоответствуетСудамЗарегистрированнымВРоссийскомМеждународномРеестреСудов</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="СоответствуетСудамЗарегистрированнымВРоссийскомМеждународномРеестреСудовКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="СоответствуетСудамЗарегистрированнымВРоссийскомМеждународномРеестреСудовРасширеннаяПодсказка" id="18"/>
+		</CheckBoxField>
+		<UsualGroup name="ГруппаРегистрацияВНалоговомОргане" id="33">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаРегистрацияВНалоговомОрганеExtendedTooltip" id="34"/>
+			<ChildItems>
+				<LabelField name="ПредставлениеРегистрацииВНалоговомОргане" id="35">
+					<DataPath>ПредставлениеРегистрацииВНалоговомОргане</DataPath>
+					<TitleLocation>Left</TitleLocation>
+					<Height>2</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<TextColor>style:ПоясняющийТекст</TextColor>
+					<ContextMenu name="ПредставлениеРегистрацииВНалоговомОрганеКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ПредставлениеРегистрацииВНалоговомОрганеExtendedTooltip" id="37"/>
+				</LabelField>
+				<Button name="ИзменитьРегистрациюВНалоговомОргане" id="38">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.ИзменитьРегистрациюВНалоговомОргане</CommandName>
+					<Parameter xsi:nil="true"/>
+					<ExtendedTooltip name="ИзменитьРегистрациюВНалоговомОрганеExtendedTooltip" id="39"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="РайонныйКоэффициентГруппа" id="28">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Районный коэффициент группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="РайонныйКоэффициентГруппаРасширеннаяПодсказка" id="29"/>
+			<ChildItems>
+				<InputField name="РайонныйКоэффициент" id="7">
+					<DataPath>Объект.РайонныйКоэффициент</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ChoiceButton>false</ChoiceButton>
+					<SpinButton>true</SpinButton>
+					<ContextMenu name="РайонныйКоэффициентКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="РайонныйКоэффициентРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<InputField name="РайонныйКоэффициентРФ" id="10">
+					<DataPath>Объект.РайонныйКоэффициентРФ</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>... федеральный</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ChoiceButton>false</ChoiceButton>
+					<SpinButton>true</SpinButton>
+					<ContextMenu name="РайонныйКоэффициентРФКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="РайонныйКоэффициентРФРасширеннаяПодсказка" id="12"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаТерриториальныеУсловияПФРПериодИстория" id="40">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаТерриториальныеУсловияПФРПериодИсторияРасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<InputField name="ТерриториальныеУсловияПФРТерриториальныеУсловияПФР" id="30">
+					<DataPath>ТерриториальныеУсловияПФР.ТерриториальныеУсловияПФР</DataPath>
+					<HorizontalStretch>false</HorizontalStretch>
+					<QuickChoice>true</QuickChoice>
+					<ContextMenu name="ТерриториальныеУсловияПФРТерриториальныеУсловияПФРКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="ТерриториальныеУсловияПФРТерриториальныеУсловияПФРРасширеннаяПодсказка" id="32"/>
+				</InputField>
+				<InputField name="ТерриториальныеУсловияПФРПериод" id="42">
+					<DataPath>ТерриториальныеУсловияПФР.Period</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>действуют с</v8:content>
+						</v8:item>
+					</Title>
+					<EditFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДЛФ=DD</v8:content>
+						</v8:item>
+					</EditFormat>
+					<ContextMenu name="ТерриториальныеУсловияПФРПериодКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="ТерриториальныеУсловияПФРПериодРасширеннаяПодсказка" id="44"/>
+				</InputField>
+				<Button name="ТерриториальныеУсловияПФРИстория" id="45">
+					<Type>Hyperlink</Type>
+					<Height>1</Height>
+					<CommandName>Form.Command.ТерриториальныеУсловияПФРИстория</CommandName>
+					<Parameter xsi:nil="true"/>
+					<ExtendedTooltip name="ТерриториальныеУсловияПФРИсторияРасширеннаяПодсказка" id="46"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ПроцентСевернойНадбавки" id="85">
+			<DataPath>Объект.ПроцентСевернойНадбавки</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процент северной надбавки</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ПроцентСевернойНадбавкиКонтекстноеМеню" id="86"/>
+			<ExtendedTooltip name="ПроцентСевернойНадбавкиРасширеннаяПодсказка" id="87"/>
+		</InputField>
+		<InputField name="КоличествоДополнительныхДнейВГод" id="82">
+			<DataPath>Объект.КоличествоДополнительныхДнейОтпускаВГод</DataPath>
+			<ContextMenu name="КоличествоДополнительныхДнейВГодКонтекстноеМеню" id="83"/>
+			<ExtendedTooltip name="КоличествоДополнительныхДнейВГодРасширеннаяПодсказка" id="84"/>
+		</InputField>
+		<UsualGroup name="ПравоНаОтпускГруппа" id="80">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Право на отпуск</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="ПравоНаОтпускГруппаРасширеннаяПодсказка" id="81"/>
+			<ChildItems>
+				<Table name="ЕжегодныеОтпуска" id="52">
+					<HeightInTableRows>2</HeightInTableRows>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ЕжегодныеОтпускаКонтекстноеМеню" id="53"/>
+					<AutoCommandBar name="ЕжегодныеОтпускаКоманднаяПанель" id="54"/>
+					<ExtendedTooltip name="ЕжегодныеОтпускаРасширеннаяПодсказка" id="55"/>
+					<SearchStringAddition name="ЕжегодныеОтпускаСтрокаПоиска" id="56">
+						<Source>
+							<lf:elementId>52</lf:elementId>
+							<lf:additionId>0</lf:additionId>
+						</Source>
+						<ContextMenu name="ЕжегодныеОтпускаСтрокаПоискаКонтекстноеМеню" id="59"/>
+						<ExtendedTooltip name="ЕжегодныеОтпускаСтрокаПоискаРасширеннаяПодсказка" id="60"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ЕжегодныеОтпускаСостояниеПросмотра" id="61">
+						<Source>
+							<lf:elementId>52</lf:elementId>
+							<lf:additionId>1</lf:additionId>
+						</Source>
+						<ContextMenu name="ЕжегодныеОтпускаСостояниеПросмотраКонтекстноеМеню" id="64"/>
+						<ExtendedTooltip name="ЕжегодныеОтпускаСостояниеПросмотраРасширеннаяПодсказка" id="65"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ЕжегодныеОтпускаУправлениеПоиском" id="66">
+						<Source>
+							<lf:elementId>52</lf:elementId>
+							<lf:additionId>2</lf:additionId>
+						</Source>
+						<ContextMenu name="ЕжегодныеОтпускаУправлениеПоискомКонтекстноеМеню" id="69"/>
+						<ExtendedTooltip name="ЕжегодныеОтпускаУправлениеПоискомРасширеннаяПодсказка" id="70"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="ЕжегодныеОтпускаВидЕжегодногоОтпуска" id="74">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЕжегодныеОтпускаВидЕжегодногоОтпускаКонтекстноеМеню" id="75"/>
+							<ExtendedTooltip name="ЕжегодныеОтпускаВидЕжегодногоОтпускаРасширеннаяПодсказка" id="76"/>
+						</InputField>
+						<InputField name="ЕжегодныеОтпускаКоличествоДнейВГод" id="77">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЕжегодныеОтпускаКоличествоДнейВГодКонтекстноеМеню" id="78"/>
+							<ExtendedTooltip name="ЕжегодныеОтпускаКоличествоДнейВГодРасширеннаяПодсказка" id="79"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ТерриторииВыполненияРабот</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ТерриториальныеУсловияПФР" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Территориальные условия ПФР</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ТерриториальныеУсловияПФР</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьОбособленныеПодразделенияРасширенная</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="ТерриториальныеУсловияПФРПрежняя" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Территориальные условия ПФРПрежняя</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ТерриториальныеУсловияПФРНаборЗаписей" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Территориальные условия ПФРНабор записей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ТерриториальныеУсловияПФР</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТерриториальныеУсловияПФРНаборЗаписейПрочитан" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Территориальные условия ПФРНабор записей прочитан</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТерриториальныеУсловияПФРНоваяЗапись" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Территориальные условия ПФРНовая запись</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПредставлениеРегистрацииВНалоговомОргане" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистрация</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<View>
+				<xr:Common>false</xr:Common>
+			</View>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьОбособленныеПодразделения</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="СсылкаНаОбъект" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка на объект</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ТерриторииВыполненияРабот</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ИзменитьРегистрациюВНалоговомОргане" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить регистрацию в налоговом органе</v8:content>
+				</v8:item>
+			</ToolTip>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьОбособленныеПодразделения</Item>
+			</FunctionalOptions>
+		</Command>
+		<Command name="ТерриториальныеУсловияПФРИстория" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>История изменения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>История изменения сведений о территориальных условиях ПФР</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Use>
+				<xr:Common>false</xr:Common>
+			</Use>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьОбособленныеПодразделенияРасширенная</Item>
+			</FunctionalOptions>
+		</Command>
+	</Commands>
+	<BaseForm>
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<InputField name="Владелец" id="49">
+				<DataPath>Объект.Owner</DataPath>
+				<ContextMenu name="ВладелецКонтекстноеМеню" id="50"/>
+				<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="51"/>
+			</InputField>
+			<InputField name="Код" id="1">
+				<DataPath>Объект.Code</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+				<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+			</InputField>
+			<InputField name="Наименование" id="4">
+				<DataPath>Объект.Description</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+				<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+			</InputField>
+			<CheckBoxField name="СоответствуетСудамЗарегистрированнымВРоссийскомМеждународномРеестреСудов" id="16">
+				<DataPath>Объект.СоответствуетСудамЗарегистрированнымВРоссийскомМеждународномРеестреСудов</DataPath>
+				<TitleLocation>Right</TitleLocation>
+				<EditMode>EnterOnInput</EditMode>
+				<CheckBoxType>Auto</CheckBoxType>
+				<ContextMenu name="СоответствуетСудамЗарегистрированнымВРоссийскомМеждународномРеестреСудовКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="СоответствуетСудамЗарегистрированнымВРоссийскомМеждународномРеестреСудовРасширеннаяПодсказка" id="18"/>
+			</CheckBoxField>
+			<UsualGroup name="ГруппаРегистрацияВНалоговомОргане" id="33">
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаРегистрацияВНалоговомОрганеExtendedTooltip" id="34"/>
+				<ChildItems>
+					<LabelField name="ПредставлениеРегистрацииВНалоговомОргане" id="35">
+						<DataPath>ПредставлениеРегистрацииВНалоговомОргане</DataPath>
+						<TitleLocation>Left</TitleLocation>
+						<Height>2</Height>
+						<HorizontalStretch>true</HorizontalStretch>
+						<VerticalStretch>false</VerticalStretch>
+						<TextColor>style:ПоясняющийТекст</TextColor>
+						<ContextMenu name="ПредставлениеРегистрацииВНалоговомОрганеКонтекстноеМеню" id="36"/>
+						<ExtendedTooltip name="ПредставлениеРегистрацииВНалоговомОрганеExtendedTooltip" id="37"/>
+					</LabelField>
+					<Button name="ИзменитьРегистрациюВНалоговомОргане" id="38">
+						<Type>Hyperlink</Type>
+						<CommandName>Form.Command.ИзменитьРегистрациюВНалоговомОргане</CommandName>
+						<Parameter xsi:nil="true"/>
+						<ExtendedTooltip name="ИзменитьРегистрациюВНалоговомОрганеExtendedTooltip" id="39"/>
+					</Button>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="РайонныйКоэффициентГруппа" id="28">
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Районный коэффициент группа</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="РайонныйКоэффициентГруппаРасширеннаяПодсказка" id="29"/>
+				<ChildItems>
+					<InputField name="РайонныйКоэффициент" id="7">
+						<DataPath>Объект.РайонныйКоэффициент</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<ChoiceButton>false</ChoiceButton>
+						<SpinButton>true</SpinButton>
+						<ContextMenu name="РайонныйКоэффициентКонтекстноеМеню" id="8"/>
+						<ExtendedTooltip name="РайонныйКоэффициентРасширеннаяПодсказка" id="9"/>
+					</InputField>
+					<InputField name="РайонныйКоэффициентРФ" id="10">
+						<DataPath>Объект.РайонныйКоэффициентРФ</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>... федеральный</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<ChoiceButton>false</ChoiceButton>
+						<SpinButton>true</SpinButton>
+						<ContextMenu name="РайонныйКоэффициентРФКонтекстноеМеню" id="11"/>
+						<ExtendedTooltip name="РайонныйКоэффициентРФРасширеннаяПодсказка" id="12"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаТерриториальныеУсловияПФРПериодИстория" id="40">
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаТерриториальныеУсловияПФРПериодИсторияРасширеннаяПодсказка" id="41"/>
+				<ChildItems>
+					<InputField name="ТерриториальныеУсловияПФРТерриториальныеУсловияПФР" id="30">
+						<DataPath>ТерриториальныеУсловияПФР.ТерриториальныеУсловияПФР</DataPath>
+						<HorizontalStretch>false</HorizontalStretch>
+						<QuickChoice>true</QuickChoice>
+						<ContextMenu name="ТерриториальныеУсловияПФРТерриториальныеУсловияПФРКонтекстноеМеню" id="31"/>
+						<ExtendedTooltip name="ТерриториальныеУсловияПФРТерриториальныеУсловияПФРРасширеннаяПодсказка" id="32"/>
+					</InputField>
+					<InputField name="ТерриториальныеУсловияПФРПериод" id="42">
+						<DataPath>ТерриториальныеУсловияПФР.Period</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>действуют с</v8:content>
+							</v8:item>
+						</Title>
+						<EditFormat>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ДЛФ=DD</v8:content>
+							</v8:item>
+						</EditFormat>
+						<ContextMenu name="ТерриториальныеУсловияПФРПериодКонтекстноеМеню" id="43"/>
+						<ExtendedTooltip name="ТерриториальныеУсловияПФРПериодРасширеннаяПодсказка" id="44"/>
+					</InputField>
+					<Button name="ТерриториальныеУсловияПФРИстория" id="45">
+						<Type>Hyperlink</Type>
+						<Height>1</Height>
+						<CommandName>Form.Command.ТерриториальныеУсловияПФРИстория</CommandName>
+						<Parameter xsi:nil="true"/>
+						<ExtendedTooltip name="ТерриториальныеУсловияПФРИсторияРасширеннаяПодсказка" id="46"/>
+					</Button>
+				</ChildItems>
+			</UsualGroup>
+			<InputField name="КоличествоДополнительныхДнейВГод" id="82">
+				<DataPath>Объект.КоличествоДополнительныхДнейОтпускаВГод</DataPath>
+				<ContextMenu name="КоличествоДополнительныхДнейВГодКонтекстноеМеню" id="83"/>
+				<ExtendedTooltip name="КоличествоДополнительныхДнейВГодРасширеннаяПодсказка" id="84"/>
+			</InputField>
+			<UsualGroup name="ПравоНаОтпускГруппа" id="80">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Право на отпуск</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ПравоНаОтпускГруппаРасширеннаяПодсказка" id="81"/>
+				<ChildItems>
+					<Table name="ЕжегодныеОтпуска" id="52">
+						<HeightInTableRows>2</HeightInTableRows>
+						<AutoInsertNewRow>true</AutoInsertNewRow>
+						<EnableStartDrag>true</EnableStartDrag>
+						<EnableDrag>true</EnableDrag>
+						<RowFilter xsi:nil="true"/>
+						<ContextMenu name="ЕжегодныеОтпускаКонтекстноеМеню" id="53"/>
+						<AutoCommandBar name="ЕжегодныеОтпускаКоманднаяПанель" id="54"/>
+						<ExtendedTooltip name="ЕжегодныеОтпускаРасширеннаяПодсказка" id="55"/>
+						<SearchStringAddition name="ЕжегодныеОтпускаСтрокаПоиска" id="56">
+							<Source>
+								<lf:elementId>52</lf:elementId>
+								<lf:additionId>0</lf:additionId>
+							</Source>
+							<ContextMenu name="ЕжегодныеОтпускаСтрокаПоискаКонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="ЕжегодныеОтпускаСтрокаПоискаРасширеннаяПодсказка" id="60"/>
+						</SearchStringAddition>
+						<ViewStatusAddition name="ЕжегодныеОтпускаСостояниеПросмотра" id="61">
+							<Source>
+								<lf:elementId>52</lf:elementId>
+								<lf:additionId>1</lf:additionId>
+							</Source>
+							<ContextMenu name="ЕжегодныеОтпускаСостояниеПросмотраКонтекстноеМеню" id="64"/>
+							<ExtendedTooltip name="ЕжегодныеОтпускаСостояниеПросмотраРасширеннаяПодсказка" id="65"/>
+						</ViewStatusAddition>
+						<SearchControlAddition name="ЕжегодныеОтпускаУправлениеПоиском" id="66">
+							<Source>
+								<lf:elementId>52</lf:elementId>
+								<lf:additionId>2</lf:additionId>
+							</Source>
+							<ContextMenu name="ЕжегодныеОтпускаУправлениеПоискомКонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="ЕжегодныеОтпускаУправлениеПоискомРасширеннаяПодсказка" id="70"/>
+						</SearchControlAddition>
+						<ChildItems>
+							<InputField name="ЕжегодныеОтпускаВидЕжегодногоОтпуска" id="74">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ЕжегодныеОтпускаВидЕжегодногоОтпускаКонтекстноеМеню" id="75"/>
+								<ExtendedTooltip name="ЕжегодныеОтпускаВидЕжегодногоОтпускаРасширеннаяПодсказка" id="76"/>
+							</InputField>
+							<InputField name="ЕжегодныеОтпускаКоличествоДнейВГод" id="77">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ЕжегодныеОтпускаКоличествоДнейВГодКонтекстноеМеню" id="78"/>
+								<ExtendedTooltip name="ЕжегодныеОтпускаКоличествоДнейВГодРасширеннаяПодсказка" id="79"/>
+							</InputField>
+						</ChildItems>
+					</Table>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="Объект" id="1">
+				<Type>
+					<v8:Type>cfg:CatalogObject.ТерриторииВыполненияРабот</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<SavedData>true</SavedData>
+			</Attribute>
+			<Attribute name="ТерриториальныеУсловияПФР" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Территориальные условия ПФР</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:InformationRegisterRecordManager.ТерриториальныеУсловияПФР</v8:Type>
+				</Type>
+				<SavedData>true</SavedData>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьОбособленныеПодразделенияРасширенная</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="ТерриториальныеУсловияПФРПрежняя" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Территориальные условия ПФРПрежняя</v8:content>
+					</v8:item>
+				</Title>
+				<Type/>
+			</Attribute>
+			<Attribute name="ТерриториальныеУсловияПФРНаборЗаписей" id="4">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Территориальные условия ПФРНабор записей</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:InformationRegisterRecordSet.ТерриториальныеУсловияПФР</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ТерриториальныеУсловияПФРНаборЗаписейПрочитан" id="5">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Территориальные условия ПФРНабор записей прочитан</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ТерриториальныеУсловияПФРНоваяЗапись" id="6">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Территориальные условия ПФРНовая запись</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ПредставлениеРегистрацииВНалоговомОргане" id="7">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Регистрация</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<View>
+					<xr:Common>false</xr:Common>
+				</View>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьОбособленныеПодразделения</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="СсылкаНаОбъект" id="8">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Ссылка на объект</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.ТерриторииВыполненияРабот</v8:Type>
+				</Type>
+			</Attribute>
+		</Attributes>
+		<Commands>
+			<Command name="ИзменитьРегистрациюВНалоговомОргане" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Изменить</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Изменить регистрацию в налоговом органе</v8:content>
+					</v8:item>
+				</ToolTip>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьОбособленныеПодразделения</Item>
+				</FunctionalOptions>
+			</Command>
+			<Command name="ТерриториальныеУсловияПФРИстория" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>История изменения</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>История изменения сведений о территориальных условиях ПФР</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Use>
+					<xr:Common>false</xr:Common>
+				</Use>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ИспользоватьОбособленныеПодразделенияРасширенная</Item>
+				</FunctionalOptions>
+			</Command>
+		</Commands>
+	</BaseForm>
+</Form>

@@ -264,6 +264,15 @@
 							</Type>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="89f647fa-cf34-4a15-a42e-a38e1171d596">
+						<Properties>
+							<Name>ЮТР_МуниципальноеОбразование</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ЮТР_МуниципальныеОбразования</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 			<TabularSection uuid="41fe80bd-8007-48c3-ba8e-567712950178">

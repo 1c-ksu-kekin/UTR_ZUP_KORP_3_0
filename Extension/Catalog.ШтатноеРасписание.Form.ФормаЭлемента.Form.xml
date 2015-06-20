@@ -349,8 +349,8 @@
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
-						<InputField name="Территория" id="767">
-							<DataPath>Объект.ЮТР_Территория</DataPath>
+						<InputField name="МуниципальноеОбразование" id="767">
+							<DataPath>Объект.ЮТР_МуниципальноеОбразование</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -361,8 +361,8 @@
 								<xr:DataPath>ОрганизацияФормы</xr:DataPath>
 								<xr:LinkItem>0</xr:LinkItem>
 							</TypeLink>
-							<ContextMenu name="ТерриторияКонтекстноеМеню" id="768"/>
-							<ExtendedTooltip name="ТерриторияРасширеннаяПодсказка" id="769"/>
+							<ContextMenu name="МуниципальноеОбразованиеКонтекстноеМеню" id="768"/>
+							<ExtendedTooltip name="МуниципальноеОбразованиеРасширеннаяПодсказка" id="769"/>
 							<Events>
 								<Event name="OnChange">ЮТР_ТерриторияПриИзменении</Event>
 							</Events>
@@ -1278,6 +1278,17 @@
 												</InputField>
 											</ChildItems>
 										</UsualGroup>
+										<InputField name="Территория" id="770">
+											<DataPath>Объект.ЮТР_Территория</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Регистрация в налоговом органе</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ТерриторияКонтекстноеМеню" id="771"/>
+											<ExtendedTooltip name="ТерриторияРасширеннаяПодсказка" id="772"/>
+										</InputField>
 										<UsualGroup name="ГруппаСпецоценкаУсловийТруда" id="693">
 											<Title>
 												<v8:item>
@@ -2304,6 +2315,7 @@
 			</Type>
 			<View>
 				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.ЮТР_ДобавлениеИзменениеНачисленийШтатногоРасписания">true</xr:Value>
 			</View>
 			<Edit>
 				<xr:Common>false</xr:Common>
@@ -2325,6 +2337,7 @@
 			</Type>
 			<View>
 				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.ЮТР_ДобавлениеИзменениеНачисленийШтатногоРасписания">true</xr:Value>
 			</View>
 			<Edit>
 				<xr:Common>false</xr:Common>
@@ -2430,6 +2443,7 @@
 			</Type>
 			<View>
 				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.ЮТР_ДобавлениеИзменениеНачисленийШтатногоРасписания">true</xr:Value>
 			</View>
 			<Edit>
 				<xr:Common>false</xr:Common>
@@ -3186,6 +3200,7 @@
 			</ToolTip>
 			<Use>
 				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.ЮТР_ДобавлениеИзменениеНачисленийШтатногоРасписания">true</xr:Value>
 			</Use>
 			<Picture>
 				<xr:Ref>StdPicture.Change</xr:Ref>
@@ -3225,6 +3240,7 @@
 			</ToolTip>
 			<Use>
 				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.ЮТР_ДобавлениеИзменениеНачисленийШтатногоРасписания">true</xr:Value>
 			</Use>
 			<Picture>
 				<xr:Ref>CommonPicture.ПересчитатьЗарплатуСерая</xr:Ref>

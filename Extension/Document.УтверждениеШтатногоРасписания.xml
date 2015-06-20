@@ -26,7 +26,260 @@
 		<Properties>
 			<Name>УтверждениеШтатногоРасписания</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="c2189f82-c77d-4687-b902-92a68f0d1b63">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d7af429e-1302-41d0-9178-b130d4452b54">
+				<Properties>
+					<Name>ДолжностьРуководителяКадровойСлужбы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3826b1dd-4754-46a0-a405-c835b392fe94">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5149eebc-84c4-4511-a1b7-97456776bd34">
+				<Properties>
+					<Name>ГлавныйБухгалтер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="37d9d7ff-fbbe-4f6b-aa04-cfc0976d0379">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1f4e6dd9-f2be-4066-865d-bbf272c3e8f3">
+				<Properties>
+					<Name>Руководитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d5f22360-24bc-4e41-93e2-f866a6b85c3b">
+				<Properties>
+					<Name>РуководительКадровойСлужбы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fa266dad-ee86-4098-999c-a57fb735b70c">
+				<Properties>
+					<Name>ДолжностьРуководителя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="57790726-4b77-4e4c-9506-12474a49f4d0">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.УтверждениеШтатногоРасписания.Позиции" category="TabularSection">
+						<xr:TypeId>5412f353-5754-498f-a948-6b80fffc096b</xr:TypeId>
+						<xr:ValueId>d79e973d-0c2f-415a-8b04-37ebb41e6284</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.УтверждениеШтатногоРасписания.Позиции" category="TabularSectionRow">
+						<xr:TypeId>4c7a018f-f05e-4f43-b496-cbc93e07f97d</xr:TypeId>
+						<xr:ValueId>7020fafa-a01d-4d29-9a56-ff6d39b55cd2</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Позиции</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="cc2bac60-005f-4dac-ad68-140a1fa7a5bf">
+						<Properties>
+							<Name>ОкладТариф</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="09e694f5-d509-43f2-84ff-d2c495c04626">
+						<Properties>
+							<Name>ГрафикРаботыСотрудников</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ГрафикиРаботыСотрудников</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e9ee4da8-0edf-44c7-9e46-81982a3381f3">
+						<Properties>
+							<Name>ТарифнаяСетка</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ТарифныеСетки</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="23b7c1b0-acf1-46a8-9bdd-1ef812e338e4">
+						<Properties>
+							<Name>ОкладТарифМакс</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="51c7fc9d-aace-4c44-b66d-339e72681d5b">
+						<Properties>
+							<Name>РазрядКатегорияНадбавки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.РазрядыКатегорииДолжностей</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3f24edb7-6a24-4873-9b00-77a89bfbc921">
+						<Properties>
+							<Name>КоличествоСтавок</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>7</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="100f1724-7e10-40a7-b01c-839b744c9e58">
+						<Properties>
+							<Name>Подразделение</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e2b1afee-90d5-452f-be8a-268084e017d9">
+						<Properties>
+							<Name>ТарифнаяСеткаНадбавки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ТарифныеСетки</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="7fcf7a32-adb4-4973-9893-6417b1bb66a9">
+						<Properties>
+							<Name>РазрядКатегория</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.РазрядыКатегорииДолжностей</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="729873d1-8c38-4b8f-baca-e1975f437cea">
+						<Properties>
+							<Name>ОкладТарифМин</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4027b1c0-f886-4385-bd7b-b934c9a31580">
+						<Properties>
+							<Name>Должность</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ac8fe067-2928-404b-9943-f480745089fd">
+						<Properties>
+							<Name>СтатьяФинансирования</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СтатьиФинансированияЗарплата</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d5d07f9c-47ae-47d8-9cf0-2bc28b768c44">
+						<Properties>
+							<Name>ЮТР_МуниципальноеОбразование</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ЮТР_МуниципальныеОбразования</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="b1f23738-ecbc-404d-b1d6-c97fcaba22b4">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.УтверждениеШтатногоРасписания.ЕжегодныеОтпуска" category="TabularSection">
+						<xr:TypeId>75553bc2-b65d-43d5-9fe4-abddb73a78ec</xr:TypeId>
+						<xr:ValueId>a1b08fb9-eed5-4062-bfa6-875889b92405</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.УтверждениеШтатногоРасписания.ЕжегодныеОтпуска" category="TabularSectionRow">
+						<xr:TypeId>38cbcd19-bd7f-4ffa-976f-030dab5d876b</xr:TypeId>
+						<xr:ValueId>3c6acc50-41e9-48c0-ab7e-48eeaea27134</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ЕжегодныеОтпуска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>
