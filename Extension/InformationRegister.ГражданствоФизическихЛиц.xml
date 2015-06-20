@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="79ed6bca-f61a-461e-998f-e834480d91ad">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ГражданствоФизическихЛиц" category="Record">
+				<xr:TypeId>96174173-1b37-4b17-83e5-200cf30f493a</xr:TypeId>
+				<xr:ValueId>997c134b-70ab-40e2-b13f-fd779b8be729</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ГражданствоФизическихЛиц" category="Manager">
+				<xr:TypeId>c8244f01-ecaf-487d-a4a5-1b4ce57ace46</xr:TypeId>
+				<xr:ValueId>496654eb-0f37-43ae-8259-d0b32c4835f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ГражданствоФизическихЛиц" category="Selection">
+				<xr:TypeId>2a94a072-9bc5-42d4-b2a8-5358271dd2fd</xr:TypeId>
+				<xr:ValueId>ffe8ec70-50fd-47f7-bef3-142669799eeb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ГражданствоФизическихЛиц" category="List">
+				<xr:TypeId>bfda2c22-2b5f-4c4c-a587-380a9520965f</xr:TypeId>
+				<xr:ValueId>c977f45b-6041-4274-aef2-3214ea80bf66</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ГражданствоФизическихЛиц" category="RecordSet">
+				<xr:TypeId>636a3532-a4f9-45f6-86a1-18f0c4fdd84e</xr:TypeId>
+				<xr:ValueId>a0fcd492-79ed-4fb9-9cf2-7072e068c4a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ГражданствоФизическихЛиц" category="RecordKey">
+				<xr:TypeId>401a44b1-cde8-4ccc-8bfc-e016f2f88b85</xr:TypeId>
+				<xr:ValueId>134a3276-148e-414e-970c-e81c0aa05195</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ГражданствоФизическихЛиц" category="RecordManager">
+				<xr:TypeId>1a5f73ab-1b8a-47ae-acac-132f548e7fb9</xr:TypeId>
+				<xr:ValueId>6f9ad07f-f714-4e0a-b315-856d7133af0b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГражданствоФизическихЛиц</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="773d374d-cd06-4cf4-b5a0-316834ad55f7">
+				<Properties>
+					<Name>Страна</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

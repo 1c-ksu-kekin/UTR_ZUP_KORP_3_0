@@ -68,12 +68,15 @@
 			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТрудаРасширенная</FunctionalOption>
 			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТруда</FunctionalOption>
 			<FunctionalOption>ИспользоватьНесколькоОрганизацийЗарплатаКадрыРасширенная</FunctionalOption>
+			<FunctionalOption>ИспользоватьКадровыйУчет</FunctionalOption>
+			<FunctionalOption>ИспользоватьНачислениеЗарплаты</FunctionalOption>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<CommonCommand>ЮТ_СтатьиКД</CommonCommand>
 			<CommonCommand>ЮТ_ПереводВлатиницу</CommonCommand>
 			<CommonCommand>ЮТ_ОбработатьСклонения</CommonCommand>
 			<Constant>ИспользоватьНачислениеЗарплаты</Constant>
 			<Constant>ИспользоватьНесколькоОрганизаций</Constant>
+			<Constant>ИспользоватьКадровыйУчет</Constant>
 			<Catalog>ВидыОтпусков</Catalog>
 			<Catalog>ЮТ_СтатьиКД</Catalog>
 			<Catalog>Должности</Catalog>
@@ -97,6 +100,9 @@
 			<Catalog>СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения</Catalog>
 			<Catalog>ОснованияИсчисляемогоСтраховогоСтажа</Catalog>
 			<Catalog>ПараметрыИсчисляемогоСтраховогоСтажа</Catalog>
+			<Catalog>Сотрудники</Catalog>
+			<Catalog>СтраныМира</Catalog>
+			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
 			<Document>ИзменениеШтатногоРасписания</Document>
 			<Document>ПачкаДокументовСПВ_1</Document>
 			<Document>ПачкаДокументовСЗВ_6_1</Document>
@@ -118,6 +124,8 @@
 			<InformationRegister>НастройкиШтатногоРасписания</InformationRegister>
 			<InformationRegister>НастройкиУчетаСтраховыхВзносов</InformationRegister>
 			<InformationRegister>КлассыУсловийТрудаПоДолжностям</InformationRegister>
+			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
+			<InformationRegister>ГражданствоФизическихЛиц</InformationRegister>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 		</ChildObjects>
 	</Configuration>
