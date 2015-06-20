@@ -101,6 +101,31 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="255b1953-7a76-4248-9a5e-95e8730a2cd4">
+				<Properties>
+					<Name>ЮТР_НомерПротоколаКомиссии</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d298fad2-5e71-4af6-8232-3275a6a1e8cd">
+				<Properties>
+					<Name>ЮТР_ДатаПротоколаКомиссии</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Dimension uuid="b4c8611a-af16-4af1-ad63-c38053949651">
 				<Properties>
 					<Name>ФизическоеЛицо</Name>
@@ -124,6 +149,7 @@
 					</Type>
 				</Properties>
 			</Dimension>
+			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>
