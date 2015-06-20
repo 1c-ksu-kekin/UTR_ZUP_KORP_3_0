@@ -4,6 +4,7 @@
 		<Properties>
 			<Name>ЮТР_ОбработатьСклонения</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CommandParameterType/>
 		</Properties>
 	</CommonCommand>
 </MetaDataObject>

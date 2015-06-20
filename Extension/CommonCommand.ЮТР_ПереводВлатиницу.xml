@@ -4,6 +4,7 @@
 		<Properties>
 			<Name>ЮТР_ПереводВлатиницу</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CommandParameterType/>
 		</Properties>
 	</CommonCommand>
 </MetaDataObject>
