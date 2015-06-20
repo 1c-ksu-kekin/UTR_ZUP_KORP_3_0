@@ -81,6 +81,7 @@
 	<Events>
 		<Event name="OnReadAtServer">ЮТ_ПриЧтенииНаСервере</Event>
 		<Event name="OnCreateAtServer">ЮТ_ПриСозданииНаСервере</Event>
+		<Event name="OnWriteAtServer">ЮТ_ПриЗаписиНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="Шапка" id="62">
@@ -1972,7 +1973,7 @@
 					</ToolTip>
 					<ExtendedTooltip name="ЮТ_ДосрочнаяПенсияРасширеннаяПодсказка" id="748"/>
 					<ChildItems>
-						<CheckBoxField name="ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажок" id="749">
+						<CheckBoxField name="ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажок" id="749">
 							<DataPath>ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсией</DataPath>
 							<Title>
 								<v8:item>
@@ -1982,8 +1983,8 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажокКонтекстноеМеню" id="750"/>
-							<ExtendedTooltip name="ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажокРасширеннаяПодсказка" id="751"/>
+							<ContextMenu name="ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажокКонтекстноеМеню" id="750"/>
+							<ExtendedTooltip name="ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажокРасширеннаяПодсказка" id="751"/>
 							<Events>
 								<Event name="OnChange">ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажокПриИзменении</Event>
 							</Events>

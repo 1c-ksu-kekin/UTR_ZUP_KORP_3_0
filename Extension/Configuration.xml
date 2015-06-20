@@ -60,6 +60,7 @@
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
 			<CommonPicture>Информация</CommonPicture>
 			<Role>ЮТ_ДобавлениеИзменениеНачисленийШтатногоРасписания</Role>
+			<Role>ЮТ_ДобавлениеИзменениеШтатногоРасписания</Role>
 			<CommonModule>ЛьготыСотрудников</CommonModule>
 			<FunctionalOption>ИспользоватьРасчетЗарплатыРасширенная</FunctionalOption>
 			<FunctionalOption>ИспользоватьВилкуСтавокВШтатномРасписании</FunctionalOption>

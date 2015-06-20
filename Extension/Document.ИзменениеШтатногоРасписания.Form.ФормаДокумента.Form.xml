@@ -976,6 +976,7 @@
 			<Use>
 				<xr:Common>false</xr:Common>
 				<xr:Value name="Role.ЮТ_ДобавлениеИзменениеНачисленийШтатногоРасписания">true</xr:Value>
+				<xr:Value name="Role.ЮТ_ДобавлениеИзменениеШтатногоРасписания">true</xr:Value>
 			</Use>
 			<ModifiesSavedData>true</ModifiesSavedData>
 		</Command>
