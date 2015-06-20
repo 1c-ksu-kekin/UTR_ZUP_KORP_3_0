@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="ecdcd54b-37d8-4a6f-9a91-8aad3e3c14b7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыОбразованияФизическихЛиц" category="Object">
+				<xr:TypeId>5e2fa7b5-ce6f-46a2-8217-7439f9fba6f1</xr:TypeId>
+				<xr:ValueId>bf3932c5-56b5-48d4-8d68-4735b111d3c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыОбразованияФизическихЛиц" category="Ref">
+				<xr:TypeId>7e60e904-4dfa-4998-9005-a7996c6fb7a3</xr:TypeId>
+				<xr:ValueId>185ea493-a9d1-4488-9929-3c1059473159</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыОбразованияФизическихЛиц" category="Selection">
+				<xr:TypeId>070196c9-c5f9-486d-9c3d-b27d32b73b16</xr:TypeId>
+				<xr:ValueId>82e72112-1bcd-42e8-9016-7ab342ca764a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыОбразованияФизическихЛиц" category="List">
+				<xr:TypeId>57e0ff88-e9e7-44de-a8fc-48eb90e5d0fd</xr:TypeId>
+				<xr:ValueId>dee92620-51bb-4c09-bc9a-24c0ad4326a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыОбразованияФизическихЛиц" category="Manager">
+				<xr:TypeId>e8925040-9966-49e4-9afd-06b468694cd9</xr:TypeId>
+				<xr:ValueId>95753065-9f43-41a0-8571-165653bbd3f5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОбразованияФизическихЛиц</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

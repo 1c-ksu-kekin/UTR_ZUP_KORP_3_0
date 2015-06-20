@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="e85f529e-2721-4c26-8409-ef34abc10cbd">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЯзыкиНародовМира" category="Object">
+				<xr:TypeId>73264209-9329-43aa-8c2d-3498dc2db790</xr:TypeId>
+				<xr:ValueId>1adfef4f-6f6b-4203-bc65-ad8222de914a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЯзыкиНародовМира" category="Ref">
+				<xr:TypeId>0f21c4fd-533d-481d-9968-a5aedbc7df11</xr:TypeId>
+				<xr:ValueId>fd2c6e28-fcfe-43f8-84db-6049f85e9d68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЯзыкиНародовМира" category="Selection">
+				<xr:TypeId>8a4808db-e7b1-435b-bfdd-c394ec9b8e93</xr:TypeId>
+				<xr:ValueId>31adbff6-b4bb-4354-a2b2-94b1fce13f1c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЯзыкиНародовМира" category="List">
+				<xr:TypeId>466f5d16-38cb-4ee0-bf68-33de07395a8e</xr:TypeId>
+				<xr:ValueId>9305def0-232e-4178-83de-d91e5f6fbe3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЯзыкиНародовМира" category="Manager">
+				<xr:TypeId>8e268bbb-eb4a-4342-9d9d-250dd775426c</xr:TypeId>
+				<xr:ValueId>78136e34-d1d4-4704-8f4f-cfd6bd1bf2c2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЯзыкиНародовМира</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>3</CodeLength>
+			<DescriptionLength>50</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

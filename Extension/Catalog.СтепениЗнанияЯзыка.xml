@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="599f9074-a434-4487-a59e-363f090a32d2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтепениЗнанияЯзыка" category="Object">
+				<xr:TypeId>8de1c6d9-f7a9-4d35-9040-f877c4df0a40</xr:TypeId>
+				<xr:ValueId>1ad0c760-10ec-4518-9354-c773d36f7896</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтепениЗнанияЯзыка" category="Ref">
+				<xr:TypeId>98ef760f-e0ae-46e8-b6c9-b64865a63b35</xr:TypeId>
+				<xr:ValueId>aaee0130-d0ad-42b8-9ddf-4a645d775aee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтепениЗнанияЯзыка" category="Selection">
+				<xr:TypeId>0c25a811-1c8f-4666-81b8-8e58d5ee173e</xr:TypeId>
+				<xr:ValueId>fe5a8410-9428-454d-a965-d835b9933245</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтепениЗнанияЯзыка" category="List">
+				<xr:TypeId>e445f76d-8df5-4515-bd81-6dabe488e43e</xr:TypeId>
+				<xr:ValueId>0abe253f-ab6c-46c4-ad16-87d3721d3049</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтепениЗнанияЯзыка" category="Manager">
+				<xr:TypeId>975c2723-51d1-4b0b-9839-d0436286f062</xr:TypeId>
+				<xr:ValueId>caeb58cb-1337-4b67-92a2-7cebc946c1fc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтепениЗнанияЯзыка</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>1</CodeLength>
+			<DescriptionLength>50</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

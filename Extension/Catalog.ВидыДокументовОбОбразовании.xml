@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="627c1c88-d269-43f7-8ff5-09ae0754e562">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыДокументовОбОбразовании" category="Object">
+				<xr:TypeId>8993652e-7492-4d4a-b254-498154cdde1f</xr:TypeId>
+				<xr:ValueId>3455e5a2-419e-4412-82dd-7c533a79785e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыДокументовОбОбразовании" category="Ref">
+				<xr:TypeId>06c5a3e1-5a17-423e-89eb-ee292edbde18</xr:TypeId>
+				<xr:ValueId>8afc5c93-8e6e-45b7-a682-e52a984622f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыДокументовОбОбразовании" category="Selection">
+				<xr:TypeId>0784bd58-5576-4ac0-b286-69f871ed8cd5</xr:TypeId>
+				<xr:ValueId>d0538392-732e-462b-97fc-8e75d427a065</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыДокументовОбОбразовании" category="List">
+				<xr:TypeId>e7770fa7-d00b-42ad-b0ae-775d1dc4ec1e</xr:TypeId>
+				<xr:ValueId>ddf7850c-da45-4adf-8f51-c3b772bc6df7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыДокументовОбОбразовании" category="Manager">
+				<xr:TypeId>0a7e6029-1d50-4624-bc31-ce891183786c</xr:TypeId>
+				<xr:ValueId>e1179682-7bf9-43a8-aaf6-60e2f9f74ca1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыДокументовОбОбразовании</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
