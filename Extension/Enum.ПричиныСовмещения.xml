@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="9dae8065-8b23-4921-8a79-61f624d285f5">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПричиныСовмещения" category="Ref">
+				<xr:TypeId>da911482-6f68-4d9e-ac73-0f663a696462</xr:TypeId>
+				<xr:ValueId>d713143f-be7e-4dd9-84f1-bdd81def0ad5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПричиныСовмещения" category="Manager">
+				<xr:TypeId>0c6732c0-4d5c-4680-a317-3e450e105011</xr:TypeId>
+				<xr:ValueId>30efc102-335f-46d6-9602-1e3d877dccae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПричиныСовмещения" category="List">
+				<xr:TypeId>908ab675-158b-4a5f-8ad0-db4c8e77c641</xr:TypeId>
+				<xr:ValueId>53e107c0-f331-4bdc-9cf5-8a1aac504098</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПричиныСовмещения</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="8ac3894d-66b6-4072-84c2-c550c484a4f5">
+				<Properties>
+					<Name>ЮТР_РасширениеЗонОбслуживания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="afd3aab0-3069-4325-bf3f-75e6cf32c309">
+				<Properties>
+					<Name>ИсполнениеОбязанностей</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="659881cd-a63e-41f2-8ba4-5113fe65f427">
+				<Properties>
+					<Name>УвеличениеОбъемаРабот</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0f0fffb7-5cb6-466f-9b8a-d6a72ecb33a0">
+				<Properties>
+					<Name>СовмещениеПрофессийДолжностей</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

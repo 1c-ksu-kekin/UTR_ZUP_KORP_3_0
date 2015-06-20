@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Enum uuid="d1973788-b8a7-4410-98b2-c0dad9973c56">
+	<Enum uuid="276b9b0a-2b13-43f9-9aeb-7bbc6063c42d">
 		<InternalInfo>
-			<xr:GeneratedType name="EnumRef.ОтношениеКЕНВДЗатратНаЗарплату" category="Ref">
-				<xr:TypeId>d1810317-0d99-4453-9bce-79080f0746b4</xr:TypeId>
-				<xr:ValueId>a9ac6e6a-fe51-43a6-898b-6f971cb739d2</xr:ValueId>
+			<xr:GeneratedType name="EnumRef.СпособыРасчетаДоплатыЗаСовмещение" category="Ref">
+				<xr:TypeId>f0055e64-b48f-4bd1-970c-47eca613d127</xr:TypeId>
+				<xr:ValueId>4e490840-c1c0-4f60-99f5-bfd8e49a4f5c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumManager.ОтношениеКЕНВДЗатратНаЗарплату" category="Manager">
-				<xr:TypeId>ff0e017e-0fee-45bf-9cb0-5eef23c347d4</xr:TypeId>
-				<xr:ValueId>4f909d88-5fd5-406b-9cb6-10f5f402a4aa</xr:ValueId>
+			<xr:GeneratedType name="EnumManager.СпособыРасчетаДоплатыЗаСовмещение" category="Manager">
+				<xr:TypeId>c44c361c-a455-4b86-a459-25a65c7c9b14</xr:TypeId>
+				<xr:ValueId>5b0c7124-8ad3-4bbe-8094-f7e47073155d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumList.ОтношениеКЕНВДЗатратНаЗарплату" category="List">
-				<xr:TypeId>30a67913-1701-4be6-a7f4-2d18448060d2</xr:TypeId>
-				<xr:ValueId>f293fc27-6741-4b6b-85f7-f3b60e090ec7</xr:ValueId>
+			<xr:GeneratedType name="EnumList.СпособыРасчетаДоплатыЗаСовмещение" category="List">
+				<xr:TypeId>9f66d40b-4d1d-48b4-aac7-8a646eb2ca3c</xr:TypeId>
+				<xr:ValueId>51e258b2-a102-4331-a371-8ed5f47684f7</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ОтношениеКЕНВДЗатратНаЗарплату</Name>
+			<Name>СпособыРасчетаДоплатыЗаСовмещение</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="fa6ef6db-0db3-4730-a542-d37cd0e84ba2">
+			<EnumValue uuid="bf82bb20-7cd3-4ccb-9095-d71f887c3f2b">
 				<Properties>
-					<Name>ЕНВД</Name>
+					<Name>ПроцентФОТ</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="404518fc-fab4-4dfc-8d51-780d1947d1f9">
+			<EnumValue uuid="7eca89d2-dc01-47ba-8a06-89a1dc5e8899">
 				<Properties>
-					<Name>НеЕНВД</Name>
+					<Name>РазницаФОТ</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</EnumValue>

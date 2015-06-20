@@ -119,6 +119,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="a6d87c3e-75cd-4343-9f1b-4a54a4664cec">
+				<Properties>
+					<Name>ЮТР_ВидДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_ВидыДокументаКадровоеИзменение</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="dee7790f-fef3-449e-8df2-1de6ade1cbb2">
 				<InternalInfo>

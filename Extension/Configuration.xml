@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version/>
+			<Version>3.0.22.182.14</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -119,6 +119,8 @@
 			<Catalog>ЯзыкиНародовМира</Catalog>
 			<Catalog>СтепениЗнанияЯзыка</Catalog>
 			<Catalog>ЮТР_МуниципальныеОбразования</Catalog>
+			<Catalog>ЮТР_ВидыДокументаКадровоеИзменение</Catalog>
+			<Catalog>СтатьиРасходовЗарплата</Catalog>
 			<Document>ИзменениеШтатногоРасписания</Document>
 			<Document>ПачкаДокументовСПВ_1</Document>
 			<Document>ПачкаДокументовСЗВ_6_1</Document>
@@ -128,6 +130,8 @@
 			<Document>ПачкаДокументовСЗВ_6_3</Document>
 			<Document>ИзменениеПлановыхНачислений</Document>
 			<Document>УтверждениеШтатногоРасписания</Document>
+			<Document>Совмещение</Document>
+			<Document>Отпуск</Document>
 			<DocumentJournal>ДокументыУправленияШтатнымРасписанием</DocumentJournal>
 			<Enum>СпособыРасчетаОтпуска</Enum>
 			<Enum>КатегорииСтажа</Enum>
@@ -139,6 +143,8 @@
 			<Enum>ОтношениеКЕНВДЗатратНаЗарплату</Enum>
 			<Enum>ТипыСведенийСЗВ</Enum>
 			<Enum>ВидыТарифныхСтавок</Enum>
+			<Enum>СпособыРасчетаДоплатыЗаСовмещение</Enum>
+			<Enum>ПричиныСовмещения</Enum>
 			<DataProcessor>ПодготовкаКвартальнойОтчетностиВПФР</DataProcessor>
 			<InformationRegister>ЮТР_СтатьиКД</InformationRegister>
 			<InformationRegister>НастройкиШтатногоРасписания</InformationRegister>
