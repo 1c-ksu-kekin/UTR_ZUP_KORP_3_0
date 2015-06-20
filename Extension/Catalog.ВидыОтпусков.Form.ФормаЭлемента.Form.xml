@@ -52,7 +52,7 @@
 			</Button>
 			<Button name="ФормаОбщаяКомандаЮТ_СтатьиКД" id="55">
 				<Type>CommandBarButton</Type>
-				<CommandName>CommonCommand.ЮТ_СтатьиКД</CommandName>
+				<CommandName>CommonCommand.ЮТР_СтатьиКД</CommandName>
 				<Parameter xsi:nil="true"/>
 				<ExtendedTooltip name="ФормаОбщаяКомандаЮТ_СтатьиКДРасширеннаяПодсказка" id="56"/>
 			</Button>
@@ -128,7 +128,7 @@
 							<ExtendedTooltip name="ПредоставлятьОтпускВсемСотрудникамExtendedTooltip" id="30"/>
 						</CheckBoxField>
 						<InputField name="ЮТ_КатегорияСтажа" id="67">
-							<DataPath>Объект.ЮТ_КатегорияСтажа</DataPath>
+							<DataPath>Объект.ЮТР_КатегорияСтажа</DataPath>
 							<ContextMenu name="ЮТ_КатегорияСтажаКонтекстноеМеню" id="68"/>
 							<ExtendedTooltip name="ЮТ_КатегорияСтажаРасширеннаяПодсказка" id="69"/>
 						</InputField>
@@ -249,7 +249,7 @@
 				</InputField>
 				<Button name="ОбщаяКомандаЮТ_СтатьиКД" id="65">
 					<Type>Hyperlink</Type>
-					<CommandName>CommonCommand.ЮТ_СтатьиКД</CommandName>
+					<CommandName>CommonCommand.ЮТР_СтатьиКД</CommandName>
 					<Parameter xsi:nil="true"/>
 					<Title>
 						<v8:item>
@@ -300,7 +300,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:InformationRegisterRecordManager.ЮТ_СтатьиКД</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ЮТР_СтатьиКД</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ЮТ_СтатьиКДПериодСтрокой" id="5">
@@ -334,7 +334,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:InformationRegisterRecordSet.ЮТ_СтатьиКД</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ЮТР_СтатьиКД</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ЮТ_СтатьиКДНаборЗаписейПрочитан" id="8">
@@ -447,7 +447,7 @@
 				</Button>
 				<Button name="ФормаОбщаяКомандаЮТ_СтатьиКД" id="55">
 					<Type>CommandBarButton</Type>
-					<CommandName>CommonCommand.ЮТ_СтатьиКД</CommandName>
+					<CommandName>CommonCommand.ЮТР_СтатьиКД</CommandName>
 					<Parameter xsi:nil="true"/>
 					<ExtendedTooltip name="ФормаОбщаяКомандаЮТ_СтатьиКДРасширеннаяПодсказка" id="56"/>
 				</Button>
@@ -639,7 +639,7 @@
 					</InputField>
 					<Button name="ОбщаяКомандаЮТ_СтатьиКД" id="65">
 						<Type>Hyperlink</Type>
-						<CommandName>CommonCommand.ЮТ_СтатьиКД</CommandName>
+						<CommandName>CommonCommand.ЮТР_СтатьиКД</CommandName>
 						<Parameter xsi:nil="true"/>
 						<Title>
 							<v8:item>
@@ -690,7 +690,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>cfg:InformationRegisterRecordManager.ЮТ_СтатьиКД</v8:Type>
+					<v8:Type>cfg:InformationRegisterRecordManager.ЮТР_СтатьиКД</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="ЮТ_СтатьиКДПериодСтрокой" id="5">
@@ -724,7 +724,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>cfg:InformationRegisterRecordSet.ЮТ_СтатьиКД</v8:Type>
+					<v8:Type>cfg:InformationRegisterRecordSet.ЮТР_СтатьиКД</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="ЮТ_СтатьиКДНаборЗаписейПрочитан" id="8">

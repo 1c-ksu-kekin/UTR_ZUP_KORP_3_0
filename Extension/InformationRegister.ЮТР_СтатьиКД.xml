@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="fde74525-e05d-4a07-a666-4e45a0a1e9e9">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЮТР_СтатьиКД" category="Record">
+				<xr:TypeId>cc424dcc-e8c1-4786-a96e-1e656db5c76b</xr:TypeId>
+				<xr:ValueId>4f9b996d-925b-495c-8e96-6d580e38ea83</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЮТР_СтатьиКД" category="Manager">
+				<xr:TypeId>b130b022-2741-4faa-a936-9dcd666b244a</xr:TypeId>
+				<xr:ValueId>364306e7-16f2-49ba-8dee-f05a7bfabe82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЮТР_СтатьиКД" category="Selection">
+				<xr:TypeId>7e519a9e-bf4b-4115-8db7-eee5ce9cf5e2</xr:TypeId>
+				<xr:ValueId>19b8dc7e-838d-4cd1-b87e-9c6f9675e271</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЮТР_СтатьиКД" category="List">
+				<xr:TypeId>8dbbb358-3d97-44a8-a0d6-8948e4d14e27</xr:TypeId>
+				<xr:ValueId>41ef146c-db9e-49c1-af93-daf8ddeea5c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЮТР_СтатьиКД" category="RecordSet">
+				<xr:TypeId>ecce5025-5381-4c99-9346-fe2bfdf9d955</xr:TypeId>
+				<xr:ValueId>64928d2a-1fa6-4e83-98af-d8f49c1ab9d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЮТР_СтатьиКД" category="RecordKey">
+				<xr:TypeId>f26ef1e9-40dc-46b3-a145-09176db78c48</xr:TypeId>
+				<xr:ValueId>03ae11c8-369c-48cf-bda7-163d1c8f81b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЮТР_СтатьиКД" category="RecordManager">
+				<xr:TypeId>26f10168-a1db-43d8-8e1a-ae419254eff0</xr:TypeId>
+				<xr:ValueId>0689bce4-ef80-4eee-98fe-d9ce97dd1cfa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_СтатьиКД</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="db74fd8b-35b3-41ed-8756-48fc07bd55e6">
+				<Properties>
+					<Name>СтатьяКД</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_СтатьиКД</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

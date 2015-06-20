@@ -227,7 +227,7 @@
 				<ExtendedTooltip name="ПозицииSearchControlExtendedTooltip" id="349"/>
 			</SearchControlAddition>
 			<Events>
-				<Event name="BeforeAddRow">ЮТ_ПозицииПередНачаломДобавления</Event>
+				<Event name="BeforeAddRow">ЮТР_ПозицииПередНачаломДобавления</Event>
 			</Events>
 			<ChildItems>
 				<LabelField name="ПозицииНомерСтроки" id="16">
@@ -975,8 +975,8 @@
 			</ToolTip>
 			<Use>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ЮТ_ДобавлениеИзменениеНачисленийШтатногоРасписания">true</xr:Value>
-				<xr:Value name="Role.ЮТ_ДобавлениеИзменениеШтатногоРасписания">true</xr:Value>
+				<xr:Value name="Role.ЮТР_ДобавлениеИзменениеНачисленийШтатногоРасписания">true</xr:Value>
+				<xr:Value name="Role.ЮТР_ДобавлениеИзменениеШтатногоРасписания">true</xr:Value>
 			</Use>
 			<ModifiesSavedData>true</ModifiesSavedData>
 		</Command>
@@ -995,7 +995,7 @@
 			</ToolTip>
 			<Use>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ЮТ_ДобавлениеИзменениеНачисленийШтатногоРасписания">true</xr:Value>
+				<xr:Value name="Role.ЮТР_ДобавлениеИзменениеНачисленийШтатногоРасписания">true</xr:Value>
 			</Use>
 		</Command>
 	</Commands>

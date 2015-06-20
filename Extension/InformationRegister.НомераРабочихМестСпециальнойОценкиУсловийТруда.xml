@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="f6179086-462d-4541-8138-3749ea92e6e9">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НомераРабочихМестСпециальнойОценкиУсловийТруда" category="Record">
+				<xr:TypeId>2cc38534-de1c-4f25-bc22-e187b537450f</xr:TypeId>
+				<xr:ValueId>2e995e52-f09b-4876-908a-13dd753cd740</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НомераРабочихМестСпециальнойОценкиУсловийТруда" category="Manager">
+				<xr:TypeId>e38fea37-586f-4850-a872-94bfc1e75652</xr:TypeId>
+				<xr:ValueId>d8f44cc8-58b7-4d3c-a2f6-ddea4a9ab47b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НомераРабочихМестСпециальнойОценкиУсловийТруда" category="Selection">
+				<xr:TypeId>10ffc7ca-4ca7-4c4b-9c30-d2f18e8bced5</xr:TypeId>
+				<xr:ValueId>08f8596b-2954-457a-b47c-892ea14b23df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НомераРабочихМестСпециальнойОценкиУсловийТруда" category="List">
+				<xr:TypeId>d464ef48-a512-4845-92d7-94573e8d8724</xr:TypeId>
+				<xr:ValueId>ca9ba56a-ccbf-4795-a6d1-5fe9893ddf70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НомераРабочихМестСпециальнойОценкиУсловийТруда" category="RecordSet">
+				<xr:TypeId>a869d204-d2c9-4640-ad62-69861573f62d</xr:TypeId>
+				<xr:ValueId>b8289248-f22e-44b0-9bb2-8dd4cea75334</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НомераРабочихМестСпециальнойОценкиУсловийТруда" category="RecordKey">
+				<xr:TypeId>53e54e26-aada-42fe-9df6-4c0ad456129b</xr:TypeId>
+				<xr:ValueId>81f32acd-867f-44ad-91fb-de306eebd99b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НомераРабочихМестСпециальнойОценкиУсловийТруда" category="RecordManager">
+				<xr:TypeId>7be8fb76-1a9a-4e85-8daf-02ddd2950278</xr:TypeId>
+				<xr:ValueId>42d854b9-fd63-4a92-829d-813d38672f1f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НомераРабочихМестСпециальнойОценкиУсловийТруда</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="5bb125cb-f4ce-481f-a668-c77fb7b6d3d7">
+				<Properties>
+					<Name>Номер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

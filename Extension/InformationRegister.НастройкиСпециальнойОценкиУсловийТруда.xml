@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="56399f59-5db9-4d1a-b09e-6a83599334a1">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиСпециальнойОценкиУсловийТруда" category="Record">
+				<xr:TypeId>0cb0046e-e723-4ee4-8d83-c39bbeee3c0b</xr:TypeId>
+				<xr:ValueId>4beba887-7d48-4381-80b2-bd13839935ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиСпециальнойОценкиУсловийТруда" category="Manager">
+				<xr:TypeId>c6c9396d-08d6-464d-8b43-937574e0a1e1</xr:TypeId>
+				<xr:ValueId>0060da64-1cb8-4b13-be69-cb4aab0d1e2c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиСпециальнойОценкиУсловийТруда" category="Selection">
+				<xr:TypeId>14f9de33-40c6-487e-9823-12a9c27e3b82</xr:TypeId>
+				<xr:ValueId>12d1b53e-f116-45c9-93be-233cf71ad3dd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиСпециальнойОценкиУсловийТруда" category="List">
+				<xr:TypeId>df54c1ed-f6d9-4f4a-8274-12e21d4ac0b9</xr:TypeId>
+				<xr:ValueId>6199c4f4-4614-4913-b582-f6a572fdacae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиСпециальнойОценкиУсловийТруда" category="RecordSet">
+				<xr:TypeId>3aaa65b8-c152-44cd-afa8-7f5981f057a4</xr:TypeId>
+				<xr:ValueId>c70420b6-1100-4a5d-b17f-10ffe385b565</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиСпециальнойОценкиУсловийТруда" category="RecordKey">
+				<xr:TypeId>565ccb3c-97e9-4d61-83b2-6eba01a14a50</xr:TypeId>
+				<xr:ValueId>b57faefc-5cf6-4e53-a0ca-96ccf812abd4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиСпециальнойОценкиУсловийТруда" category="RecordManager">
+				<xr:TypeId>d8ea4447-d80f-4c8e-93bd-6a9fd9aedd9d</xr:TypeId>
+				<xr:ValueId>d5fb151b-9c2b-4c80-b540-d2b530f72f95</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиСпециальнойОценкиУсловийТруда</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="1b0f26ce-3f7e-4dc2-8865-df71d42dc322">
+				<Properties>
+					<Name>ИспользоватьСпециальнуюОценкуУсловийТруда</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

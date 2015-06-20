@@ -178,10 +178,10 @@
 							<Type>UsualButton</Type>
 							<Representation>Picture</Representation>
 							<OnlyInAllActions>false</OnlyInAllActions>
-							<CommandName>CommonCommand.ЮТ_ПереводВлатиницу</CommandName>
+							<CommandName>CommonCommand.ЮТР_ПереводВлатиницу</CommandName>
 							<Parameter xsi:nil="true"/>
 							<Picture>
-								<xr:Ref>CommonPicture.ЮТ_Транслит</xr:Ref>
+								<xr:Ref>CommonPicture.ЮТР_Транслит</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</Picture>
 							<ExtendedTooltip name="ОбщаяКомандаЮТ_ПереводВлатиницуКВРасширеннаяПодсказка" id="109"/>
@@ -239,10 +239,10 @@
 								<Button name="ОбщаяКомандаЮТ_ПереводВлатиницуКурс" id="112">
 									<Type>UsualButton</Type>
 									<Representation>Picture</Representation>
-									<CommandName>CommonCommand.ЮТ_ПереводВлатиницу</CommandName>
+									<CommandName>CommonCommand.ЮТР_ПереводВлатиницу</CommandName>
 									<Parameter xsi:nil="true"/>
 									<Picture>
-										<xr:Ref>CommonPicture.ЮТ_Транслит</xr:Ref>
+										<xr:Ref>CommonPicture.ЮТР_Транслит</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
 									<ExtendedTooltip name="ОбщаяКомандаЮТ_ПереводВлатиницуКурсРасширеннаяПодсказка" id="113"/>

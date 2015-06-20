@@ -31,7 +31,7 @@
 		<ChildObjects>
 			<Attribute uuid="5f0e8526-ddbc-4580-9456-a196ee46c712">
 				<Properties>
-					<Name>ЮТ_ОсобыеУсловияТрудаПФР</Name>
+					<Name>ЮТР_ОсобыеУсловияТрудаПФР</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ОсобыеУсловияТрудаПФР</v8:Type>
@@ -95,7 +95,7 @@
 			</Attribute>
 			<Attribute uuid="f314ea45-d8b1-42cc-975b-305a13b02ce6">
 				<Properties>
-					<Name>ЮТ_ОснованиеДосрочногоНазначенияПенсии</Name>
+					<Name>ЮТР_ОснованиеДосрочногоНазначенияПенсии</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ОснованияДосрочногоНазначенияПенсии</v8:Type>
@@ -104,10 +104,10 @@
 			</Attribute>
 			<Attribute uuid="92fe6a1c-b31e-4377-9bc6-f5da9d8f2a49">
 				<Properties>
-					<Name>ЮТ_ВидПерсонала</Name>
+					<Name>ЮТР_ВидПерсонала</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ЮТ_ВидыПерсонала</v8:Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_ВидыПерсонала</v8:Type>
 					</Type>
 				</Properties>
 			</Attribute>
@@ -131,7 +131,7 @@
 			</Attribute>
 			<Attribute uuid="e42c290d-8c6d-4631-8b02-1ab1e04fd977">
 				<Properties>
-					<Name>ЮТ_Территория</Name>
+					<Name>ЮТР_Территория</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ТерриторииВыполненияРабот</v8:Type>
@@ -195,7 +195,7 @@
 			</Attribute>
 			<Attribute uuid="b5a8b907-a3b8-4e71-b930-36f8a54a1ec4">
 				<Properties>
-					<Name>ЮТ_КодПозицииСпискаПФР</Name>
+					<Name>ЮТР_КодПозицииСпискаПФР</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения</v8:Type>
@@ -227,7 +227,7 @@
 			</Attribute>
 			<Attribute uuid="136491b1-01d1-4a7e-9d24-3349ef64072b">
 				<Properties>
-					<Name>ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсией</Name>
+					<Name>ЮТР_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсией</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:EnumRef.ВидыРаботСДосрочнойПенсией</v8:Type>

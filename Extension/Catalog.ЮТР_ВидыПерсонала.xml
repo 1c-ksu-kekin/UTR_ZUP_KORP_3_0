@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="651abc9a-bb53-4420-9c5a-89ccb75ab86e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЮТР_ВидыПерсонала" category="Object">
+				<xr:TypeId>e5359561-3465-458f-8cb5-5a25efd7027d</xr:TypeId>
+				<xr:ValueId>dc1e2dd9-2225-4448-9c5e-db2aab2525be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЮТР_ВидыПерсонала" category="Ref">
+				<xr:TypeId>30d1a49b-48ed-4196-8239-b4e722fc1c5f</xr:TypeId>
+				<xr:ValueId>5b8c7ec3-3f01-4beb-af12-34676cbba6f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЮТР_ВидыПерсонала" category="Selection">
+				<xr:TypeId>ae0cece1-2578-42bd-8473-25812377fec1</xr:TypeId>
+				<xr:ValueId>4f14abf5-cf50-41a3-b85e-595161c7216b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЮТР_ВидыПерсонала" category="List">
+				<xr:TypeId>02210cd6-a250-406b-9f20-97e145590434</xr:TypeId>
+				<xr:ValueId>199b8464-cf7a-4a50-a7af-1a910555c58e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЮТР_ВидыПерсонала" category="Manager">
+				<xr:TypeId>9934cfae-cb20-4f50-89a8-ff742baebb55</xr:TypeId>
+				<xr:ValueId>1fd335ec-a482-4b92-ae4e-a3e41e20a8cb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_ВидыПерсонала</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

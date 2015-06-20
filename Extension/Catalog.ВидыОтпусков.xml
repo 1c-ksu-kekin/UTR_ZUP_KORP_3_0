@@ -103,7 +103,7 @@
 			</Attribute>
 			<Attribute uuid="4e87669b-c96e-419e-b510-cfb1ae9b03b2">
 				<Properties>
-					<Name>ЮТ_КатегорияСтажа</Name>
+					<Name>ЮТР_КатегорияСтажа</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:EnumRef.КатегорииСтажа</v8:Type>
