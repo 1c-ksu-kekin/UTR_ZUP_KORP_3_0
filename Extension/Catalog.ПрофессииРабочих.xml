@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="cb4682ea-2434-4793-b6d3-fb8e5cb06c4c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПрофессииРабочих" category="Object">
+				<xr:TypeId>6ac6fcb0-0107-4846-b17d-435d1f36d766</xr:TypeId>
+				<xr:ValueId>36441ca4-494e-45af-ad0a-ad1699382321</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПрофессииРабочих" category="Ref">
+				<xr:TypeId>626a01f7-795b-4487-b7d0-0b1c4b3e6e4e</xr:TypeId>
+				<xr:ValueId>a4a45e19-fc5f-40b3-a99c-598eb1bc8200</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПрофессииРабочих" category="Selection">
+				<xr:TypeId>ea122bb1-732e-4655-ab99-32783755018e</xr:TypeId>
+				<xr:ValueId>1bec6d8d-8f5c-4d6b-87a9-3483f68858a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПрофессииРабочих" category="List">
+				<xr:TypeId>447c3027-2043-4ea8-9440-e6cdff67bb7c</xr:TypeId>
+				<xr:ValueId>58fef0ac-53b4-4b65-8712-e352f5f4e48a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПрофессииРабочих" category="Manager">
+				<xr:TypeId>54a1e9ab-5f82-43fd-9316-5bd1f3f104c2</xr:TypeId>
+				<xr:ValueId>4dce38c1-9529-4d15-a617-051d9c3fbaba</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПрофессииРабочих</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

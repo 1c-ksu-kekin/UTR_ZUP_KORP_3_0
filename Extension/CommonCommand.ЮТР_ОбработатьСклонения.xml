@@ -4,7 +4,10 @@
 		<Properties>
 			<Name>ЮТР_ОбработатьСклонения</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Group>NavigationPanelOrdinary</Group>
+			<Group>FormCommandBarImportant</Group>
+			<CommandParameterType>
+				<v8:Type>cfg:CatalogRef.ПрофессииРабочих</v8:Type>
+			</CommandParameterType>
 		</Properties>
 	</CommonCommand>
 </MetaDataObject>

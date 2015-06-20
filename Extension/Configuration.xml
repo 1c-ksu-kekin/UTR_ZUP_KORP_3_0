@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.33</Version>
+			<Version>3.0.22.182.34</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -137,6 +137,7 @@
 			<CommonCommand>ЮТР_ОбработатьСклонения</CommonCommand>
 			<CommonCommand>ЮТР_ПереводВлатиницу</CommonCommand>
 			<CommonCommand>ЮТР_СтатьиКД</CommonCommand>
+			<CommonCommand>ЮТР_ТестовыйРасчетПоВедомости</CommonCommand>
 			<Constant>ИспользоватьЕжедневныеОтчеты1СДокументооборота</Constant>
 			<Constant>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</Constant>
 			<Constant>ИспользоватьКадровыйУчет</Constant>
@@ -227,6 +228,7 @@
 			<Catalog>ЮТР_ТипыВоздушныхСудов</Catalog>
 			<Catalog>ЮТР_ХарактерыРабот</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
+			<Catalog>ПрофессииРабочих</Catalog>
 			<Document>ВводНачальныхОстатковОтпусков</Document>
 			<Document>ВходящаяСправкаОЗаработкеДляРасчетаПособий</Document>
 			<Document>ДоговорЗаймаСотруднику</Document>

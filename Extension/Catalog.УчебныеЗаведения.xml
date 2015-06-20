@@ -29,8 +29,6 @@
 			<Hierarchical>true</Hierarchical>
 			<DescriptionLength>100</DescriptionLength>
 		</Properties>
-		<ChildObjects>
-			<Form>ФормаЭлемента</Form>
-		</ChildObjects>
+		<ChildObjects/>
 	</Catalog>
 </MetaDataObject>
