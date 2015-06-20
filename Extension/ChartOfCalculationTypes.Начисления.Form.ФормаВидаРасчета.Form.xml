@@ -4229,7 +4229,7 @@
 						</InputField>
 					</ChildItems>
 				</Page>
-				<Page name="СтраницаДополнительныеРеквизиты" id="1290">
+				<Page name="ЮТР_СтраницаДополнительныеРеквизиты" id="1290">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4242,7 +4242,7 @@
 							<v8:content>Страница дополнительные реквизиты</v8:content>
 						</v8:item>
 					</ToolTip>
-					<ExtendedTooltip name="СтраницаДополнительныеРеквизитыРасширеннаяПодсказка" id="1291"/>
+					<ExtendedTooltip name="ЮТР_СтраницаДополнительныеРеквизитыРасширеннаяПодсказка" id="1291"/>
 				</Page>
 			</ChildItems>
 		</Pages>

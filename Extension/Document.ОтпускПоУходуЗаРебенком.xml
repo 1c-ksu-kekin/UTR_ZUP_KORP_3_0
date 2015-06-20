@@ -26,6 +26,9 @@
 		<Properties>
 			<Name>ОтпускПоУходуЗаРебенком</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="8f61909f-1e70-4258-bc0a-f8df781f56a1">
@@ -37,6 +40,1475 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="3db9f9cf-c3fe-40d0-b128-0b62d49538b5">
+				<Properties>
+					<Name>ФинансированиеФедеральнымБюджетом</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ОснованияФинансированияПособияФедеральнымБюджетом</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="26631579-3e79-4779-a7c3-647dbbbbfed9">
+				<Properties>
+					<Name>СреднийДневнойЗаработок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b58729dd-08d0-4a35-8144-9ff4c399d63d">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8f0e4ec1-a7cc-4ec2-849e-94489661eafc">
+				<Properties>
+					<Name>ПособиеДоПолутораЛет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d1f6937d-53aa-47ca-adc8-f6c7a4904adc">
+				<Properties>
+					<Name>ИзменитьНачисления</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9cb7e5d6-a6ad-4394-918b-288aee5f9fe2">
+				<Properties>
+					<Name>ВыплачиватьПособиеДоТрехЛет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="91080217-58f2-46cc-a72e-8140e43e4a4c">
+				<Properties>
+					<Name>ОсвобождатьСтавку</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c012d482-c0c3-4da5-9aac-57beea1d3c4b">
+				<Properties>
+					<Name>УчитыватьЗаработокПредыдущихСтрахователей</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8055c71e-9bc4-4d02-91d7-296404ae2f54">
+				<Properties>
+					<Name>Руководитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3c48c1fc-1746-4711-ac47-97c6cc2b77b1">
+				<Properties>
+					<Name>ДатаОкончанияПособияДоТрехЛет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fb0eee81-80b5-496d-b03a-1e646141db02">
+				<Properties>
+					<Name>ВыплачиватьПособиеДоПолутораЛет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b33b9e46-a278-45d5-943a-0bf8610a330d">
+				<Properties>
+					<Name>КоличествоДетей</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5f455654-a09f-4776-9dba-6a3db10da3b7">
+				<Properties>
+					<Name>ДолжностьРуководителя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e6d74241-194a-49e7-a3aa-f8cc6cdc4766">
+				<Properties>
+					<Name>ДатаОкончанияПособияДоПолутораЛет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="649bf5bb-8201-4ca3-9c29-5c5eb9420791">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ca1f5846-f9b1-4ab4-9ead-28df968f3710">
+				<Properties>
+					<Name>РасчетПоПравилам2010Года</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b0201302-0e43-4ba2-b506-e9fd290a8ebe">
+				<Properties>
+					<Name>ДатаОкончания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8b16bacf-dfa2-4d14-aee6-da8d98a0efc8">
+				<Properties>
+					<Name>РазмерПособияДоТрехЛетФиксированнойСуммой</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9fe95ff8-7679-4674-804f-855d68b31710">
+				<Properties>
+					<Name>ДоляНеполногоВремени</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1cf416da-f1a9-486a-ac8f-798d0a194e21">
+				<Properties>
+					<Name>ИзменитьЛьготы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="345d9750-5ca9-4912-b26c-e74b77e28d8d">
+				<Properties>
+					<Name>РайонныйКоэффициентРФнаНачалоСобытия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6c1c53d0-d99f-4ba4-a676-dc59e9395bbe">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a1209041-dd88-487e-b949-18b572b2fbaf">
+				<Properties>
+					<Name>РассчитатьЗарплату</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e991d94c-cd92-44b7-8fb1-b7c9dc46d77d">
+				<Properties>
+					<Name>НеНачислятьЗарплатуИНеВыплачиватьАвансВоВремяОтпуска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b80f7a22-22f8-49b0-a1ba-26906ae2433d">
+				<Properties>
+					<Name>ПрименятьЛьготыПриНачисленииПособия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="34fd6c62-ab42-4213-9999-621ea0cc8e5c">
+				<Properties>
+					<Name>ДатаНачала</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1879e238-cd1f-408b-abe3-b9714b0d72df">
+				<Properties>
+					<Name>КоличествоПервыхДетей</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b8e8a0df-a9e0-42c1-9a6c-3df3fa1f2cb8">
+				<Properties>
+					<Name>ПособиеДоТрехЛет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bfb991b8-a95d-4ef6-bc55-c6b3d9040961">
+				<Properties>
+					<Name>ЮТР_ДатаРожденияРебенка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="3f01a193-077d-477a-8ff7-ead1783d8793">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтпускПоУходуЗаРебенком.Удержания" category="TabularSection">
+						<xr:TypeId>a1f0f103-144b-4a3c-bcfc-e5da224fef60</xr:TypeId>
+						<xr:ValueId>14815511-f310-4a37-a9fa-bc7434c0d15a</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтпускПоУходуЗаРебенком.Удержания" category="TabularSectionRow">
+						<xr:TypeId>ffd8efbc-1c30-4be0-9d46-10ba2b526dfd</xr:TypeId>
+						<xr:ValueId>7f9b5121-882e-4be2-9164-c0cce0aeecfb</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Удержания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="862fc3f8-b252-4241-9587-23ff0b3ace1a">
+						<Properties>
+							<Name>Результат</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>13</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3f97aba9-c9a0-4b07-8405-e64d653e9f4f">
+						<Properties>
+							<Name>Получатель</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="cab84595-0113-4d09-a625-da3337b41fbf">
+						<Properties>
+							<Name>ДатаОкончания</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="20f7e85e-6280-4628-9526-03933a2b2b34">
+						<Properties>
+							<Name>Удержание</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCalculationTypesRef.Удержания</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="858152fb-c175-49ba-9c3a-d21bb3493a6f">
+						<Properties>
+							<Name>ДокументОснование</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:DocumentRef.УдержаниеВСчетРасчетовПоПрочимОперациям</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="10eafeda-9f68-4fea-aec6-2c48e9044878">
+						<Properties>
+							<Name>ДатаНачала</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b1bec205-0629-4ed0-9e00-6d028a68034e">
+						<Properties>
+							<Name>ПлатежныйАгент</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="fd1b2a22-ec1d-4b4a-a01a-e8663dc237a6">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтпускПоУходуЗаРебенком.ДанныеОДетях" category="TabularSection">
+						<xr:TypeId>7c3910a8-5a61-4220-904b-a0a9dce8ca8d</xr:TypeId>
+						<xr:ValueId>03cbfa01-c9c3-4835-a57f-f276171c5a96</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтпускПоУходуЗаРебенком.ДанныеОДетях" category="TabularSectionRow">
+						<xr:TypeId>8a5f7ef5-e151-4687-86ab-d7c377b40edf</xr:TypeId>
+						<xr:ValueId>aeb20fef-6764-4843-be55-561350c200af</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДанныеОДетях</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="5065a13d-31f1-49e6-a4df-c82a9cee476a">
+						<Properties>
+							<Name>НаличиеРешенияСудаОЛишенииПрав</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1c63ecf6-2a37-4be9-9e92-7bb49e81fd01">
+						<Properties>
+							<Name>ДатаДокумента</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9d8642cd-86f9-4fd8-96f7-3878d0c259e3">
+						<Properties>
+							<Name>ВидПодтверждающегоДокумента</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.ВидыПодтверждающихДокументовОтпускаПоУходу</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1682c3bd-3ecb-47d7-91c1-7d99130ed615">
+						<Properties>
+							<Name>Отчество</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>30</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1fd0270a-8b65-4c68-8497-d4605569fae6">
+						<Properties>
+							<Name>НомерДокумента</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>12</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f273b63d-e645-4852-9c48-7d2f08827d31">
+						<Properties>
+							<Name>ДатаРожденияРебенка</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5e7d1a5a-b285-4941-9519-83ffbe22c616">
+						<Properties>
+							<Name>СерияДокумента</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>4</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="571dccdf-c741-43bd-8149-fdf713ec5b10">
+						<Properties>
+							<Name>НаименованиеПодтверждающегоДокумента</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fb4cc7a6-eb98-4b9b-be7f-747c9c751b13">
+						<Properties>
+							<Name>Имя</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>30</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="71aec502-dd10-4ddb-a40c-ece3db4914ba">
+						<Properties>
+							<Name>Фамилия</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>30</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bec511ad-c78e-4b14-95ad-20219258333c">
+						<Properties>
+							<Name>Очередность</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>2</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="2cded98f-471a-4b53-b42f-0eac3994bacd">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтпускПоУходуЗаРебенком.ПогашениеЗаймов" category="TabularSection">
+						<xr:TypeId>aa8b7007-a7a2-4f75-aebb-74e9fccf5d21</xr:TypeId>
+						<xr:ValueId>366f9f75-28e7-414b-ad42-f6d84253fed8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтпускПоУходуЗаРебенком.ПогашениеЗаймов" category="TabularSectionRow">
+						<xr:TypeId>4083ecc1-ab19-4f86-a80f-84763347ff13</xr:TypeId>
+						<xr:ValueId>e63efccf-a378-4497-a168-d446c805225c</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ПогашениеЗаймов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="22af0023-0b92-4868-af0e-5ef79bb565e4">
+						<Properties>
+							<Name>НалогНаМатериальнуюВыгоду</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>13</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3984bfc4-0c92-4ce6-a2f6-b9023ff131f0">
+						<Properties>
+							<Name>МатериальнаяВыгода</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="17669952-71b6-4ceb-9626-34fece00b264">
+						<Properties>
+							<Name>СтавкаНалогообложенияМатвыгоды</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.НДФЛСтавкиНалогообложенияРезидента</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e828b9e1-298b-4d38-9568-658cde57a304">
+						<Properties>
+							<Name>НачисленоПроцентов</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c758a076-d0d7-4f73-9de5-739b7b287468">
+						<Properties>
+							<Name>Подразделение</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b76b6b0d-c8f9-4420-8926-51fed6f6cd6c">
+						<Properties>
+							<Name>ПогашениеПроцентов</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="73f770c7-cac6-40ba-b4c9-69d02c33eab2">
+						<Properties>
+							<Name>ДоговорЗайма</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ДоговорЗаймаСотруднику</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="cf47fdd1-1268-46ec-acfd-c9a154480269">
+						<Properties>
+							<Name>ПогашениеЗайма</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="cef75c3c-a504-419a-8155-3e4196034785">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтпускПоУходуЗаРебенком.Взносы" category="TabularSection">
+						<xr:TypeId>edb0a658-af7e-449d-82c7-1094dd3f5d75</xr:TypeId>
+						<xr:ValueId>c6162785-e58d-4b2e-9bd0-a9bcda5a60b8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтпускПоУходуЗаРебенком.Взносы" category="TabularSectionRow">
+						<xr:TypeId>64b823d6-535d-4fc8-b4f8-ff444f8635dc</xr:TypeId>
+						<xr:ValueId>e6a7edbd-de46-4a87-8d7b-f31d66a0bd0b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Взносы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="7c660c61-5346-4567-8608-37573e5da86b">
+						<Properties>
+							<Name>ПФРНакопительнаяЕНВД</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="74783494-2b18-4386-8bba-b893d6026af8">
+						<Properties>
+							<Name>ПФРЗаЗанятыхНаПодземныхИВредныхРаботахВредный1</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f11302d0-98f7-4268-9cc5-105af113d3bc">
+						<Properties>
+							<Name>ТФОМС</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a5f46963-7992-40c2-ae90-073c68d99f04">
+						<Properties>
+							<Name>ПФРЗаЗанятыхНаПодземныхИВредныхРаботахВредный2</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8d6c4ab0-3f15-42ce-866b-d981ab35a5f7">
+						<Properties>
+							<Name>ПФРНакопительная</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6ff8e93b-5dbe-4aa6-886a-57bb05988f81">
+						<Properties>
+							<Name>ПФРЗаЗанятыхНаПодземныхИВредныхРаботахВредный3</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9e06282a-616c-43d6-94eb-523613dde32b">
+						<Properties>
+							<Name>ПФРЗаЗанятыхНаТяжелыхИПрочихРаботах</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="49b6008f-907a-4842-8f05-a6602e00e881">
+						<Properties>
+							<Name>ПФРЗаЗанятыхНаТяжелыхИПрочихРаботахВредный4</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c0d6ea03-c3d1-410c-b6ef-0dd92646de43">
+						<Properties>
+							<Name>ПФРЗаЗанятыхНаПодземныхИВредныхРаботахОпасный</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9a1418d4-3034-4753-8109-340571d6812f">
+						<Properties>
+							<Name>ТФОМСЕНВД</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="37a4563a-ff14-4987-8f7e-22725aef77b2">
+						<Properties>
+							<Name>ФССЕНВД</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3086b9c6-3a78-42b2-b55f-489ea384b1ba">
+						<Properties>
+							<Name>ПФРПоСуммарномуТарифуЕНВД</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1120983a-684f-49bb-99de-7795de606d0a">
+						<Properties>
+							<Name>ПФРНаДоплатуШахтерам</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0f8b0762-d8c3-423c-8d39-b6d77778fcb6">
+						<Properties>
+							<Name>ФФОМС</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="da736496-8b96-4428-a8c4-105f79e45c53">
+						<Properties>
+							<Name>ФССНесчастныеСлучаи</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bbd2d8bc-0b64-4dbb-a735-cfc8bda3e745">
+						<Properties>
+							<Name>ПФРЗаЗанятыхНаТяжелыхИПрочихРаботахОпасный</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5c4bde15-0e39-47c6-8c80-ad7af5b24f98">
+						<Properties>
+							<Name>ПФРПоСуммарномуТарифу</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e85e38ca-fc94-4104-af52-4e6e215d75d9">
+						<Properties>
+							<Name>ФСС</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="476816cf-6287-4267-84aa-c384709513de">
+						<Properties>
+							<Name>ПФРЗаЗанятыхНаТяжелыхИПрочихРаботахВредный1</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8918357f-cab7-4c25-9089-25274f0a60a3">
+						<Properties>
+							<Name>ПФРЗаЗанятыхНаТяжелыхИПрочихРаботахВредный2</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4ece955b-53fc-4036-bc67-2d7cc66a24a9">
+						<Properties>
+							<Name>ФФОМСЕНВД</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4eb04212-a02b-46cb-b869-647d2a0988ed">
+						<Properties>
+							<Name>ПФРЗаЗанятыхНаТяжелыхИПрочихРаботахВредный3</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c4eb976a-bc9e-4704-a3e1-318b86c112dd">
+						<Properties>
+							<Name>ПФРЗаЗанятыхНаПодземныхИВредныхРаботахВредный4</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a490d2fe-27e6-4b3c-94a6-f2618d8950b0">
+						<Properties>
+							<Name>ПФРСтраховая</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="20243b2a-3526-4f2a-a988-79066d5678b8">
+						<Properties>
+							<Name>ПФРСтраховаяЕНВД</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4a031da4-8a02-4779-af84-bf14d46f00d6">
+						<Properties>
+							<Name>ПФРЗаЗанятыхНаПодземныхИВредныхРаботах</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6e5e5d6c-c4dd-45c9-8110-4c580cca917a">
+						<Properties>
+							<Name>ПФРНаДоплатуЛетчикам</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="f54536a0-b91f-4c61-be94-1ff1a65bc1fc">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтпускПоУходуЗаРебенком.ОплатаТруда" category="TabularSection">
+						<xr:TypeId>d140d4d4-0ca1-4bf5-bf2f-89b0152b4cc4</xr:TypeId>
+						<xr:ValueId>f13c7081-a2cf-47e3-b5e0-2ee764f3ca98</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтпускПоУходуЗаРебенком.ОплатаТруда" category="TabularSectionRow">
+						<xr:TypeId>078f5818-eea5-414e-963b-faf5df45e9d6</xr:TypeId>
+						<xr:ValueId>e1b8445d-3b9a-4839-a4ac-c288ca57f188</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОплатаТруда</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="57b24ef1-c5a4-4e5f-9218-be22423afbfb">
+						<Properties>
+							<Name>Начисление</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f251fbb0-87c4-4cc7-ab5f-1ca71056c928">
+						<Properties>
+							<Name>ДатаОкончания</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8e535003-e07a-4ab1-87da-4fb1859a1833">
+						<Properties>
+							<Name>Подразделение</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ae094396-51ca-42fe-b0b7-2caaeba80052">
+						<Properties>
+							<Name>Сотрудник</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="34e29897-9c06-45d8-8fa0-e9e53190ad9c">
+						<Properties>
+							<Name>Результат</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>13</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bdfb66e6-39df-4d82-a679-860403e0f934">
+						<Properties>
+							<Name>ДатаНачала</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="8497d825-bf79-4852-9936-7c345866cbd2">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтпускПоУходуЗаРебенком.Начисления" category="TabularSection">
+						<xr:TypeId>f19c73ed-29a1-4621-9013-c11b335b3f6f</xr:TypeId>
+						<xr:ValueId>7604f5b8-b8e0-4cc7-a63a-00ec5a73c3d1</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтпускПоУходуЗаРебенком.Начисления" category="TabularSectionRow">
+						<xr:TypeId>02a4bee0-edc0-4210-be24-7c42f31c6ad6</xr:TypeId>
+						<xr:ValueId>d0a1e6ef-d561-44de-b913-930354a18a03</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Начисления</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="97283b3c-41a4-44f5-a2f0-ab0ffc618a48">
+						<Properties>
+							<Name>Размер</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="13921c7d-4e4e-40a4-88d5-8ec3cb200e2e">
+						<Properties>
+							<Name>Начисление</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="493b35b8-54e9-4a23-b8e7-105ce4ed87ca">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтпускПоУходуЗаРебенком.Льготы" category="TabularSection">
+						<xr:TypeId>ff152bca-7e63-4127-8592-636c50d634eb</xr:TypeId>
+						<xr:ValueId>30c1f126-1ad8-40ea-b654-385ba7245a81</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтпускПоУходуЗаРебенком.Льготы" category="TabularSectionRow">
+						<xr:TypeId>4fe5ad11-2144-4341-9248-6c8505279402</xr:TypeId>
+						<xr:ValueId>67e00c16-fdcc-45d4-b685-d256e66108ce</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Льготы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="c7bbf9c9-2afd-485f-a4c7-70a5b60495fa">
+						<Properties>
+							<Name>Льгота</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8fe4ee7f-e54c-47b8-953f-4fa234f46e28">
+						<Properties>
+							<Name>Размер</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="7d5a9411-e4c8-4262-a655-1c9f6f3f915f">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтпускПоУходуЗаРебенком.ПересчетТарифныхСтавок" category="TabularSection">
+						<xr:TypeId>fc0b1150-a2f2-4f76-992a-0da25a1fe07c</xr:TypeId>
+						<xr:ValueId>20e3330d-29e5-4fbd-a000-83c19278cd98</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтпускПоУходуЗаРебенком.ПересчетТарифныхСтавок" category="TabularSectionRow">
+						<xr:TypeId>a44eb1f6-0709-4baa-97eb-a418932940da</xr:TypeId>
+						<xr:ValueId>99b2d86d-3eb5-4fc3-9d04-c1ddfc443228</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ПересчетТарифныхСтавок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="c572a159-8f8e-4df5-bddf-4dd7f50f89e6">
+						<Properties>
+							<Name>ПорядокРасчетаСтоимостиЕдиницыВремени</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="eba29ba8-df3b-40d1-b7ff-8de39a781e2c">
+						<Properties>
+							<Name>СовокупнаяТарифнаяСтавка</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4dd78e8b-bba6-40b5-8502-852fe1b7b307">
+						<Properties>
+							<Name>ВидТарифнойСтавки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.ВидыТарифныхСтавок</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="5368d34b-6dfd-4b6c-a96f-c70bc955593e">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтпускПоУходуЗаРебенком.НДФЛ" category="TabularSection">
+						<xr:TypeId>ce5f5635-7fc5-42a6-993f-5f4152e5408b</xr:TypeId>
+						<xr:ValueId>1045f866-d4af-4541-af87-99658d1f58c8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтпускПоУходуЗаРебенком.НДФЛ" category="TabularSectionRow">
+						<xr:TypeId>2163a925-b301-44c6-bc9f-49fba4509d0d</xr:TypeId>
+						<xr:ValueId>eb325f13-1195-4920-a503-55a7b078ee4f</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>НДФЛ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="ca3efaea-a5b0-4a54-9be1-045317da424e">
+						<Properties>
+							<Name>ЗачтеноАвансовыхПлатежей</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4d72c263-dbd0-49e6-832e-b0b482fff5dd">
+						<Properties>
+							<Name>Подразделение</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ТерриторииВыполненияРаботВОрганизации</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2c4bc804-2825-4990-b41d-471e09a496b2">
+						<Properties>
+							<Name>Налог</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e4f7a50b-e350-4a52-875b-0f1a439ead97">
+						<Properties>
+							<Name>НалогКЗачетуВозврату</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="913b4973-3e13-43b0-95a8-e8440e9f6c3a">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтпускПоУходуЗаРебенком.Показатели" category="TabularSection">
+						<xr:TypeId>342f3203-2b77-46e4-9989-abc7c501e622</xr:TypeId>
+						<xr:ValueId>1e66efff-ea4b-4de3-abd6-47ae0f58d6d1</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтпускПоУходуЗаРебенком.Показатели" category="TabularSectionRow">
+						<xr:TypeId>11334119-1a3c-4063-92ca-9f5448aa9c15</xr:TypeId>
+						<xr:ValueId>cde6c6b1-ef64-45d7-8835-5da06257c691</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Показатели</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="af340cf9-77b9-4759-b954-9098edd5c465">
+						<Properties>
+							<Name>Показатель</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПоказателиРасчетаЗарплаты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="44ac498e-1024-441d-bd11-4052d06b6563">
+						<Properties>
+							<Name>Значение</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ЗначениеПоказателяРасчетаЗарплаты</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="be2637d8-2102-42b5-9638-a1999c5a76ea">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтпускПоУходуЗаРебенком.ОплатаЛьгот" category="TabularSection">
+						<xr:TypeId>44269126-90c8-4a68-b4b5-02073827f8c8</xr:TypeId>
+						<xr:ValueId>675fe550-4c06-461b-a53e-f6abf2f52e01</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтпускПоУходуЗаРебенком.ОплатаЛьгот" category="TabularSectionRow">
+						<xr:TypeId>dc41aaf5-9059-4d2e-a80e-84b50ba9e781</xr:TypeId>
+						<xr:ValueId>4e81b249-b265-4744-9857-55aa2c339914</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОплатаЛьгот</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="bc921e33-fbc7-4724-b413-01cd957d6961">
+						<Properties>
+							<Name>ДатаОкончания</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4ebebd4c-a00f-4066-8620-6e1dbeb8aa64">
+						<Properties>
+							<Name>Начисление</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d1b735e5-d344-4425-a469-d0c4158d76ee">
+						<Properties>
+							<Name>Сотрудник</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4ce9860e-79d9-481f-ab79-2a33bd0083f9">
+						<Properties>
+							<Name>ДатаНачала</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f7f292b9-4b36-470e-851c-e4e7a18ccc8a">
+						<Properties>
+							<Name>Подразделение</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9f3adb41-338e-4c14-a812-d0cf1dc2d376">
+						<Properties>
+							<Name>Результат</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>13</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

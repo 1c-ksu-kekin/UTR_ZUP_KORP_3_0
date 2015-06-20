@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.38</Version>
+			<Version>3.0.22.182.39</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -137,6 +137,7 @@
 			<FunctionalOption>ПрименятьСевернуюНадбавку</FunctionalOption>
 			<FunctionalOption>РаботаВБюджетномУчреждении</FunctionalOption>
 			<FunctionalOption>РаботаВХозрасчетнойОрганизации</FunctionalOption>
+			<FunctionalOption>ВыбиратьВидНачисленияДоплатыЗаДниБолезни</FunctionalOption>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<DefinedType>ТерриторииВыполненияРаботВОрганизации</DefinedType>
 			<DefinedType>Респондент</DefinedType>
@@ -446,6 +447,7 @@
 			<Enum>ТипыФайловСохраненияПечатныхФормОбъектов</Enum>
 			<Enum>ФорматыФайловОбменаПоЗарплатномуПроекту</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
+			<Enum>ВидыПодтверждающихДокументовОтпускаПоУходу</Enum>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
 			<DataProcessor>ПодготовкаКвартальнойОтчетностиВПФР</DataProcessor>
 			<InformationRegister>БухучетЗарплатыПодразделений</InformationRegister>

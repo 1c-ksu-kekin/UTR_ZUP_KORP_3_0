@@ -367,6 +367,55 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<TabularSection uuid="4d457f6a-13fa-49d1-b416-4cf15e285243">
+				<InternalInfo>
+					<xr:GeneratedType name="ChartOfCalculationTypesTabularSection.Начисления.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>98aec46b-4f19-4955-8e4e-63bf0a9c970b</xr:TypeId>
+						<xr:ValueId>6e688a26-d7fb-4040-a3fc-a45e8855751b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="ChartOfCalculationTypesTabularSectionRow.Начисления.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>fff7cd2e-e5fb-4ff7-a3eb-832c6cb33cc0</xr:TypeId>
+						<xr:ValueId>aeaffda2-3635-4322-869c-cea786a7fd5a</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДополнительныеРеквизиты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="53883da3-09dc-4b2c-a7f1-a3b818bd19c1">
+						<Properties>
+							<Name>Свойство</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ee9d5bf6-80ff-4a6c-a276-fed5cf61fcae">
+						<Properties>
+							<Name>Значение</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.ДополнительныеРеквизитыИСведения</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fa968dac-965f-40a0-9070-d98464a7e2a9">
+						<Properties>
+							<Name>ТекстоваяСтрока</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 			<Form>ФормаВидаРасчета</Form>
 		</ChildObjects>
 	</ChartOfCalculationTypes>

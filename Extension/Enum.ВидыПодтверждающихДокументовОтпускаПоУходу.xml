@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="26b99f21-c66c-49ba-9a96-7992a79f4b7b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыПодтверждающихДокументовОтпускаПоУходу" category="Ref">
+				<xr:TypeId>b7e9be25-7882-4f7b-978c-4f148fe19f57</xr:TypeId>
+				<xr:ValueId>19b2c607-a531-4429-b7c1-8e7f5df75664</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыПодтверждающихДокументовОтпускаПоУходу" category="Manager">
+				<xr:TypeId>3467f06c-4359-45fd-bee6-92acfbe18551</xr:TypeId>
+				<xr:ValueId>a4fcf183-807f-49f3-a4fe-b9a353f830b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыПодтверждающихДокументовОтпускаПоУходу" category="List">
+				<xr:TypeId>e751fe7d-2f56-4f35-b920-44abb58c15ae</xr:TypeId>
+				<xr:ValueId>8514b2d5-34e7-4200-8cd5-e412e1f46763</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыПодтверждающихДокументовОтпускаПоУходу</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -72,6 +72,15 @@
 					</Type>
 				</Properties>
 			</Resource>
+			<Resource uuid="75aee29b-104c-472e-8c26-2da38544b5d7">
+				<Properties>
+					<Name>ВыбиратьВидНачисленияДоплатыЗаДниБолезни</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>
