@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.30</Version>
+			<Version>3.0.22.182.31</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -118,6 +118,7 @@
 			<FunctionalOption>ПрименятьСевернуюНадбавку</FunctionalOption>
 			<FunctionalOption>РаботаВБюджетномУчреждении</FunctionalOption>
 			<FunctionalOption>ИспользоватьУчетКлассныхЧинов</FunctionalOption>
+			<FunctionalOption>ИспользоватьИндивидуальныйГрафикПриСменеГрафикаРаботы</FunctionalOption>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<DefinedType>ТерриторииВыполненияРаботВОрганизации</DefinedType>
 			<CommonCommand>ПрисоединенныеФайлы</CommonCommand>
@@ -236,6 +237,7 @@
 			<Enum>ВидыДоговоровССотрудниками</Enum>
 			<Enum>ВидыЗастрахованныхЛицОбязательногоСтрахования</Enum>
 			<Enum>ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</Enum>
+			<Enum>ВидыСтажаПФР2014</Enum>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
 			<DataProcessor>ПодготовкаКвартальнойОтчетностиВПФР</DataProcessor>
 			<InformationRegister>БухучетЗарплатыПодразделений</InformationRegister>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="dc6f896f-8b8d-4635-ae1c-e87416b33e71">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыСтажаПФР2014" category="Ref">
+				<xr:TypeId>1accc896-5db7-4f5b-b98e-7e507b808203</xr:TypeId>
+				<xr:ValueId>a9db74a8-347e-44d2-89a8-d749836e0c3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыСтажаПФР2014" category="Manager">
+				<xr:TypeId>8b5fd769-8561-4ec6-87c5-4447fc973519</xr:TypeId>
+				<xr:ValueId>2efc4881-5ad9-440f-b5ee-2e89827baa28</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыСтажаПФР2014" category="List">
+				<xr:TypeId>a70e7045-60d0-495b-bb7e-724c52c7a702</xr:TypeId>
+				<xr:ValueId>44a9ae3d-10c3-4a3b-8403-3bc637335b67</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыСтажаПФР2014</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="8a335bb3-f34c-4af7-90e3-ef02e22f0b8f">
+				<Properties>
+					<Name>МЕСЯЦ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0f27634a-b88e-4bab-bcc3-3a9a8bd3983f">
+				<Properties>
+					<Name>МЕДНЕТРУД</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

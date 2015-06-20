@@ -45,6 +45,15 @@
 					</Type>
 				</Properties>
 			</Resource>
+			<Resource uuid="a58f0a7c-16e1-458a-b146-fc3f9b8c22ed">
+				<Properties>
+					<Name>ИспользоватьИндивидуальныйГрафикПриСменеГрафикаРаботы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>
