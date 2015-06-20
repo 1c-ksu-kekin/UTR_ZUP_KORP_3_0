@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="4322d245-1496-4946-b68f-757ef3d7b353">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОснованияИсчисляемогоСтраховогоСтажа" category="Object">
+				<xr:TypeId>f0ea3103-00b0-45f4-b5ea-4a259d74dc6a</xr:TypeId>
+				<xr:ValueId>6ed45924-c908-4e04-8fbe-0ce7be9c0b0f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОснованияИсчисляемогоСтраховогоСтажа" category="Ref">
+				<xr:TypeId>a7e1656b-73ab-46a6-b49d-697b36e402b4</xr:TypeId>
+				<xr:ValueId>ec08bea0-933d-4eba-a9c8-4f2476dae526</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОснованияИсчисляемогоСтраховогоСтажа" category="Selection">
+				<xr:TypeId>96c6d847-4e0f-45ea-b9a4-87e3427ac0d7</xr:TypeId>
+				<xr:ValueId>9a088b2b-e774-4662-898c-9208f4b3dee1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОснованияИсчисляемогоСтраховогоСтажа" category="List">
+				<xr:TypeId>90c5953d-e991-46c3-9623-8ab4f45ebff2</xr:TypeId>
+				<xr:ValueId>61ca8a9a-4c6b-4280-b5e1-a41ddf0c416f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОснованияИсчисляемогоСтраховогоСтажа" category="Manager">
+				<xr:TypeId>c12469a3-512f-4a78-a148-01ba009dc544</xr:TypeId>
+				<xr:ValueId>af7def3d-70b6-4103-8a2f-028bff34b759</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОснованияИсчисляемогоСтраховогоСтажа</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

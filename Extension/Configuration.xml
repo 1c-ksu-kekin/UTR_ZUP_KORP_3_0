@@ -95,7 +95,15 @@
 			<Catalog>СпособыОтраженияЗарплатыВБухУчете</Catalog>
 			<Catalog>КлассификаторСпециальностейПоОбразованию</Catalog>
 			<Catalog>СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения</Catalog>
+			<Catalog>ОснованияИсчисляемогоСтраховогоСтажа</Catalog>
+			<Catalog>ПараметрыИсчисляемогоСтраховогоСтажа</Catalog>
 			<Document>ИзменениеШтатногоРасписания</Document>
+			<Document>ПачкаДокументовСПВ_1</Document>
+			<Document>ПачкаДокументовСЗВ_6_1</Document>
+			<Document>РеестрСЗВ_6_2</Document>
+			<Document>ПачкаДокументовСЗВ_6_4</Document>
+			<Document>ПачкаДокументовСПВ_2</Document>
+			<Document>ПачкаДокументовСЗВ_6_3</Document>
 			<Enum>СпособыРасчетаОтпуска</Enum>
 			<Enum>КатегорииСтажа</Enum>
 			<Enum>ДействияСПозициямиШтатногоРасписания</Enum>
@@ -104,6 +112,8 @@
 			<Enum>ВидыРаботСДосрочнойПенсией</Enum>
 			<Enum>КлассыУсловийТрудаПоРезультатамСпециальнойОценки</Enum>
 			<Enum>ОтношениеКЕНВДЗатратНаЗарплату</Enum>
+			<Enum>ТипыСведенийСЗВ</Enum>
+			<DataProcessor>ПодготовкаКвартальнойОтчетностиВПФР</DataProcessor>
 			<InformationRegister>ЮТ_СтатьиКД</InformationRegister>
 			<InformationRegister>НастройкиШтатногоРасписания</InformationRegister>
 			<InformationRegister>НастройкиУчетаСтраховыхВзносов</InformationRegister>

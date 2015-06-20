@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="3552f983-75c6-4a7d-b848-c81e4886cb91">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПачкаДокументовСПВ_1" category="Object">
+				<xr:TypeId>c5b3b884-918c-4954-b5eb-1e6e1f46603c</xr:TypeId>
+				<xr:ValueId>8c300693-d69d-4da0-962b-2ee61348fcda</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПачкаДокументовСПВ_1" category="Ref">
+				<xr:TypeId>b87d26c5-e495-43e5-b73b-cdf064bb2b7a</xr:TypeId>
+				<xr:ValueId>5462b075-8507-434b-af91-d85b41e4061f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПачкаДокументовСПВ_1" category="Selection">
+				<xr:TypeId>ce31afe4-3aad-4bb8-ac58-6b0106e4f30b</xr:TypeId>
+				<xr:ValueId>0349d7be-eae8-40d8-8ef2-b2166eda9440</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПачкаДокументовСПВ_1" category="List">
+				<xr:TypeId>3f24a6b9-7f6b-4cc6-9717-85c69a01f73a</xr:TypeId>
+				<xr:ValueId>a733ab1d-c358-4cdc-b7c5-a877b20b6fcb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПачкаДокументовСПВ_1" category="Manager">
+				<xr:TypeId>5053325d-91c0-4a43-ac6a-3cf2cae83247</xr:TypeId>
+				<xr:ValueId>d607f68b-2d1b-4f19-a0fd-f9e940d83d66</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПачкаДокументовСПВ_1</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
