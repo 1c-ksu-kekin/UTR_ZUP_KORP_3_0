@@ -101,12 +101,12 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="4e87669b-c96e-419e-b510-cfb1ae9b03b2">
+			<Attribute uuid="f879eb38-a26c-4341-b0ad-65196a6508ab">
 				<Properties>
-					<Name>ЮТР_КатегорияСтажа</Name>
+					<Name>ЮТР_ЗависимостьДнейОтСтажа</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
-						<v8:Type>cfg:EnumRef.КатегорииСтажа</v8:Type>
+						<v8:Type>cfg:CatalogRef.ПоказателиРасчетаЗарплаты</v8:Type>
 					</Type>
 				</Properties>
 			</Attribute>
