@@ -4,7 +4,6 @@
 		<Properties>
 			<Name>ЮТР_ТестовыйРасчетПоВедомости</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Group>NavigationPanelOrdinary</Group>
 		</Properties>
 	</CommonCommand>
 </MetaDataObject>

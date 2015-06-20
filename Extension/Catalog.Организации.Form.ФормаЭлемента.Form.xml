@@ -1218,11 +1218,11 @@
 													<Group>Horizontal</Group>
 													<ExtendedTooltip name="ЮТР_АвансРазмерГруппаСтраницаРасчетомЗаПервуюПоловинуМесяцаРасширеннаяПодсказка" id="552"/>
 													<ChildItems>
-														<LabelField name="ЮТР_АвансРазмерГруппаСтраницаРасчетомЗаПервуюПоловинуМесяцаРазмерность" id="553">
+														<LabelField name="АвансРазмерность" id="553">
 															<DataPath>АвансРазмерность</DataPath>
 															<TitleLocation>None</TitleLocation>
-															<ContextMenu name="ЮТР_АвансРазмерГруппаСтраницаРасчетомЗаПервуюПоловинуМесяцаРазмерностьКонтекстноеМеню" id="554"/>
-															<ExtendedTooltip name="ЮТР_АвансРазмерГруппаСтраницаРасчетомЗаПервуюПоловинуМесяцаРазмерностьРасширеннаяПодсказка" id="555"/>
+															<ContextMenu name="АвансРазмерностьКонтекстноеМеню" id="554"/>
+															<ExtendedTooltip name="АвансРазмерностьРасширеннаяПодсказка" id="555"/>
 														</LabelField>
 													</ChildItems>
 												</Page>
@@ -1833,18 +1833,23 @@
 							<Parameter xsi:nil="true"/>
 							<ExtendedTooltip name="УчетнаяПолитикаРасширеннаяПодсказка" id="319"/>
 						</Button>
-						<Button name="НастройкиРасчетаРезервовОтпусков" id="526">
-							<Type>Hyperlink</Type>
-							<CommandName>Form.Command.НастройкиРасчетаРезервовОтпусков</CommandName>
-							<Parameter xsi:nil="true"/>
+						<UsualGroup name="ГруппаНастройкиРасчетаРезервовОтпусков" id="556">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Оценочные обязательства (резервы) отпусков</v8:content>
+									<v8:content>Группа настройки расчета резервов отпусков</v8:content>
 								</v8:item>
 							</Title>
-							<ExtendedTooltip name="НастройкиРасчетаРезервовОтпусковРасширеннаяПодсказка" id="527"/>
-						</Button>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройки расчета резервов отпусков</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкиРасчетаРезервовОтпусковРасширеннаяПодсказка" id="558"/>
+						</UsualGroup>
 						<Button name="БухучетЗарплаты" id="316">
 							<Type>Hyperlink</Type>
 							<CommandName>Form.Command.БухучетИВыплатаЗарплаты</CommandName>
@@ -2711,23 +2716,6 @@
 			</Title>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
-			</FunctionalOptions>
-		</Command>
-		<Command name="НастройкиРасчетаРезервовОтпусков" id="13">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Настройки расчета резервов отпусков</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Настройки расчета резервов отпусков</v8:content>
-				</v8:item>
-			</ToolTip>
-			<FunctionalOptions>
-				<Item>FunctionalOption.РаботаВХозрасчетнойОрганизации</Item>
 			</FunctionalOptions>
 		</Command>
 	</Commands>
@@ -4447,18 +4435,23 @@
 								<Parameter xsi:nil="true"/>
 								<ExtendedTooltip name="УчетнаяПолитикаРасширеннаяПодсказка" id="319"/>
 							</Button>
-							<Button name="НастройкиРасчетаРезервовОтпусков" id="526">
-								<Type>Hyperlink</Type>
-								<CommandName>Form.Command.НастройкиРасчетаРезервовОтпусков</CommandName>
-								<Parameter xsi:nil="true"/>
+							<UsualGroup name="ГруппаНастройкиРасчетаРезервовОтпусков" id="528">
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Оценочные обязательства (резервы) отпусков</v8:content>
+										<v8:content>Группа настройки расчета резервов отпусков</v8:content>
 									</v8:item>
 								</Title>
-								<ExtendedTooltip name="НастройкиРасчетаРезервовОтпусковРасширеннаяПодсказка" id="527"/>
-							</Button>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа настройки расчета резервов отпусков</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаНастройкиРасчетаРезервовОтпусковРасширеннаяПодсказка" id="529"/>
+							</UsualGroup>
 							<Button name="БухучетЗарплаты" id="316">
 								<Type>Hyperlink</Type>
 								<CommandName>Form.Command.БухучетИВыплатаЗарплаты</CommandName>
@@ -5118,30 +5111,6 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="АвансРазмерность" id="48">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Аванс размерность</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:string</v8:Type>
-					<v8:StringQualifiers>
-						<v8:Length>4</v8:Length>
-						<v8:AllowedLength>Variable</v8:AllowedLength>
-					</v8:StringQualifiers>
-				</Type>
-				<View>
-					<xr:Common>false</xr:Common>
-				</View>
-				<Edit>
-					<xr:Common>false</xr:Common>
-				</Edit>
-				<FunctionalOptions>
-					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
-				</FunctionalOptions>
-			</Attribute>
 		</Attributes>
 		<Commands>
 			<Command name="ИсторияРегистрацийВОрганеПФРИстория" id="1">
@@ -5325,23 +5294,6 @@
 				</Title>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
-				</FunctionalOptions>
-			</Command>
-			<Command name="НастройкиРасчетаРезервовОтпусков" id="13">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Настройки расчета резервов отпусков</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Настройки расчета резервов отпусков</v8:content>
-					</v8:item>
-				</ToolTip>
-				<FunctionalOptions>
-					<Item>FunctionalOption.РаботаВХозрасчетнойОрганизации</Item>
 				</FunctionalOptions>
 			</Command>
 		</Commands>
