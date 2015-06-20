@@ -26,9 +26,701 @@
 		<Properties>
 			<Name>ПриемНаРаботу</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="d7db98e5-2373-459e-b645-505a56244d7e">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="11498547-d3b3-4f60-ac69-fe6f02646dbe">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ad4c195d-35c4-4253-9079-d526756ad96b">
+				<Properties>
+					<Name>ДатаЗавершенияТрудовогоДоговора</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fb715346-04c9-494b-b459-aa80f13459e7">
+				<Properties>
+					<Name>ОснованиеСрочногоДоговора</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОснованияЗаключенияСрочныхТрудовыхДоговоров</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a51a0eab-aafc-433a-8f19-e6df191dc994">
+				<Properties>
+					<Name>ЮТР_ДолжностьРуководителяТД</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a4533e88-80ee-4b83-be07-f74edef049af">
+				<Properties>
+					<Name>СрокЗаключенияДоговора</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f16374d5-98e5-448b-b540-63dfae8715a3">
+				<Properties>
+					<Name>СпособОтраженияЗарплатыВБухучете</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СпособыОтраженияЗарплатыВБухУчете</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7ed9400c-78f6-4053-a4ba-968abef6d2b1">
+				<Properties>
+					<Name>ВидТарифнойСтавки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыТарифныхСтавок</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="691de241-0055-4e44-a2d5-d26217ba12e8">
+				<Properties>
+					<Name>ОтношениеКЕНВД</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ОтношениеКЕНВДЗатратНаЗарплату</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f13189c1-1998-4b8d-a937-8c8eb4aa931d">
+				<Properties>
+					<Name>СрочныйДоговор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f2bd6df7-617d-4574-8443-f655b192b9b1">
+				<Properties>
+					<Name>ОснованиеПредставителяНанимателя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="aed4930e-6731-4597-99cc-1106ba97c526">
+				<Properties>
+					<Name>УсловияПриема</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="00e39124-9c1b-408d-89b6-3e21bf73580d">
+				<Properties>
+					<Name>ТрудовойДоговорНомер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>11</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="17c9f927-50a9-48f1-b907-9a08c3b548e9">
+				<Properties>
+					<Name>СовокупнаяТарифнаяСтавка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="323d8a1f-b382-4573-a5aa-cff3a6f09962">
+				<Properties>
+					<Name>ВидАктаГосоргана</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="305f759a-f5d9-4dc5-af12-7a6a3f9e713a">
+				<Properties>
+					<Name>ПоступлениеНаСлужбуВпервые</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="77054d91-3339-4f7b-9fe8-6e575d8d9319">
+				<Properties>
+					<Name>ЮТР_ОснованиеПриема</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>500</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="74f3ce96-a5f1-4e1e-98fe-db74a1fc2367">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0c88d2a2-fd55-4518-8101-b0f7ec3a8e5d">
+				<Properties>
+					<Name>ДатаПриема</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a862fa29-711b-4a3e-9f91-9b98bdea77b7">
+				<Properties>
+					<Name>Руководитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0c95e4c7-2bd4-4d85-9aa6-01f55f120104">
+				<Properties>
+					<Name>РазрядКатегория</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.РазрядыКатегорииДолжностей</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b505563d-ad67-4fab-91a6-4d55828ebbe3">
+				<Properties>
+					<Name>ЮТР_ПереводомИз</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d8ea3ee6-c3c2-4d33-b36d-f0ebfff37842">
+				<Properties>
+					<Name>ЮТР_МолодойСпециалист</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6862f2d5-af34-494f-a1e1-c1bf4e94b4d7">
+				<Properties>
+					<Name>РазрешениеНаПроживание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1000</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e9c492ad-95a1-46c9-89a4-3fee5346251c">
+				<Properties>
+					<Name>ГрафикРаботы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГрафикиРаботыСотрудников</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="047e0bb6-5cce-4048-9ba3-c6464121f773">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1a8a1e39-15f7-4163-8322-8b510fd508fb">
+				<Properties>
+					<Name>ИныеУсловияДоговора</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c28513a8-52cd-49c1-a968-9d7f085e4436">
+				<Properties>
+					<Name>СпособРасчетаАванса</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыРасчетаАванса</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="953fd352-2bdc-425c-9d6f-b57bf4b017c0">
+				<Properties>
+					<Name>Аванс</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c3e771b0-0111-4e8f-9bef-79f0e9cddefd">
+				<Properties>
+					<Name>ДолжностьРуководителя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f9059b82-cd9d-4bb6-b98e-b0aadd748f2f">
+				<Properties>
+					<Name>УсловияОказанияМедпомощи</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1000</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fa687107-26f7-4f0a-ad46-c1d9f1e06fb2">
+				<Properties>
+					<Name>ЮТР_ХарактерРабот</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_ХарактерыРабот</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="21b7dbfd-cdad-4e7a-957b-7bd152d8f925">
+				<Properties>
+					<Name>РазрешениеНаРаботу</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1000</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1586f210-35e1-42e3-bdbf-6b852e480552">
+				<Properties>
+					<Name>ЮТР_ЗамещаемыйСотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d62169d4-0db4-4035-89fe-f4f7be7cb926">
+				<Properties>
+					<Name>ПорядокРасчетаСтоимостиЕдиницыВремени</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5a29e020-086f-4cb1-926c-7f657b8aba89">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="726f5027-77fe-49fd-b529-19880baa7e3a">
+				<Properties>
+					<Name>ВидДоговора</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыДоговоровССотрудниками</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="33ae9b34-fede-44d7-a02d-41243a180487">
+				<Properties>
+					<Name>ДолжностьПоШтатномуРасписанию</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШтатноеРасписание</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ecd11e2a-d894-461e-b047-3d0e6ca1a024">
+				<Properties>
+					<Name>ДлительностьИспытательногоСрока</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>4</v8:Digits>
+							<v8:FractionDigits>1</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9e157e21-4018-4436-88dd-ae2d9f315ac0">
+				<Properties>
+					<Name>Должность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="aeb4656c-c782-4ea6-b3b5-4258d82a4d41">
+				<Properties>
+					<Name>СтатьяФинансирования</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтатьиФинансированияЗарплата</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5fdeea2e-a45a-420a-a602-b8d240105bca">
+				<Properties>
+					<Name>ЮТР_РуководительТД</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="77e20296-63e8-4628-bb94-a8f815aaa5bc">
+				<Properties>
+					<Name>Территория</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ТерриторииВыполненияРабот</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="256fdc08-52da-4464-bf43-0ce4dd7d8ee5">
+				<Properties>
+					<Name>ЮТР_РежимРабочегоВремени</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_РежимыРабочегоВремени</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="187a2126-f29c-4570-b540-c733bbe761fa">
+				<Properties>
+					<Name>СпособПоступленияНаСлужбу</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8b50015d-03ed-4875-beea-5ab9a6e0bcfc">
+				<Properties>
+					<Name>БронированиеПозиции</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3dbae1a1-6257-412c-b3c8-dac16e1bd701">
+				<Properties>
+					<Name>ТрудовойДоговорДата</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9b609c60-dd82-4e99-94f4-4945ead3e0a9">
+				<Properties>
+					<Name>КоличествоСтавок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>4</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4cbd36bc-6a83-49e0-afdb-ede79e339f5a">
+				<Properties>
+					<Name>ЮТР_ИндивидуальнаяСистемаОплатыТруда</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2c2af651-44f0-4a15-a456-9d743c6f20d9">
+				<Properties>
+					<Name>ВидЗанятости</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыЗанятости</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b0386a98-5055-4dc9-8a4b-ddde8438e1d0">
+				<Properties>
+					<Name>ОборудованиеРабочегоМеста</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="070f4f6b-030e-477e-a3d6-31affc78f28a">
+				<Properties>
+					<Name>ЮТР_Наставник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1c6e1143-52dc-4636-90b9-aed28a715ce7">
+				<Properties>
+					<Name>ЮТР_ДатаЗаявленияСотрудника</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5148be00-3ea6-42c7-8adb-badbf24f6475">
+				<Properties>
+					<Name>ЮТР_ПредоставлятьАвтотранспорт</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаРедактированияПравНаОтпуск</Form>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="d523e1bd-9be3-40b2-ab0c-5ed0af63abe3">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПриемНаРаботу.Показатели" category="TabularSection">
+						<xr:TypeId>c716b7b2-90d0-4105-84c8-180f8145ff58</xr:TypeId>
+						<xr:ValueId>5323c1b4-ad49-447d-a3f4-b45b44076080</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПриемНаРаботу.Показатели" category="TabularSectionRow">
+						<xr:TypeId>f450d09c-41ea-4f64-9bfc-e39d74204667</xr:TypeId>
+						<xr:ValueId>660ac16c-daa3-42d0-a542-2c92341ef592</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Показатели</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="e5206541-25f5-42c4-8175-eeab0977b61f">
+						<Properties>
+							<Name>Значение</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ЗначениеПоказателяРасчетаЗарплаты</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="635caef4-e762-4e67-a22e-0d9fd4201142">
+						<Properties>
+							<Name>Показатель</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПоказателиРасчетаЗарплаты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="89d53bc0-d91a-41e2-a55e-38c024068473">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПриемНаРаботу.Начисления" category="TabularSection">
+						<xr:TypeId>fc854564-c242-444c-bb6d-517917556776</xr:TypeId>
+						<xr:ValueId>967320dc-4b0b-4be7-a702-a8f3ad5273ca</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПриемНаРаботу.Начисления" category="TabularSectionRow">
+						<xr:TypeId>7b53c358-0036-4bd3-881e-e5d10c721aa2</xr:TypeId>
+						<xr:ValueId>d3f17c64-1896-419f-9851-ac4d6b65b4d9</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Начисления</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="af2c83f4-35cd-42d5-804f-44b0d91341b6">
+						<Properties>
+							<Name>Размер</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="adf78306-eba2-4e5f-92cb-cc7b9e9992df">
+						<Properties>
+							<Name>Начисление</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="b6edec26-c55a-4775-ac1e-cd2723e0fd00">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПриемНаРаботу.Льготы" category="TabularSection">
+						<xr:TypeId>71da18fb-0eb8-47a6-bb5e-12ac18a961bc</xr:TypeId>
+						<xr:ValueId>c140a469-e51a-453c-bae2-014371edde2c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПриемНаРаботу.Льготы" category="TabularSectionRow">
+						<xr:TypeId>0ddae11d-7cec-48b1-aa9d-0910a9b12c95</xr:TypeId>
+						<xr:ValueId>46b66b3a-e516-409d-ba3d-6338f339b61c</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Льготы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="e6343bb7-1e35-426d-9cec-bca06da1487d">
+						<Properties>
+							<Name>Размер</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2d5ef223-fc92-4860-864b-29805073213a">
+						<Properties>
+							<Name>Льгота</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="028b3b7e-a509-4a57-b535-eb45553cc329">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыЗастрахованныхЛицОбязательногоСтрахования" category="Ref">
+				<xr:TypeId>a32da5ae-e9bd-47b3-a3b2-fa010a525357</xr:TypeId>
+				<xr:ValueId>8dc0dcd5-ca82-42ae-a65a-83cfceba9d9c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыЗастрахованныхЛицОбязательногоСтрахования" category="Manager">
+				<xr:TypeId>99d3554b-6b15-40b5-9ace-d006f87c5fdf</xr:TypeId>
+				<xr:ValueId>6a5f696a-131f-404a-affe-e3e8e4da822b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыЗастрахованныхЛицОбязательногоСтрахования" category="List">
+				<xr:TypeId>e16686f5-d1aa-47bb-9950-ba2d7055fb76</xr:TypeId>
+				<xr:ValueId>e3b9323a-8b59-4052-85d4-0803b6474439</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыЗастрахованныхЛицОбязательногоСтрахования</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

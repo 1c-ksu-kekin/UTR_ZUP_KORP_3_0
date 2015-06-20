@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.27</Version>
+			<Version>3.0.22.182.28</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -117,6 +117,7 @@
 			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТрудаРасширенная</FunctionalOption>
 			<FunctionalOption>ПрименятьСевернуюНадбавку</FunctionalOption>
 			<FunctionalOption>РаботаВБюджетномУчреждении</FunctionalOption>
+			<FunctionalOption>ИспользоватьУчетКлассныхЧинов</FunctionalOption>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<DefinedType>ТерриторииВыполненияРаботВОрганизации</DefinedType>
 			<CommonCommand>ПрисоединенныеФайлы</CommonCommand>
@@ -136,6 +137,7 @@
 			<Constant>ИспользоватьЭлектроннуюПочту1СДокументооборота</Constant>
 			<Constant>ИспользоватьЭлектронныеПодписи</Constant>
 			<Constant>РаботаВБюджетномУчреждении</Constant>
+			<Constant>ИспользоватьУчетКлассныхЧинов</Constant>
 			<Catalog>ВидыДокументовОбОбразовании</Catalog>
 			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
 			<Catalog>ВидыОбразованияФизическихЛиц</Catalog>
@@ -184,6 +186,7 @@
 			<Catalog>ЮТР_ТипыВоздушныхСудов</Catalog>
 			<Catalog>ЮТР_ХарактерыРабот</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
+			<Catalog>ОснованияЗаключенияСрочныхТрудовыхДоговоров</Catalog>
 			<Document>ВводНачальныхОстатковОтпусков</Document>
 			<Document>ВходящаяСправкаОЗаработкеДляРасчетаПособий</Document>
 			<Document>ДоговорЗаймаСотруднику</Document>
@@ -230,6 +233,9 @@
 			<Enum>ТипыФайловСохраненияПечатныхФормОбъектов</Enum>
 			<Enum>ВариантыПравилЗаполненияРеквизитов</Enum>
 			<Enum>СпособыРасчетаАванса</Enum>
+			<Enum>ВидыДоговоровССотрудниками</Enum>
+			<Enum>ВидыЗастрахованныхЛицОбязательногоСтрахования</Enum>
+			<Enum>ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</Enum>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
 			<DataProcessor>ПодготовкаКвартальнойОтчетностиВПФР</DataProcessor>
 			<InformationRegister>БухучетЗарплатыПодразделений</InformationRegister>

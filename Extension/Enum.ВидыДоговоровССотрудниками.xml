@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="cbb86572-215a-42fe-9d9d-13b73dab588b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДоговоровССотрудниками" category="Ref">
+				<xr:TypeId>4d2985e3-9bbb-4633-b28c-505d5dcb9365</xr:TypeId>
+				<xr:ValueId>22600e6b-054e-48f1-9c64-aaef64db4596</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДоговоровССотрудниками" category="Manager">
+				<xr:TypeId>870e0dab-7204-4940-89e8-9813640c693d</xr:TypeId>
+				<xr:ValueId>53483c5f-70a6-4b22-8f21-8fbf84cb317e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДоговоровССотрудниками" category="List">
+				<xr:TypeId>023ef621-806c-49c7-a07f-c964b842e44f</xr:TypeId>
+				<xr:ValueId>f0583b27-cf24-4b5a-94f7-3d9f377709b9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыДоговоровССотрудниками</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>
