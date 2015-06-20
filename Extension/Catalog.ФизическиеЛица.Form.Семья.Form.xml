@@ -36,6 +36,9 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ЮТР_ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ОбщаяГруппа" id="35">
 			<HorizontalStretch>true</HorizontalStretch>
@@ -117,63 +120,90 @@
 					<Representation>None</Representation>
 					<ExtendedTooltip name="ГруппаФизическоеЛицоСоставСемьиExtendedTooltip" id="43"/>
 					<ChildItems>
-						<Table name="СоставыСемейФизическихЛиц" id="22">
-							<TitleLocation>Auto</TitleLocation>
+						<Table name="СоставыСемейФизическихЛиц" id="64">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
 							<EnableStartDrag>true</EnableStartDrag>
-							<EnableDrag>true</EnableDrag>
-							<DataPath>СоставыСемейФизическихЛиц</DataPath>
-							<SearchStringLocation>None</SearchStringLocation>
-							<ViewStatusLocation>None</ViewStatusLocation>
-							<SearchControlLocation>None</SearchControlLocation>
-							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="СоставыСемейФизическихЛицКонтекстноеМеню" id="23"/>
-							<AutoCommandBar name="СоставыСемейФизическихЛицКоманднаяПанель" id="24"/>
-							<ExtendedTooltip name="СоставыСемейФизическихЛицExtendedTooltip" id="44"/>
-							<SearchStringAddition name="СоставыСемейФизическихЛицСтрокаПоиска" id="52">
+							<DataPath>ЮТР_СоставыСемейФизическихЛиц</DataPath>
+							<RowPictureDataPath>ЮТР_СоставыСемейФизическихЛиц.DefaultPicture</RowPictureDataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Степень родства</v8:content>
+								</v8:item>
+							</Title>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period xsi:type="v8:StandardPeriod">
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<ContextMenu name="СоставыСемейФизическихЛицКонтекстноеМеню" id="65"/>
+							<AutoCommandBar name="СоставыСемейФизическихЛицКоманднаяПанель" id="66"/>
+							<ExtendedTooltip name="СоставыСемейФизическихЛицРасширеннаяПодсказка" id="67"/>
+							<SearchStringAddition name="СоставыСемейФизическихЛицСтрокаПоиска" id="68">
 								<Source>
-									<lf:elementId>22</lf:elementId>
+									<lf:elementId>64</lf:elementId>
 									<lf:additionId>0</lf:additionId>
 								</Source>
-								<ContextMenu name="СоставыСемейФизическихЛицСтрокаПоискаКонтекстноеМеню" id="53"/>
-								<ExtendedTooltip name="СоставыСемейФизическихЛицСтрокаПоискаРасширеннаяПодсказка" id="54"/>
+								<ContextMenu name="СоставыСемейФизическихЛицСтрокаПоискаКонтекстноеМеню" id="69"/>
+								<ExtendedTooltip name="СоставыСемейФизическихЛицСтрокаПоискаРасширеннаяПодсказка" id="70"/>
 							</SearchStringAddition>
-							<ViewStatusAddition name="СоставыСемейФизическихЛицСостояниеПросмотра" id="55">
+							<ViewStatusAddition name="СоставыСемейФизическихЛицСостояниеПросмотра" id="71">
 								<Source>
-									<lf:elementId>22</lf:elementId>
+									<lf:elementId>64</lf:elementId>
 									<lf:additionId>1</lf:additionId>
 								</Source>
-								<ContextMenu name="СоставыСемейФизическихЛицСостояниеПросмотраКонтекстноеМеню" id="56"/>
-								<ExtendedTooltip name="СоставыСемейФизическихЛицСостояниеПросмотраРасширеннаяПодсказка" id="57"/>
+								<ContextMenu name="СоставыСемейФизическихЛицСостояниеПросмотраКонтекстноеМеню" id="72"/>
+								<ExtendedTooltip name="СоставыСемейФизическихЛицСостояниеПросмотраРасширеннаяПодсказка" id="73"/>
 							</ViewStatusAddition>
-							<SearchControlAddition name="СоставыСемейФизическихЛицУправлениеПоиском" id="58">
+							<SearchControlAddition name="СоставыСемейФизическихЛицУправлениеПоиском" id="74">
 								<Source>
-									<lf:elementId>22</lf:elementId>
+									<lf:elementId>64</lf:elementId>
 									<lf:additionId>2</lf:additionId>
 								</Source>
-								<ContextMenu name="СоставыСемейФизическихЛицУправлениеПоискомКонтекстноеМеню" id="59"/>
-								<ExtendedTooltip name="СоставыСемейФизическихЛицУправлениеПоискомРасширеннаяПодсказка" id="60"/>
+								<ContextMenu name="СоставыСемейФизическихЛицУправлениеПоискомКонтекстноеМеню" id="75"/>
+								<ExtendedTooltip name="СоставыСемейФизическихЛицУправлениеПоискомРасширеннаяПодсказка" id="76"/>
 							</SearchControlAddition>
 							<ChildItems>
-								<InputField name="СоставыСемейФизическихЛицСтепеньРодства" id="29">
-									<DataPath>СоставыСемейФизическихЛиц.СтепеньРодства</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<Width>15</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="СоставыСемейФизическихЛицСтепеньРодстваКонтекстноеМеню" id="30"/>
-									<ExtendedTooltip name="СоставыСемейФизическихЛицСтепеньРодстваExtendedTooltip" id="45"/>
+								<LabelField name="Наименование" id="77">
+									<DataPath>ЮТР_СоставыСемейФизическихЛиц.Description</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ФИО</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="НаименованиеКонтекстноеМеню" id="78"/>
+									<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="79"/>
+								</LabelField>
+								<InputField name="СтепеньРодства" id="80">
+									<DataPath>ЮТР_СоставыСемейФизическихЛиц.СтепеньРодства</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Степень родства</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СтепеньРодстваКонтекстноеМеню" id="81"/>
+									<ExtendedTooltip name="СтепеньРодстваРасширеннаяПодсказка" id="82"/>
 								</InputField>
-								<InputField name="СоставыСемейФизическихЛицФИО" id="31">
-									<DataPath>СоставыСемейФизическихЛиц.ФИО</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="СоставыСемейФизическихЛицФИОКонтекстноеМеню" id="32"/>
-									<ExtendedTooltip name="СоставыСемейФизическихЛицФИОExtendedTooltip" id="46"/>
-								</InputField>
-								<InputField name="СоставыСемейФизическихЛицДатаРождения" id="33">
-									<DataPath>СоставыСемейФизическихЛиц.ДатаРождения</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="СоставыСемейФизическихЛицДатаРожденияКонтекстноеМеню" id="34"/>
-									<ExtendedTooltip name="СоставыСемейФизическихЛицДатаРожденияExtendedTooltip" id="47"/>
+								<InputField name="ДатаРождения" id="83">
+									<DataPath>ЮТР_СоставыСемейФизическихЛиц.ДатаРождения</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата рождения</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="84"/>
+									<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="85"/>
 								</InputField>
 							</ChildItems>
 						</Table>
@@ -292,6 +322,38 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+		</Attribute>
+		<Attribute name="ЮТР_СоставыСемейФизическихЛиц" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЮТР составы семей физических лиц</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.ЮТР_РодственникиФизическихЛиц</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
 		</Attribute>
 	</Attributes>
 	<Commands>

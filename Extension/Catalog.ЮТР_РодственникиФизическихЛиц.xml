@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="15564098-ed82-454c-88a6-1417dbde7270">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЮТР_РодственникиФизическихЛиц" category="Object">
+				<xr:TypeId>cfdc721f-5413-43cf-ac78-8397e2c16536</xr:TypeId>
+				<xr:ValueId>7881a650-fbfc-4990-9bcc-ccb36f69da36</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЮТР_РодственникиФизическихЛиц" category="Ref">
+				<xr:TypeId>2944a83e-bdf0-43ec-9641-6f9355366168</xr:TypeId>
+				<xr:ValueId>01d0c5a8-1a5f-47b6-aac6-f65a14c2699d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЮТР_РодственникиФизическихЛиц" category="Selection">
+				<xr:TypeId>8eb69739-a36e-44a3-917d-94850bd9ce43</xr:TypeId>
+				<xr:ValueId>d68098a2-546f-4d36-bdcc-526c3dc32724</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЮТР_РодственникиФизическихЛиц" category="List">
+				<xr:TypeId>643d6fc9-4b86-4813-9ed3-009bf5b07b57</xr:TypeId>
+				<xr:ValueId>844d8b7c-fc24-40ca-af77-a73003e00700</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЮТР_РодственникиФизическихЛиц" category="Manager">
+				<xr:TypeId>7086d246-8685-4e32-97c0-629f0443d12a</xr:TypeId>
+				<xr:ValueId>3c16a0c5-ed33-4d10-851d-67d68f4f4530</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_РодственникиФизическихЛиц</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ФизическиеЛица</xr:Item>
+			</Owners>
+			<CodeLength>0</CodeLength>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="704efddd-885a-4578-890d-dcae2da12975">
+				<Properties>
+					<Name>СтепеньРодства</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтепениРодстваФизическихЛиц</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="da37fcaf-0a30-4d60-b975-f63ce001b51d">
+				<Properties>
+					<Name>ДатаРождения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
