@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="e2896b7e-fc87-43c6-a49f-0f983fc1f480">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КатегорииСтажа" category="Ref">
+				<xr:TypeId>ce92ee9b-7577-49b7-bd1c-776a004aecb7</xr:TypeId>
+				<xr:ValueId>f12cd69f-3d64-45b8-9b35-dce08f198b8b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КатегорииСтажа" category="Manager">
+				<xr:TypeId>92184a3f-25e7-4bad-b3f9-df838552bf6b</xr:TypeId>
+				<xr:ValueId>00f0ec3e-bd51-4c74-8288-83cd50a359b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КатегорииСтажа" category="List">
+				<xr:TypeId>c987e41b-291e-47d1-a723-c2e1e3163117</xr:TypeId>
+				<xr:ValueId>06053f15-65ec-42af-93c1-93d31dc0f135</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КатегорииСтажа</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

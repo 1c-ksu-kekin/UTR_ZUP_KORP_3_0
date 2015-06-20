@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="48d459c9-4d0f-40e9-870b-a975ac7ccd38">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыРасчетаОтпуска" category="Ref">
+				<xr:TypeId>80a2c73c-a1ff-48ef-aa8d-be53c1a912f1</xr:TypeId>
+				<xr:ValueId>12bc3ba9-f3e1-4282-93b6-295af9022990</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыРасчетаОтпуска" category="Manager">
+				<xr:TypeId>d60569cf-d484-490f-868d-79cda10e27fd</xr:TypeId>
+				<xr:ValueId>1d775f18-5718-446b-bf95-e3a02b9159d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыРасчетаОтпуска" category="List">
+				<xr:TypeId>a6fa0ac0-bb38-48eb-9198-0952b7510b97</xr:TypeId>
+				<xr:ValueId>63edc6a5-7dc2-43dd-8af1-9fbbfdd15beb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыРасчетаОтпуска</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ae887e6e-c11a-4d18-b503-59d058737ee8">
+				<Properties>
+					<Name>ВКалендарныхИлиРабочихДняхВЗависимостиОтТрудовогоДоговора</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="46dcb108-baf6-4a23-8abb-8c6cf9017a85">
+				<Properties>
+					<Name>ВРабочихДнях</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ecda90be-e101-403c-b578-f01c59322ce4">
+				<Properties>
+					<Name>ВКалендарныхДнях</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="85622420-e4e7-4723-8def-cec5f67e6c51">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыОтпусков" category="Object">
+				<xr:TypeId>d6a4fd93-df3b-4be2-b8d2-85f7ba1a7dd9</xr:TypeId>
+				<xr:ValueId>040d72ca-2eb0-4c0d-ba0d-269e90b5eb0c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыОтпусков" category="Ref">
+				<xr:TypeId>43bffead-76c4-4831-a0f0-95249943254d</xr:TypeId>
+				<xr:ValueId>42dbcf52-d3c7-4fbe-ab86-b457b7d6f4fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыОтпусков" category="Selection">
+				<xr:TypeId>c4b57fc4-8cea-431b-8183-dafa3cb50763</xr:TypeId>
+				<xr:ValueId>12c505ba-1896-41ee-82ea-c93ea2295157</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыОтпусков" category="List">
+				<xr:TypeId>6e319d13-f3f7-4f9f-8bcd-362d802d16c5</xr:TypeId>
+				<xr:ValueId>a20f6de5-51e9-4eb4-94a7-26db947f406d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыОтпусков" category="Manager">
+				<xr:TypeId>7315d6b2-93f0-4c6a-ae60-bf67a53cb2a9</xr:TypeId>
+				<xr:ValueId>090dc2d8-34f5-4945-90d4-1076ff652bd4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОтпусков</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>100</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="b7c831a8-4afa-40df-a7c6-0d370f6319c4">
+				<Properties>
+					<Name>ОтпускБезОплаты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6da049f1-2883-4a44-89e1-d41803941f15">
+				<Properties>
+					<Name>Недействителен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9e59a275-0015-4220-9d84-0132bbc011e7">
+				<Properties>
+					<Name>ОтпускЯвляетсяЕжегодным</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3e0c1fd2-ec15-4c72-905b-677bee2c3c24">
+				<Properties>
+					<Name>НаименованиеПолное</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>250</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="235ea1bf-4772-4aa4-85f9-5bdae455470a">
+				<Properties>
+					<Name>КоличествоДнейВГод</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="53435726-5813-4f85-8ac5-b93fb5c1a950">
+				<Properties>
+					<Name>ПредоставлятьОтпускВсемСотрудникам</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7fa0b1a1-0431-42a9-ac02-87993b569829">
+				<Properties>
+					<Name>СпособРасчетаОтпуска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыРасчетаОтпуска</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4e87669b-c96e-419e-b510-cfb1ae9b03b2">
+				<Properties>
+					<Name>ЮТ_КатегорияСтажа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.КатегорииСтажа</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
