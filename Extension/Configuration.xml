@@ -59,8 +59,8 @@
 			<CommonPicture>ПересчитатьЗарплатуСерая</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
 			<CommonPicture>Информация</CommonPicture>
-			<Role>ЮТ_ДобавлениеИзменениеШтатногоРасписания</Role>
-			<Role>ПолныеПрава</Role>
+			<Role>ЮТ_ДобавлениеИзменениеНачисленийШтатногоРасписания</Role>
+			<CommonModule>ЛьготыСотрудников</CommonModule>
 			<FunctionalOption>ИспользоватьРасчетЗарплатыРасширенная</FunctionalOption>
 			<FunctionalOption>ИспользоватьВилкуСтавокВШтатномРасписании</FunctionalOption>
 			<FunctionalOption>НеИспользоватьВилкуСтавокВШтатномРасписании</FunctionalOption>
@@ -124,6 +124,7 @@
 			<InformationRegister>НастройкиШтатногоРасписания</InformationRegister>
 			<InformationRegister>НастройкиУчетаСтраховыхВзносов</InformationRegister>
 			<InformationRegister>КлассыУсловийТрудаПоДолжностям</InformationRegister>
+			<InformationRegister>НастройкиЗарплатаКадрыРасширенная</InformationRegister>
 			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
 			<InformationRegister>ГражданствоФизическихЛиц</InformationRegister>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>

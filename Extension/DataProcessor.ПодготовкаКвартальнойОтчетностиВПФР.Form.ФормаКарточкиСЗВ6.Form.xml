@@ -1150,7 +1150,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 			<SavedData>true</SavedData>
 		</Attribute>
@@ -1170,7 +1169,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 			<SavedData>true</SavedData>
 		</Attribute>
@@ -1190,7 +1188,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 			<SavedData>true</SavedData>
 		</Attribute>
@@ -1210,7 +1207,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 			<SavedData>true</SavedData>
 		</Attribute>
@@ -1231,7 +1227,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 			<SavedData>true</SavedData>
 		</Attribute>
@@ -1278,7 +1273,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 			<SavedData>true</SavedData>
 			<Columns>
@@ -1428,7 +1422,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 			<SavedData>true</SavedData>
 		</Attribute>
@@ -1449,7 +1442,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 			<SavedData>true</SavedData>
 		</Attribute>
@@ -1470,7 +1462,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 			<SavedData>true</SavedData>
 		</Attribute>
@@ -1491,7 +1482,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 			<SavedData>true</SavedData>
 		</Attribute>
@@ -1512,7 +1502,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 			<SavedData>true</SavedData>
 		</Attribute>
@@ -1533,7 +1522,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 			<SavedData>true</SavedData>
 		</Attribute>
@@ -1554,7 +1542,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 			<SavedData>true</SavedData>
 		</Attribute>
@@ -1570,7 +1557,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 			<SavedData>true</SavedData>
 			<Columns>
@@ -1890,7 +1876,6 @@
 			</Type>
 			<Edit>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Edit>
 		</Attribute>
 		<Attribute name="Период" id="26">
@@ -2156,7 +2141,6 @@
 			</ToolTip>
 			<Use>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Use>
 		</Command>
 		<Command name="Отмена" id="2">
@@ -2188,7 +2172,6 @@
 			</ToolTip>
 			<Use>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Use>
 		</Command>
 		<Command name="ОтменитьИсправленияПоСтажу" id="4">
@@ -2206,7 +2189,6 @@
 			</ToolTip>
 			<Use>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Use>
 		</Command>
 		<Command name="РедактироватьДанныеФизическогоЛица" id="5">
@@ -2224,7 +2206,6 @@
 			</ToolTip>
 			<Use>
 				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Use>
 			<ModifiesSavedData>true</ModifiesSavedData>
 		</Command>
@@ -3466,7 +3447,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 				<SavedData>true</SavedData>
 			</Attribute>
@@ -3486,7 +3466,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 				<SavedData>true</SavedData>
 			</Attribute>
@@ -3506,7 +3485,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 				<SavedData>true</SavedData>
 			</Attribute>
@@ -3526,7 +3504,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 				<SavedData>true</SavedData>
 			</Attribute>
@@ -3547,7 +3524,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 				<SavedData>true</SavedData>
 			</Attribute>
@@ -3594,7 +3570,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 				<SavedData>true</SavedData>
 				<Columns>
@@ -3744,7 +3719,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 				<SavedData>true</SavedData>
 			</Attribute>
@@ -3765,7 +3739,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 				<SavedData>true</SavedData>
 			</Attribute>
@@ -3786,7 +3759,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 				<SavedData>true</SavedData>
 			</Attribute>
@@ -3807,7 +3779,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 				<SavedData>true</SavedData>
 			</Attribute>
@@ -3828,7 +3799,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 				<SavedData>true</SavedData>
 			</Attribute>
@@ -3849,7 +3819,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 				<SavedData>true</SavedData>
 			</Attribute>
@@ -3870,7 +3839,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 				<SavedData>true</SavedData>
 			</Attribute>
@@ -3886,7 +3854,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 				<SavedData>true</SavedData>
 				<Columns>
@@ -4206,7 +4173,6 @@
 				</Type>
 				<Edit>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Edit>
 			</Attribute>
 			<Attribute name="Период" id="26">
@@ -4472,7 +4438,6 @@
 				</ToolTip>
 				<Use>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Use>
 			</Command>
 			<Command name="Отмена" id="2">
@@ -4504,7 +4469,6 @@
 				</ToolTip>
 				<Use>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Use>
 			</Command>
 			<Command name="ОтменитьИсправленияПоСтажу" id="4">
@@ -4522,7 +4486,6 @@
 				</ToolTip>
 				<Use>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Use>
 			</Command>
 			<Command name="РедактироватьДанныеФизическогоЛица" id="5">
@@ -4540,7 +4503,6 @@
 				</ToolTip>
 				<Use>
 					<xr:Common>false</xr:Common>
-					<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 				</Use>
 				<ModifiesSavedData>true</ModifiesSavedData>
 			</Command>

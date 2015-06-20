@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="5e21aec5-5b11-4227-84ee-efad6653586c">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиЗарплатаКадрыРасширенная" category="Record">
+				<xr:TypeId>b8f0ee76-8c80-46e6-bf67-a2ea93f8ac34</xr:TypeId>
+				<xr:ValueId>7c3efa3d-44d1-40ee-9545-913397ea7cd9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиЗарплатаКадрыРасширенная" category="Manager">
+				<xr:TypeId>93d03733-6e34-4afa-b8c6-bc9a59884e18</xr:TypeId>
+				<xr:ValueId>5599155c-6f22-450c-a08e-045bf0138549</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиЗарплатаКадрыРасширенная" category="Selection">
+				<xr:TypeId>192b5896-030f-44d0-9d74-38e76d3a18dc</xr:TypeId>
+				<xr:ValueId>a6004b06-6647-4d94-bf01-db9f178cf557</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиЗарплатаКадрыРасширенная" category="List">
+				<xr:TypeId>67f6a7a9-0911-4ab8-93d6-d9d6d1793a86</xr:TypeId>
+				<xr:ValueId>82dead5e-14da-4529-af15-b81f2829502f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиЗарплатаКадрыРасширенная" category="RecordSet">
+				<xr:TypeId>94aec95f-8949-445c-9ba9-dd0f1b8b67d0</xr:TypeId>
+				<xr:ValueId>0f8884eb-fe29-4905-bc0a-184aca7eefa0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиЗарплатаКадрыРасширенная" category="RecordKey">
+				<xr:TypeId>83bb529b-a251-4274-8422-6d84e6fb218b</xr:TypeId>
+				<xr:ValueId>6b203da5-89b5-422f-bc1b-d45dde95e846</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиЗарплатаКадрыРасширенная" category="RecordManager">
+				<xr:TypeId>538425d0-ba41-4b45-8cba-5bf68900c6f3</xr:TypeId>
+				<xr:ValueId>9d775f34-dd93-4a24-baee-0d8f17398cb5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиЗарплатаКадрыРасширенная</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="1b46c443-b99b-4a1b-aa6d-b6db51400ea6">
+				<Properties>
+					<Name>ИспользоватьОбособленныеТерритории</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

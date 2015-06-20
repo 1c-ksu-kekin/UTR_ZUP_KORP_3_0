@@ -79,6 +79,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="OnReadAtServer">ЮТ_ПриЧтенииНаСервере</Event>
 		<Event name="OnCreateAtServer">ЮТ_ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -116,12 +117,18 @@
 							<DataPath>ОрганизацияФормы</DataPath>
 							<ContextMenu name="ВладелецКонтекстноеМеню" id="70"/>
 							<ExtendedTooltip name="ВладелецExtendedTooltip" id="236"/>
+							<Events>
+								<Event name="OnChange">ЮТ_ВладелецПриИзменении</Event>
+							</Events>
 						</InputField>
 						<InputField name="Подразделение" id="5">
 							<DataPath>Объект.Подразделение</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ПодразделениеКонтекстноеМеню" id="6"/>
 							<ExtendedTooltip name="ПодразделениеExtendedTooltip" id="240"/>
+							<Events>
+								<Event name="OnChange">ЮТ_ПодразделениеПриИзменении</Event>
+							</Events>
 						</InputField>
 						<InputField name="Должность" id="7">
 							<DataPath>Объект.Должность</DataPath>
@@ -132,10 +139,16 @@
 								<Event name="OnChange">ЮТ_ДолжностьПриИзменении</Event>
 							</Events>
 						</InputField>
-						<InputField name="ВидПерсонала" id="764">
+						<InputField name="ЮТ_ВидПерсонала" id="764">
 							<DataPath>Объект.ЮТ_ВидПерсонала</DataPath>
-							<ContextMenu name="ВидПерсоналаКонтекстноеМеню" id="765"/>
-							<ExtendedTooltip name="ВидПерсоналаРасширеннаяПодсказка" id="766"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вид (категория) персонала</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЮТ_ВидПерсоналаКонтекстноеМеню" id="765"/>
+							<ExtendedTooltip name="ЮТ_ВидПерсоналаРасширеннаяПодсказка" id="766"/>
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
@@ -247,14 +260,6 @@
 											<ContextMenu name="ГрафикРаботыСотрудниковКонтекстноеМеню" id="10"/>
 											<ExtendedTooltip name="ГрафикРаботыСотрудниковExtendedTooltip" id="337"/>
 										</InputField>
-										<InputField name="ЮТ_Территория" id="734">
-											<DataPath>Объект.ЮТ_Территория</DataPath>
-											<ContextMenu name="ЮТ_ТерриторияКонтекстноеМеню" id="735"/>
-											<ExtendedTooltip name="ЮТ_ТерриторияРасширеннаяПодсказка" id="736"/>
-											<Events>
-												<Event name="OnChange">ЮТ_ТерриторияПриИзменении</Event>
-											</Events>
-										</InputField>
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="ОткрытаЗакрытаДатыГруппа" id="420">
@@ -332,6 +337,24 @@
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
+						<InputField name="Территория" id="767">
+							<DataPath>Объект.ЮТ_Территория</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Территория</v8:content>
+								</v8:item>
+							</Title>
+							<TypeLink>
+								<xr:DataPath>ОрганизацияФормы</xr:DataPath>
+								<xr:LinkItem>0</xr:LinkItem>
+							</TypeLink>
+							<ContextMenu name="ТерриторияКонтекстноеМеню" id="768"/>
+							<ExtendedTooltip name="ТерриторияРасширеннаяПодсказка" id="769"/>
+							<Events>
+								<Event name="OnChange">ЮТ_ТерриторияПриИзменении</Event>
+							</Events>
+						</InputField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -497,7 +520,7 @@
 															<DataPath>Оклад</DataPath>
 															<UserVisible>
 																<xr:Common>true</xr:Common>
-																<xr:Value name="Role.ЮТ_ДобавлениеИзменениеШтатногоРасписания">false</xr:Value>
+																<xr:Value name="6b25506e-bc75-4e59-ad13-1f00b666addf">false</xr:Value>
 															</UserVisible>
 															<ContextMenu name="ОкладКонтекстноеМеню" id="598"/>
 															<ExtendedTooltip name="ОкладРасширеннаяПодсказка" id="599"/>
@@ -1934,7 +1957,7 @@
 						</UsualGroup>
 					</ChildItems>
 				</Page>
-				<Page name="ДосрочнаяПенсия" id="747">
+				<Page name="ЮТ_ДосрочнаяПенсия" id="747">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1944,40 +1967,70 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Досрочная пенсия</v8:content>
+							<v8:content>Ю т досрочная пенсия</v8:content>
 						</v8:item>
 					</ToolTip>
-					<ExtendedTooltip name="ДосрочнаяПенсияРасширеннаяПодсказка" id="748"/>
+					<ExtendedTooltip name="ЮТ_ДосрочнаяПенсияРасширеннаяПодсказка" id="748"/>
 					<ChildItems>
-						<CheckBoxField name="ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажок" id="749">
+						<CheckBoxField name="ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажок" id="749">
 							<DataPath>ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсией</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Взимаются взносы за занятых на работах с досрочной пенсией</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажокКонтекстноеМеню" id="750"/>
-							<ExtendedTooltip name="ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажокРасширеннаяПодсказка" id="751"/>
+							<ContextMenu name="ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажокКонтекстноеМеню" id="750"/>
+							<ExtendedTooltip name="ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажокРасширеннаяПодсказка" id="751"/>
 							<Events>
 								<Event name="OnChange">ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажокПриИзменении</Event>
 							</Events>
 						</CheckBoxField>
-						<InputField name="ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсией" id="752">
+						<InputField name="ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсией" id="752">
 							<DataPath>Объект.ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсией</DataPath>
-							<ContextMenu name="ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейКонтекстноеМеню" id="753"/>
-							<ExtendedTooltip name="ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейРасширеннаяПодсказка" id="754"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Взимаются взносы за занятых на работах с досрочной пенсией</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейКонтекстноеМеню" id="753"/>
+							<ExtendedTooltip name="ЮТ_ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейРасширеннаяПодсказка" id="754"/>
 						</InputField>
-						<InputField name="ОснованиеДосрочногоНазначенияПенсии" id="755">
+						<InputField name="ЮТ_ОснованиеДосрочногоНазначенияПенсии" id="755">
 							<DataPath>Объект.ЮТ_ОснованиеДосрочногоНазначенияПенсии</DataPath>
-							<ContextMenu name="ОснованиеДосрочногоНазначенияПенсииКонтекстноеМеню" id="756"/>
-							<ExtendedTooltip name="ОснованиеДосрочногоНазначенияПенсииРасширеннаяПодсказка" id="757"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Основание досрочного назначения пенсии</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЮТ_ОснованиеДосрочногоНазначенияПенсииКонтекстноеМеню" id="756"/>
+							<ExtendedTooltip name="ЮТ_ОснованиеДосрочногоНазначенияПенсииРасширеннаяПодсказка" id="757"/>
 						</InputField>
-						<InputField name="ОсобыеУсловияТрудаПФР" id="758">
+						<InputField name="ЮТ_ОсобыеУсловияТрудаПФР" id="758">
 							<DataPath>Объект.ЮТ_ОсобыеУсловияТрудаПФР</DataPath>
-							<ContextMenu name="ОсобыеУсловияТрудаПФРКонтекстноеМеню" id="759"/>
-							<ExtendedTooltip name="ОсобыеУсловияТрудаПФРРасширеннаяПодсказка" id="760"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Особые условия труда ПФР</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЮТ_ОсобыеУсловияТрудаПФРКонтекстноеМеню" id="759"/>
+							<ExtendedTooltip name="ЮТ_ОсобыеУсловияТрудаПФРРасширеннаяПодсказка" id="760"/>
 						</InputField>
-						<InputField name="КодПозицииСпискаПФР" id="761">
+						<InputField name="ЮТ_КодПозицииСпискаПФР" id="761">
 							<DataPath>Объект.ЮТ_КодПозицииСпискаПФР</DataPath>
-							<ContextMenu name="КодПозицииСпискаПФРКонтекстноеМеню" id="762"/>
-							<ExtendedTooltip name="КодПозицииСпискаПФРРасширеннаяПодсказка" id="763"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Код позиции списка ПФР</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЮТ_КодПозицииСпискаПФРКонтекстноеМеню" id="762"/>
+							<ExtendedTooltip name="ЮТ_КодПозицииСпискаПФРРасширеннаяПодсказка" id="763"/>
 						</InputField>
 					</ChildItems>
 				</Page>
@@ -3625,7 +3678,7 @@
 																<DataPath>Оклад</DataPath>
 																<UserVisible>
 																	<xr:Common>true</xr:Common>
-																	<xr:Value name="Role.ЮТ_ДобавлениеИзменениеШтатногоРасписания">false</xr:Value>
+																	<xr:Value name="6b25506e-bc75-4e59-ad13-1f00b666addf">false</xr:Value>
 																</UserVisible>
 																<ContextMenu name="ОкладКонтекстноеМеню" id="598"/>
 																<ExtendedTooltip name="ОкладРасширеннаяПодсказка" id="599"/>
