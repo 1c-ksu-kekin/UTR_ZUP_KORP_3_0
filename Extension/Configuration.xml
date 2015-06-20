@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.19</Version>
+			<Version>3.0.22.182.20</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -93,43 +93,43 @@
 			<Constant>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</Constant>
 			<Constant>РаботаВБюджетномУчреждении</Constant>
 			<Constant>ИспользоватьРасчетСохраняемогоДенежногоСодержания</Constant>
+			<Catalog>ВидыДокументовОбОбразовании</Catalog>
+			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
+			<Catalog>ВидыОбразованияФизическихЛиц</Catalog>
 			<Catalog>ВидыОтпусков</Catalog>
-			<Catalog>ЮТР_СтатьиКД</Catalog>
-			<Catalog>Должности</Catalog>
-			<Catalog>Пользователи</Catalog>
-			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>ГрафикиРаботыСотрудников</Catalog>
-			<Catalog>ПодразделенияОрганизаций</Catalog>
+			<Catalog>Должности</Catalog>
+			<Catalog>КлассификаторСпециальностейПоОбразованию</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>ОбразованиеФизическихЛиц</Catalog>
 			<Catalog>Организации</Catalog>
+			<Catalog>ОснованияДосрочногоНазначенияПенсии</Catalog>
+			<Catalog>ОснованияИсчисляемогоСтраховогоСтажа</Catalog>
+			<Catalog>ОснованияУвольнения</Catalog>
+			<Catalog>ОсобыеУсловияТрудаПФР</Catalog>
+			<Catalog>ПараметрыИсчисляемогоСтраховогоСтажа</Catalog>
+			<Catalog>ПодразделенияОрганизаций</Catalog>
+			<Catalog>ПоказателиРасчетаЗарплаты</Catalog>
+			<Catalog>Пользователи</Catalog>
 			<Catalog>РазрядыКатегорииДолжностей</Catalog>
+			<Catalog>Сотрудники</Catalog>
+			<Catalog>СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения</Catalog>
+			<Catalog>СпособыОтраженияЗарплатыВБухУчете</Catalog>
+			<Catalog>СтатьиРасходовЗарплата</Catalog>
+			<Catalog>СтатьиФинансированияЗарплата</Catalog>
+			<Catalog>СтепениЗнанияЯзыка</Catalog>
+			<Catalog>СтраныМира</Catalog>
 			<Catalog>ТарифныеСетки</Catalog>
 			<Catalog>ТерриториальныеУсловияПФР</Catalog>
-			<Catalog>СтатьиФинансированияЗарплата</Catalog>
-			<Catalog>ШтатноеРасписание</Catalog>
 			<Catalog>ТерриторииВыполненияРабот</Catalog>
-			<Catalog>ОснованияДосрочногоНазначенияПенсии</Catalog>
-			<Catalog>ОсобыеУсловияТрудаПФР</Catalog>
-			<Catalog>ЮТР_ВидыПерсонала</Catalog>
-			<Catalog>ПоказателиРасчетаЗарплаты</Catalog>
-			<Catalog>СпособыОтраженияЗарплатыВБухУчете</Catalog>
-			<Catalog>КлассификаторСпециальностейПоОбразованию</Catalog>
-			<Catalog>СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения</Catalog>
-			<Catalog>ОснованияИсчисляемогоСтраховогоСтажа</Catalog>
-			<Catalog>ПараметрыИсчисляемогоСтраховогоСтажа</Catalog>
-			<Catalog>Сотрудники</Catalog>
-			<Catalog>СтраныМира</Catalog>
-			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
-			<Catalog>ОбразованиеФизическихЛиц</Catalog>
 			<Catalog>УчебныеЗаведения</Catalog>
-			<Catalog>ВидыДокументовОбОбразовании</Catalog>
-			<Catalog>ВидыОбразованияФизическихЛиц</Catalog>
-			<Catalog>ЯзыкиНародовМира</Catalog>
-			<Catalog>СтепениЗнанияЯзыка</Catalog>
-			<Catalog>ЮТР_МуниципальныеОбразования</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>ШтатноеРасписание</Catalog>
 			<Catalog>ЮТР_ВидыДокументов</Catalog>
-			<Catalog>СтатьиРасходовЗарплата</Catalog>
-			<Catalog>Контрагенты</Catalog>
-			<Catalog>ОснованияУвольнения</Catalog>
+			<Catalog>ЮТР_ВидыПерсонала</Catalog>
+			<Catalog>ЮТР_МуниципальныеОбразования</Catalog>
+			<Catalog>ЮТР_СтатьиКД</Catalog>
+			<Catalog>ЯзыкиНародовМира</Catalog>
 			<Document>ИзменениеШтатногоРасписания</Document>
 			<Document>ПачкаДокументовСПВ_1</Document>
 			<Document>ПачкаДокументовСЗВ_6_1</Document>
@@ -145,6 +145,8 @@
 			<Document>ОтпускПоУходуЗаРебенком</Document>
 			<Document>УдержаниеВСчетРасчетовПоПрочимОперациям</Document>
 			<Document>ДоговорЗаймаСотруднику</Document>
+			<Document>ПриемНаРаботу</Document>
+			<Document>КадровыйПеревод</Document>
 			<DocumentJournal>ДокументыУправленияШтатнымРасписанием</DocumentJournal>
 			<Enum>СпособыРасчетаОтпуска</Enum>
 			<Enum>КатегорииСтажа</Enum>

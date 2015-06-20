@@ -572,6 +572,15 @@
 							</Type>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="c8bf2872-1912-4506-b867-a9831d44d8b9">
+						<Properties>
+							<Name>ЮТР_ПризнакПересчетаРабочихДнейВКалендарные</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 			<TabularSection uuid="61704acf-f1dc-4802-a3d1-e5ef7537d0af">

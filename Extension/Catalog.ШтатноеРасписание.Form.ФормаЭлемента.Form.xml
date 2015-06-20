@@ -1693,6 +1693,25 @@
 													<ContextMenu name="ЕжегодныеОтпускаКоличествоДнейВГодКонтекстноеМеню" id="127"/>
 													<ExtendedTooltip name="ЕжегодныеОтпускаКоличествоДнейВГодExtendedTooltip" id="328"/>
 												</InputField>
+												<CheckBoxField name="ЕжегодныеОтпускаЮТР_ПризнакПересчетаРабочихДнейВКалендарные" id="773">
+													<DataPath>Объект.ЕжегодныеОтпуска.ЮТР_ПризнакПересчетаРабочихДнейВКалендарные</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Пересчитывать</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Признак пересчета рабочих дней в календарные</v8:content>
+														</v8:item>
+													</ToolTip>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ЕжегодныеОтпускаЮТР_ПризнакПересчетаРабочихДнейВКалендарныеКонтекстноеМеню" id="774"/>
+													<ExtendedTooltip name="ЕжегодныеОтпускаЮТР_ПризнакПересчетаРабочихДнейВКалендарныеРасширеннаяПодсказка" id="775"/>
+												</CheckBoxField>
 												<InputField name="ЕжегодныеОтпускаКомментарий" id="510">
 													<DataPath>Объект.ЕжегодныеОтпуска.Комментарий</DataPath>
 													<Visible>false</Visible>
