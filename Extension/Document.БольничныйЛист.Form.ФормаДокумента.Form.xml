@@ -6,6 +6,8 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="AfterWrite">ЮТР_ПослеЗаписи</Event>
+		<Event name="NotificationProcessing">ЮТР_ОбработкаОповещения</Event>
+		<Event name="OnReadAtServer">ЮТР_ПриЧтенииНаСервере</Event>
 		<Event name="OnCreateAtServer">ЮТР_ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -78,6 +80,9 @@
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="СотрудникКонтекстноеМеню" id="14"/>
 									<ExtendedTooltip name="СотрудникExtendedTooltip" id="577"/>
+									<Events>
+										<Event name="OnChange">ЮТР_СотрудникПриИзменении</Event>
+									</Events>
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
@@ -280,26 +285,62 @@
 														</UsualGroup>
 													</ChildItems>
 												</UsualGroup>
-												<CheckBoxField name="ЮТР_ПродолжаетБолеть" id="780">
-													<DataPath>Объект.ЮТР_ПродолжаетБолеть</DataPath>
+												<UsualGroup name="ЮТР_ГруппаПродолжаетБолетьСтаж" id="786">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Продолжает болеть</v8:content>
+															<v8:content>Стажи сотрудника</v8:content>
 														</v8:item>
 													</Title>
-													<TitleLocation>Right</TitleLocation>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Флаг следует устанавливать в случае длительной нетрудоспособности, когда дата окончания больничного заранее не известна.</v8:content>
+															<v8:content>ЮТР группа продолжает болеть стаж</v8:content>
 														</v8:item>
 													</ToolTip>
-													<ToolTipRepresentation>Button</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
-													<ContextMenu name="ЮТР_ПродолжаетБолетьКонтекстноеМеню" id="781"/>
-													<ExtendedTooltip name="ЮТР_ПродолжаетБолетьРасширеннаяПодсказка" id="782"/>
-												</CheckBoxField>
+													<Group>Horizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ЮТР_ГруппаПродолжаетБолетьСтажРасширеннаяПодсказка" id="787"/>
+													<ChildItems>
+														<CheckBoxField name="ЮТР_ПродолжаетБолеть" id="780">
+															<DataPath>Объект.ЮТР_ПродолжаетБолеть</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Продолжает болеть</v8:content>
+																</v8:item>
+															</Title>
+															<TitleLocation>Right</TitleLocation>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Флаг следует устанавливать в случае длительной нетрудоспособности, когда дата окончания больничного заранее не известна.</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ToolTipRepresentation>Button</ToolTipRepresentation>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="ЮТР_ПродолжаетБолетьКонтекстноеМеню" id="781"/>
+															<ExtendedTooltip name="ЮТР_ПродолжаетБолетьРасширеннаяПодсказка" id="782"/>
+														</CheckBoxField>
+														<LabelField name="ЮТР_НадписьСтаж" id="788">
+															<DataPath>НадписьСтаж</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Страховой стаж</v8:content>
+																</v8:item>
+															</Title>
+															<HorizontalStretch>false</HorizontalStretch>
+															<Hiperlink>true</Hiperlink>
+															<ContextMenu name="ЮТР_НадписьСтажКонтекстноеМеню" id="789"/>
+															<ExtendedTooltip name="ЮТР_НадписьСтажРасширеннаяПодсказка" id="790"/>
+															<Events>
+																<Event name="Click">ЮТР_НадписьСтажНажатие</Event>
+															</Events>
+														</LabelField>
+													</ChildItems>
+												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
 										<Pages name="СтраницыДополненияПричиныНетрудоспособности" id="534">
