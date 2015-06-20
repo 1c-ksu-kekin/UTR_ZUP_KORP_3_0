@@ -174,7 +174,7 @@
 							<ContextMenu name="КвалификацияКонтекстноеМеню" id="35"/>
 							<ExtendedTooltip name="КвалификацияРасширеннаяПодсказка" id="36"/>
 						</InputField>
-						<Button name="ОбщаяКомандаЮТ_ПереводВлатиницуКВ" id="108">
+						<Button name="ОбщаяКомандаЮТР_ПереводВлатиницуКВ" id="108">
 							<Type>UsualButton</Type>
 							<Representation>Picture</Representation>
 							<OnlyInAllActions>false</OnlyInAllActions>
@@ -184,7 +184,7 @@
 								<xr:Ref>CommonPicture.ЮТР_Транслит</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</Picture>
-							<ExtendedTooltip name="ОбщаяКомандаЮТ_ПереводВлатиницуКВРасширеннаяПодсказка" id="109"/>
+							<ExtendedTooltip name="ОбщаяКомандаЮТР_ПереводВлатиницуКВРасширеннаяПодсказка" id="109"/>
 						</Button>
 					</ChildItems>
 				</UsualGroup>
@@ -236,7 +236,7 @@
 									<ContextMenu name="НаименованиеКурсаКонтекстноеМеню" id="44"/>
 									<ExtendedTooltip name="НаименованиеКурсаРасширеннаяПодсказка" id="45"/>
 								</InputField>
-								<Button name="ОбщаяКомандаЮТ_ПереводВлатиницуКурс" id="112">
+								<Button name="ОбщаяКомандаЮТР_ПереводВлатиницуКурс" id="112">
 									<Type>UsualButton</Type>
 									<Representation>Picture</Representation>
 									<CommandName>CommonCommand.ЮТР_ПереводВлатиницу</CommandName>
@@ -245,7 +245,7 @@
 										<xr:Ref>CommonPicture.ЮТР_Транслит</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
-									<ExtendedTooltip name="ОбщаяКомандаЮТ_ПереводВлатиницуКурсРасширеннаяПодсказка" id="113"/>
+									<ExtendedTooltip name="ОбщаяКомандаЮТР_ПереводВлатиницуКурсРасширеннаяПодсказка" id="113"/>
 								</Button>
 							</ChildItems>
 						</UsualGroup>
