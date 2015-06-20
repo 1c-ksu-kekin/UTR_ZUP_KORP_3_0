@@ -851,7 +851,7 @@
 					<ExtendedTooltip name="ЮТР_ГруппаПроизводственнаяЕдиницаРасширеннаяПодсказка" id="1530"/>
 					<ChildItems>
 						<InputField name="ЮТР_ПериодическиеДанныеСотрудникаЗначение" id="1537">
-							<DataPath>151/0:6b4b6539-e285-472d-93d0-9a3f61a42a0d</DataPath>
+							<DataPath>ЮТР_ПериодическиеДанныеСотрудника.Значение</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
