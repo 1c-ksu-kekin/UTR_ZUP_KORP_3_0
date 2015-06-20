@@ -219,6 +219,23 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<TabularSection uuid="10d07a36-100c-4da4-8848-255719344cd8">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИзменениеПлановыхНачислений.НачисленияСотрудников" category="TabularSection">
+						<xr:TypeId>db7ea36a-00eb-4680-9491-7636bdca457e</xr:TypeId>
+						<xr:ValueId>0d547c00-3719-4bf3-9cec-fa3cd36939a3</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИзменениеПлановыхНачислений.НачисленияСотрудников" category="TabularSectionRow">
+						<xr:TypeId>b3060dcb-2000-4284-a6ef-8b30acf329ec</xr:TypeId>
+						<xr:ValueId>9b3033f6-2ed3-4afa-92aa-a9a00ee40d48</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>НачисленияСотрудников</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
