@@ -4,6 +4,7 @@
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="OnOpen">ЮТР_ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ЮТР_ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -53,7 +54,7 @@
 					<ContextMenu name="ИспользоватьЭлектронныйДокументооборотСБанкомКонтекстноеМеню" id="51"/>
 					<ExtendedTooltip name="ИспользоватьЭлектронныйДокументооборотСБанкомExtendedTooltip" id="68">
 						<Width>40</Width>
-						<Height>3</Height>
+						<Height>2</Height>
 					</ExtendedTooltip>
 					<Events>
 						<Event name="OnChange">ЮТР_ИспользоватьЭлектронныйДокументооборотСБанкомПриИзменении</Event>
@@ -88,23 +89,61 @@
 							<ContextMenu name="КодировкаКонтекстноеМеню" id="110"/>
 							<ExtendedTooltip name="КодировкаРасширеннаяПодсказка" id="111"/>
 						</InputField>
+						<CheckBoxField name="ЮТР_ИспользоватьВыгрузкуТХТ" id="112">
+							<DataPath>Объект.ЮТР_ИспользоватьВыгрузкуТХТ</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выгрузку производить в формат ТХТ</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЮТР_ИспользоватьВыгрузкуТХТКонтекстноеМеню" id="113"/>
+							<ExtendedTooltip name="ЮТР_ИспользоватьВыгрузкуТХТРасширеннаяПодсказка" id="114"/>
+						</CheckBoxField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
-		<CheckBoxField name="ЮТР_ИспользоватьВыгрузкуТХТ" id="112">
-			<DataPath>Объект.ЮТР_ИспользоватьВыгрузкуТХТ</DataPath>
-			<Title>
+		<UsualGroup name="ЮТР_ГруппаРазделенияСчета" id="118">
+			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выгрузку производить в формат ТХТ</v8:content>
+					<v8:content>ЮТР группа разделения счета</v8:content>
 				</v8:item>
-			</Title>
-			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="ЮТР_ИспользоватьВыгрузкуТХТКонтекстноеМеню" id="113"/>
-			<ExtendedTooltip name="ЮТР_ИспользоватьВыгрузкуТХТРасширеннаяПодсказка" id="114"/>
-		</CheckBoxField>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<VerticalStretch>true</VerticalStretch>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ЮТР_ГруппаРазделенияСчетаРасширеннаяПодсказка" id="119"/>
+			<ChildItems>
+				<CheckBoxField name="ЮТР_ИспользоватьРазделениеПоПризнакуРезидент" id="115">
+					<DataPath>Объект.ЮТР_ИспользоватьРазделениеПоПризнакуРезидент</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разделять выгрузку на файлы резидентов и нерезидентов</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Right</TitleLocation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЮТР_ИспользоватьРазделениеПоПризнакуРезидентКонтекстноеМеню" id="116"/>
+					<ExtendedTooltip name="ЮТР_ИспользоватьРазделениеПоПризнакуРезидентРасширеннаяПодсказка" id="117"/>
+					<Events>
+						<Event name="OnChange">ЮТР_ЮТР_ИспользоватьРазделениеПоПризнакуРезидентПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<InputField name="ЮТР_МаскаЛицевогоСчетаНерезидента" id="120">
+					<DataPath>Объект.ЮТР_МаскаЛицевогоСчетаНерезидента</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ContextMenu name="ЮТР_МаскаЛицевогоСчетаНерезидентаКонтекстноеМеню" id="121"/>
+					<ExtendedTooltip name="ЮТР_МаскаЛицевогоСчетаНерезидентаРасширеннаяПодсказка" id="122"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаСведенияБанкИДоговор" id="12">
 			<Title>
 				<v8:item>

@@ -188,6 +188,20 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="8452c773-4a29-4a29-bb14-a835b6070af4">
+				<Properties>
+					<Name>ЮТР_НомерРеестра</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>6</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="f4ed7148-a135-419d-90a8-a5fdba8f1757">
 				<InternalInfo>

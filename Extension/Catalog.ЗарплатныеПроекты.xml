@@ -156,6 +156,28 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="f5ec9347-6cfa-4a5a-bab1-4228e0449334">
+				<Properties>
+					<Name>ЮТР_МаскаЛицевогоСчетаНерезидента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>16</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2f76e9a7-bbec-4e82-9e19-4917d280c06f">
+				<Properties>
+					<Name>ЮТР_ИспользоватьРазделениеПоПризнакуРезидент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="b436220f-1528-4a2b-b733-942aa19ecb81">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.ЗарплатныеПроекты.СистемыРасчетовПоБанковскимКартам" category="TabularSection">

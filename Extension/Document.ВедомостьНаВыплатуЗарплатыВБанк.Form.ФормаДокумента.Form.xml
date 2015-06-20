@@ -230,6 +230,18 @@
 							<ContextMenu name="ЗарплатныйПроектКонтекстноеМеню" id="87"/>
 							<ExtendedTooltip name="ЗарплатныйПроектExtendedTooltip" id="201"/>
 						</InputField>
+						<InputField name="ЮТР_НомерРеестра" id="447">
+							<DataPath>Объект.ЮТР_НомерРеестра</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Текущий порядковый номер реестра</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ContextMenu name="ЮТР_НомерРеестраКонтекстноеМеню" id="448"/>
+							<ExtendedTooltip name="ЮТР_НомерРеестраРасширеннаяПодсказка" id="449"/>
+						</InputField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
