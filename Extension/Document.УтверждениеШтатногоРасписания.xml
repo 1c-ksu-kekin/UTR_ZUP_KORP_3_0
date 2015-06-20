@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="02180114-144f-4455-95de-fbf23b3c2e48">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УтверждениеШтатногоРасписания" category="Object">
+				<xr:TypeId>5de9e2e8-249d-496f-85fd-fec6847ff61c</xr:TypeId>
+				<xr:ValueId>ca89ff0c-63a6-4199-8d2b-774c03882908</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УтверждениеШтатногоРасписания" category="Ref">
+				<xr:TypeId>5fd2f699-7983-42da-80a9-7d6023110ca0</xr:TypeId>
+				<xr:ValueId>06801177-48c4-42e4-a32b-9ed6d8c5e404</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УтверждениеШтатногоРасписания" category="Selection">
+				<xr:TypeId>8dbb6961-fbd6-4722-96a3-aa219c250e1a</xr:TypeId>
+				<xr:ValueId>767f4bca-a9c0-4e55-a06f-d3bce61b39d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УтверждениеШтатногоРасписания" category="List">
+				<xr:TypeId>53baa9d3-2a43-4ebd-9418-efc015fd728b</xr:TypeId>
+				<xr:ValueId>9a1bce1f-50b7-4210-b64d-6aee0f2cd2fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УтверждениеШтатногоРасписания" category="Manager">
+				<xr:TypeId>f9c48a51-9574-4d5e-b06f-6614aeadd001</xr:TypeId>
+				<xr:ValueId>3f4d7284-7ca0-4a6f-aa65-197f985df845</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УтверждениеШтатногоРасписания</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

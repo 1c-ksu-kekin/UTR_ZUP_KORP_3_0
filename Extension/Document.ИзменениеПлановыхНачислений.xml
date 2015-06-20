@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Document uuid="c5aad9aa-83b1-4f0f-8ee3-a3ab4c2fab67">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеПлановыхНачислений" category="Object">
+				<xr:TypeId>dc19a65c-4b31-40da-9deb-525683af9d1b</xr:TypeId>
+				<xr:ValueId>0e11df06-2791-4e7f-b536-eccec634d02d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеПлановыхНачислений" category="Ref">
+				<xr:TypeId>66b9d493-6e37-48da-9048-8577e4eb2b80</xr:TypeId>
+				<xr:ValueId>6049a417-3f2b-4085-8e09-e478b48be60a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеПлановыхНачислений" category="Selection">
+				<xr:TypeId>79901519-89a9-4444-8890-329cb0382521</xr:TypeId>
+				<xr:ValueId>54ae1665-65d3-4756-a1b1-63c6730286d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеПлановыхНачислений" category="List">
+				<xr:TypeId>b93fe20f-e937-429c-9a5d-80b657b98d27</xr:TypeId>
+				<xr:ValueId>161dba2a-e046-47ac-8644-d03d47ad84bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеПлановыхНачислений" category="Manager">
+				<xr:TypeId>cfa9c4cc-90cf-4335-9d7f-574b79e8d59b</xr:TypeId>
+				<xr:ValueId>661d43f6-f8a1-4886-9238-7e8125fe43a5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеПлановыхНачислений</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a9e0de4c-f57d-4743-8ef5-c6dfef4c5220">
+				<Properties>
+					<Name>Должность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a4250ccf-a4c5-4139-878f-986aa8f3b3a7">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="264e1022-7740-4395-9047-0175a369065f">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2b6e88c0-86a1-4462-b1d6-95f773357ae0">
+				<Properties>
+					<Name>ДатаИзменения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fb61f165-ec84-49b4-96c9-79a1cadd0a73">
+				<Properties>
+					<Name>ДатаОкончания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e84dde24-90ee-4736-8368-56ec16ef700f">
+				<Properties>
+					<Name>ДолжностьПоШтатномуРасписанию</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШтатноеРасписание</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="02de2a10-e9f8-4ef1-826c-dfce77863044">
+				<Properties>
+					<Name>ИзменениеШтатногоРасписания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.УтверждениеШтатногоРасписания</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7b2fa2d7-6e46-4bcb-92c9-cc59fae1c8d5">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e97a1639-66a4-4167-a094-5ad1209aecb4">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="16c12fb0-553a-472c-8b02-06ae4f0318bc">
+				<Properties>
+					<Name>ЮТР_Руководитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="71c5bc94-ce6a-4c62-a622-fb780b10b7fe">
+				<Properties>
+					<Name>ЮТР_ДолжностьРуководителя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="499e8f5a-e593-4375-b5c2-da71d73e3e91">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИзменениеПлановыхНачислений.ЮТР_ДополнительныеДанные" category="TabularSection">
+						<xr:TypeId>ece9d8b0-f018-48eb-8062-4d93e5322d9e</xr:TypeId>
+						<xr:ValueId>0b1156aa-de4e-433f-b95b-811f0da2e152</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИзменениеПлановыхНачислений.ЮТР_ДополнительныеДанные" category="TabularSectionRow">
+						<xr:TypeId>66988e49-bac5-4ea6-adf9-8f157cd96b6a</xr:TypeId>
+						<xr:ValueId>4c88bcba-37ab-4eae-85b8-e94a26912538</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ЮТР_ДополнительныеДанные</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="e19b17df-e707-4f13-a2a5-7f369848d40a">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИзменениеПлановыхНачислений.УдалитьНачисления" category="TabularSection">
+						<xr:TypeId>f70a1648-4016-4e25-b80a-af4b32bc800c</xr:TypeId>
+						<xr:ValueId>e519ffe7-2fd6-4d14-a3de-26ebf2e61c2b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИзменениеПлановыхНачислений.УдалитьНачисления" category="TabularSectionRow">
+						<xr:TypeId>e6efb35a-9c19-4576-9d9b-a32726be9485</xr:TypeId>
+						<xr:ValueId>78e76ab2-20c1-4b72-b8f6-7f36dcd69cd6</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>УдалитьНачисления</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="b1a2d208-486a-4e11-9dbf-0667d1b69575">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИзменениеПлановыхНачислений.ПоказателиСотрудников" category="TabularSection">
+						<xr:TypeId>01af93e7-1b4c-4a78-9bc1-b274095d45a3</xr:TypeId>
+						<xr:ValueId>0a6be86d-48f0-4f41-8374-b411b5acd3c4</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИзменениеПлановыхНачислений.ПоказателиСотрудников" category="TabularSectionRow">
+						<xr:TypeId>d6c3dc72-18cc-4e18-a16f-907aa469cc74</xr:TypeId>
+						<xr:ValueId>be3cd1d1-edf0-415e-ad52-c275dea8eb7e</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ПоказателиСотрудников</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -72,6 +72,7 @@
 			<FunctionalOption>ИспользоватьКадровыйУчет</FunctionalOption>
 			<FunctionalOption>ИспользоватьНачислениеЗарплаты</FunctionalOption>
 			<FunctionalOption>ИспользоватьСпециальнуюОценкуУсловийТруда</FunctionalOption>
+			<FunctionalOption>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</FunctionalOption>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<CommonCommand>ЮТР_СтатьиКД</CommonCommand>
 			<CommonCommand>ЮТР_ПереводВлатиницу</CommonCommand>
@@ -79,6 +80,7 @@
 			<Constant>ИспользоватьНачислениеЗарплаты</Constant>
 			<Constant>ИспользоватьНесколькоОрганизаций</Constant>
 			<Constant>ИспользоватьКадровыйУчет</Constant>
+			<Constant>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</Constant>
 			<Catalog>ВидыОтпусков</Catalog>
 			<Catalog>ЮТР_СтатьиКД</Catalog>
 			<Catalog>Должности</Catalog>
@@ -118,6 +120,8 @@
 			<Document>ПачкаДокументовСЗВ_6_4</Document>
 			<Document>ПачкаДокументовСПВ_2</Document>
 			<Document>ПачкаДокументовСЗВ_6_3</Document>
+			<Document>ИзменениеПлановыхНачислений</Document>
+			<Document>УтверждениеШтатногоРасписания</Document>
 			<Enum>СпособыРасчетаОтпуска</Enum>
 			<Enum>КатегорииСтажа</Enum>
 			<Enum>ДействияСПозициямиШтатногоРасписания</Enum>
@@ -127,6 +131,7 @@
 			<Enum>КлассыУсловийТрудаПоРезультатамСпециальнойОценки</Enum>
 			<Enum>ОтношениеКЕНВДЗатратНаЗарплату</Enum>
 			<Enum>ТипыСведенийСЗВ</Enum>
+			<Enum>ВидыТарифныхСтавок</Enum>
 			<DataProcessor>ПодготовкаКвартальнойОтчетностиВПФР</DataProcessor>
 			<InformationRegister>ЮТР_СтатьиКД</InformationRegister>
 			<InformationRegister>НастройкиШтатногоРасписания</InformationRegister>
