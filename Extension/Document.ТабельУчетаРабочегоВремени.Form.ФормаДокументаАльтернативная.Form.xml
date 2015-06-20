@@ -181,6 +181,7 @@
 						</UsualGroup>
 						<InputField name="Подразделение" id="51">
 							<DataPath>Объект.Подразделение</DataPath>
+							<ClearButton>true</ClearButton>
 							<ContextMenu name="ПодразделениеКонтекстноеМеню" id="52"/>
 							<ExtendedTooltip name="ПодразделениеExtendedTooltip" id="53"/>
 						</InputField>
@@ -188,30 +189,69 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ЮТР_СпециалистОТИЗГруппа" id="110">
+		<UsualGroup name="ЮТР_ГруппаДополнительно" id="118">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЮТР группа дополнительно</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
 			<Representation>None</Representation>
+			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ЮТР_СпециалистОТИЗГруппаРасширеннаяПодсказка" id="111"/>
+			<ExtendedTooltip name="ЮТР_ГруппаДополнительноРасширеннаяПодсказка" id="119"/>
 			<ChildItems>
-				<CheckBoxField name="ЮТР_ДокументУтвержден" id="112">
-					<DataPath>Объект.ЮТР_ДокументУтвержден</DataPath>
+				<UsualGroup name="ЮТР_СпециалистОТИЗГруппа" id="110">
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ChildItemsWidth>Equal</ChildItemsWidth>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ЮТР_СпециалистОТИЗГруппаРасширеннаяПодсказка" id="111"/>
+					<ChildItems>
+						<CheckBoxField name="ЮТР_ДокументУтвержден" id="112">
+							<DataPath>Объект.ЮТР_ДокументУтвержден</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Документ утвержден</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Документ будет закрыт для редактирования после установки этого флажка.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЮТР_ДокументУтвержденКонтекстноеМеню" id="113"/>
+							<ExtendedTooltip name="ЮТР_ДокументУтвержденРасширеннаяПодсказка" id="114"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="ЮТР_ПроизводственнаяЕдиница" id="115">
+					<DataPath>Объект.ЮТР_ПроизводственнаяЕдиница</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Документ утвержден</v8:content>
+							<v8:content>Производственная единица</v8:content>
 						</v8:item>
 					</Title>
-					<TitleLocation>Right</TitleLocation>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Документ будет закрыт для редактирования после установки этого флажка.</v8:content>
-						</v8:item>
-					</ToolTip>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ЮТР_ДокументУтвержденКонтекстноеМеню" id="113"/>
-					<ExtendedTooltip name="ЮТР_ДокументУтвержденРасширеннаяПодсказка" id="114"/>
-				</CheckBoxField>
+					<ClearButton>true</ClearButton>
+					<ChoiceParameterLinks>
+						<xr:Link>
+							<xr:Name>Подразделение</xr:Name>
+							<xr:DataPath xsi:type="xs:string">Объект.Подразделение</xr:DataPath>
+							<xr:ValueChange>Clear</xr:ValueChange>
+						</xr:Link>
+					</ChoiceParameterLinks>
+					<ContextMenu name="ЮТР_ПроизводственнаяЕдиницаКонтекстноеМеню" id="116"/>
+					<ExtendedTooltip name="ЮТР_ПроизводственнаяЕдиницаРасширеннаяПодсказка" id="117"/>
+					<Events>
+						<Event name="OnChange">ЮТР_ПроизводственнаяЕдиницаПриИзменении</Event>
+					</Events>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<CommandBar name="КоманднаяПанельТаблицы" id="7">

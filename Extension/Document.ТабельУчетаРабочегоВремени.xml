@@ -167,6 +167,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="6aa00c9f-4e83-4d40-8082-d98a020d5320">
+				<Properties>
+					<Name>ЮТР_ПроизводственнаяЕдиница</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_ПроизводственныеЕдиницы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<Form>ФормаДокументаАльтернативная</Form>
 			<TabularSection uuid="c5f79474-7218-47f4-bbab-78d6db61f2cc">
