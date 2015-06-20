@@ -61,6 +61,9 @@
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПоказыватьНовыеПодразделенияКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="ПоказыватьНовыеПодразделенияExtendedTooltip" id="35"/>
+					<Events>
+						<Event name="OnChange">ЮТР_ПоказыватьНовыеПодразделенияПриИзменении</Event>
+					</Events>
 				</CheckBoxField>
 				<CheckBoxField name="ПоказыватьРасформированныеПодразделения" id="24">
 					<DataPath>ПоказыватьРасформированныеПодразделения</DataPath>
@@ -74,6 +77,9 @@
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПоказыватьРасформированныеПодразделенияКонтекстноеМеню" id="25"/>
 					<ExtendedTooltip name="ПоказыватьРасформированныеПодразделенияExtendedTooltip" id="36"/>
+					<Events>
+						<Event name="OnChange">ЮТР_ПоказыватьРасформированныеПодразделенияПриИзменении</Event>
+					</Events>
 				</CheckBoxField>
 			</ChildItems>
 		</UsualGroup>
