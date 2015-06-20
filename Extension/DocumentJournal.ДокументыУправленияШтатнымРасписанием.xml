@@ -47,6 +47,12 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Column>
+			<Column uuid="d257f8fb-e2db-4433-8288-293e4af0f002">
+				<Properties>
+					<Name>ЮТР_ВидДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
 			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</DocumentJournal>

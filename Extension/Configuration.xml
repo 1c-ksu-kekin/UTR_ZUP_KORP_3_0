@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.18</Version>
+			<Version>3.0.22.182.19</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -126,7 +126,7 @@
 			<Catalog>ЯзыкиНародовМира</Catalog>
 			<Catalog>СтепениЗнанияЯзыка</Catalog>
 			<Catalog>ЮТР_МуниципальныеОбразования</Catalog>
-			<Catalog>ЮТР_ВидыДокументаКадровоеИзменение</Catalog>
+			<Catalog>ЮТР_ВидыДокументов</Catalog>
 			<Catalog>СтатьиРасходовЗарплата</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ОснованияУвольнения</Catalog>

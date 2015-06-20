@@ -6,6 +6,7 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="ChoiceProcessing">ЮТР_ОбработкаВыбора</Event>
+		<Event name="OnCreateAtServer">ЮТР_ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаСообщенияОНевозможностиИзмененияДокумента" id="69">
@@ -77,10 +78,12 @@
 									<v8:content>Вид документа</v8:content>
 								</v8:item>
 							</Title>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="ВидДокументаКонтекстноеМеню" id="382"/>
 							<ExtendedTooltip name="ВидДокументаРасширеннаяПодсказка" id="383"/>
 							<Events>
 								<Event name="StartChoice">ЮТР_ВидДокументаНачалоВыбора</Event>
+								<Event name="Clearing">ЮТР_ВидДокументаОчистка</Event>
 							</Events>
 						</InputField>
 						<InputField name="ДатаВступленияВСилу" id="52">
@@ -244,6 +247,7 @@
 				<ExtendedTooltip name="ПозицииSearchControlExtendedTooltip" id="349"/>
 			</SearchControlAddition>
 			<Events>
+				<Event name="Selection">ЮТР_ПозицииВыбор</Event>
 				<Event name="BeforeAddRow">ЮТР_ПозицииПередНачаломДобавления</Event>
 			</Events>
 			<ChildItems>

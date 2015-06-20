@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="733bcd5b-6457-475f-996a-fa89acc543da">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЮТР_ВидыДокументов" category="Object">
+				<xr:TypeId>4545cc1c-0c13-43fa-b3d2-906dee4c28df</xr:TypeId>
+				<xr:ValueId>14c82f5d-702a-4769-9e2c-d487d28bf461</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЮТР_ВидыДокументов" category="Ref">
+				<xr:TypeId>bf155a91-7b26-43a9-a1fd-0831e504b730</xr:TypeId>
+				<xr:ValueId>94b4e2fd-967b-4aba-af1a-e2b2d6a7f460</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЮТР_ВидыДокументов" category="Selection">
+				<xr:TypeId>699ff899-b5d5-48e5-82f3-02c2af2c53c0</xr:TypeId>
+				<xr:ValueId>5eac5d1a-44c0-4bc2-afe3-7d19efd5b44e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЮТР_ВидыДокументов" category="List">
+				<xr:TypeId>a97ba6c5-1728-49c8-b313-beaee2b11ed5</xr:TypeId>
+				<xr:ValueId>c3bd770f-ca92-4c60-b33d-b364a2e585a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЮТР_ВидыДокументов" category="Manager">
+				<xr:TypeId>8733548f-9749-49ca-8d62-23b276f52ae7</xr:TypeId>
+				<xr:ValueId>02d5627a-a6e9-4897-bc70-48642ba33868</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮТР_ВидыДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

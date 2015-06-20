@@ -124,11 +124,12 @@
 					<Name>ЮТР_ВидДокумента</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ЮТР_ВидыДокументаКадровоеИзменение</v8:Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_ВидыДокументов</v8:Type>
 					</Type>
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
 			<TabularSection uuid="dee7790f-fef3-449e-8df2-1de6ade1cbb2">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ИзменениеШтатногоРасписания.Позиции" category="TabularSection">
