@@ -538,6 +538,7 @@
 							</SearchControlAddition>
 							<Events>
 								<Event name="OnEditEnd">ЮТР_НачисленияПриОкончанииРедактирования</Event>
+								<Event name="Selection">ЮТР_НачисленияВыбор</Event>
 							</Events>
 							<ChildItems>
 								<LabelField name="НачисленияНомерСтроки" id="19">
@@ -683,6 +684,9 @@
 								<ContextMenu name="НачисленияПерерасчетУправлениеПоискомКонтекстноеМеню" id="290"/>
 								<ExtendedTooltip name="НачисленияПерерасчетУправлениеПоискомРасширеннаяПодсказка" id="291"/>
 							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">ЮТР_НачисленияПерерасчетВыбор</Event>
+							</Events>
 							<ChildItems>
 								<LabelField name="НачисленияПерерасчетНомерСтроки" id="63">
 									<DataPath>Объект.НачисленияПерерасчет.LineNumber</DataPath>
