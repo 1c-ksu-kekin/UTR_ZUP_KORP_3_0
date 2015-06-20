@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.22</Version>
+			<Version>3.0.22.182.23</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -90,6 +90,7 @@
 			<FunctionalOption>ПрименятьРезультатыСпециальнойОценкиУсловийТрудаРасширенная</FunctionalOption>
 			<FunctionalOption>ПрименятьСевернуюНадбавку</FunctionalOption>
 			<FunctionalOption>РаботаВБюджетномУчреждении</FunctionalOption>
+			<FunctionalOption>ИспользоватьОтпускаДляПострадавшихВАварииЧАЭС</FunctionalOption>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<DefinedType>ТерриторииВыполненияРаботВОрганизации</DefinedType>
 			<CommonCommand>ПрисоединенныеФайлы</CommonCommand>
@@ -147,6 +148,7 @@
 			<Catalog>ЮТР_ТипыВоздушныхСудов</Catalog>
 			<Catalog>ЮТР_ХарактерыРабот</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
+			<Catalog>ПроизводственныеКалендари</Catalog>
 			<Document>ДоговорЗаймаСотруднику</Document>
 			<Document>ИзменениеПлановыхНачислений</Document>
 			<Document>ИзменениеШтатногоРасписания</Document>
@@ -219,6 +221,7 @@
 			<InformationRegister>ЮТР_СтажСотрудниковОрганизаций</InformationRegister>
 			<InformationRegister>ЮТР_СтатьиКД</InformationRegister>
 			<InformationRegister>ЮТР_ТрудоваяДеятельностьФизическихЛиц</InformationRegister>
+			<InformationRegister>НастройкиРасчетаЗарплатыРасширенный</InformationRegister>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
 		</ChildObjects>

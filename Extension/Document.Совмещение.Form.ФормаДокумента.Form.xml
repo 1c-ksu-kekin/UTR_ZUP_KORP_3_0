@@ -413,6 +413,12 @@
 									<ChildItems>
 										<RadioButtonField name="ПричинаСовмещенияРасширениеЗонОбслуживания" id="387">
 											<DataPath>Объект.ПричинаСовмещения</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Причина совмещения расширение зон обслуживания</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<RadioButtonType>Auto</RadioButtonType>
 											<ChoiceList>
@@ -438,6 +444,12 @@
 										</RadioButtonField>
 										<InputField name="ОтсутствующийСотрудникЗонаОбслуживания" id="390">
 											<DataPath>Объект.ОтсутствующийСотрудник</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отсутствующий сотрудник зона обслуживания</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ОтсутствующийСотрудникЗонаОбслуживанияКонтекстноеМеню" id="391"/>

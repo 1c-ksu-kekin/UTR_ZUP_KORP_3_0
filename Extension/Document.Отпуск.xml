@@ -26,7 +26,642 @@
 		<Properties>
 			<Name>Отпуск</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="9f691f86-29f5-437b-966c-067dc81514ab">
+				<Properties>
+					<Name>Руководитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="70b4c7db-62e2-463a-9722-91260c97553f">
+				<Properties>
+					<Name>КоличествоДнейОсновногоОтпуска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4906f70a-5364-4a52-8be2-f6f1b8373d14">
+				<Properties>
+					<Name>ГлавныйБухгалтер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8525289e-7929-436c-9e3b-b38126d563de">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="28c453a0-675d-40a3-b698-5c7df88570bd">
+				<Properties>
+					<Name>Бухгалтер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5ce6be70-7b6b-4220-a117-30d5af7feb11">
+				<Properties>
+					<Name>ВидРасчетаКомпенсацииОсновногоОтпуска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2efb576b-693e-4bca-894d-6867eef1bc74">
+				<Properties>
+					<Name>ДолжностьРуководителя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cfe7fd93-9456-482d-bb4f-eec366dd409b">
+				<Properties>
+					<Name>ВидРасчетаЕдиновременнойВыплатыКОтпуску</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7736c276-0e8e-4e9f-9638-877749daa16f">
+				<Properties>
+					<Name>РасходЧасовОтгула</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2a0a28ad-a80e-4bda-a9b0-dc515adfc635">
+				<Properties>
+					<Name>РаботникКадровойСлужбы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="330ce6fb-205a-471d-9679-990443a97199">
+				<Properties>
+					<Name>РасходДнейОтгула</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2594af0a-534a-4c0c-aab2-37a41cf98d8e">
+				<Properties>
+					<Name>ДатаОкончанияОсновногоОтпуска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2472db9a-54cc-4fd9-b86a-ea9af47a964a">
+				<Properties>
+					<Name>СохраняемоеДенежноеСодержание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>13</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="86606dd6-c9c0-4503-97f5-f326a95d4778">
+				<Properties>
+					<Name>РассчитатьЗарплату</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2a97470d-fea9-4980-b185-6e537aff10dc">
+				<Properties>
+					<Name>ПредоставитьКомпенсациюОсновногоОтпуска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="06fb092e-7ef3-49de-8301-3a73f515414e">
+				<Properties>
+					<Name>КоличествоДнейКомпенсацииОсновногоОтпуска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cf945dbb-e1aa-48d8-b8e9-a2cf0d973c73">
+				<Properties>
+					<Name>ПредоставитьЕдиновременнуюВыплатуКОтпуску</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="490ba009-099b-4c7d-ab9f-90dd7952a871">
+				<Properties>
+					<Name>ПредоставитьОсновнойОтпуск</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0c6cbdbc-f868-4b9b-a463-a722789406ad">
+				<Properties>
+					<Name>ПредоставитьМатериальнуюПомощьПриОтпуске</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9104387f-1e8c-48a5-87c8-c7a480c59a8e">
+				<Properties>
+					<Name>Исполнитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="568d78c3-01aa-432f-9b3e-909dfefab6f9">
+				<Properties>
+					<Name>ВидРасчетаМатериальнойПомощиПриОтпуске</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b8d19d14-2dbe-4483-bbfd-7555caba10e6">
+				<Properties>
+					<Name>КонецПериодаЗаКоторыйПредоставляетсяОтпуск</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="74719e51-0372-40c8-84d5-19669eb67ffe">
+				<Properties>
+					<Name>НачалоПериодаЗаКоторыйПредоставляетсяОтпуск</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fed37ee0-3c6d-4cbf-a2d6-ac1d4362d63e">
+				<Properties>
+					<Name>ДатаНачалаОсновногоОтпуска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3997454c-4377-4042-a345-03a11546a3a1">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f82d0c33-cd8c-41aa-b07f-d69df5bef109">
+				<Properties>
+					<Name>КоличествоДнейОтгула</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2b6b5fb7-f26a-4d4a-9368-4d77289e7762">
+				<Properties>
+					<Name>ВидРасчетаОсновногоОтпуска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1eac6b65-fa98-42bd-b4be-b417892caa9e">
+				<Properties>
+					<Name>ПредоставитьДополнительныйОтпуск</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4f77383a-4c10-4240-8247-3889b14d1063">
+				<Properties>
+					<Name>ДолжностьРаботникаКадровойСлужбы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dec43d99-7ae6-4aa7-bddc-29f546558350">
+				<Properties>
+					<Name>СреднийЗаработок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d4424c06-1a9d-40c3-8fc7-040ef5090edc">
+				<Properties>
+					<Name>ПредоставитьОтгул</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6e796574-dfd6-42de-92ac-0f41c1c0b022">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bad346b8-449b-4bae-a854-7a4864e9a595">
+				<Properties>
+					<Name>ДолжностьИсполнителя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="af155b18-c425-4ea2-9dd9-bdca4815a9de">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9add6647-0af4-472c-a6e8-69a2f2e1ff9f">
+				<Properties>
+					<Name>ЮТР_ПредоставитьДниОчередногоОтпуска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="a6e87a59-9e8d-4320-87f9-6b0c8a0a6b15">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.Отпуск.Начисления" category="TabularSection">
+						<xr:TypeId>2f304e67-9a17-416f-96c9-e5b24825ba78</xr:TypeId>
+						<xr:ValueId>a0943f28-17a6-449b-89f6-4156e5c21a61</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.Отпуск.Начисления" category="TabularSectionRow">
+						<xr:TypeId>4cc9d352-fb72-44b2-8103-bfb06aadbacc</xr:TypeId>
+						<xr:ValueId>d0ade758-be98-4e89-94bb-2ae9e6658998</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Начисления</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="70b50200-68f1-4eff-ba31-389b241f0532">
+						<Properties>
+							<Name>Начисление</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="809108d1-0456-47da-b7ef-240c2289946a">
+						<Properties>
+							<Name>ДатаНачала</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4a543377-6aea-4d5c-b100-2981945cdaf5">
+						<Properties>
+							<Name>Результат</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>13</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="dbde9cad-3b29-416c-8aaa-bc6951436f6f">
+						<Properties>
+							<Name>ДатаОкончания</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="b2131eb4-213c-4711-ba89-d17268038bfa">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.Отпуск.ДополнительныеОтпуска" category="TabularSection">
+						<xr:TypeId>83ba12f0-ab62-4cf9-aaa2-7dd830635195</xr:TypeId>
+						<xr:ValueId>93e9ef3c-70f3-4948-9a47-47bc61ca637a</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.Отпуск.ДополнительныеОтпуска" category="TabularSectionRow">
+						<xr:TypeId>ca153769-1aa6-4c37-af08-e6d15096cb16</xr:TypeId>
+						<xr:ValueId>56cc46f8-3326-48d9-9891-01dde6daf3c1</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДополнительныеОтпуска</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="9300b393-c35b-48f9-ae05-79ce1b32ebda">
+						<Properties>
+							<Name>ДатаОкончания</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bedaef9d-a3ca-4463-90b5-90cfa4781005">
+						<Properties>
+							<Name>ДатаНачала</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c93daafc-7ada-4c45-ab6d-3140359b9683">
+						<Properties>
+							<Name>ВидРасчета</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0d42fb59-dd9b-46fa-892a-94293c8d9a5b">
+						<Properties>
+							<Name>КонецПериодаЗаКоторыйПредоставляетсяОтпуск</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1eb033ba-00e5-4a25-bdf4-48c3bc94cf64">
+						<Properties>
+							<Name>КоличествоДнейКомпенсации</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="84adeb82-6c8b-49e5-b425-8310b17ce40f">
+						<Properties>
+							<Name>ВидРасчетаКомпенсации</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="04f61453-43fe-4441-9b2c-09d3b0cd40fe">
+						<Properties>
+							<Name>КоличествоДней</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>3</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="951f1ffb-b1e9-46af-8e98-c6904002c01e">
+						<Properties>
+							<Name>Основание</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="546fabff-f001-438f-a833-caca2ca766ec">
+						<Properties>
+							<Name>НачалоПериодаЗаКоторыйПредоставляетсяОтпуск</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f01908fa-104b-404b-b762-719295363b74">
+						<Properties>
+							<Name>ВидОтпуска</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ВидыОтпусков</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="030ba3c8-bb72-4c07-bbaf-8243702dddec">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.Отпуск.НачисленияПерерасчет" category="TabularSection">
+						<xr:TypeId>0af146d6-695c-40b2-b88f-c684f618b253</xr:TypeId>
+						<xr:ValueId>9bbec4b1-66e9-4943-ba11-a82fc1c9390c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.Отпуск.НачисленияПерерасчет" category="TabularSectionRow">
+						<xr:TypeId>f8de681c-36ae-42a9-aad1-f038f91b428c</xr:TypeId>
+						<xr:ValueId>cb92683f-51a6-4492-a913-46b35a7d3277</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>НачисленияПерерасчет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="1aa127d9-0c45-46cf-bcd5-f6adbaa79ecf">
+						<Properties>
+							<Name>ДатаОкончания</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0f84d97d-f4d5-4a68-88bd-7899e24f6e87">
+						<Properties>
+							<Name>Начисление</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="7f3b46c1-06e4-47d4-8c97-165dea519a6c">
+						<Properties>
+							<Name>Результат</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>13</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bcf4a3ca-0f50-4e7f-a154-a9ab587421c6">
+						<Properties>
+							<Name>ДатаНачала</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>
