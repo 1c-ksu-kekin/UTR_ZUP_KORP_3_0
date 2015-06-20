@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.20</Version>
+			<Version>3.0.22.182.21</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -52,6 +52,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<StyleItem>ПоясняющийТекст</StyleItem>
+			<StyleItem>НедоступныеДанныеЦвет</StyleItem>
 			<CommonPicture>Предупреждение</CommonPicture>
 			<CommonPicture>ЮТР_Склонения</CommonPicture>
 			<CommonPicture>ПротоколСОшибкой</CommonPicture>
@@ -164,6 +165,7 @@
 			<Enum>НДФЛСтавкиНалогообложенияРезидента</Enum>
 			<Enum>ВидыЗанятости</Enum>
 			<Enum>ОснованияФинансированияПособияФедеральнымБюджетом</Enum>
+			<Enum>ВидыМестВыплатыЗарплаты</Enum>
 			<DataProcessor>ПодготовкаКвартальнойОтчетностиВПФР</DataProcessor>
 			<InformationRegister>ЮТР_СтатьиКД</InformationRegister>
 			<InformationRegister>НастройкиШтатногоРасписания</InformationRegister>
@@ -176,6 +178,9 @@
 			<InformationRegister>НомераРабочихМестСпециальнойОценкиУсловийТруда</InformationRegister>
 			<InformationRegister>ТерриториальныеУсловияПФР</InformationRegister>
 			<InformationRegister>НастройкиЗаймовСотрудникам</InformationRegister>
+			<InformationRegister>МестаВыплатыЗарплатыПодразделений</InformationRegister>
+			<InformationRegister>БухучетЗарплатыПодразделений</InformationRegister>
+			<InformationRegister>МестаВыплатыЗарплатыОрганизаций</InformationRegister>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
 		</ChildObjects>

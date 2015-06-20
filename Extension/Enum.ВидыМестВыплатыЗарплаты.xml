@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="9569a0c4-9341-4e69-8626-c5427279bcb7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыМестВыплатыЗарплаты" category="Ref">
+				<xr:TypeId>1aced12c-14c3-4494-b8f4-75f96cd96cab</xr:TypeId>
+				<xr:ValueId>18f2993a-a4ba-4a07-969b-177078fe09ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыМестВыплатыЗарплаты" category="Manager">
+				<xr:TypeId>f6ff64a7-aa1e-4d22-a247-5d7a4c350385</xr:TypeId>
+				<xr:ValueId>f2912904-4ca8-4665-b83f-612b544eb53b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыМестВыплатыЗарплаты" category="List">
+				<xr:TypeId>f0c2ec9f-4670-420d-953a-01aa04f200ba</xr:TypeId>
+				<xr:ValueId>6561193b-1875-46d1-8f83-71d9be2b7c16</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыМестВыплатыЗарплаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="3bbff5b8-1fc5-437b-bfe5-0a50430dba52">
+				<Properties>
+					<Name>Раздатчик</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="07ce62cd-3626-4b37-96bd-0c734fc3c848">
+				<Properties>
+					<Name>ЗарплатныйПроект</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bec9ebc0-e607-40ba-9211-45f07e4ea340">
+				<Properties>
+					<Name>Касса</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

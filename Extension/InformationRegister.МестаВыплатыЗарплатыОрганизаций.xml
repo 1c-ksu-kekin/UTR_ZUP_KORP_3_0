@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationRegister uuid="31c67ae0-75da-47ba-8188-2892e7ee4cd6">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.МестаВыплатыЗарплатыОрганизаций" category="Record">
+				<xr:TypeId>28c0a1a9-7e60-466c-9e0c-91f46bcf446f</xr:TypeId>
+				<xr:ValueId>24df9e91-26a8-4fcc-9849-599bfa3126af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.МестаВыплатыЗарплатыОрганизаций" category="Manager">
+				<xr:TypeId>4a0d11cf-7ef8-4899-8674-a688606c92ae</xr:TypeId>
+				<xr:ValueId>7dee5ff4-2d6d-4e35-9077-ca04295bac4c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.МестаВыплатыЗарплатыОрганизаций" category="Selection">
+				<xr:TypeId>dd970438-1cd2-49ff-9eb9-a93e8bc5f7ae</xr:TypeId>
+				<xr:ValueId>4eacbf3e-4b9b-44c4-bf26-51be2138f777</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.МестаВыплатыЗарплатыОрганизаций" category="List">
+				<xr:TypeId>09205374-4bb5-4276-a3b3-cacd1adbc096</xr:TypeId>
+				<xr:ValueId>d7069156-d599-4b3d-a127-99228fb376d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.МестаВыплатыЗарплатыОрганизаций" category="RecordSet">
+				<xr:TypeId>691dcb75-75f4-48f2-a67b-ceccc014826b</xr:TypeId>
+				<xr:ValueId>9f2658c9-288a-4ddd-afcf-19eac8c83827</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.МестаВыплатыЗарплатыОрганизаций" category="RecordKey">
+				<xr:TypeId>1013f078-d6c5-4582-a94e-1a02da2051dc</xr:TypeId>
+				<xr:ValueId>e6168ac5-cfd7-4b6c-8516-35ded23b54f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.МестаВыплатыЗарплатыОрганизаций" category="RecordManager">
+				<xr:TypeId>d60cf167-6c07-4cdd-86f0-d2cf5642a2c1</xr:TypeId>
+				<xr:ValueId>47e83a6b-1f78-42b2-a833-1870366c5dc3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>МестаВыплатыЗарплатыОрганизаций</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="b40ecf56-a8c9-481d-9021-4b54154f4705">
+				<Properties>
+					<Name>Вид</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыМестВыплатыЗарплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="c1121601-183b-432e-a57f-a0ae702719a2">
+				<Properties>
+					<Name>МестоВыплаты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

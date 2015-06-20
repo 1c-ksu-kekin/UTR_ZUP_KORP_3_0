@@ -1027,9 +1027,10 @@
 				</v8:item>
 			</ToolTip>
 			<Use>
-				<xr:Common>false</xr:Common>
+				<xr:Common>true</xr:Common>
 				<xr:Value name="Role.ЮТР_ДобавлениеИзменениеНачисленийШтатногоРасписания">true</xr:Value>
 			</Use>
+			<Action>ЮТР_ЗакрытьПозицию</Action>
 		</Command>
 	</Commands>
 	<BaseForm>
