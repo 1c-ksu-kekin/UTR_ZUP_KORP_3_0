@@ -530,7 +530,7 @@
 										<ExtendedTooltip name="ОтсутствияДатаОкончанияРасширеннаяПодсказка" id="104"/>
 									</LabelField>
 									<LabelField name="ОтсутствияДлительностьОтсутствия" id="105">
-										<DataPath>2/24</DataPath>
+										<DataPath>Отсутствия.Рассчитан</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>

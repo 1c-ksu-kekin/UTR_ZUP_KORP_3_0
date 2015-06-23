@@ -215,8 +215,8 @@
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
 				<Field>1/4</Field>
-				<Field>Список.Ref</Field>
 				<Field>1/17</Field>
+				<Field>Список.Ref</Field>
 				<Field>1/69</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
@@ -579,8 +579,8 @@
 				<MainAttribute>true</MainAttribute>
 				<UseAlways>
 					<Field>1/4</Field>
-					<Field>Список.Ref</Field>
 					<Field>1/17</Field>
+					<Field>Список.Ref</Field>
 					<Field>1/69</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">

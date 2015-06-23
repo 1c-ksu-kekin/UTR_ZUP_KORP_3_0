@@ -512,12 +512,12 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>Список.ДатаЗакрытия</Field>
-				<Field>Список.Должность</Field>
-				<Field>Список.Закрыта</Field>
 				<Field>Список.Подразделение</Field>
-				<Field>Список.Утверждена</Field>
+				<Field>Список.Должность</Field>
 				<Field>Список.ДатаУтверждения</Field>
+				<Field>Список.ДатаЗакрытия</Field>
+				<Field>Список.Закрыта</Field>
+				<Field>Список.Утверждена</Field>
 				<Field>Список.Ref</Field>
 				<Field>Список.IsFolder</Field>
 				<Field>Список.Owner</Field>
@@ -1579,12 +1579,12 @@
 				</Type>
 				<MainAttribute>true</MainAttribute>
 				<UseAlways>
-					<Field>Список.ДатаЗакрытия</Field>
-					<Field>Список.Должность</Field>
-					<Field>Список.Закрыта</Field>
 					<Field>Список.Подразделение</Field>
-					<Field>Список.Утверждена</Field>
+					<Field>Список.Должность</Field>
 					<Field>Список.ДатаУтверждения</Field>
+					<Field>Список.ДатаЗакрытия</Field>
+					<Field>Список.Закрыта</Field>
+					<Field>Список.Утверждена</Field>
 					<Field>Список.Ref</Field>
 					<Field>Список.IsFolder</Field>
 					<Field>Список.Owner</Field>
