@@ -406,6 +406,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="68f83e61-371e-44ad-87d4-6b5b52e9afe1">
+				<Properties>
+					<Name>ЮТР_ПрекращениеТрудовогоДоговора</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="a6e87a59-9e8d-4320-87f9-6b0c8a0a6b15">
 				<InternalInfo>

@@ -5,7 +5,9 @@
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="NotificationProcessing">ЮТР_ОбработкаОповещения</Event>
 		<Event name="OnReadAtServer">ЮТР_ПриЧтенииНаСервере</Event>
+		<Event name="BeforeWrite">ЮТР_ПередЗаписью</Event>
 		<Event name="OnCreateAtServer">ЮТР_ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -158,6 +160,19 @@
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПредоставитьОсновнойОтпускКонтекстноеМеню" id="48"/>
 											<ExtendedTooltip name="ПредоставитьОсновнойОтпускExtendedTooltip" id="339"/>
+										</CheckBoxField>
+										<CheckBoxField name="ЮТР_ПрекращениеТрудовогоДоговора" id="617">
+											<DataPath>Объект.ЮТР_ПрекращениеТрудовогоДоговора</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>С последующим увольнением</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ЮТР_ПрекращениеТрудовогоДоговораКонтекстноеМеню" id="618"/>
+											<ExtendedTooltip name="ЮТР_ПрекращениеТрудовогоДоговораРасширеннаяПодсказка" id="619"/>
 										</CheckBoxField>
 										<UsualGroup name="ОсновнойОтпуск" id="281">
 											<Title>
@@ -2351,7 +2366,32 @@
 				</v8:item>
 			</ToolTip>
 		</Command>
+		<Command name="СоздатьПриказНаУвольнение" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Приказ на увольнение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать приказ на увольнение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЮТР_СоздатьПриказНаУвольнение</Action>
+		</Command>
 	</Commands>
+	<CommandInterface>
+		<CommandBar>
+			<Item>
+				<Command>Form.Command.СоздатьПриказНаУвольнение</Command>
+				<Type>Added</Type>
+				<CommandGroup>FormCommandBarCreateBasedOn</CommandGroup>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</CommandBar>
+	</CommandInterface>
 	<BaseForm>
 		<AutoTime>CurrentOrLast</AutoTime>
 		<UsePostingMode>Auto</UsePostingMode>
