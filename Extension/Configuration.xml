@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.51</Version>
+			<Version>3.0.22.182.54</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -184,8 +184,11 @@
 			<Catalog>Валюты</Catalog>
 			<Catalog>ВерсииФайлов</Catalog>
 			<Catalog>ВидыВычетовНДФЛ</Catalog>
+			<Catalog>ВидыДокументовВводДанныхДляРасчетаЗарплаты</Catalog>
 			<Catalog>ВидыДокументовОбОбразовании</Catalog>
 			<Catalog>ВидыДокументовФизическихЛиц</Catalog>
+			<Catalog>ВидыДоходовНДФЛ</Catalog>
+			<Catalog>ВидыДоходовПоСтраховымВзносам</Catalog>
 			<Catalog>ВидыИспользованияРабочегоВремени</Catalog>
 			<Catalog>ВидыОбразованияФизическихЛиц</Catalog>
 			<Catalog>ВидыОтпусков</Catalog>
@@ -228,11 +231,11 @@
 			<Catalog>СостояниеВБраке</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>СпискиПрофессийДолжностейЛьготногоПенсионногоОбеспечения</Catalog>
+			<Catalog>СпособыВыплатыЗарплаты</Catalog>
+			<Catalog>СпособыОкругленияПриРасчетеЗарплаты</Catalog>
 			<Catalog>СпособыОтраженияЗарплатыВБухУчете</Catalog>
 			<Catalog>СтатусыНалогоплательщиковПоНДФЛ</Catalog>
-			<Catalog>ВидыДоходовПоСтраховымВзносам</Catalog>
 			<Catalog>СтатьиРасходовЗарплата</Catalog>
-			<Catalog>ВидыДоходовНДФЛ</Catalog>
 			<Catalog>СтатьиФинансированияЗарплата</Catalog>
 			<Catalog>СтепениЗнанияЯзыка</Catalog>
 			<Catalog>СтепениРодстваФизическихЛиц</Catalog>
@@ -253,13 +256,11 @@
 			<Catalog>ЮТР_МуниципальныеОбразования</Catalog>
 			<Catalog>ЮТР_ПроизводственныеЕдиницы</Catalog>
 			<Catalog>ЮТР_РежимыРабочегоВремени</Catalog>
+			<Catalog>ЮТР_РодственникиФизическихЛиц</Catalog>
 			<Catalog>ЮТР_СтатьиКД</Catalog>
 			<Catalog>ЮТР_ТипыВоздушныхСудов</Catalog>
 			<Catalog>ЮТР_ХарактерыРабот</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
-			<Catalog>ЮТР_РодственникиФизическихЛиц</Catalog>
-			<Catalog>СпособыВыплатыЗарплаты</Catalog>
-			<Catalog>СпособыОкругленияПриРасчетеЗарплаты</Catalog>
 			<Document>АвансовыйПлатежИностранцаПоНДФЛ</Document>
 			<Document>АктПриемкиВыполненныхРаботОказанныхУслуг</Document>
 			<Document>АктПроверкиСтраховыхВзносов</Document>
@@ -470,7 +471,9 @@
 			<Enum>ПериодыВводаДанныхОВремени</Enum>
 			<Enum>ХарактерВыплатыЗарплаты</Enum>
 			<Enum>ВидыДокументовМежрасчетныхНачислений</Enum>
-			<Enum>ВидыКадровыхСобытий</Enum>
+			<Enum>НазначенияПоказателейРасчетаЗарплаты</Enum>
+			<Enum>СпособыВводаЗначенийПоказателейРасчетаЗарплаты</Enum>
+			<Enum>СпособыПримененияЗначенийПоказателейРасчетаЗарплаты</Enum>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
 			<DataProcessor>ПодготовкаКвартальнойОтчетностиВПФР</DataProcessor>
 			<InformationRegister>БухучетЗарплатыПодразделений</InformationRegister>
@@ -516,7 +519,6 @@
 			<InformationRegister>ЮТР_СтажСотрудниковОрганизаций</InformationRegister>
 			<InformationRegister>ЮТР_СтатьиКД</InformationRegister>
 			<InformationRegister>ЮТР_ТрудоваяДеятельностьФизическихЛиц</InformationRegister>
-			<InformationRegister>КадроваяИсторияСотрудников</InformationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>

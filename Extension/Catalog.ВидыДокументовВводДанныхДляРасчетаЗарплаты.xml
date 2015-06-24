@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Catalog uuid="7eb23e46-e309-4345-9b8d-24974357d57f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыДокументовВводДанныхДляРасчетаЗарплаты" category="Object">
+				<xr:TypeId>ddbc22c2-655e-48c6-af04-46429e646c78</xr:TypeId>
+				<xr:ValueId>d131c6f6-482a-4214-a9f6-2e9cd7b2c569</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыДокументовВводДанныхДляРасчетаЗарплаты" category="Ref">
+				<xr:TypeId>eb040633-61ff-41b6-80c5-a757b7b7d1bb</xr:TypeId>
+				<xr:ValueId>4633cd34-9a56-4c83-9d6b-c8d8811e5e2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыДокументовВводДанныхДляРасчетаЗарплаты" category="Selection">
+				<xr:TypeId>a125df26-93d8-48cc-b85b-40692cf5fbfe</xr:TypeId>
+				<xr:ValueId>480a38e3-992f-4ffb-88cd-b2de95d389f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыДокументовВводДанныхДляРасчетаЗарплаты" category="List">
+				<xr:TypeId>90e60be3-1245-4d72-93a7-8e963d42211b</xr:TypeId>
+				<xr:ValueId>b861e3e4-8bbf-42ad-ad70-0e7476324bd4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыДокументовВводДанныхДляРасчетаЗарплаты" category="Manager">
+				<xr:TypeId>32960c92-1efd-4872-ad99-a147fab95924</xr:TypeId>
+				<xr:ValueId>5e56cc0e-34eb-4571-888d-8fbba5c12e35</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыДокументовВводДанныхДляРасчетаЗарплаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Hierarchical>true</Hierarchical>
+			<DescriptionLength>100</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ebace17c-2af5-438d-9d83-9b684176b8a9">
+				<Properties>
+					<Name>ПроверятьЗаполнениеПодразделения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="183a0bc1-9b07-456a-8ca5-b07148dfa737">
+				<Properties>
+					<Name>НесколькоСотрудников</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ddafbf22-8d17-432e-83f6-32cfe3ac382c">
+				<Properties>
+					<Name>ИспользоватьПериодОкончания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="091b59a2-4b49-44dd-a7ee-471449ce480e">
+				<Properties>
+					<Name>НесколькоОрганизаций</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8d320814-e457-4aca-90db-e444c8a95789">
+				<Properties>
+					<Name>ВыполненныеРаботыРаспределяютсяСУчетомКоэффициентов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="19069717-c2a0-4ac1-ba2d-1013a71a64de">
+				<Properties>
+					<Name>ПоказыватьПодразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="226a6595-3b1d-423c-a2fc-44f6ab4816c8">
+				<Properties>
+					<Name>НеИспользуется</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="13926cf7-40a8-4f68-a249-2c52b34275f5">
+				<Properties>
+					<Name>Подсказка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="871114b8-352c-4bdc-ab00-b4afc3cacab1">
+				<Properties>
+					<Name>СпособПримененияЗначенийПоказателей</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыПримененияЗначенийПоказателейРасчетаЗарплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fca0da48-7e84-4b8c-9a0c-204878089387">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="daaf6a4b-2a56-4e6c-a60f-653eaea41f60">
+				<Properties>
+					<Name>ЗначенияПоказателейВводятсяНаРазныеДаты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="354be2c8-ad3d-4e5b-b0a0-717dea03ee1b">
+				<Properties>
+					<Name>ЗаполнятьСписокОбъектов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bf99ca6f-9471-4c13-aea1-f2ed562ccd6b">
+				<Properties>
+					<Name>ПредставлениеДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="79e98d5b-682f-412e-a10b-dd414ef2903a">
+				<Properties>
+					<Name>ВремяВводитсяСводно</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c541cb1b-2c05-43e7-a15d-deb634450f45">
+				<Properties>
+					<Name>ВыполненныеРаботыРаспределяютсяСУчетомТарифныхСтавок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="225dab63-1d93-4428-814a-4e570fd2b2f5">
+				<Properties>
+					<Name>НесколькоПодразделений</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="532a15f7-ff6c-4e39-b896-c984df1cb8a5">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="d8c3cc7a-284c-4075-8ff5-789ad1fe6e7f">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ВидыДокументовВводДанныхДляРасчетаЗарплаты.ВидыРабот" category="TabularSection">
+						<xr:TypeId>8c2e25fe-e14a-4433-bc42-004a0b68e884</xr:TypeId>
+						<xr:ValueId>135d4650-7a40-41cc-a6f7-12bc3a1539e4</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ВидыДокументовВводДанныхДляРасчетаЗарплаты.ВидыРабот" category="TabularSectionRow">
+						<xr:TypeId>57dd95d0-121d-46df-a6b2-3cbe76fbcde5</xr:TypeId>
+						<xr:ValueId>474e355b-e9f0-4d1c-afb4-8bf940ea7953</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ВидыРабот</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="329dbb0f-74a6-4199-a528-2989f042a2b0">
+						<Properties>
+							<Name>ВидРабот</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ВидыРаботСотрудников</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="59ddb844-4082-4f5d-b40e-dae184e3c0fd">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ВидыДокументовВводДанныхДляРасчетаЗарплаты.ЮТР_ГруппыНастроек" category="TabularSection">
+						<xr:TypeId>2647c076-a4dd-4bae-827e-dfb8a2d839fb</xr:TypeId>
+						<xr:ValueId>b4185515-6043-4691-be6b-f543f02f54cc</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ВидыДокументовВводДанныхДляРасчетаЗарплаты.ЮТР_ГруппыНастроек" category="TabularSectionRow">
+						<xr:TypeId>a710348e-3f4b-431a-a74c-841c85a17c5b</xr:TypeId>
+						<xr:ValueId>812cf62d-5d59-406a-981d-ddd72fa9f0c7</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ЮТР_ГруппыНастроек</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="9623cd39-3dc5-40bc-b1cc-f6f75d07c141">
+						<Properties>
+							<Name>Объект</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ГруппыДоступа</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

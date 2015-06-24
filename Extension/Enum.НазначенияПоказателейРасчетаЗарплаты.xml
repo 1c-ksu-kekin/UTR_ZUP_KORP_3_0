@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Enum uuid="53bb7399-2a3e-4ed8-af64-5b222cd670ef">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.НазначенияПоказателейРасчетаЗарплаты" category="Ref">
+				<xr:TypeId>b66c4deb-d13f-4a11-a990-10a517d8eb3a</xr:TypeId>
+				<xr:ValueId>89c685ac-04fc-49c3-b608-002b7124a957</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.НазначенияПоказателейРасчетаЗарплаты" category="Manager">
+				<xr:TypeId>3314661c-1bd2-4cd8-aeaa-57ca64bb3f6c</xr:TypeId>
+				<xr:ValueId>0b726456-1947-4937-a73a-bb71a1a68c22</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.НазначенияПоказателейРасчетаЗарплаты" category="List">
+				<xr:TypeId>6fb41a9c-8791-4627-8687-29b4ad98fff6</xr:TypeId>
+				<xr:ValueId>6d611f5c-a119-4c73-948d-1654f37dfa55</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НазначенияПоказателейРасчетаЗарплаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

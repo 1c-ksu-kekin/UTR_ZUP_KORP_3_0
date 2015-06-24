@@ -26,8 +26,77 @@
 		<Properties>
 			<Name>ДанныеДляРасчетаЗарплаты</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="14ad5ca3-aa41-4892-90c0-631070c6ede7">
+				<Properties>
+					<Name>Период</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c224ac37-f51a-4009-a1d3-08ce8b225aaf">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="548f47e1-2a27-47f1-8c9a-f384e79aacfd">
+				<Properties>
+					<Name>ВидДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыДокументовВводДанныхДляРасчетаЗарплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e84c186b-206e-4714-86b8-9d665ad033d9">
+				<Properties>
+					<Name>КраткийСоставДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="09d22a59-1775-40f2-872e-5132d3ec5db6">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b71aad95-8495-4734-ad06-a684a77ae42b">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
 			<TabularSection uuid="6d13a6a0-e345-484f-a9c0-8720e21807a1">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ДанныеДляРасчетаЗарплаты.ФизическиеЛица" category="TabularSection">
