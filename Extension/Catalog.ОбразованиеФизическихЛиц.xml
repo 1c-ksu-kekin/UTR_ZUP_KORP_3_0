@@ -214,6 +214,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="086678f5-02d8-4eb7-9956-20b2a1c70818">
+				<Properties>
+					<Name>ЮТР_Квалификация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЮТР_Квалификации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>
