@@ -257,6 +257,9 @@
 											<DataPath>Объект.Подразделение</DataPath>
 											<ContextMenu name="ПодразделениеКонтекстноеМеню" id="107"/>
 											<ExtendedTooltip name="ПодразделениеExtendedTooltip" id="251"/>
+											<Events>
+												<Event name="OnChange">ЮТР_ПодразделениеПриИзменении</Event>
+											</Events>
 										</InputField>
 										<InputField name="Территория" id="629">
 											<DataPath>Объект.Территория</DataPath>
@@ -281,6 +284,9 @@
 											<DataPath>Объект.Должность</DataPath>
 											<ContextMenu name="ДолжностьКонтекстноеМеню" id="111"/>
 											<ExtendedTooltip name="ДолжностьExtendedTooltip" id="253"/>
+											<Events>
+												<Event name="OnChange">ЮТР_ДолжностьПриИзменении</Event>
+											</Events>
 										</InputField>
 										<UsualGroup name="ГруппаДатаПриемаИспытательныйСрок" id="200">
 											<Group>Horizontal</Group>
