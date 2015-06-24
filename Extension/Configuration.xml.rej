@@ -1,0 +1,9 @@
+diff a/Extension/Configuration.xml b/Extension/Configuration.xml	(rejected hunks)
+@@ -261,6 +261,7 @@
+ 			<Catalog>ЮТР_ТипыВоздушныхСудов</Catalog>
+ 			<Catalog>ЮТР_ХарактерыРабот</Catalog>
+ 			<Catalog>ЯзыкиНародовМира</Catalog>
++<<<<<<< HEAD
+ =======
+ 			<Catalog>ЮТР_РодственникиФизическихЛиц</Catalog>
+ 			<Catalog>СпособыВыплатыЗарплаты</Catalog>

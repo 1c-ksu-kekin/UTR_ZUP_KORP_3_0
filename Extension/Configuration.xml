@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.54</Version>
+			<Version>3.0.22.182.55</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -261,13 +261,7 @@
 			<Catalog>ЮТР_ТипыВоздушныхСудов</Catalog>
 			<Catalog>ЮТР_ХарактерыРабот</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
-<<<<<<< HEAD
-=======
-			<Catalog>ЮТР_РодственникиФизическихЛиц</Catalog>
-			<Catalog>СпособыВыплатыЗарплаты</Catalog>
-			<Catalog>СпособыОкругленияПриРасчетеЗарплаты</Catalog>
 			<Catalog>ЮТР_Квалификации</Catalog>
->>>>>>> * В форме элемента справочника "ОбразованиеФизическихЛиц" поле ввода "Квалификация" заменена со строки на справочник.
 			<Document>АвансовыйПлатежИностранцаПоНДФЛ</Document>
 			<Document>АктПриемкиВыполненныхРаботОказанныхУслуг</Document>
 			<Document>АктПроверкиСтраховыхВзносов</Document>
