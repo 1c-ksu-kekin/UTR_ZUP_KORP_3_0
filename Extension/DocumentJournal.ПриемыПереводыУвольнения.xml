@@ -18,6 +18,10 @@
 		<Properties>
 			<Name>ПриемыПереводыУвольнения</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КадровыйПеревод</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриемНаРаботу</xr:Item>
+			</RegisteredDocuments>
 		</Properties>
 		<ChildObjects>
 			<Column uuid="a7d5c1b9-8540-47ac-87a6-fe375c6300fb">
