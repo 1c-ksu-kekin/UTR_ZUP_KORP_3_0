@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<InformationRegister uuid="e842975e-04e2-42b0-82fa-9208ac008d15">
+	<InformationRegister uuid="93034181-14ac-4f34-a214-9db5f653400a">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.КадроваяИсторияСотрудников" category="Record">
-				<xr:TypeId>24ddc4fd-6989-4828-b158-b9e1dff0cb2a</xr:TypeId>
-				<xr:ValueId>074897d6-a014-49be-b2e3-65186043c30f</xr:ValueId>
+				<xr:TypeId>1740c541-29e3-4c53-b7cf-1d6dc06bee88</xr:TypeId>
+				<xr:ValueId>5d982cdb-2cab-4a2e-86ee-4ac335e87ba7</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterManager.КадроваяИсторияСотрудников" category="Manager">
-				<xr:TypeId>e5208fb4-b115-4ed9-9d07-c7af4470343c</xr:TypeId>
-				<xr:ValueId>ae0eeff0-d220-44b8-9376-11da6844dde9</xr:ValueId>
+				<xr:TypeId>808a6047-3952-4c25-aa17-829476cb5301</xr:TypeId>
+				<xr:ValueId>59080d9e-f61a-44b0-b2ce-8a99946af2a0</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterSelection.КадроваяИсторияСотрудников" category="Selection">
-				<xr:TypeId>b369dbbc-0f9e-4d8e-8449-dfe9ab6dd072</xr:TypeId>
-				<xr:ValueId>1ea5e857-ae20-4fae-ade2-091767ae148d</xr:ValueId>
+				<xr:TypeId>2ae4ed35-6f56-470e-be28-545960489c7f</xr:TypeId>
+				<xr:ValueId>6015c30b-acff-4c4e-bf68-0772d46239b4</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterList.КадроваяИсторияСотрудников" category="List">
-				<xr:TypeId>0285e149-13f7-4fd8-9856-23d2b3350676</xr:TypeId>
-				<xr:ValueId>c640348b-13a7-48ba-b889-c2c46995db61</xr:ValueId>
+				<xr:TypeId>eebe2641-b1a5-4c05-8923-6ceda7c0f09c</xr:TypeId>
+				<xr:ValueId>69064f10-f483-48d6-afdb-b8e6e3d5e32e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordSet.КадроваяИсторияСотрудников" category="RecordSet">
-				<xr:TypeId>acae2421-80b0-423f-97d6-944cea6e2ff4</xr:TypeId>
-				<xr:ValueId>ee783afc-447c-4a2f-b6bb-13e4bce45d21</xr:ValueId>
+				<xr:TypeId>9de1717c-9c95-4a91-92af-1d26a77d76cf</xr:TypeId>
+				<xr:ValueId>45f42b73-c2c7-4dcf-a3f2-eecf3a0288d7</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordKey.КадроваяИсторияСотрудников" category="RecordKey">
-				<xr:TypeId>4de7a46a-7a58-413e-a2a7-93513658fddf</xr:TypeId>
-				<xr:ValueId>95fd007f-8caf-4a2d-97fd-5af2d7228b4d</xr:ValueId>
+				<xr:TypeId>14465f98-ff19-4194-bd37-a0c350112225</xr:TypeId>
+				<xr:ValueId>b61a4071-10d2-450b-9d50-272351c99115</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordManager.КадроваяИсторияСотрудников" category="RecordManager">
-				<xr:TypeId>83a6711b-a45f-4bd7-b6fb-e9ecd1399c8e</xr:TypeId>
-				<xr:ValueId>2373d470-da0c-448b-b051-5b67ff70f074</xr:ValueId>
+				<xr:TypeId>03b103d3-2bde-433f-a75b-047ddf89ce01</xr:TypeId>
+				<xr:ValueId>4849cc6f-09a6-47e7-b6cb-32bcfe10d843</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -38,7 +38,7 @@
 			<WriteMode>RecorderSubordinate</WriteMode>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="52771f05-aaa0-48d4-9c98-8066f304600a">
+			<Resource uuid="80e7d880-f0cc-490d-ab88-df1673ee10ec">
 				<Properties>
 					<Name>ВидСобытия</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
@@ -47,15 +47,6 @@
 					</Type>
 				</Properties>
 			</Resource>
-			<Dimension uuid="807dca74-6450-493d-81ec-003f1e685a21">
-				<Properties>
-					<Name>Сотрудник</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
-					</Type>
-				</Properties>
-			</Dimension>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>
