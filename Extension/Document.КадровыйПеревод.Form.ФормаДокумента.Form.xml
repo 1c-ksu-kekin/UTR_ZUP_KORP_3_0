@@ -264,7 +264,7 @@
 							<ContextMenu name="ЮТР_ВидДокументаКонтекстноеМеню" id="794"/>
 							<ExtendedTooltip name="ЮТР_ВидДокументаРасширеннаяПодсказка" id="795"/>
 							<Events>
-								<Event name="StartChoice">ЮТР_ВидДокументаНачалоВыбора</Event>
+								<Event name="StartChoice">ЮТР_ЮТР_ВидДокументаНачалоВыбора</Event>
 							</Events>
 						</InputField>
 						<CheckBoxField name="СменаВидаДоговора" id="653">
@@ -350,17 +350,11 @@
 									</ChoiceParameterLinks>
 									<ContextMenu name="ОбособленноеПодразделениеКонтекстноеМеню" id="176"/>
 									<ExtendedTooltip name="ОбособленноеПодразделениеExtendedTooltip" id="343"/>
-									<Events>
-										<Event name="OnChange">ЮТР_ОбособленноеПодразделениеПриИзменении</Event>
-									</Events>
 								</InputField>
 								<InputField name="Подразделение" id="106">
 									<DataPath>Объект.Подразделение</DataPath>
 									<ContextMenu name="ПодразделениеКонтекстноеМеню" id="107"/>
 									<ExtendedTooltip name="ПодразделениеExtendedTooltip" id="344"/>
-									<Events>
-										<Event name="OnChange">ЮТР_ПодразделениеПриИзменении</Event>
-									</Events>
 								</InputField>
 								<InputField name="Территория" id="778">
 									<DataPath>Объект.Территория</DataPath>
@@ -856,7 +850,7 @@
 													<ContextMenu name="ЮТР_ИндивидуальнаяСистемаОплатыТрудаКонтекстноеМеню" id="803"/>
 													<ExtendedTooltip name="ЮТР_ИндивидуальнаяСистемаОплатыТрудаРасширеннаяПодсказка" id="804"/>
 													<Events>
-														<Event name="OnChange">ЮТР_ИндивидуальнаяСистемаОплатыТрудаПриИзменении</Event>
+														<Event name="OnChange">ЮТР_ЮТР_ИндивидуальнаяСистемаОплатыТрудаПриИзменении</Event>
 													</Events>
 												</CheckBoxField>
 											</ChildItems>

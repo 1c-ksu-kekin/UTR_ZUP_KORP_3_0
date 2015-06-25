@@ -50,6 +50,34 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<TabularSection uuid="ac84e1c8-bacf-446b-a9ff-cd99182302bf">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ВидыСтажа.ЮТР_ГруппыНастроек" category="TabularSection">
+						<xr:TypeId>a6b561a0-47ca-4d79-b959-d71c9cbb2a3d</xr:TypeId>
+						<xr:ValueId>ee4ad3a2-bbd8-4cbd-8e36-9fbdfdbd901f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ВидыСтажа.ЮТР_ГруппыНастроек" category="TabularSectionRow">
+						<xr:TypeId>aca641f0-f28f-4852-bf1e-6a17bb844745</xr:TypeId>
+						<xr:ValueId>672085c4-e0dd-40a5-9778-2c4c655c0bcb</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ЮТР_ГруппыНастроек</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="eef88b3e-1563-4049-885c-64704373963a">
+						<Properties>
+							<Name>Объект</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ГруппыДоступа</v8:Type>
+								<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>

@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.57</Version>
+			<Version>3.0.22.182.58</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -261,7 +261,6 @@
 			<Catalog>ЮТР_ТипыВоздушныхСудов</Catalog>
 			<Catalog>ЮТР_ХарактерыРабот</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
-			<Catalog>ЮТР_Квалификации</Catalog>
 			<Document>АвансовыйПлатежИностранцаПоНДФЛ</Document>
 			<Document>АктПриемкиВыполненныхРаботОказанныхУслуг</Document>
 			<Document>АктПроверкиСтраховыхВзносов</Document>

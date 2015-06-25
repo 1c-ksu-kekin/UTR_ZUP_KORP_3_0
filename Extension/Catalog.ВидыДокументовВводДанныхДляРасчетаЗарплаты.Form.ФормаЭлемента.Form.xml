@@ -1233,12 +1233,6 @@
 							<v8:content>Группы настроек</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ЮТР страница группы настроек</v8:content>
-						</v8:item>
-					</ToolTip>
 					<ExtendedTooltip name="ЮТР_СтраницаГруппыНастроекРасширеннаяПодсказка" id="403"/>
 					<ChildItems>
 						<Table name="ЮТР_ГруппыНастроек" id="404">
