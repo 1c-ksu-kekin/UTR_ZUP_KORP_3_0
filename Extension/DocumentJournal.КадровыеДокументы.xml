@@ -18,10 +18,6 @@
 		<Properties>
 			<Name>КадровыеДокументы</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<RegisteredDocuments>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.КадровыйПеревод</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.КадровыйПеревод</xr:Item>
-			</RegisteredDocuments>
 		</Properties>
 		<ChildObjects>
 			<Column uuid="72c714e6-4a0f-4158-a7b1-0d7f3b3c7a73">
