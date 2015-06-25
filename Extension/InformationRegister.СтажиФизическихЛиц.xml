@@ -90,9 +90,76 @@
 					</Type>
 				</Properties>
 			</Resource>
-			<Dimension uuid="0b2bee04-98b4-410e-9654-7ba7aa89da9e">
+			<Resource uuid="6fdd06df-2818-4dac-af6c-a6c6e7a4b99d">
 				<Properties>
-					<Name>Сотрудник</Name>
+					<Name>ДатаОтсчета</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="21a85c0f-f491-46b9-bbca-7179125d0af3">
+				<Properties>
+					<Name>РазмерМесяцев</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="e9584ac4-5641-47ae-8f2a-b927b591afa4">
+				<Properties>
+					<Name>РазмерДней</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="837db0b9-ab80-44a5-8a56-13570b95b705">
+				<Properties>
+					<Name>ИсчисляетсяСДатыПриема</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="4adbf928-fe16-4667-bbca-5dcc0aea28b8">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="169a9da7-c1ee-4349-bba7-847a6618f7c8">
+				<Properties>
+					<Name>ВидСтажа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыСтажа</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="efb56153-ff22-43ea-810d-76382bc22de7">
+				<Properties>
+					<Name>ЮТР_Сотрудник</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>

@@ -117,6 +117,37 @@
 					</Type>
 				</Properties>
 			</Resource>
+			<Resource uuid="60bf4e9d-d1da-4327-9e31-92f7de3fce8d">
+				<Properties>
+					<Name>ДолжностьПоШтатномуРасписанию</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШтатноеРасписание</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="94d731a7-7a87-4bc6-9750-fdbcf9b286d2">
+				<Properties>
+					<Name>ТерриториальныеУсловияПФР</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ТерриториальныеУсловияПФР</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="76320de1-490d-4f5c-a708-b496ae9e87bf">
+				<Properties>
+					<Name>МетодРаботы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>25</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
 			<Attribute uuid="b81d0abf-f1dd-4bf8-8af9-a4393b022979">
 				<Properties>
 					<Name>ДатаОкончанияПоРегистратору</Name>

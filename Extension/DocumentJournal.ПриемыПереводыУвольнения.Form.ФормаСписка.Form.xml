@@ -115,13 +115,11 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<LabelField name="ДатаСобытия" id="19">
-					<DataPath>Список.ДатаСобытия</DataPath>
 					<Width>7</Width>
 					<ContextMenu name="ДатаСобытияКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="ДатаСобытияРасширеннаяПодсказка" id="21"/>
 				</LabelField>
 				<LabelField name="Дата" id="38">
-					<DataPath>Список.Date</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -130,20 +128,17 @@
 					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="40"/>
 				</LabelField>
 				<LabelField name="Номер" id="13">
-					<DataPath>Список.Number</DataPath>
 					<Width>11</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="НомерКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="15"/>
 				</LabelField>
 				<LabelField name="Тип" id="16">
-					<DataPath>Список.Type</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="ТипКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="18"/>
 				</LabelField>
 				<LabelField name="ЮТР_ВидДокумента" id="60">
-					<DataPath>Список.ЮТР_ВидДокумента</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -154,17 +149,14 @@
 					<ExtendedTooltip name="ЮТР_ВидДокументаРасширеннаяПодсказка" id="62"/>
 				</LabelField>
 				<LabelField name="Организация" id="22">
-					<DataPath>Список.Организация</DataPath>
 					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="24"/>
 				</LabelField>
 				<LabelField name="Сотрудник" id="25">
-					<DataPath>Список.Сотрудник</DataPath>
 					<ContextMenu name="СотрудникКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="27"/>
 				</LabelField>
 				<InputField name="БронированиеПозиции" id="50">
-					<DataPath>Список.БронированиеПозиции</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -175,17 +167,14 @@
 					<ExtendedTooltip name="БронированиеПозицииРасширеннаяПодсказка" id="52"/>
 				</InputField>
 				<LabelField name="Комментарий" id="31">
-					<DataPath>Список.Комментарий</DataPath>
 					<ContextMenu name="КомментарийКонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="33"/>
 				</LabelField>
 				<LabelField name="Ответственный" id="28">
-					<DataPath>Список.Ответственный</DataPath>
 					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="30"/>
 				</LabelField>
 				<LabelField name="Ссылка" id="7">
-					<DataPath>Список.Ref</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -203,9 +192,6 @@
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
 				<Field>1/15</Field>
-				<Field>Список.Type</Field>
-				<Field>1/20</Field>
-				<Field>Список.ДатаДокумента</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -357,7 +343,6 @@
 				<ExtendedTooltip name="СписокНастройкиОтбораРасширеннаяПодсказка" id="56"/>
 			</UsualGroup>
 			<CommandBar name="КоманднаяПанельФормы" id="36">
-				<CommandSource>Form</CommandSource>
 				<ExtendedTooltip name="КоманднаяПанельФормыРасширеннаяПодсказка" id="37"/>
 				<ChildItems>
 					<Button name="ФормаУтвердить" id="34">
@@ -390,7 +375,6 @@
 				<ShowRoot>true</ShowRoot>
 				<AllowRootChoice>false</AllowRootChoice>
 				<UpdateOnDataChange>Auto</UpdateOnDataChange>
-				<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
 				<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
 				<AutoCommandBar name="СписокКоманднаяПанель" id="5">
 					<Autofill>false</Autofill>
@@ -422,13 +406,11 @@
 				</SearchControlAddition>
 				<ChildItems>
 					<LabelField name="ДатаСобытия" id="19">
-						<DataPath>Список.ДатаСобытия</DataPath>
 						<Width>7</Width>
 						<ContextMenu name="ДатаСобытияКонтекстноеМеню" id="20"/>
 						<ExtendedTooltip name="ДатаСобытияРасширеннаяПодсказка" id="21"/>
 					</LabelField>
 					<LabelField name="Дата" id="38">
-						<DataPath>Список.Date</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -437,30 +419,25 @@
 						<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="40"/>
 					</LabelField>
 					<LabelField name="Номер" id="13">
-						<DataPath>Список.Number</DataPath>
 						<Width>11</Width>
 						<HorizontalStretch>false</HorizontalStretch>
 						<ContextMenu name="НомерКонтекстноеМеню" id="14"/>
 						<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="15"/>
 					</LabelField>
 					<LabelField name="Тип" id="16">
-						<DataPath>Список.Type</DataPath>
 						<DefaultItem>true</DefaultItem>
 						<ContextMenu name="ТипКонтекстноеМеню" id="17"/>
 						<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="18"/>
 					</LabelField>
 					<LabelField name="Организация" id="22">
-						<DataPath>Список.Организация</DataPath>
 						<ContextMenu name="ОрганизацияКонтекстноеМеню" id="23"/>
 						<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="24"/>
 					</LabelField>
 					<LabelField name="Сотрудник" id="25">
-						<DataPath>Список.Сотрудник</DataPath>
 						<ContextMenu name="СотрудникКонтекстноеМеню" id="26"/>
 						<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="27"/>
 					</LabelField>
 					<CheckBoxField name="БронированиеПозиции" id="50">
-						<DataPath>Список.БронированиеПозиции</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -472,17 +449,14 @@
 						<ExtendedTooltip name="БронированиеПозицииРасширеннаяПодсказка" id="52"/>
 					</CheckBoxField>
 					<LabelField name="Комментарий" id="31">
-						<DataPath>Список.Комментарий</DataPath>
 						<ContextMenu name="КомментарийКонтекстноеМеню" id="32"/>
 						<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="33"/>
 					</LabelField>
 					<LabelField name="Ответственный" id="28">
-						<DataPath>Список.Ответственный</DataPath>
 						<ContextMenu name="ОтветственныйКонтекстноеМеню" id="29"/>
 						<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="30"/>
 					</LabelField>
 					<LabelField name="Ссылка" id="7">
-						<DataPath>Список.Ref</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -498,12 +472,6 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<MainAttribute>true</MainAttribute>
-				<UseAlways>
-					<Field>Список.БронированиеПозиции</Field>
-					<Field>Список.Ref</Field>
-					<Field>Список.ТребуетОбработки</Field>
-					<Field>Список.Posted</Field>
-				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
 					<DynamicDataRead>true</DynamicDataRead>

@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.61</Version>
+			<Version>3.0.22.182.63</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -94,14 +94,14 @@
 			<CommonPicture>Этап03</CommonPicture>
 			<CommonPicture>ЮТР_Склонения</CommonPicture>
 			<CommonPicture>ЮТР_Транслит</CommonPicture>
+			<Role>ЮТР_ДобавлениеИзменениеКадровоеИзменениеВидДокументаИзменениеГрафика</Role>
 			<Role>ЮТР_ДобавлениеИзменениеНачисленийШтатногоРасписания</Role>
 			<Role>ЮТР_ДобавлениеИзменениеШтатногоРасписания</Role>
 			<Role>ЮТР_ДобавлениеИзменениеШтатногоРасписанияИзменениеТерритории</Role>
-			<Role>ЮТР_ДобавлениеИзменениеКадровоеИзменениеВидДокументаИзменениеГрафика</Role>
 			<FilterCriterion>ДокументыСотрудников</FilterCriterion>
 			<CommonModule>ЛьготыСотрудников</CommonModule>
-			<CommonModule>СотрудникиФормыРасширенный</CommonModule>
 			<CommonModule>СотрудникиКлиентСерверРасширенный</CommonModule>
+			<CommonModule>СотрудникиФормыРасширенный</CommonModule>
 			<FunctionalOption>ВыбиратьВидНачисленияДоплатыЗаДниБолезни</FunctionalOption>
 			<FunctionalOption>ИспользоватьВилкуСтавокВШтатномРасписании</FunctionalOption>
 			<FunctionalOption>ИспользоватьВоинскийУчет</FunctionalOption>
@@ -483,6 +483,7 @@
 			<InformationRegister>ГражданствоФизическихЛиц</InformationRegister>
 			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
 			<InformationRegister>ИсторияРегистрацийВОрганеПФР</InformationRegister>
+			<InformationRegister>КадроваяИсторияСотрудников</InformationRegister>
 			<InformationRegister>КлассыУсловийТрудаПоДолжностям</InformationRegister>
 			<InformationRegister>МестаВыплатыЗарплатыОрганизаций</InformationRegister>
 			<InformationRegister>МестаВыплатыЗарплатыПодразделений</InformationRegister>
@@ -520,7 +521,6 @@
 			<InformationRegister>ЮТР_СтажСотрудниковОрганизаций</InformationRegister>
 			<InformationRegister>ЮТР_СтатьиКД</InformationRegister>
 			<InformationRegister>ЮТР_ТрудоваяДеятельностьФизическихЛиц</InformationRegister>
-			<InformationRegister>КадроваяИсторияСотрудников</InformationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
