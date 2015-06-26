@@ -1,62 +1,65 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<DocumentJournal uuid="ffc0e744-8d6b-4a09-92f3-b2ac8eca1c21">
+	<DocumentJournal uuid="7e72e5d1-03c6-4078-87f0-464e8bdd896e">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentJournalSelection.КадровыеДокументы" category="Selection">
-				<xr:TypeId>5541dc74-8fca-45ec-a0be-b06da2db87a7</xr:TypeId>
-				<xr:ValueId>77493411-96a5-4a5c-b09f-b42fd36d77bf</xr:ValueId>
+				<xr:TypeId>2f1767d2-7fdd-4d51-93ef-0a6d0e5e7570</xr:TypeId>
+				<xr:ValueId>4322c645-bf51-4400-b9df-a4d84a1fd7f3</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentJournalList.КадровыеДокументы" category="List">
-				<xr:TypeId>1078e127-e28e-46c7-b10d-4e70d219f7c9</xr:TypeId>
-				<xr:ValueId>e0a6ec56-6736-4704-9e08-f33f84130384</xr:ValueId>
+				<xr:TypeId>76014609-3755-4009-8f2e-9ff9f51f6a4c</xr:TypeId>
+				<xr:ValueId>bf59c548-7c6d-4be8-a65d-1caa94a6e7d2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentJournalManager.КадровыеДокументы" category="Manager">
-				<xr:TypeId>0cfb76dc-fa45-493d-891b-0a18e3b2be63</xr:TypeId>
-				<xr:ValueId>69fa67cd-6ea7-4f0d-af7e-212b8a1f257e</xr:ValueId>
+				<xr:TypeId>e055041d-51b2-4788-9200-75ced22448d2</xr:TypeId>
+				<xr:ValueId>d21e43da-ecd9-48fc-93b1-d887d5270d68</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>КадровыеДокументы</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КадровыйПеревод</xr:Item>
+			</RegisteredDocuments>
 		</Properties>
 		<ChildObjects>
-			<Column uuid="72c714e6-4a0f-4158-a7b1-0d7f3b3c7a73">
+			<Column uuid="f9158205-4e69-4b3f-b529-a57945756719">
 				<Properties>
 					<Name>ДатаСобытия</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Column>
-			<Column uuid="50a02d43-dc88-40c2-968d-77a8589357b3">
+			<Column uuid="5244391a-4955-437f-9506-cb52dc376786">
 				<Properties>
 					<Name>БронированиеПозиции</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Column>
-			<Column uuid="bcb74faf-6058-45eb-b6df-d906ebb25b96">
+			<Column uuid="c222c17f-2ea1-44d9-b1f5-a34351c4faa7">
 				<Properties>
 					<Name>Ответственный</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Column>
-			<Column uuid="d12b0290-3a91-4007-9d8e-f26c4366ca1a">
+			<Column uuid="a2d7345b-8324-4873-8110-54a50272212e">
 				<Properties>
 					<Name>Утвержден</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Column>
-			<Column uuid="b49ccca6-058f-4c96-9cb4-4856e3b81b4e">
+			<Column uuid="9d699c1e-2df0-48d7-ba86-59e66396b8ac">
 				<Properties>
 					<Name>Сотрудник</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Column>
-			<Column uuid="61583b31-6e82-48f6-b5b6-492587ac37b2">
+			<Column uuid="bc44a478-0fdd-4949-83e2-d2de944b1294">
 				<Properties>
 					<Name>Комментарий</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Column>
-			<Column uuid="3dda6b58-5114-410f-916e-66423a2dad00">
+			<Column uuid="1d90afc4-975c-4ad3-b8e8-4804494613b8">
 				<Properties>
 					<Name>Организация</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>

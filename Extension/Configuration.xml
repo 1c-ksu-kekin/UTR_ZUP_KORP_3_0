@@ -44,7 +44,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.63</Version>
+			<Version>3.0.22.182.65</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
@@ -414,6 +414,7 @@
 			<DocumentJournal>ГрафикиПереносыОтпусков</DocumentJournal>
 			<DocumentJournal>Отсутствия</DocumentJournal>
 			<DocumentJournal>ПриемыПереводыУвольнения</DocumentJournal>
+			<DocumentJournal>КадровыеДокументы</DocumentJournal>
 			<Enum>ВариантыПравилЗаполненияРеквизитов</Enum>
 			<Enum>ВидыДнейПроизводственногоКалендаря</Enum>
 			<Enum>ВидыДоговоровССотрудниками</Enum>

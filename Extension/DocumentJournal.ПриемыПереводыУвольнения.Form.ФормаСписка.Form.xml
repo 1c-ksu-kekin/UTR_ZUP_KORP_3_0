@@ -203,10 +203,10 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>Список.Ref</Field>
-				<Field>Список.ТребуетОбработки</Field>
-				<Field>Список.БронированиеПозиции</Field>
-				<Field>Список.Posted</Field>
+				<Field>Список.Type</Field>
+				<Field>Список.DeletionMark</Field>
+				<Field>1/18</Field>
+				<Field>1/20</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
