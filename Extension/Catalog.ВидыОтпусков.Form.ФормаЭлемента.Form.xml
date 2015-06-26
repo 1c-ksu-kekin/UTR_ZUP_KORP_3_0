@@ -207,6 +207,13 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
+		<CheckBoxField name="ЮТР_ПризнакПересчетаРабочихДнейВКалендарные" id="70">
+			<DataPath>Объект.ЮТР_ПризнакПересчетаРабочихДнейВКалендарные</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЮТР_ПризнакПересчетаРабочихДнейВКалендарныеКонтекстноеМеню" id="71"/>
+			<ExtendedTooltip name="ЮТР_ПризнакПересчетаРабочихДнейВКалендарныеРасширеннаяПодсказка" id="72"/>
+		</CheckBoxField>
 		<InputField name="ЮТР_ЗависимостьДнейОтСтажа" id="67">
 			<DataPath>Объект.ЮТР_ЗависимостьДнейОтСтажа</DataPath>
 			<ContextMenu name="ЮТР_ЗависимостьДнейОтСтажаКонтекстноеМеню" id="68"/>

@@ -110,6 +110,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="e8487863-1721-413d-a306-8e32d3980db1">
+				<Properties>
+					<Name>ЮТР_ПризнакПересчетаРабочихДнейВКалендарные</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>
