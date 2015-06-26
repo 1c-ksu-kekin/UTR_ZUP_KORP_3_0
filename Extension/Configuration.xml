@@ -412,9 +412,8 @@
 			<Document>ЮТР_УплатаАлиментовИПрофвзносов</Document>
 			<DocumentJournal>ДокументыУправленияШтатнымРасписанием</DocumentJournal>
 			<DocumentJournal>ГрафикиПереносыОтпусков</DocumentJournal>
-			<DocumentJournal>ПриемыПереводыУвольнения</DocumentJournal>
-			<DocumentJournal>КадровыеДокументы</DocumentJournal>
 			<DocumentJournal>Отсутствия</DocumentJournal>
+			<DocumentJournal>ПриемыПереводыУвольнения</DocumentJournal>
 			<Enum>ВариантыПравилЗаполненияРеквизитов</Enum>
 			<Enum>ВидыДнейПроизводственногоКалендаря</Enum>
 			<Enum>ВидыДоговоровССотрудниками</Enum>

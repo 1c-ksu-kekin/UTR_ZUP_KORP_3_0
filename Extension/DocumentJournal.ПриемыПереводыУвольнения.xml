@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<DocumentJournal uuid="ac90af70-7105-4a32-98a8-6e7e6544e22f">
+	<DocumentJournal uuid="6328ae4a-a3ee-4d50-bf55-c762fe64b78f">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentJournalSelection.ПриемыПереводыУвольнения" category="Selection">
-				<xr:TypeId>330598e0-1f0b-4a60-8bf6-51e0a05f14ac</xr:TypeId>
-				<xr:ValueId>4cc53026-55a7-4cfe-90cf-89adf0b1d1ba</xr:ValueId>
+				<xr:TypeId>37959838-4c97-4c43-8d85-6d8310c90d34</xr:TypeId>
+				<xr:ValueId>0e6612fb-ea62-4462-9386-5235dfb91032</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentJournalList.ПриемыПереводыУвольнения" category="List">
-				<xr:TypeId>5598c3e1-8940-4102-8533-1b8f1a4eaef9</xr:TypeId>
-				<xr:ValueId>625e8768-2814-44d3-a9b5-150c4e4a2580</xr:ValueId>
+				<xr:TypeId>88724108-98a1-451b-abd7-8a98fdb0b880</xr:TypeId>
+				<xr:ValueId>8a63cb61-e2cd-467a-a7d7-c695606e86b9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentJournalManager.ПриемыПереводыУвольнения" category="Manager">
-				<xr:TypeId>aebe150c-8e35-4e8e-8bdd-2701acfe84a7</xr:TypeId>
-				<xr:ValueId>c53353cb-5150-45e9-93ad-65da79a12d59</xr:ValueId>
+				<xr:TypeId>cfc4bdab-3991-41c4-90c1-39bf36d2a484</xr:TypeId>
+				<xr:ValueId>9835db3f-8670-4d79-bd59-7f202cc25061</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -20,43 +20,43 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects>
-			<Column uuid="a7d5c1b9-8540-47ac-87a6-fe375c6300fb">
+			<Column uuid="b0d96742-4851-4162-a7c4-027a3ee73dcc">
 				<Properties>
 					<Name>Ответственный</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Column>
-			<Column uuid="fd0be047-88e1-4adb-b938-3698d3cba479">
+			<Column uuid="8342a981-bb7a-4694-a289-ea43e615904a">
 				<Properties>
 					<Name>Сотрудник</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Column>
-			<Column uuid="4ce55865-327b-43f6-9689-d2c4d00be39b">
+			<Column uuid="02cb6ce8-81cc-444e-b842-8c00b140ca88">
 				<Properties>
 					<Name>Организация</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Column>
-			<Column uuid="3db87511-5fc5-4fa2-8de2-2d7cbfd12ed2">
+			<Column uuid="9c6acf48-9be1-4905-ba59-93991837551a">
 				<Properties>
 					<Name>Комментарий</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Column>
-			<Column uuid="bafd901f-9308-4b7d-9c41-e4a68465dab5">
+			<Column uuid="ffbf4450-f748-4cd9-9c16-8f3d6fb1696a">
 				<Properties>
 					<Name>БронированиеПозиции</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Column>
-			<Column uuid="7d7a525e-3a87-4cb2-9ad0-21e3b8d9da7b">
+			<Column uuid="6fc629dd-e5f7-4144-b681-1048d50f9d46">
 				<Properties>
 					<Name>Утвержден</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Column>
-			<Column uuid="742c117c-7024-4c19-aa58-2d56057a8b60">
+			<Column uuid="668980a6-2890-4c9d-b99d-2b1723f6ac46">
 				<Properties>
 					<Name>ДатаСобытия</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
