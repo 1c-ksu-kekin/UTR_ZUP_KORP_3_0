@@ -206,9 +206,9 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
+				<Field>Список.БронированиеПозиции</Field>
 				<Field>Список.ТребуетОбработки</Field>
 				<Field>Список.Ref</Field>
-				<Field>Список.БронированиеПозиции</Field>
 				<Field>Список.Posted</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
@@ -505,9 +505,9 @@
 				</Type>
 				<MainAttribute>true</MainAttribute>
 				<UseAlways>
+					<Field>Список.БронированиеПозиции</Field>
 					<Field>Список.ТребуетОбработки</Field>
 					<Field>Список.Ref</Field>
-					<Field>Список.БронированиеПозиции</Field>
 					<Field>Список.Posted</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
