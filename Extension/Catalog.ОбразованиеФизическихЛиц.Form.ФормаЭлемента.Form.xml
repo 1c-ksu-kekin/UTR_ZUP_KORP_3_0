@@ -170,9 +170,25 @@
 					<ChildItems>
 						<InputField name="Квалификация" id="34">
 							<DataPath>Объект.Квалификация</DataPath>
+							<Visible>false</Visible>
+							<Enabled>false</Enabled>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="КвалификацияКонтекстноеМеню" id="35"/>
 							<ExtendedTooltip name="КвалификацияРасширеннаяПодсказка" id="36"/>
+						</InputField>
+						<InputField name="ЮТР_Квалификация" id="114">
+							<DataPath>Объект.ЮТР_Квалификация</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Квалификация</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЮТР_КвалификацияКонтекстноеМеню" id="115"/>
+							<ExtendedTooltip name="ЮТР_КвалификацияРасширеннаяПодсказка" id="116"/>
+							<Events>
+								<Event name="OnChange">ЮТР_КвалификацияПриИзменении</Event>
+							</Events>
 						</InputField>
 						<Button name="ЮТР_ОбщаяКомандаПереводВлатиницуКВ" id="108">
 							<Type>UsualButton</Type>
