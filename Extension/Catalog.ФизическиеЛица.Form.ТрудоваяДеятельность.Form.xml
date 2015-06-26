@@ -164,6 +164,12 @@
 													<ContextMenu name="СведенияОСтажахПредставлениеСтажаКонтекстноеМеню" id="148"/>
 													<ExtendedTooltip name="СведенияОСтажахПредставлениеСтажаРасширеннаяПодсказка" id="149"/>
 												</LabelField>
+												<InputField name="ЮТР_СведенияОСтажахПредставлениеСтажаНаДату" id="357">
+													<DataPath>СведенияОСтажах.ЮТР_ПредставлениеСтажаНаДату</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ЮТР_СведенияОСтажахПредставлениеСтажаНаДатуКонтекстноеМеню" id="358"/>
+													<ExtendedTooltip name="ЮТР_СведенияОСтажахПредставлениеСтажаНаДатуРасширеннаяПодсказка" id="359"/>
+												</InputField>
 											</ChildItems>
 										</Table>
 									</ChildItems>
@@ -456,6 +462,7 @@
 												<ExtendedTooltip name="ЮТР_ТрудоваяДеятельностьУправлениеПоискомРасширеннаяПодсказка" id="217"/>
 											</SearchControlAddition>
 											<Events>
+												<Event name="BeforeDeleteRow">ЮТР_ТрудоваяДеятельностьПередУдалением</Event>
 												<Event name="OnActivateRow">ЮТР_ТрудоваяДеятельностьПриАктивизацииСтроки</Event>
 												<Event name="OnStartEdit">ЮТР_ТрудоваяДеятельностьПриНачалеРедактирования</Event>
 												<Event name="OnChange">ЮТР_ТрудоваяДеятельностьПриИзменении</Event>
@@ -915,6 +922,83 @@
 						<v8:DateQualifiers>
 							<v8:DateFractions>Date</v8:DateFractions>
 						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЮТР_ДатаОтсчета" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата отсчета</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЮТР_Лет" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Лет</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЮТР_Месяцев" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Месяцев</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЮТР_Дней" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дней</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЮТР_ПредставлениеСтажаНаДату" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление стажа на дату</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Column>
 			</Columns>
