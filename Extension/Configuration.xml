@@ -44,22 +44,22 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>3.0.22.182.69</Version>
+			<Version>3.0.22.182.70</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<StyleItem>ЗакрытыйДокумент</StyleItem>
 			<StyleItem>НедоступныеДанныеЦвет</StyleItem>
+			<StyleItem>ПоясняющийОшибкуТекст</StyleItem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<StyleItem>РезультатПроблемаЦвет</StyleItem>
 			<StyleItem>ТекстЗапрещеннойЯчейкиЦвет</StyleItem>
 			<StyleItem>ФонУправляющегоПоля</StyleItem>
 			<StyleItem>ЦветОтличающейсяСтрокиДокумента</StyleItem>
-			<StyleItem>ПоясняющийОшибкуТекст</StyleItem>
 			<StyleItem>ШрифтРасширеннойПодсказкиМоноширинный</StyleItem>
-			<StyleItem>ЗакрытыйДокумент</StyleItem>
 			<StyleItem>ШрифтСоставнойНадписиМоноширинный</StyleItem>
 			<CommonPicture>ВариантыПравилЗаполненияРеквизитов</CommonPicture>
 			<CommonPicture>ВосклицательныйЗнакСерый</CommonPicture>
@@ -130,6 +130,8 @@
 			<FunctionalOption>ИспользоватьСвязанныеДокументы1СДокументооборота</FunctionalOption>
 			<FunctionalOption>ИспользоватьСпециальностиФизическихЛиц</FunctionalOption>
 			<FunctionalOption>ИспользоватьСпециальнуюОценкуУсловийТруда</FunctionalOption>
+			<FunctionalOption>ИспользоватьСтатьиРасходовЗарплата</FunctionalOption>
+			<FunctionalOption>ИспользоватьСтатьиФинансированияЗарплата</FunctionalOption>
 			<FunctionalOption>ИспользоватьУчетВнутрисменныхПрочихНевыходов</FunctionalOption>
 			<FunctionalOption>ИспользоватьУчетКлассныхЧинов</FunctionalOption>
 			<FunctionalOption>ИспользоватьФайловоеХранилище1СДокументооборота</FunctionalOption>
@@ -144,41 +146,39 @@
 			<FunctionalOption>ПрименятьСевернуюНадбавку</FunctionalOption>
 			<FunctionalOption>РаботаВБюджетномУчреждении</FunctionalOption>
 			<FunctionalOption>РаботаВХозрасчетнойОрганизации</FunctionalOption>
-			<FunctionalOption>ИспользоватьСтатьиФинансированияЗарплата</FunctionalOption>
-			<FunctionalOption>ИспользоватьСтатьиРасходовЗарплата</FunctionalOption>
-			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
-			<DefinedType>ТерриторииВыполненияРаботВОрганизации</DefinedType>
-			<DefinedType>Респондент</DefinedType>
 			<DefinedType>ВладелецФайлов</DefinedType>
+			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
+			<DefinedType>Респондент</DefinedType>
+			<DefinedType>ТерриторииВыполненияРаботВОрганизации</DefinedType>
+			<CommonCommand>ОткрытьСведенияОНезачисленнойЗарплатеПоВедомости</CommonCommand>
 			<CommonCommand>ПрисоединенныеФайлы</CommonCommand>
+			<CommonCommand>СоздатьПеречислениеНДФЛПоВедомости</CommonCommand>
+			<CommonCommand>СоздатьСведенияОНезачисленнойЗарплатеПоВедомости</CommonCommand>
 			<CommonCommand>ЮТР_ОбработатьСклонения</CommonCommand>
+			<CommonCommand>ЮТР_ОткрытьДепонированиеЗарплатыПоВедомости</CommonCommand>
 			<CommonCommand>ЮТР_ПереводВлатиницу</CommonCommand>
+			<CommonCommand>ЮТР_СоздатьДепонированиеЗарплатыПоВедомости</CommonCommand>
 			<CommonCommand>ЮТР_СтатьиКД</CommonCommand>
 			<CommonCommand>ЮТР_ТестовыйРасчетПоВедомости</CommonCommand>
-			<CommonCommand>ЮТР_СоздатьДепонированиеЗарплатыПоВедомости</CommonCommand>
-			<CommonCommand>ЮТР_ОткрытьДепонированиеЗарплатыПоВедомости</CommonCommand>
-			<CommonCommand>СоздатьСведенияОНезачисленнойЗарплатеПоВедомости</CommonCommand>
-			<CommonCommand>ОткрытьСведенияОНезачисленнойЗарплатеПоВедомости</CommonCommand>
-			<CommonCommand>СоздатьПеречислениеНДФЛПоВедомости</CommonCommand>
 			<Constant>ИспользоватьЕжедневныеОтчеты1СДокументооборота</Constant>
 			<Constant>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</Constant>
 			<Constant>ИспользоватьКадровыйУчет</Constant>
+			<Constant>ИспользоватьМногофункциональностьДокументов</Constant>
 			<Constant>ИспользоватьНачислениеЗарплаты</Constant>
 			<Constant>ИспользоватьНачислениеЗарплатыВНесколькихОрганизациях</Constant>
 			<Constant>ИспользоватьНесколькоОрганизаций</Constant>
 			<Constant>ИспользоватьПроцессыИЗадачи1СДокументооборота</Constant>
 			<Constant>ИспользоватьРасчетСохраняемогоДенежногоСодержания</Constant>
 			<Constant>ИспользоватьСвязанныеДокументы1СДокументооборота</Constant>
+			<Constant>ИспользоватьСпециальностиФизическихЛиц</Constant>
+			<Constant>ИспользоватьСтатьиРасходовЗарплата</Constant>
+			<Constant>ИспользоватьСтатьиФинансированияЗарплата</Constant>
 			<Constant>ИспользоватьУчетКлассныхЧинов</Constant>
 			<Constant>ИспользоватьФайловоеХранилище1СДокументооборота</Constant>
 			<Constant>ИспользоватьЭлектроннуюПочту1СДокументооборота</Constant>
 			<Constant>ИспользоватьЭлектронныеПодписи</Constant>
 			<Constant>РаботаВБюджетномУчреждении</Constant>
-			<Constant>ИспользоватьМногофункциональностьДокументов</Constant>
 			<Constant>РаботаВХозрасчетнойОрганизации</Constant>
-			<Constant>ИспользоватьСпециальностиФизическихЛиц</Constant>
-			<Constant>ИспользоватьСтатьиРасходовЗарплата</Constant>
-			<Constant>ИспользоватьСтатьиФинансированияЗарплата</Constant>
 			<CommonForm>ВводСтажаСотрудников</CommonForm>
 			<Catalog>Вакансии</Catalog>
 			<Catalog>Валюты</Catalog>
@@ -253,6 +253,7 @@
 			<Catalog>ЮТР_ВидыДокументов</Catalog>
 			<Catalog>ЮТР_ВидыПерсонала</Catalog>
 			<Catalog>ЮТР_ГруппыФайловЛичныхДанных</Catalog>
+			<Catalog>ЮТР_Квалификации</Catalog>
 			<Catalog>ЮТР_МуниципальныеОбразования</Catalog>
 			<Catalog>ЮТР_ПроизводственныеЕдиницы</Catalog>
 			<Catalog>ЮТР_РежимыРабочегоВремени</Catalog>
@@ -261,7 +262,6 @@
 			<Catalog>ЮТР_ТипыВоздушныхСудов</Catalog>
 			<Catalog>ЮТР_ХарактерыРабот</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
-			<Catalog>ЮТР_Квалификации</Catalog>
 			<Document>АвансовыйПлатежИностранцаПоНДФЛ</Document>
 			<Document>АктПриемкиВыполненныхРаботОказанныхУслуг</Document>
 			<Document>АктПроверкиСтраховыхВзносов</Document>
@@ -411,71 +411,71 @@
 			<Document>ЮТР_Справка</Document>
 			<Document>ЮТР_Уведомление</Document>
 			<Document>ЮТР_УплатаАлиментовИПрофвзносов</Document>
-			<DocumentJournal>ДокументыУправленияШтатнымРасписанием</DocumentJournal>
 			<DocumentJournal>ГрафикиПереносыОтпусков</DocumentJournal>
+			<DocumentJournal>ДокументыУправленияШтатнымРасписанием</DocumentJournal>
+			<DocumentJournal>КадровыеДокументы</DocumentJournal>
 			<DocumentJournal>Отсутствия</DocumentJournal>
 			<DocumentJournal>ПриемыПереводыУвольнения</DocumentJournal>
-			<DocumentJournal>КадровыеДокументы</DocumentJournal>
 			<Enum>ВариантыПравилЗаполненияРеквизитов</Enum>
 			<Enum>ВидыДнейПроизводственногоКалендаря</Enum>
 			<Enum>ВидыДоговоровССотрудниками</Enum>
+			<Enum>ВидыДокументовМежрасчетныхНачислений</Enum>
+			<Enum>ВидыДокументовНачисления</Enum>
 			<Enum>ВидыЗанятости</Enum>
 			<Enum>ВидыЗастрахованныхЛицОбязательногоСтрахования</Enum>
-			<Enum>ВидыОбязательногоСтрахованияСотрудников</Enum>
+			<Enum>ВидыКадровыхСобытий</Enum>
 			<Enum>ВидыМестВыплатыЗарплаты</Enum>
+			<Enum>ВидыНачисленийОплатыТрудаДляНУ</Enum>
+			<Enum>ВидыОбязательногоСтрахованияСотрудников</Enum>
 			<Enum>ВидыОграниченияПособия</Enum>
+			<Enum>ВидыОперацийПоЗарплате</Enum>
+			<Enum>ВидыПодтверждающихДокументовОтпускаПоУходу</Enum>
 			<Enum>ВидыПрофессиональнойПодготовки</Enum>
 			<Enum>ВидыРаботСДосрочнойПенсией</Enum>
+			<Enum>ВидыРабочегоВремениСотрудников</Enum>
 			<Enum>ВидыСтажаПФР2014</Enum>
+			<Enum>ВидыСтажаСЗВ</Enum>
 			<Enum>ВидыТарифныхСтавок</Enum>
 			<Enum>ДействияСЕжегоднымиОтпусками</Enum>
 			<Enum>ДействияСНачислениямиИУдержаниями</Enum>
 			<Enum>ДействияСПозициямиШтатногоРасписания</Enum>
 			<Enum>КатегорииДолжностейДляВоинскогоУчета</Enum>
 			<Enum>КатегорииДолжностейДляУчетаЗабронированных</Enum>
+			<Enum>КатегорииНачисленийИНеоплаченногоВремени</Enum>
 			<Enum>КатегорииСтажа</Enum>
+			<Enum>КатегорииУдержаний</Enum>
 			<Enum>КлассыУсловийТрудаПоРезультатамСпециальнойОценки</Enum>
 			<Enum>КодировкаФайловОбменаПоЗарплатномуПроекту</Enum>
 			<Enum>КомпенсацияУдержаниеОтпускаПриУвольнении</Enum>
+			<Enum>НазначенияПоказателейРасчетаЗарплаты</Enum>
 			<Enum>НДФЛСтавкиНалогообложенияРезидента</Enum>
 			<Enum>ОснованияФинансированияПособияФедеральнымБюджетом</Enum>
 			<Enum>ОтношениеКЕНВДЗатратНаЗарплату</Enum>
-			<Enum>ПолФизическогоЛица</Enum>
-			<Enum>ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</Enum>
+			<Enum>ПериодыВводаДанныхОВремени</Enum>
 			<Enum>ПериодыРасчетаБазовыхНачислений</Enum>
-			<Enum>УчетНачисленийВСреднемЗаработкеОбщий</Enum>
-			<Enum>СтратегииОтраженияВУчетеНачисленийУдержаний</Enum>
-			<Enum>ВидыСтажаСЗВ</Enum>
-			<Enum>ВидыРабочегоВремениСотрудников</Enum>
+			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>ПорядокОпределенияРасчетногоПериодаСреднегоЗаработка</Enum>
 			<Enum>ПорядокРасчетаСреднегоЗаработкаОбщий</Enum>
-			<Enum>ВидыДокументовНачисления</Enum>
-			<Enum>ВидыНачисленийОплатыТрудаДляНУ</Enum>
-			<Enum>КатегорииНачисленийИНеоплаченногоВремени</Enum>
-			<Enum>СпособыВыполненияНачислений</Enum>
-			<Enum>КатегорииУдержаний</Enum>
-			<Enum>СпособыВыполненияУдержаний</Enum>
-			<Enum>ВидыОперацийПоЗарплате</Enum>
+			<Enum>ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</Enum>
 			<Enum>Приоритет</Enum>
 			<Enum>ПричиныНетрудоспособности</Enum>
 			<Enum>ПричиныСовмещения</Enum>
 			<Enum>СлучаиУходаЗаБольнымиДетьми</Enum>
 			<Enum>СостоянияСотрудника</Enum>
+			<Enum>СпособыВводаЗначенийПоказателейРасчетаЗарплаты</Enum>
+			<Enum>СпособыВыполненияНачислений</Enum>
+			<Enum>СпособыВыполненияУдержаний</Enum>
+			<Enum>СпособыПримененияЗначенийПоказателейРасчетаЗарплаты</Enum>
 			<Enum>СпособыРасчетаАванса</Enum>
 			<Enum>СпособыРасчетаДоплатыЗаСовмещение</Enum>
 			<Enum>СпособыРасчетаОтпуска</Enum>
+			<Enum>СтратегииОтраженияВУчетеНачисленийУдержаний</Enum>
 			<Enum>ТипыСведенийСЗВ</Enum>
 			<Enum>ТипыФайловСохраненияПечатныхФормОбъектов</Enum>
+			<Enum>УчетНачисленийВСреднемЗаработкеОбщий</Enum>
 			<Enum>ФорматыФайловОбменаПоЗарплатномуПроекту</Enum>
-			<Enum>ЮридическоеФизическоеЛицо</Enum>
-			<Enum>ВидыПодтверждающихДокументовОтпускаПоУходу</Enum>
-			<Enum>ПериодыВводаДанныхОВремени</Enum>
 			<Enum>ХарактерВыплатыЗарплаты</Enum>
-			<Enum>ВидыДокументовМежрасчетныхНачислений</Enum>
-			<Enum>НазначенияПоказателейРасчетаЗарплаты</Enum>
-			<Enum>СпособыВводаЗначенийПоказателейРасчетаЗарплаты</Enum>
-			<Enum>СпособыПримененияЗначенийПоказателейРасчетаЗарплаты</Enum>
-			<Enum>ВидыКадровыхСобытий</Enum>
+			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
 			<DataProcessor>ПодготовкаКвартальнойОтчетностиВПФР</DataProcessor>
 			<InformationRegister>БухучетЗарплатыПодразделений</InformationRegister>
