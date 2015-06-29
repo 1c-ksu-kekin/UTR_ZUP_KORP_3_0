@@ -160,6 +160,8 @@
 			<CommonCommand>СоздатьСведенияОНезачисленнойЗарплатеПоВедомости</CommonCommand>
 			<CommonCommand>ОткрытьСведенияОНезачисленнойЗарплатеПоВедомости</CommonCommand>
 			<CommonCommand>СоздатьПеречислениеНДФЛПоВедомости</CommonCommand>
+			<CommonCommand>ЮТР_НачислениеПособийПоУходуЗаРебенком</CommonCommand>
+			<CommonCommand>ЮТР_РазделитьВедомостьПоПризнакуРезидент</CommonCommand>
 			<Constant>ИспользоватьЕжедневныеОтчеты1СДокументооборота</Constant>
 			<Constant>ИспользоватьИндивидуальныеПравилаПересчетаТарифныхСтавокСотрудников</Constant>
 			<Constant>ИспользоватьКадровыйУчет</Constant>
