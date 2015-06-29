@@ -50,15 +50,11 @@
 				<Parameter xsi:nil="true"/>
 				<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="52"/>
 			</Button>
-			<Button name="ФормаОбщаяКомандаЮТР_СтатьиКД" id="55">
-				<Type>CommandBarButton</Type>
-				<CommandName>CommonCommand.ЮТР_СтатьиКД</CommandName>
-				<Parameter xsi:nil="true"/>
-				<ExtendedTooltip name="ФормаОбщаяКомандаЮТР_СтатьиКДРасширеннаяПодсказка" id="56"/>
-			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="AfterWrite">ЮТР_ПослеЗаписи</Event>
+		<Event name="NotificationProcessing">ЮТР_ОбработкаОповещения</Event>
 		<Event name="BeforeWrite">ЮТР_ПередЗаписью</Event>
 		<Event name="OnCreateAtServer">ЮТР_ПриСозданииНаСервере</Event>
 	</Events>
@@ -207,13 +203,6 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<CheckBoxField name="ЮТР_ПризнакПересчетаРабочихДнейВКалендарные" id="70">
-			<DataPath>Объект.ЮТР_ПризнакПересчетаРабочихДнейВКалендарные</DataPath>
-			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="ЮТР_ПризнакПересчетаРабочихДнейВКалендарныеКонтекстноеМеню" id="71"/>
-			<ExtendedTooltip name="ЮТР_ПризнакПересчетаРабочихДнейВКалендарныеРасширеннаяПодсказка" id="72"/>
-		</CheckBoxField>
 		<InputField name="ЮТР_ЗависимостьДнейОтСтажа" id="67">
 			<DataPath>Объект.ЮТР_ЗависимостьДнейОтСтажа</DataPath>
 			<ContextMenu name="ЮТР_ЗависимостьДнейОтСтажаКонтекстноеМеню" id="68"/>
@@ -248,6 +237,7 @@
 					<ExtendedTooltip name="ЮТР_СтатьиКДСтатьяКДРасширеннаяПодсказка" id="61"/>
 					<Events>
 						<Event name="OnChange">ЮТР_СтатьиКДСтатьяКДПриИзменении</Event>
+						<Event name="StartChoice">ЮТР_ЮТР_СтатьиКДСтатьяКДНачалоВыбора</Event>
 					</Events>
 				</InputField>
 				<InputField name="ЮТР_СтатьиКДПериодСтрокой" id="62">

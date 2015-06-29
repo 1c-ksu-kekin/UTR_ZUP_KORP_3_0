@@ -20,6 +20,40 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<RegisteredDocuments>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.КадровыйПеревод</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриемНаРаботу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеВДругоеПодразделение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПереводКДругомуРаботодателю</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Увольнение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратИзОтпускаПоУходуЗаРебенком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтпускПоУходуЗаРебенком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Отпуск</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Командировка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОплатаПоСреднемуЗаработку</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриказНаДоплатуДоСреднегоЗаработка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтпускБезСохраненияОплаты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПрогулНеявка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РаботаСверхурочно</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПростойСотрудников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтменаСовмещения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Совмещение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РаботаВВыходныеИПраздничныеДни</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.БольничныйЛист</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтменаДоплатыДоСреднегоЗаработка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОплатаДнейУходаЗаДетьмиИнвалидами</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтпускаСотрудников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КомандировкиСотрудников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ГрафикОтпусков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПереносОтпуска</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеКвалификационногоРазряда</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПродлениеКонтрактаДоговора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриемНаРаботуСписком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеМеждуТерриториями</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КадровыйПереводСписком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УвольнениеСписком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеГрафикаРаботыСписком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Отгул</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РегистрацияПереработок</xr:Item>
 			</RegisteredDocuments>
 		</Properties>
 		<ChildObjects>

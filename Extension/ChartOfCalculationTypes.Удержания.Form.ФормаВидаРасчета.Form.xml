@@ -3,6 +3,7 @@
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="AfterWrite">ЮТР_ПослеЗаписи</Event>
 		<Event name="NotificationProcessing">ЮТР_ОбработкаОповещения</Event>
 		<Event name="BeforeClose">ЮТР_ПередЗакрытием</Event>
 		<Event name="BeforeWrite">ЮТР_ПередЗаписью</Event>
@@ -964,7 +965,7 @@
 									</Events>
 								</InputField>
 								<InputField name="ЮТР_СтатьиКДПериодСтрокой" id="402">
-									<DataPath>ЮТР_СтатьиКДПериод</DataPath>
+									<DataPath>ЮТР_СтатьиКДПериодСтрокой</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>

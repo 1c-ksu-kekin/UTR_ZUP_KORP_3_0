@@ -21,6 +21,17 @@
 			<RegisteredDocuments>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриемНаРаботу</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.КадровыйПеревод</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеВДругоеПодразделение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПереводКДругомуРаботодателю</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Увольнение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтпускПоУходуЗаРебенком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратИзОтпускаПоУходуЗаРебенком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриемНаРаботуСписком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеМеждуТерриториями</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КадровыйПереводСписком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УвольнениеСписком</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеГрафикаРаботыСписком</xr:Item>
 			</RegisteredDocuments>
 		</Properties>
 		<ChildObjects>
