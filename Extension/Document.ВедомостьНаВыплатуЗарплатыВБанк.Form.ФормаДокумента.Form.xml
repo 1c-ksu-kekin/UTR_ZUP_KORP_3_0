@@ -4,7 +4,27 @@
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ЮТР_ОбщаяКомандаЮТР_РазделитьВедомостьПоПризнакуРезидент" id="450">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>CommonCommand.ЮТР_РазделитьВедомостьПоПризнакуРезидент</CommandName>
+				<Parameter xsi:nil="true"/>
+				<Picture>
+					<xr:Ref>StdPicture.QueryWizard</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Разделить по признаку резидент</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ЮТР_ОбщаяКомандаЮТР_РазделитьВедомостьПоПризнакуРезидентРасширеннаяПодсказка" id="451"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen">ЮТР_ПриОткрытии</Event>
 	</Events>
@@ -229,6 +249,9 @@
 							<DataPath>Объект.ЗарплатныйПроект</DataPath>
 							<ContextMenu name="ЗарплатныйПроектКонтекстноеМеню" id="87"/>
 							<ExtendedTooltip name="ЗарплатныйПроектExtendedTooltip" id="201"/>
+							<Events>
+								<Event name="OnChange">ЮТР_ЗарплатныйПроектПриИзменении</Event>
+							</Events>
 						</InputField>
 						<InputField name="ЮТР_НомерРеестра" id="447">
 							<DataPath>Объект.ЮТР_НомерРеестра</DataPath>

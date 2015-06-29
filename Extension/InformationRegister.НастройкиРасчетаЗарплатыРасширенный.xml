@@ -90,6 +90,60 @@
 					</Type>
 				</Properties>
 			</Resource>
+			<Resource uuid="2ad5156a-3c5f-44f8-a2cd-c6484609cddc">
+				<Properties>
+					<Name>ИспользоватьДобровольныеВзносыВНПФ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="6dc637dd-17b1-487c-a4f3-7eaecab19e48">
+				<Properties>
+					<Name>ИспользоватьИсполнительныеЛисты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="78e610a7-9c24-4a58-98e4-822c6db91a13">
+				<Properties>
+					<Name>ИспользоватьДСВ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="f0f90693-9b7b-45b8-95e5-e936db7da22d">
+				<Properties>
+					<Name>ИспользоватьУдержанияВСчетРасчетовПоПрочимОперациям</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="de34ede9-5498-46f1-aa07-73f0227fe165">
+				<Properties>
+					<Name>ИспользоватьПрочиеУдержанияВПользуТретьихЛиц</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="b954e4fa-ccf0-404a-9faf-6cd84d41392d">
+				<Properties>
+					<Name>ИспользоватьПрофсоюзныеВзносы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>
